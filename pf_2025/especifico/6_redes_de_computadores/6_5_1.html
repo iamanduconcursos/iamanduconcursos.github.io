@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Modelo OSI e Arquitetura TCP/IP - Resumo Estratégico</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #e8f8f5; padding: 12px; border-left: 5px solid #2ecc71; margin: 10px 0; }
+  </style>
+</head>
+<body>
+
+<h2>📡 Arquiteturas e Protocolos – Modelo OSI e TCP/IP</h2>
+
+<div class="highlight">
+  Este é um dos temas mais cobrados em provas da CESPE/CEBRASPE! É essencial entender as <strong>camadas, suas funções e protocolos associados</strong>.
+</div>
+
+<h3>🔧 Modelo OSI (Open Systems Interconnection)</h3>
+<p>Dividido em 7 camadas, com separação clara de funções:</p>
+<table>
+  <thead>
+    <tr><th>Camada</th><th>Função Principal</th><th>Protocolos/Exemplos</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>7 - Aplicação</td><td>Interface com o usuário</td><td>HTTP, FTP, SMTP, DNS</td></tr>
+    <tr><td>6 - Apresentação</td><td>Criptografia, compressão, formatação</td><td>SSL/TLS</td></tr>
+    <tr><td>5 - Sessão</td><td>Controle de diálogos, sessões</td><td>NetBIOS, RPC</td></tr>
+    <tr><td>4 - Transporte</td><td>Entrega confiável de dados</td><td>TCP, UDP</td></tr>
+    <tr><td>3 - Rede</td><td>Endereçamento lógico e roteamento</td><td>IP, ICMP, IGMP</td></tr>
+    <tr><td>2 - Enlace</td><td>Transmissão de quadros, detecção de erros</td><td>Ethernet, PPP, Switch</td></tr>
+    <tr><td>1 - Física</td><td>Transmissão de bits brutos</td><td>Cabos, Hubs, Wi-Fi</td></tr>
+  </tbody>
+</table>
+
+<h3>🌐 Arquitetura TCP/IP</h3>
+<p>Mais prática e usada na Internet, com 4 camadas:</p>
+<table>
+  <thead>
+    <tr><th>Camada TCP/IP</th><th>Equivalente no OSI</th><th>Protocolos</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Aplicação</td><td>Aplicação + Apresentação + Sessão</td><td>HTTP, FTP, SMTP, DNS</td></tr>
+    <tr><td>Transporte</td><td>Transporte</td><td>TCP, UDP</td></tr>
+    <tr><td>Internet</td><td>Rede</td><td>IP, ICMP</td></tr>
+    <tr><td>Acesso à Rede</td><td>Enlace + Física</td><td>Ethernet, Wi-Fi, ARP</td></tr>
+  </tbody>
+</table>
+
+<h3>🔁 Comparativo Rápido OSI vs TCP/IP</h3>
+<ul>
+  <li><strong>OSI:</strong> Modelo teórico e didático, 7 camadas.</li>
+  <li><strong>TCP/IP:</strong> Modelo prático da Internet, 4 camadas.</li>
+  <li><strong>Principais diferenças:</strong> Camadas de apresentação e sessão não existem explicitamente no TCP/IP.</li>
+</ul>
+
+<h3>📌 Dicas Quentes para a Prova (CESPE/CEBRASPE)</h3>
+<ul>
+  <li>Questões de correspondência entre camadas OSI e TCP/IP são frequentes.</li>
+  <li>Importante saber as funções e exemplos de protocolos por camada.</li>
+  <li>TCP = Confiável, orientado à conexão | UDP = Não confiável, sem conexão.</li>
+  <li>IP não garante entrega nem ordem de pacotes!</li>
+</ul>
+
+<h3>📘 Glossário Rápido</h3>
+<ul>
+  <li><strong>TCP:</strong> Transmissão confiável com controle de fluxo e erros.</li>
+  <li><strong>UDP:</strong> Envio rápido sem verificação de entrega.</li>
+  <li><strong>IP:</strong> Roteia pacotes entre redes.</li>
+  <li><strong>HTTP/FTP:</strong> Protocolos de aplicação usados na web e transferência de arquivos.</li>
+</ul>
+
+<h3>🧠 Técnicas de Memorização</h3>
+<ul>
+  <li>Frase para lembrar as camadas do OSI (de baixo pra cima): <strong>F</strong>azemos <strong>E</strong>ntregas <strong>R</strong>ápidas <strong>N</strong>a <strong>T</strong>erça <strong>A</strong>pós <strong>A</strong>ula</li>
+</ul>
+
+<h3>❓ Questões de Estilo CEBRASPE</h3>
+<ul>
+  <li>"No modelo TCP/IP, a camada de transporte é responsável pelo roteamento entre redes distintas." – <strong>FALSO</strong></li>
+  <li>"O protocolo IP pertence à camada de rede do modelo OSI." – <strong>VERDADEIRO</strong></li>
+  <li>"UDP é mais confiável que TCP por garantir menor latência." – <strong>FALSO</strong></li>
+</ul>
+
+</body>
+</html>

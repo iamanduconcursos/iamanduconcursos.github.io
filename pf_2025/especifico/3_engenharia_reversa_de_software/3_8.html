@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo | Engenharia Reversa e Assembly - PF Perito Digital</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f7fb;
+      color: #1f2937;
+      line-height: 1.6;
+      padding: 30px;
+    }
+    h1, h2, h3 {
+      color: #1e3a8a;
+    }
+    h1 {
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 5px;
+    }
+    h2 {
+      margin-top: 40px;
+      border-left: 5px solid #3b82f6;
+      padding-left: 10px;
+    }
+    h3 {
+      color: #2563eb;
+    }
+    .box {
+      background-color: #e0f2fe;
+      border-left: 5px solid #0284c7;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .alerta {
+      background-color: #fef9c3;
+      border-left: 5px solid #facc15;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    code {
+      background-color: #e2e8f0;
+      padding: 2px 5px;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Engenharia Reversa + Linguagem Assembly</h1>
+
+<h2>Engenharia Reversa de Software</h2>
+
+<p>É a prática de analisar um software para entender sua lógica, sem ter o código-fonte original. Essencial para perícia, malware analysis e recuperação de software legados.</p>
+
+<h3>🎯 Propósitos da Engenharia Reversa</h3>
+<ul>
+  <li>Análise de vulnerabilidades</li>
+  <li>Recuperação de algoritmos</li>
+  <li>Validação de segurança</li>
+  <li>Detecção de malwares</li>
+</ul>
+
+<h3>🧰 Ferramentas mais cobradas:</h3>
+<ul>
+  <li><strong>IDA Pro</strong> — desmontador e depurador estático</li>
+  <li><strong>Ghidra</strong> — ferramenta da NSA, análise estática e reversa</li>
+  <li><strong>OllyDbg</strong> — depuração em ambiente Windows 32-bit</li>
+  <li><strong>Radare2</strong> — suíte CLI para engenharia reversa</li>
+</ul>
+
+<div class="alerta">
+  <strong>🔍 CEBRASPE AMA:</strong> Diferença entre <code>desmontagem</code> (assembly) e <code>descompilação</code> (pseudocódigo), ferramentas e técnicas de proteção anti-reversing.
+</div>
+
+<h3>🧠 Conceitos Importantes:</h3>
+<ul>
+  <li><strong>Desmontagem:</strong> de binário para Assembly</li>
+  <li><strong>Descompilação:</strong> de binário para pseudocódigo</li>
+  <li><strong>Debugging:</strong> execução passo a passo para análise</li>
+  <li><strong>Empacotamento:</strong> compactar e proteger executáveis</li>
+  <li><strong>Anti-debugging:</strong> técnicas que impedem depuradores</li>
+</ul>
+
+<h3>⚙️ Técnicas Comuns</h3>
+<ul>
+  <li>Breakpoint & stepping</li>
+  <li>Análise de strings e imports</li>
+  <li>Monitoramento de chamadas de API</li>
+</ul>
+
+<div class="box">
+  <strong>Dica de Ouro:</strong> Veja como o código se transforma: <code>Fonte &rarr; Compilador &rarr; Binário &rarr; Engenharia Reversa</code>.
+</div>
+
+<hr>
+
+<h2>Linguagem Assembly</h2>
+
+<p>A linguagem Assembly é de baixo nível, diretamente ligada ao processador. Toda engenharia reversa toca em Assembly — você PRECISA reconhecer padrões.</p>
+
+<h3>🧠 Conceitos-chave</h3>
+<ul>
+  <li><strong>Registradores:</strong> EAX, EBX, ECX, EDX, EIP, ESP, EBP</li>
+  <li><strong>Flags:</strong> ZF (Zero), CF (Carry), OF (Overflow)</li>
+  <li><strong>Segmentação:</strong> Código, Dados, Stack</li>
+</ul>
+
+<h3>🔁 Instruções mais frequentes</h3>
+<ul>
+  <li><code>mov</code> — move dados entre registradores</li>
+  <li><code>push/pop</code> — manipula pilha</li>
+  <li><code>call/ret</code> — controle de fluxo (funções)</li>
+  <li><code>jmp</code> — salto incondicional</li>
+  <li><code>cmp</code> e <code>jz, jne, jl, jg</code> — comparação e saltos condicionais</li>
+  <li><code>int</code> — chamadas de interrupção (ex: <code>int 0x80</code> no Linux)</li>
+</ul>
+
+<h3>🎯 Padrões que aparecem MUITO em questões</h3>
+<ul>
+  <li><strong>Funções:</strong> sempre com <code>push</code> → <code>call</code> → <code>ret</code></li>
+  <li><strong>Strings:</strong> operações com <code>movsb</code>, <code>stosb</code>, <code>rep</code></li>
+  <li><strong>Buffer overflow:</strong> manipulação incorreta da pilha (<code>ESP</code>)</li>
+</ul>
+
+<div class="alerta">
+  <strong>⚠️ CEBRASPE gosta:</strong> interpretação de trechos curtos de Assembly, análise de lógica com <code>cmp</code> e <code>jmp</code>, e manipulação de registradores.
+</div>
+
+<h3>📌 Exemplo de Código Assembly (x86)</h3>
+<pre><code>mov eax, 1
+mov ebx, 0
+int 0x80   ; chamada de sistema para exit(0)</code></pre>
+
+<h3>💡 Três pilares que você precisa saber para a prova:</h3>
+<ul>
+  <li>Como identificar função (stack frame: <code>push ebp / mov ebp, esp</code>)</li>
+  <li>Como funciona um <code>call</code> e o <code>ret</code></li>
+  <li>Sequência típica de comparação + salto (<code>cmp eax, ebx / je label</code>)</li>
+</ul>
+
+<hr>
+
+<h2>Checklist de Memorização Rápida</h2>
+<ul>
+  <li>🧠 Registradores e suas funções</li>
+  <li>⚙️ Funções e chamadas de sistema</li>
+  <li>📊 Flag ZF e instruções de desvio</li>
+  <li>🔧 Ferramentas de engenharia reversa</li>
+  <li>🔍 Diferença entre descompilação vs desmontagem</li>
+</ul>
+
+<div class="box">
+  <strong>Última dica:</strong> Monte mapas mentais de instruções Assembly com casos práticos. Ajuda muito na hora de identificar padrões em provas objetivas da CESPE!
+</div>
+
+</body>
+</html>

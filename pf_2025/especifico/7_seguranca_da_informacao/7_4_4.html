@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Segurança da Informação - Autenticação, Autorização e MFA</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8fafc;
+      color: #1c1c1c;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #0b3d91;
+    }
+    .section {
+      background-color: #fff;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .highlight {
+      background: #d9ecff;
+      border-left: 6px solid #0b3d91;
+      padding: 15px;
+      margin: 20px 0;
+      font-weight: bold;
+    }
+    code {
+      background-color: #eef3f7;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h1>Perito Digital PF - Segurança da Informação</h1>
+    <h2>🔐 Autenticação, Autorização e Múltiplos Fatores (MFA)</h2>
+
+    <h3>1. Conceitos Fundamentais</h3>
+    <ul>
+      <li><strong>Autenticação:</strong> Processo de verificar a identidade de um usuário ou sistema. Responde à pergunta: <em>“Você é quem diz ser?”</em></li>
+      <li><strong>Autorização:</strong> Processo que determina o que um usuário pode acessar ou fazer após ter sido autenticado. Responde a: <em>“Você pode fazer isso?”</em></li>
+    </ul>
+
+    <h3>2. Tipos de Autenticação</h3>
+    <ul>
+      <li><strong>Autenticação por conhecimento:</strong> Senhas, PINs (algo que você sabe).</li>
+      <li><strong>Autenticação por posse:</strong> Token físico, smartphone, smartcard (algo que você possui).</li>
+      <li><strong>Autenticação por inerência:</strong> Biometria, como impressões digitais, íris, reconhecimento facial (algo que você é).</li>
+    </ul>
+
+    <div class="highlight">
+      MFA (Autenticação Multifator) combina dois ou mais desses métodos, tornando o acesso significativamente mais seguro.
+    </div>
+
+    <h3>3. Múltiplos Fatores de Autenticação (MFA)</h3>
+    <p>Consiste na utilização de dois ou mais métodos de autenticação para verificar a identidade de um usuário.</p>
+    <ul>
+      <li><strong>2FA (Two-Factor Authentication):</strong> Combinação de dois fatores, como senha + token.</li>
+      <li><strong>MFA completo:</strong> Pode incluir três ou mais tipos (senha + token + biometria, por exemplo).</li>
+    </ul>
+    <p>MFA é essencial em ambientes de alta segurança, como o da Polícia Federal, pois reduz drasticamente o risco de acesso indevido mesmo em caso de roubo de credenciais.</p>
+
+    <h3>4. Autorização: Modelos Comuns</h3>
+    <ul>
+      <li><strong>ACL (Access Control List):</strong> Lista que define quais usuários têm acesso a quais objetos e com que permissões.</li>
+      <li><strong>RBAC (Role-Based Access Control):</strong> Baseado em papéis/funções do usuário (ex: administrador, auditor).</li>
+      <li><strong>ABAC (Attribute-Based Access Control):</strong> Permissões são concedidas com base em atributos do usuário, recurso ou ambiente (ex: horário de acesso).</li>
+    </ul>
+
+    <h3>5. Padrões e Protocolos Importantes</h3>
+    <ul>
+      <li><strong>LDAP (Lightweight Directory Access Protocol):</strong> Usado para gerenciamento de autenticação em redes corporativas.</li>
+      <li><strong>RADIUS e TACACS+:</strong> Protocolos usados para autenticação em redes (VPN, Wi-Fi, etc.).</li>
+      <li><strong>SAML e OAuth2:</strong> Amplamente usados para autenticação/autorização em sistemas web (SSO).</li>
+    </ul>
+
+    <div class="highlight">
+      Dica CEBRASPE: Diferencie claramente os conceitos de autenticação e autorização. Saiba identificar exemplos de cada tipo de fator no MFA e os modelos de controle de acesso (RBAC, ABAC, ACL).
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>6. Riscos e Ataques Comuns</h2>
+    <ul>
+      <li><strong>Phishing:</strong> Roubo de credenciais via engenharia social.</li>
+      <li><strong>Credential Stuffing:</strong> Uso de credenciais roubadas de outro sistema.</li>
+      <li><strong>Session Hijacking:</strong> Sequestro de sessões autenticadas.</li>
+    </ul>
+    <p>MFA é altamente eficaz contra ataques que dependem exclusivamente de roubo de senhas.</p>
+  </div>
+
+  <div class="section">
+    <h2>7. Boas Práticas Recomendadas</h2>
+    <ul>
+      <li>Utilizar MFA sempre que possível, especialmente em sistemas críticos.</li>
+      <li>Evitar reutilização de senhas e aplicar políticas de senhas fortes.</li>
+      <li>Utilizar autenticação baseada em certificado digital para maior robustez.</li>
+      <li>Revisar periodicamente permissões concedidas aos usuários (principle of least privilege).</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔑 Conclusão</h2>
+    <p>
+      Dominar os conceitos de autenticação, autorização e MFA é essencial para a prova de Perito Digital. A banca CEBRASPE exige que o candidato compreenda os fundamentos de segurança e saiba aplicar esse conhecimento em contextos reais de TI pública e investigativa.
+    </p>
+    <p>
+      Lembre-se: MFA é uma das defesas mais poderosas contra ataques de identidade e deve ser sempre priorizado em ambientes sensíveis.
+    </p>
+  </div>
+
+</body>
+</html>

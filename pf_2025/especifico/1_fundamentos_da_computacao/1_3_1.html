@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Processadores - Arquiteturas Paralelas: Multiprocessamento e Multicore</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #ffffff; color: #222; line-height: 1.6; padding: 2em; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .importante { background: #d4edda; padding: 10px; border-left: 5px solid #28a745; margin: 1em 0; }
+    .exemplo { background: #d1ecf1; padding: 10px; border-left: 5px solid #17a2b8; margin: 1em 0; }
+    ul li { margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h1>🖥️ Processadores - Arquiteturas Paralelas: Multiprocessamento e Multicore</h1>
+<p>Este resumo abrange os conceitos e características essenciais sobre as arquiteturas de multiprocessamento e multicore, temas frequentemente cobrados no concurso para Perito Digital da Polícia Federal, com foco nas bancas <strong>CESPE</strong> e <strong>Cebraspe</strong>.</p>
+
+<hr>
+
+<h2>📌 1. O que é Multiprocessamento?</h2>
+<p>Multiprocessamento refere-se ao uso de dois ou mais processadores em um único sistema, permitindo que o processamento de tarefas seja feito de forma paralela, aumentando a capacidade de processamento e a eficiência do sistema.</p>
+
+<ul>
+  <li><strong>Objetivo</strong>: Melhorar o desempenho do sistema ao dividir o trabalho entre múltiplos processadores.</li>
+  <li><strong>Vantagens</strong>: Aumento da velocidade, melhor desempenho em tarefas pesadas (como cálculos científicos ou análises de grandes volumes de dados).</li>
+  <li><strong>Tipos</strong>: Multiprocessamento simétrico (SMP) e multiprocessamento assimétrico (AMP).</li>
+</ul>
+
+<div class="importante">
+  ✅ **CESPE** costuma cobrar diferenças entre SMP e AMP, além de perguntar sobre os benefícios de multiprocessamento em termos de performance e falha tolerante.
+</div>
+
+<hr>
+
+<h2>🔧 2. Multiprocessamento Simétrico (SMP) x Assimétrico (AMP)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Características</th>
+      <th>Multiprocessamento Simétrico (SMP)</th>
+      <th>Multiprocessamento Assimétrico (AMP)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Estrutura</td>
+      <td>Vários processadores têm acesso igual à memória principal e ao barramento.</td>
+      <td>Um processador principal controla o sistema; os outros são subordinados.</td>
+    </tr>
+    <tr>
+      <td>Desempenho</td>
+      <td>Melhor desempenho, pois os processadores trabalham de forma mais equilibrada.</td>
+      <td>Desempenho limitado, pois há um processador dominante.</td>
+    </tr>
+    <tr>
+      <td>Exemplos</td>
+      <td>Servidores e sistemas operacionais modernos (ex: Linux, Windows Server).</td>
+      <td>Sistemas mais antigos e simples, como sistemas embarcados.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="alerta">
+  ⚠️ Atenção: **CESPE** gosta de cobrar a comparação entre SMP e AMP, sendo preciso entender a hierarquia e os exemplos de uso.
+</div>
+
+<hr>
+
+<h2>⚙️ 3. O que é Arquitetura Multicore?</h2>
+<p>A arquitetura multicore se refere à presença de múltiplos núcleos de processamento (cores) em um único chip de processador. Cada núcleo pode executar tarefas independentes, permitindo que um único processador tenha a capacidade de executar várias instruções simultaneamente.</p>
+
+<ul>
+  <li><strong>Objetivo</strong>: Melhorar a eficiência energética e a performance ao permitir que várias tarefas sejam executadas simultaneamente em um único chip.</li>
+  <li><strong>Vantagens</strong>: Menor consumo de energia, aumento da performance e redução do custo, pois múltiplos núcleos podem ser integrados em um único chip.</li>
+  <li><strong>Exemplo</strong>: Processadores da Intel (i7, i9) e AMD Ryzen, que possuem vários núcleos em um único chip.</li>
+</ul>
+
+<div class="importante">
+  ✅ **CESPE** pode questionar as vantagens do uso de processadores multicore em comparação com multiprocessamento tradicional, com ênfase no desempenho e eficiência energética.
+</div>
+
+<hr>
+
+<h2>🔄 4. Diferenças entre Multiprocessamento e Multicore</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Aspecto</th>
+      <th>Multiprocessamento</th>
+      <th>Multicore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Definição</td>
+      <td>Uso de múltiplos processadores em um sistema para aumentar a capacidade de processamento.</td>
+      <td>Uso de múltiplos núcleos de processamento em um único chip para otimizar a performance.</td>
+    </tr>
+    <tr>
+      <td>Escalabilidade</td>
+      <td>Escalabilidade mais fácil, adicionando mais processadores.</td>
+      <td>Escalabilidade limitada ao número de núcleos em um único chip.</td>
+    </tr>
+    <tr>
+      <td>Exemplos</td>
+      <td>Servidores, sistemas de supercomputação.</td>
+      <td>Processadores modernos como Intel Core i7/i9, AMD Ryzen.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>💡 5. Vantagens do Uso de Arquiteturas Paralelas</h2>
+<ul>
+  <li><strong>Desempenho</strong>: Aumento significativo na velocidade de execução de tarefas ao distribuir o trabalho entre múltiplos processadores/núcleos.</li>
+  <li><strong>Eficiência</strong>: Redução no tempo de processamento e menor consumo de energia (especialmente em arquiteturas multicore).</li>
+  <li><strong>Redundância e Tolerância a Falhas</strong>: Caso um processador falhe, os outros podem continuar o trabalho, aumentando a confiabilidade do sistema.</li>
+</ul>
+
+<div class="exemplo">
+  🧠 Exemplo de questão: "Em sistemas de multiprocessamento, os processadores operam de forma independente, mas compartilham a mesma memória principal." — <strong>VERDADEIRO!</strong>
+</div>
+
+<hr>
+
+<h2>📝 6. Tópicos Relevantes para o Concurso</h2>
+<ul>
+  <li>Diferenças entre SMP e AMP.</li>
+  <li>Vantagens e desvantagens de arquiteturas de multiprocessamento e multicore.</li>
+  <li>Exemplos de uso de multiprocessamento em servidores e processadores multicore em dispositivos pessoais.</li>
+  <li>Como o uso de multiprocessadores ou núcleos pode afetar o desempenho de sistemas de computadores.</li>
+</ul>
+
+<hr>
+
+<h2>📚 7. Referências para Estudo</h2>
+<ul>
+  <li><a href="https://www.tutorialspoint.com/computer_architecture/multiprocessor_architecture.htm" target="_blank">Multiprocessor Architecture - Tutorialspoint</a></li>
+  <li><a href="https://www.geeksforgeeks.org/multicore-processors-in-computer-architecture/" target="_blank">Multicore Processors in Computer Architecture - Geeks for Geeks</a></li>
+  <li><a href="https://www.intel.com/content/www/us/en/architecture-and-technology/multi-core-architecture.html" target="_blank">Intel Multicore Architecture - Intel</a></li>
+</ul>
+
+</body>
+</html>

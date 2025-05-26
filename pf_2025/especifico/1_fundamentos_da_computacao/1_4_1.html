@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistemas Distribuídos - Memória Compartilhada</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #ffffff; color: #222; line-height: 1.6; padding: 2em; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .importante { background: #d4edda; padding: 10px; border-left: 5px solid #28a745; margin: 1em 0; }
+    .exemplo { background: #d1ecf1; padding: 10px; border-left: 5px solid #17a2b8; margin: 1em 0; }
+    ul li { margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h1>🧠 Sistemas Distribuídos: Modelos de Memória Compartilhada</h1>
+<p>Resumo otimizado para concursos da <strong>Polícia Federal - Perito Digital</strong> sobre os <strong>Modelos de Memória Compartilhada em Sistemas Distribuídos</strong>, com foco em pontos cobrados pela banca <strong>CESPE/Cebraspe</strong>.</p>
+
+<hr>
+
+<h2>📌 1. O que é Memória Compartilhada em Sistemas Distribuídos?</h2>
+<p>Em sistemas distribuídos, a memória compartilhada é uma abstração usada para facilitar a comunicação entre processos que estão executando em diferentes máquinas. É um modelo lógico, não necessariamente físico, que permite o compartilhamento de dados.</p>
+
+<ul>
+  <li><strong>Objetivo:</strong> Facilitar a programação paralela e distribuída, ocultando detalhes da comunicação por mensagem.</li>
+  <li><strong>Importante:</strong> Embora cada nó tenha sua memória local, mecanismos de software simulam uma memória comum.</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ Cuidado: Em sistemas distribuídos reais, não existe uma "memória física compartilhada". A abstração é fornecida por middleware ou sistemas de memória distribuída.
+</div>
+
+<hr>
+
+<h2>🧩 2. Modelos de Consistência de Memória</h2>
+<p>Um modelo de consistência define as regras que os processos devem seguir ao acessar a memória compartilhada. Esse conceito é <strong>muito cobrado</strong> pela CESPE/Cebraspe!</p>
+
+<h3>🔸 2.1 Consistência Estrita</h3>
+<ul>
+  <li>Uma leitura sempre retorna o valor mais recente escrito, independentemente do nó.</li>
+  <li>É difícil de implementar em sistemas distribuídos reais devido à latência da rede.</li>
+</ul>
+
+<h3>🔸 2.2 Consistência Sequencial</h3>
+<ul>
+  <li>As operações de todos os processos aparecem como se fossem executadas em alguma ordem sequencial.</li>
+  <li>Mais flexível que a estrita, mas ainda fornece uma visão consistente para todos os processos.</li>
+</ul>
+
+<h3>🔸 2.3 Consistência Causal</h3>
+<ul>
+  <li>Garante que operações causais (dependentes) sejam vistas na mesma ordem por todos os processos.</li>
+  <li>Permite que operações independentes sejam vistas em ordens diferentes.</li>
+</ul>
+
+<h3>🔸 2.4 Consistência Final (Eventual)</h3>
+<ul>
+  <li>As atualizações são propagadas eventualmente. Todos os nós veem o mesmo valor, mas não necessariamente ao mesmo tempo.</li>
+  <li>Utilizado em sistemas de alta disponibilidade como <code>DNS</code> e <code>NoSQL (DynamoDB)</code>.</li>
+</ul>
+
+<div class="importante">
+  ✅ Dica de prova: A CESPE gosta de perguntar sobre a diferença entre <strong>consistência estrita</strong>, <strong>sequencial</strong> e <strong>eventual</strong>.
+</div>
+
+<hr>
+
+<h2>🏗️ 3. Implementações de Memória Compartilhada</h2>
+<p>Em sistemas distribuídos, a memória compartilhada pode ser implementada de diversas formas:</p>
+
+<ul>
+  <li><strong>DSM (Distributed Shared Memory)</strong>: Simula uma área de memória comum entre computadores conectados em rede.</li>
+  <li><strong>Middleware de Consistência</strong>: Responsável por manter a ordem das operações de leitura/escrita entre os nós.</li>
+  <li><strong>Bibliotecas e APIs</strong>: Ex: OpenMP (para multiprocessadores), MPI (para clusters com troca de mensagens).</li>
+</ul>
+
+<div class="exemplo">
+  🧠 Exemplo de questão: “O modelo de consistência eventual garante que todos os nós vejam sempre o valor mais atualizado da memória.” — <strong>FALSO!</strong>
+</div>
+
+<hr>
+
+<h2>⚖️ 4. Comparativo Entre os Modelos</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Modelo</th>
+      <th>Consistência</th>
+      <th>Desempenho</th>
+      <th>Facilidade de Implementação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Estrita</td>
+      <td>Alta</td>
+      <td>Baixo (latência)</td>
+      <td>Difícil</td>
+    </tr>
+    <tr>
+      <td>Sequencial</td>
+      <td>Alta</td>
+      <td>Médio</td>
+      <td>Médio</td>
+    </tr>
+    <tr>
+      <td>Causal</td>
+      <td>Média</td>
+      <td>Médio</td>
+      <td>Moderada</td>
+    </tr>
+    <tr>
+      <td>Eventual</td>
+      <td>Baixa (no curto prazo)</td>
+      <td>Alto</td>
+      <td>Fácil</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>📚 5. Tópicos Mais Cobrados pela CESPE</h2>
+<ul>
+  <li>Conceito de <strong>memória compartilhada</strong> em sistemas distribuídos.</li>
+  <li>Diferenciação entre <strong>modelos de consistência</strong>.</li>
+  <li>Implementações práticas como <code>DSM</code> e uso de <code>middleware</code>.</li>
+  <li>Impactos de latência e sincronização nos modelos de memória.</li>
+</ul>
+
+<div class="alerta">
+  💡 Questões da CESPE frequentemente exploram a <strong>diferença entre coerência e consistência</strong> em memória distribuída.
+</div>
+
+<hr>
+
+<h2>🔗 6. Links para Estudo Complementar</h2>
+<ul>
+  <li><a href="https://www.geeksforgeeks.org/distributed-shared-memory-dsm/" target="_blank">Distributed Shared Memory (DSM) - GeeksforGeeks</a></li>
+  <li><a href="https://www.tutorialspoint.com/distributed_systems/distributed_systems_shared_memory.htm" target="_blank">Shared Memory in Distributed Systems - TutorialsPoint</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Consistency_model" target="_blank">Consistency Models - Wikipedia</a></li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Técnicas Básicas de Comunicação - Redes de Computadores</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; background: #fff; color: #222; padding: 2em; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .importante { background: #e2f0cb; padding: 10px; border-left: 5px solid #3c763d; margin: 1em 0; }
+    .exemplo { background: #d9edf7; padding: 10px; border-left: 5px solid #31708f; margin: 1em 0; }
+    ul li { margin-bottom: 0.5em; }
+  </style>
+</head>
+<body>
+
+<h1>📡 Redes de Computadores: Técnicas Básicas de Comunicação</h1>
+<p><strong>Resumo estratégico para o concurso de Perito Digital da Polícia Federal</strong>. Foco nos tópicos essenciais da disciplina de Redes de Computadores, com ênfase nas técnicas de comunicação mais cobradas.</p>
+
+<hr>
+
+<h2>🔑 1. Fundamentos das Redes de Computadores</h2>
+
+<h3>1.1 O que são Redes de Computadores?</h3>
+<ul>
+  <li>Sistemas que conectam dispositivos (computadores, servidores, dispositivos móveis) para compartilhamento de dados e recursos.</li>
+  <li>Classificação: <strong>Redes Locais (LAN)</strong>, <strong>Redes Metropolitanas (MAN)</strong>, <strong>Redes de Longa Distância (WAN)</strong>.</li>
+</ul>
+
+<div class="importante">
+  💡 <strong>Ponto chave:</strong> entenda a diferença entre as redes <code>LAN</code> (local) e <code>WAN</code> (global).
+</div>
+
+<h3>1.2 Modelos de Referência</h3>
+<ul>
+  <li><strong>OSI (Open Systems Interconnection):</strong> Modelo de 7 camadas (Física, Enlace, Rede, Transporte, Sessão, Apresentação, Aplicação).</li>
+  <li><strong>TCP/IP:</strong> Modelo de 4 camadas (Link, Internet, Transporte, Aplicação).</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ <strong>CESPE adora comparar:</strong> OSI vs TCP/IP, sendo o OSI mais teórico e o TCP/IP mais utilizado.
+</div>
+
+<hr>
+
+<h2>🔌 2. Técnicas Básicas de Comunicação</h2>
+
+<h3>2.1 Comunicação de Dados</h3>
+<ul>
+  <li><strong>Comutação por Circuito:</strong> Estabelece um caminho fixo entre dois pontos. Exemplo: chamadas telefônicas.</li>
+  <li><strong>Comutação por Pacote:</strong> Os dados são divididos em pacotes e enviados independentemente. Exemplo: Internet.</li>
+  <li><strong>Comutação por Mensagem:</strong> Cada mensagem é enviada por completo antes de enviar a próxima.</li>
+</ul>
+
+<div class="importante">
+  ⚡ <strong>Principais diferenças:</strong> Comutação por pacote é mais eficiente e escalável para redes de alta demanda (Internet).
+</div>
+
+<h3>2.2 Tipos de Comunicação</h3>
+<ul>
+  <li><strong>Unicast:</strong> Comunicação ponto a ponto (um remetente, um receptor).</li>
+  <li><strong>Broadcast:</strong> Envio de dados para todos os dispositivos de uma rede.</li>
+  <li><strong>Multicast:</strong> Envio de dados para um grupo específico de dispositivos.</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ <strong>Entenda as diferenças:</strong> Unicast = 1 para 1, Broadcast = 1 para todos, Multicast = 1 para muitos.
+</div>
+
+<h3>2.3 Meios de Transmissão</h3>
+<ul>
+  <li><strong>Guiado:</strong> Cabos (par trançado, fibra ótica, coaxial) – fisicamente direcionados.</li>
+  <li><strong>Não Guiado:</strong> Rádio, micro-ondas, infravermelho – sem fio.</li>
+</ul>
+
+<h3>2.4 Técnicas de Modulação</h3>
+<ul>
+  <li><strong>Modulação de Amplitude (AM):</strong> A amplitude da onda portadora varia.</li>
+  <li><strong>Modulação de Frequência (FM):</strong> A frequência da onda portadora varia.</li>
+  <li><strong>Modulação por Fase (PM):</strong> A fase da onda portadora varia.</li>
+</ul>
+
+<div class="exemplo">
+  📡 <strong>Exemplo:</strong> AM é usado em rádio AM, FM em rádio FM e PM é comum em sistemas de comunicação digital.
+</div>
+
+<hr>
+
+<h2>⚙️ 3. Protocolos de Comunicação</h2>
+
+<h3>3.1 Protocólos de Comunicação em Redes</h3>
+<ul>
+  <li><strong>Ethernet:</strong> Padrão de comunicação em redes locais (LAN).</li>
+  <li><strong>IP (Internet Protocol):</strong> Responsável pelo endereçamento e roteamento de pacotes na Internet.</li>
+  <li><strong>TCP (Transmission Control Protocol):</strong> Garante a entrega confiável de dados.</li>
+  <li><strong>UDP (User Datagram Protocol):</strong> Protocolo mais rápido, mas sem garantia de entrega.</li>
+</ul>
+
+<div class="importante">
+  🧠 <strong>Memorize:</strong> TCP é confiável, mas mais lento. UDP é rápido, mas não confiável.
+</div>
+
+<h3>3.2 Camadas de Protocolos</h3>
+<ul>
+  <li><strong>Camada Física:</strong> Transmissão de bits por meio de sinais elétricos ou ópticos.</li>
+  <li><strong>Camada de Enlace:</strong> Controle de erros e fluxo, entrega de pacotes entre dois dispositivos diretamente conectados.</li>
+  <li><strong>Camada de Rede:</strong> Endereçamento lógico e roteamento (ex: IP).</li>
+  <li><strong>Camada de Transporte:</strong> Gerenciamento da comunicação entre sistemas finais (ex: TCP, UDP).</li>
+  <li><strong>Camada de Aplicação:</strong> Interação com o usuário final (ex: HTTP, FTP, SMTP).</li>
+</ul>
+
+<hr>
+
+<h2>🔒 4. Segurança em Redes de Comunicação</h2>
+
+<h3>4.1 Técnicas de Criptografia</h3>
+<ul>
+  <li><strong>Criptografia Simétrica:</strong> Mesma chave para criptografar e descriptografar (ex: AES).</li>
+  <li><strong>Criptografia Assimétrica:</strong> Chaves diferentes para criptografar e descriptografar (ex: RSA).</li>
+  <li><strong>Hashing:</strong> Funções que geram um resumo fixo dos dados, usado para garantir integridade (ex: SHA-256).</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ <strong>Ponto chave:</strong> AES é simétrica, RSA é assimétrica, e SHA-256 é um algoritmo de hash.
+</div>
+
+<h3>4.2 Ataques Comuns em Redes</h3>
+<ul>
+  <li><strong>Sniffing:</strong> Interceptação de pacotes de dados em uma rede.</li>
+  <li><strong>Man-in-the-Middle:</strong> Ataque em que o atacante intercepta e possivelmente altera a comunicação entre duas partes.</li>
+  <li><strong>DoS (Denial of Service):</strong> Ataques para sobrecarregar e derrubar um servidor ou rede.</li>
+</ul>
+
+<hr>
+
+<h2>💡 5. Dicas para CESPE/Cebraspe</h2>
+
+<ul>
+  <li>📜 <strong>Conhecimentos sobre OSI vs TCP/IP</strong>: as questões podem pedir comparações entre as camadas dos dois modelos.</li>
+  <li>⚡ <strong>Tipos de comunicação:</strong> Unicast, Broadcast e Multicast são temas recorrentes. Lembre-se das definições e diferenças.</li>
+  <li>💾 <strong>Protocolos essenciais:</strong> TCP/IP, Ethernet, HTTP. Detalhe suas funções e diferenças.</li>
+  <li>🧠 <strong>Criptografia:</strong> saiba a diferença entre criptografia simétrica e assimétrica, e entenda os algoritmos mais utilizados.</li>
+  <li>⚠️ <strong>Segurança:</strong> Sniffing, Man-in-the-Middle e DoS são temas essenciais para a parte de segurança.</li>
+</ul>
+
+<hr>
+
+<h2>📚 Fontes Recomendadas</h2>
+<ul>
+  <li><strong>Livro:</strong> Redes de Computadores – Tanenbaum</li>
+  <li><strong>RFCs:</strong> Documentos técnicos como <code>RFC 791</code> (IP) e <code>RFC 768</code> (UDP)</li>
+  <li><strong>Sites de Certificação:</strong> Cisco (CCNA), CompTIA (Network+)</li>
+</ul>
+
+</body>
+</html>

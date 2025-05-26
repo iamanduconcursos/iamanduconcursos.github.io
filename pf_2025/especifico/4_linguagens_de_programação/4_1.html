@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Linguagens de Programação - Perito PF</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      color: #222;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    h3 {
+      color: #005b96;
+    }
+    code {
+      background-color: #f4f4f4;
+      padding: 2px 4px;
+      font-family: monospace;
+      border-radius: 4px;
+    }
+    .destaque {
+      background: #ffffcc;
+      padding: 10px;
+      border-left: 4px solid #ffcc00;
+      margin: 10px 0;
+    }
+    .dica {
+      background: #e6f7ff;
+      padding: 10px;
+      border-left: 4px solid #1e90ff;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resumo Inteligente: Linguagens de Programação</h1>
+  <p><strong>Disciplina:</strong> Linguagens de Programação<br>
+     <strong>Assunto:</strong> Noções de programação orientada a objetos<br>
+     <strong>Voltado para:</strong> Concurso de Perito Criminal Federal (Área: Computação)</p>
+
+  <hr>
+
+  <h2>📌 1. Fundamentos da Programação Orientada a Objetos (POO)</h2>
+
+  <h3>🎯 Objetos e Classes</h3>
+  <p>Objeto é uma instância de uma <strong>classe</strong>. Uma classe é como um molde, enquanto o objeto é uma ocorrência concreta.</p>
+  <div class="destaque">
+    <strong>Exemplo:</strong> Classe: <code>Carro</code> | Objeto: <code>meuCarro = new Carro()</code>
+  </div>
+
+  <ul>
+    <li><strong>Atributos:</strong> variáveis internas que armazenam o estado do objeto</li>
+    <li><strong>Métodos:</strong> funções definidas dentro da classe, determinam comportamento</li>
+    <li><strong>Encapsulamento:</strong> proteção dos dados internos do objeto, geralmente com <code>private</code></li>
+  </ul>
+
+  <div class="dica">
+    <strong>Dica CESPE:</strong> Questões costumam confundir “classe” e “objeto”. Fique atento ao contexto da pergunta!
+  </div>
+
+  <h3>🏛️ Herança</h3>
+  <p>Permite que uma classe herde atributos e métodos de outra classe.</p>
+  <ul>
+    <li>Classe base (ou superclasse)</li>
+    <li>Classe derivada (ou subclasse)</li>
+  </ul>
+
+  <div class="destaque">
+    <strong>Exemplo:</strong> <code>class Animal</code> → <code>class Cachorro extends Animal</code>
+  </div>
+
+  <div class="dica">
+    A herança evita repetição de código e promove reuso — conceito que as bancas valorizam como “boas práticas de projeto”.
+  </div>
+
+  <h3>🧬 Polimorfismo</h3>
+  <p>Capacidade de usar métodos com o mesmo nome, mas comportamentos diferentes conforme o contexto.</p>
+
+  <ul>
+    <li><strong>Em tempo de compilação:</strong> Sobrecarga de métodos</li>
+    <li><strong>Em tempo de execução:</strong> Sobrescrita (override)</li>
+  </ul>
+
+  <div class="destaque">
+    <strong>Exemplo:</strong> Um método <code>falar()</code> pode emitir sons diferentes em <code>Gato</code> e <code>Cachorro</code>
+  </div>
+
+  <div class="dica">
+    Atenção: polimorfismo != sobrecarga. A banca adora misturar esses termos em pegadinhas!
+  </div>
+
+  <h3>➕ Sobrecarga de Métodos</h3>
+  <p>Mesmo nome, diferentes parâmetros dentro da mesma classe.</p>
+
+  <div class="destaque">
+    <strong>Exemplo:</strong><br>
+    <code>void imprimir(String texto)</code><br>
+    <code>void imprimir(int numero)</code>
+  </div>
+
+  <ul>
+    <li><strong>É resolvida em tempo de compilação</strong></li>
+    <li>Não tem relação com herança direta</li>
+  </ul>
+
+  <hr>
+
+  <h2>🧠 2. Dicas de Memorização e Revisão Rápida</h2>
+  <ul>
+    <li>POO = Classe + Objeto + Herança + Polimorfismo + Encapsulamento + Abstração</li>
+    <li>“IS-A” → Herança | “HAS-A” → Composição</li>
+    <li><code>private</code>, <code>protected</code>, <code>public</code>: controle de acesso</li>
+    <li><strong>Override</strong> ≠ <strong>Overload</strong></li>
+  </ul>
+
+  <div class="dica">
+    <strong>CESPE adora:</strong> questões com código e alternativas como “O programa acima imprimirá...” — treine a leitura de código orientado a objetos!
+  </div>
+
+  <hr>
+
+  <h2>💡 3. Linguagens Mais Cobradas</h2>
+  <ul>
+    <li><strong>Java:</strong> estrutura clássica de POO. Favorita da banca.</li>
+    <li><strong>Python:</strong> cobrança recente, foco em sintaxe clara.</li>
+    <li><strong>C++:</strong> às vezes aparece em questões mais pesadas.</li>
+  </ul>
+
+  <div class="destaque">
+    Priorize estudar <strong>Java e Python</strong>. C++ costuma ser usado para questões mais conceituais.
+  </div>
+
+  <hr>
+
+  <h2>📚 4. Estratégia Final de Estudo</h2>
+  <ul>
+    <li>1h: teoria resumida (como este material)</li>
+    <li>1h: leitura e resolução de questões CESPE com gabarito</li>
+    <li>30min: revisar erros e montar seu “errolog”</li>
+  </ul>
+
+  <div class="dica">
+    Programe todos os dias nem que seja por 20 minutos. Isso fixa os conceitos e te dá fluência para ler e interpretar os enunciados com mais rapidez.
+  </div>
+
+</body>
+</html>

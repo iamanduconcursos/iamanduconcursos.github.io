@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Comutação: Circuitos, Pacotes e Células - Resumo Estratégico</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #f0faff; padding: 12px; border-left: 4px solid #3498db; margin: 10px 0; }
+  </style>
+</head>
+<body>
+
+<h2>🔄 Técnicas de Comutação – Resumo Estratégico (Perito Digital PF)</h2>
+
+<div class="highlight">
+  Técnicas de comutação definem como os dados são transmitidos entre origem e destino em uma rede. As mais cobradas em concursos CESPE/CEBRASPE são:
+  <strong>comutação por circuitos, pacotes e células</strong>.
+</div>
+
+<h3>📌 Tipos de Comutação</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Descrição</th>
+      <th>Exemplos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comutação por Circuitos</td>
+      <td>Conexão dedicada estabelecida durante toda a sessão. Reservação de recursos fim-a-fim.</td>
+      <td>Telefonia tradicional (PSTN)</td>
+    </tr>
+    <tr>
+      <td>Comutação por Pacotes</td>
+      <td>Dados são divididos em pacotes independentes, que podem seguir caminhos diferentes.</td>
+      <td>Internet (TCP/IP)</td>
+    </tr>
+    <tr>
+      <td>Comutação por Células</td>
+      <td>Semelhante à comutação por pacotes, mas com tamanho fixo (pequenas células).</td>
+      <td>ATM (Asynchronous Transfer Mode)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>🧠 Características e Comparação</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Característica</th>
+      <th>Circuito</th>
+      <th>Pacotes</th>
+      <th>Células</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Reserva de Recursos</td>
+      <td>Sim</td>
+      <td>Não</td>
+      <td>Não (mas garante QoS)</td>
+    </tr>
+    <tr>
+      <td>Latência Inicial</td>
+      <td>Alta (devido à reserva)</td>
+      <td>Baixa</td>
+      <td>Baixa</td>
+    </tr>
+    <tr>
+      <td>Utilização de Canal</td>
+      <td>Ineficiente (canal ocioso em inatividade)</td>
+      <td>Eficiente</td>
+      <td>Alta eficiência com baixa latência</td>
+    </tr>
+    <tr>
+      <td>Ordem de Chegada</td>
+      <td>Preservada</td>
+      <td>Não garantida</td>
+      <td>Não garantida</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>🔍 Pontos de Prova Cobrados por CESPE/CEBRASPE</h3>
+<ul>
+  <li><strong>Comutação por circuitos</strong> estabelece um caminho físico dedicado.</li>
+  <li><strong>Comutação por pacotes</strong> é eficiente, mas pode causar atrasos e perda de pacotes.</li>
+  <li><strong>ATM</strong> usa células de tamanho fixo (53 bytes), otimizando tráfego multimídia.</li>
+  <li><strong>QoS (Qualidade de Serviço)</strong> é mais fácil de implementar com comutação por circuitos e células.</li>
+  <li>Em <strong>comutação por pacotes</strong>, protocolos como IP não garantem entrega nem ordem.</li>
+</ul>
+
+<h3>📘 Glossário Rápido</h3>
+<ul>
+  <li><strong>Latência:</strong> Tempo de resposta entre envio e recepção de dados.</li>
+  <li><strong>QoS (Quality of Service):</strong> Garantia de desempenho mínimo (largura de banda, latência, etc).</li>
+  <li><strong>Overhead:</strong> Sobrecarga de controle nos dados transmitidos.</li>
+</ul>
+
+<h3>⚠️ Exemplos de Questões (estilo CESPE)</h3>
+<ul>
+  <li>“Na comutação por circuitos, os recursos são alocados dinamicamente conforme os pacotes são transmitidos.” – <strong>FALSO</strong></li>
+  <li>“A comutação por pacotes permite melhor aproveitamento da largura de banda.” – <strong>VERDADEIRO</strong></li>
+  <li>“O ATM utiliza células com tamanho variável para otimizar o tráfego de dados.” – <strong>FALSO</strong> (tamanho fixo)</li>
+  <li>“Em redes com comutação por pacotes, a ordem de chegada dos dados pode variar.” – <strong>VERDADEIRO</strong></li>
+</ul>
+
+<h3>✅ Dicas de Memorização</h3>
+<ul>
+  <li><strong>Circuitos:</strong> Garantia de ordem, alta confiabilidade, pouca flexibilidade.</li>
+  <li><strong>Pacotes:</strong> Alta eficiência, sem garantia de ordem, usado na internet.</li>
+  <li><strong>Células:</strong> Compromisso entre pacotes e circuitos. Rápidas e com QoS.</li>
+</ul>
+
+</body>
+</html>

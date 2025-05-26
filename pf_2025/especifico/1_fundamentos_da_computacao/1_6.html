@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>RAID e Contêineres – Fundamentos da Computação</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3 { color: #2e3a59; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #e8ecf1; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #eafaf1; padding: 12px; border-left: 5px solid #27ae60; margin: 10px 0; }
+    code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+
+<h2>🧠 RAID e Contêineres – Fundamentos da Computação (Resumo Estratégico)</h2>
+
+<div class="highlight">
+  Temas como RAID e contêineres têm alta incidência em concursos CESPE/CEBRASPE para Perito Digital. Dominar esses tópicos é diferencial em provas objetivas com questões que exigem raciocínio técnico.
+</div>
+
+<h3>💾 RAID (Redundant Array of Independent Disks)</h3>
+<h4>📌 O que é?</h4>
+<ul>
+  <li>É uma tecnologia de armazenamento que combina múltiplos discos rígidos em uma única unidade lógica para aumentar desempenho e/ou redundância.</li>
+</ul>
+
+<h4>🧱 Tipos e Características</h4>
+<table>
+  <thead>
+    <tr><th>Nível</th><th>Descrição</th><th>Vantagens</th><th>Desvantagens</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>RAID 0</td>
+      <td>Striping (divisão de dados entre discos)</td>
+      <td>Alto desempenho</td>
+      <td>Sem redundância</td>
+    </tr>
+    <tr>
+      <td>RAID 1</td>
+      <td>Espelhamento (cópias idênticas)</td>
+      <td>Alta confiabilidade</td>
+      <td>50% de uso do espaço</td>
+    </tr>
+    <tr>
+      <td>RAID 5</td>
+      <td>Striping com paridade distribuída</td>
+      <td>Equilíbrio entre desempenho e segurança</td>
+      <td>Performance reduzida na escrita</td>
+    </tr>
+    <tr>
+      <td>RAID 6</td>
+      <td>Semelhante ao RAID 5, mas com 2 blocos de paridade</td>
+      <td>Maior tolerância a falhas (2 discos)</td>
+      <td>Mais espaço usado para paridade</td>
+    </tr>
+    <tr>
+      <td>RAID 10 (1+0)</td>
+      <td>Combina espelhamento e striping</td>
+      <td>Desempenho e segurança</td>
+      <td>Custo mais alto</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>🎯 Aplicações Práticas</h4>
+<ul>
+  <li><strong>RAID 0:</strong> edição de vídeo, ambientes que priorizam velocidade.</li>
+  <li><strong>RAID 1:</strong> sistemas críticos (bancos, servidores).</li>
+  <li><strong>RAID 5/6:</strong> servidores de arquivos com tolerância a falhas.</li>
+  <li><strong>RAID 10:</strong> bancos de dados com alto IOPS.</li>
+</ul>
+
+<h3>📦 Contêineres</h3>
+<h4>📌 Conceito</h4>
+<ul>
+  <li>Contêineres são unidades leves e portáteis de software que encapsulam uma aplicação e suas dependências em um ambiente isolado.</li>
+  <li>Diferem de máquinas virtuais por não precisarem de sistema operacional completo – compartilham o kernel.</li>
+</ul>
+
+<h4>🛠️ Características</h4>
+<ul>
+  <li>Leves e rápidos para iniciar e escalar.</li>
+  <li>Ambiente isolado e consistente para execução de aplicações.</li>
+  <li>Ex: Docker, Podman, LXC.</li>
+</ul>
+
+<h4>⚙️ Comparação: Contêiner vs Máquina Virtual</h4>
+<table>
+  <thead>
+    <tr><th>Aspecto</th><th>Contêiner</th><th>Máquina Virtual</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Performance</td><td>Mais rápido, menor overhead</td><td>Mais lento, simula hardware</td></tr>
+    <tr><td>Isolamento</td><td>Kernel compartilhado</td><td>Kernel independente</td></tr>
+    <tr><td>Uso de recursos</td><td>Eficiência alta</td><td>Consumo elevado</td></tr>
+    <tr><td>Portabilidade</td><td>Alta</td><td>Média</td></tr>
+  </tbody>
+</table>
+
+<h4>🎯 Aplicações</h4>
+<ul>
+  <li>Microserviços</li>
+  <li>Ambientes DevOps</li>
+  <li>Execução segura de aplicações legadas</li>
+</ul>
+
+<h3>❓ Pegadinhas em Provas CESPE/CEBRASPE</h3>
+<ul>
+  <li>"RAID 1 aumenta o desempenho do sistema." – <strong>FALSO</strong></li>
+  <li>"Contêineres não oferecem isolamento." – <strong>FALSO</strong></li>
+  <li>"RAID 5 pode sobreviver à falha de 2 discos simultâneos." – <strong>FALSO</strong>, isso é RAID 6.</li>
+</ul>
+
+<h3>🔑 Palavras-chave para Memorizar</h3>
+<ul>
+  <li>Redundância</li>
+  <li>Striping</li>
+  <li>Espelhamento</li>
+  <li>Docker</li>
+  <li>Virtualização leve</li>
+</ul>
+
+<h3>📌 Dica Final</h3>
+<p>Domine os <strong>níveis RAID e suas aplicações</strong> e entenda claramente o que diferencia <strong>contêineres de VMs</strong>. São assuntos com histórico de cobrança direta e indireta em provas da PF.</p>
+
+</body>
+</html>

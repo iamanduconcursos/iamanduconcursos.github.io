@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>GPUs, CUDA e Processamento Vetorial – Fundamentos da Computação</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3 { color: #1f4e79; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #eef2f3; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #fff6e5; padding: 12px; border-left: 5px solid #f39c12; margin: 10px 0; }
+    code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+
+<h2>🚀 GPUs, CUDA e Processamento Vetorial – Fundamentos da Computação</h2>
+
+<div class="highlight">
+  Este tema vem ganhando relevância nas provas da CEBRASPE/CESPE devido à crescente importância de GPUs em aplicações como IA, criptografia e forense computacional.
+</div>
+
+<h3>📌 O que são GPUs?</h3>
+<ul>
+  <li>GPUs (Unidades de Processamento Gráfico) são processadores altamente paralelos, otimizados para processar grandes volumes de dados simultaneamente.</li>
+  <li>Originalmente criadas para gráficos, hoje são usadas em diversas áreas como machine learning, simulações e criptografia.</li>
+</ul>
+
+<h3>🧠 Arquitetura CUDA</h3>
+<ul>
+  <li><strong>CUDA</strong> (Compute Unified Device Architecture) é uma plataforma da NVIDIA que permite usar GPUs para computação geral (GPGPU).</li>
+  <li>Fornece uma extensão da linguagem C/C++ para escrever programas paralelos.</li>
+  <li>Um programa CUDA é dividido em <strong>kernels</strong>, que são funções executadas em paralelo por múltiplos threads na GPU.</li>
+</ul>
+
+<h3>🧱 Hierarquia de Execução CUDA</h3>
+<ul>
+  <li><strong>Thread:</strong> menor unidade de execução.</li>
+  <li><strong>Block:</strong> conjunto de threads (execução local).</li>
+  <li><strong>Grid:</strong> conjunto de blocos (execução global).</li>
+</ul>
+
+<h3>🧮 Aplicações em Processamento Vetorial</h3>
+<ul>
+  <li>GPUs são ideais para operações vetoriais (mesmo tipo de operação aplicada a muitos dados).</li>
+  <li>Exemplos: multiplicação de matrizes, filtros de imagem, transformadas (FFT, DCT), IA.</li>
+  <li>Alta performance em tarefas <strong>SIMD (Single Instruction, Multiple Data)</strong>.</li>
+</ul>
+
+<h3>📚 Comparação CPU vs GPU</h3>
+<table>
+  <thead>
+    <tr><th>Aspecto</th><th>CPU</th><th>GPU</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Arquitetura</td><td>Poucos núcleos otimizados para tarefas sequenciais</td><td>Muitos núcleos otimizados para paralelismo massivo</td></tr>
+    <tr><td>Execução</td><td>Serial e multitarefa</td><td>Paralela massiva (SIMD)</td></tr>
+    <tr><td>Desempenho</td><td>Melhor em tarefas sequenciais</td><td>Melhor em operações vetoriais/matrizes</td></tr>
+  </tbody>
+</table>
+
+<h3>⚙️ Componentes da Arquitetura CUDA</h3>
+<ul>
+  <li><strong>SMs (Streaming Multiprocessors):</strong> unidades de processamento da GPU.</li>
+  <li><strong>Memória Global:</strong> compartilhada entre todos os threads, mais lenta.</li>
+  <li><strong>Memória Compartilhada:</strong> entre threads de um bloco, mais rápida.</li>
+  <li><strong>Memória de Registro:</strong> usada por cada thread, mais rápida.</li>
+</ul>
+
+<h3>❓ Pegadinhas em Prova CESPE/CEBRASPE</h3>
+<ul>
+  <li>"CUDA é exclusivo para CPUs." – <strong>FALSO</strong>, é para uso em GPUs da NVIDIA.</li>
+  <li>"GPUs são melhores que CPUs para todas as tarefas." – <strong>FALSO</strong>, são melhores apenas para tarefas paralelas.</li>
+  <li>"CUDA permite programação paralela em GPUs." – <strong>VERDADEIRO</strong></li>
+</ul>
+
+<h3>🔑 Palavras-chave para Memorizar</h3>
+<ul>
+  <li>CUDA</li>
+  <li>Kernel</li>
+  <li>Grid / Block / Thread</li>
+  <li>SIMD</li>
+  <li>GPGPU</li>
+</ul>
+
+<h3>🎯 Dica Final</h3>
+<p>Estude a arquitetura CUDA com foco em hierarquia de execução e vantagens da GPU para tarefas paralelas. Atenção especial para <strong>conceitos de memória e aplicações em vetores/matrizes</strong>.</p>
+
+</body>
+</html>

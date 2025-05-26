@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Linguagens de Programação - Controle de Fluxo</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background-color: #f9fafc; color: #333; padding: 30px; line-height: 1.6; }
+    h1, h2, h3 { color: #003366; }
+    h1 { border-bottom: 3px solid #0056b3; padding-bottom: 10px; }
+    .section { background: #fff; padding: 20px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+    ul { margin-left: 20px; }
+    code { background: #eee; padding: 2px 6px; border-radius: 4px; font-family: Consolas, monospace; }
+    .dica { background: #e7f3fe; padding: 10px; border-left: 5px solid #007bff; margin-top: 20px; }
+  </style>
+</head>
+<body>
+
+<div class="section">
+  <h1>Resumo - Perito Digital PF</h1>
+  <h2>📘 Linguagens de Programação<br>🔍 Estruturas de Controle de Fluxo</h2>
+
+  <h3>1. Conceito Geral</h3>
+  <p>
+    Estruturas de controle determinam <strong>a ordem</strong> com que instruções são executadas em um programa. São fundamentais para decisões e repetições.
+  </p>
+
+  <h3>2. Estruturas Condicionais</h3>
+  <ul>
+    <li><strong>if / else / elif:</strong> Avalia condições e direciona o fluxo.
+      <pre><code>if (condicao) {
+  // código se verdadeiro
+} else {
+  // código se falso
+}</code></pre>
+    </li>
+    <li><strong>switch / case:</strong> Útil para múltiplas condições específicas (presente em C, Java, JS).
+      <pre><code>switch (variavel) {
+  case 1:
+    // código
+    break;
+  default:
+    // padrão
+}</code></pre>
+    </li>
+  </ul>
+
+  <h3>3. Estruturas de Repetição (Loops)</h3>
+  <ul>
+    <li><strong>for:</strong> Loop com controle definido.
+      <pre><code>for (int i = 0; i &lt; 10; i++) {
+  // código
+}</code></pre>
+    </li>
+    <li><strong>while:</strong> Executa enquanto a condição for verdadeira.
+      <pre><code>while (condicao) {
+  // código
+}</code></pre>
+    </li>
+    <li><strong>do while:</strong> Garante execução ao menos uma vez.
+      <pre><code>do {
+  // código
+} while (condicao);</code></pre>
+    </li>
+    <li><strong>foreach:</strong> Presente em linguagens como C#, Python, PHP.
+      <pre><code>for (valor in lista) {
+  // código
+}</code></pre>
+    </li>
+  </ul>
+
+  <h3>4. Controle de Fluxo Interno</h3>
+  <ul>
+    <li><strong>break:</strong> Encerra o loop atual.</li>
+    <li><strong>continue:</strong> Pula para a próxima iteração.</li>
+    <li><strong>return:</strong> Sai da função/método.</li>
+  </ul>
+
+  <h3>5. Fluxo de Execução em Linguagens Populares</h3>
+  <ul>
+    <li><strong>Python:</strong> Não usa chaves, depende de indentação.</li>
+    <li><strong>C/C++/Java:</strong> Utilizam chaves para blocos de código.</li>
+    <li><strong>JavaScript:</strong> Flexível, usado no frontend e backend.</li>
+  </ul>
+
+  <div class="dica">
+    <strong>Dica CESPE:</strong> A banca costuma cobrar trechos de código e perguntar o valor final de variáveis ou se determinado bloco será executado. Treine <em>raciocínio lógico</em> e análise de <em>sequência de execução</em>.
+  </div>
+</div>
+
+<div class="section">
+  <h2>📌 Temas Frequentes em Prova</h2>
+  <ul>
+    <li>Comportamento de loops aninhados (loop dentro de loop)</li>
+    <li>Execução de blocos <code>if-else</code> com operadores lógicos</li>
+    <li>Simulação de fluxo com <code>break</code> e <code>continue</code></li>
+    <li>Identificação de erros em estrutura de controle</li>
+    <li>Previsão de saídas de programas pequenos (dry run)</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>🎯 Estratégia para Estudo CEBRASPE</h2>
+  <ul>
+    <li>Estude códigos de concursos anteriores da PF.</li>
+    <li>Pratique raciocínio lógico aplicado à programação.</li>
+    <li>Entenda bem como fluxos se comportam em cada linguagem.</li>
+    <li>Use simuladores ou IDEs online para treinar código.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>🧠 Conclusão</h2>
+  <p>
+    Dominar as estruturas de controle é essencial para resolver problemas lógicos, interpretar códigos e construir algoritmos robustos — habilidades cobradas de forma recorrente nos concursos da Polícia Federal.
+  </p>
+  <div class="dica">
+    <strong>Fixe:</strong> Toda decisão (condição) ou repetição (loop) no código é feita com estruturas de controle. Ler e prever comportamento do código = diferencial.
+  </div>
+</div>
+
+</body>
+</html>

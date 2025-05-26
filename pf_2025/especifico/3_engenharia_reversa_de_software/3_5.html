@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compactadores de Código Executável - Engenharia Reversa</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fafb;
+      color: #333;
+      margin: 40px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #004080;
+    }
+    h1 {
+      border-bottom: 2px solid #0077cc;
+      padding-bottom: 0.2em;
+    }
+    ul {
+      margin-bottom: 1.5em;
+    }
+    .box {
+      background-color: #e3f2fd;
+      border-left: 6px solid #2196f3;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎯 Engenharia Reversa de Software – Compactadores de Código Executável</h1>
+
+  <h2>📌 Conceito Geral</h2>
+  <p>Compactadores de código executável (ou packers) são programas utilizados para <strong>reduzir o tamanho</strong> de arquivos executáveis e/ou <strong>proteger seu conteúdo</strong> contra engenharia reversa. Eles realizam a compactação dos dados e os empacotam com um código que descompacta o executável original em tempo de execução.</p>
+
+  <h2>🎯 Objetivos e Aplicações</h2>
+  <ul>
+    <li><strong>Redução de tamanho</strong>: útil para distribuição de software.</li>
+    <li><strong>Proteção de propriedade intelectual</strong>: dificulta engenharia reversa.</li>
+    <li><strong>Uso malicioso</strong>: malware usa compactadores para dificultar análise.</li>
+  </ul>
+
+  <h2>🧰 Principais Compactadores (Packers)</h2>
+  <ul>
+    <li><strong>UPX (Ultimate Packer for eXecutables)</strong>: o mais popular e open-source.</li>
+    <li><strong>ASPack</strong>: comum em softwares protegidos por DRM.</li>
+    <li><strong>MPRESS</strong>: foco em compactação agressiva.</li>
+    <li><strong>Themida</strong>: protege contra depuradores e descompiladores.</li>
+    <li><strong>PECompact</strong>: permite plugins e customizações.</li>
+  </ul>
+
+  <h2>🔍 Como Identificar um Executável Compactado</h2>
+  <ul>
+    <li><strong>Assinaturas conhecidas</strong> nos headers do PE.</li>
+    <li><strong>Anomalias</strong> em seções (como apenas uma seção com nome incomum).</li>
+    <li>Ferramentas como <code>PEiD</code>, <code>Exeinfo PE</code>, <code>Detect It Easy (DIE)</code>.</li>
+    <li><strong>Descompactação manual</strong>: uso de debuggers para capturar código após execução do stub.</li>
+  </ul>
+
+  <div class="box">
+    <h3>⚠️ Cuidado: Proteção vs Obfuscação</h3>
+    <p>Nem todo arquivo compactado visa segurança – muitos têm <strong>propósitos legítimos</strong>, como reduzir o tamanho para distribuição. Já outros são claramente voltados para <strong>evitar análise estática e dinâmica</strong>.</p>
+  </div>
+
+  <h2>🧪 Análise de Executáveis Compactados</h2>
+  <ul>
+    <li><strong>Análise estática:</strong> geralmente limitada até que o arquivo seja descompactado.</li>
+    <li><strong>Análise dinâmica:</strong> essencial para entender o comportamento real.</li>
+    <li><strong>Breakpoint após stub:</strong> técnica comum em depuração.</li>
+  </ul>
+
+  <h2>🛠️ Ferramentas Essenciais</h2>
+  <ul>
+    <li><strong>OllyDbg / x64dbg:</strong> depuração e análise dinâmica.</li>
+    <li><strong>IDA Pro / Ghidra:</strong> desmontagem após descompactação.</li>
+    <li><strong>Unpackers:</strong> scripts ou ferramentas automatizadas para descompactar UPX, ASPack, etc.</li>
+    <li><strong>Process Hacker:</strong> extrair dumps de memória durante execução.</li>
+  </ul>
+
+  <h2>🎓 Pontos-Chave para a Prova (CESPE / CEBRASPE)</h2>
+  <ul>
+    <li>Diferenças entre compactadores, criptografadores e ofuscadores.</li>
+    <li>Objetivos de segurança (proteger contra engenharia reversa, ocultar código malicioso).</li>
+    <li>Ferramentas e técnicas para identificação e descompactação.</li>
+    <li>Características de headers PE de arquivos compactados.</li>
+    <li>Aplicações forenses na análise de malware protegido por packers.</li>
+  </ul>
+
+  <div class="box">
+    <h3>🎯 Dica Final para Concurso:</h3>
+    <p>A CEBRASPE/CESPE costuma cobrar interpretação de situações reais de análise forense. Entenda o papel dos compactadores na ocultação de código e memorize ao menos três ferramentas de identificação e descompactação.</p>
+  </div>
+
+</body>
+</html>

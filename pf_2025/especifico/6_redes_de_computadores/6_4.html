@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Elementos de Interconexão - Redes para Perito PF</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; background: #fff; color: #222; padding: 2em; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .importante { background: #e2f0cb; padding: 10px; border-left: 5px solid #3c763d; margin: 1em 0; }
+    .exemplo { background: #d9edf7; padding: 10px; border-left: 5px solid #31708f; margin: 1em 0; }
+    table { border-collapse: collapse; width: 100%; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h1>🖧 Redes de Computadores: Elementos de Interconexão</h1>
+<p>Resumo essencial e direto ao ponto para o concurso de <strong>Perito Digital da PF</strong>. Foco nos dispositivos de rede mais cobrados e suas funções nas camadas do modelo OSI.</p>
+
+<hr>
+
+<h2>🔌 1. Tabela Resumo: Dispositivos de Interconexão</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dispositivo</th>
+      <th>Função</th>
+      <th>Camada OSI</th>
+      <th>Observações Importantes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Repetidor</strong></td>
+      <td>Regenera sinais para cobrir maiores distâncias</td>
+      <td>1 - Física</td>
+      <td>Não interpreta pacotes; atua apenas no sinal</td>
+    </tr>
+    <tr>
+      <td><strong>Hub</strong></td>
+      <td>Distribui o sinal para todas as portas</td>
+      <td>1 - Física</td>
+      <td>Sem inteligência; compartilha largura de banda</td>
+    </tr>
+    <tr>
+      <td><strong>Bridge</strong></td>
+      <td>Filtra tráfego entre segmentos de rede</td>
+      <td>2 - Enlace</td>
+      <td>Utiliza MAC address para tomar decisões</td>
+    </tr>
+    <tr>
+      <td><strong>Switch</strong></td>
+      <td>Encaminha quadros baseado no MAC de destino</td>
+      <td>2 - Enlace</td>
+      <td>Mais eficiente que bridge; comuta tráfego individualmente</td>
+    </tr>
+    <tr>
+      <td><strong>Roteador</strong></td>
+      <td>Interliga redes diferentes; encaminha pacotes</td>
+      <td>3 - Rede</td>
+      <td>Usa endereçamento IP; essencial na Internet</td>
+    </tr>
+    <tr>
+      <td><strong>Gateway</strong></td>
+      <td>Converte protocolos entre redes diferentes</td>
+      <td>7 - Aplicação (ou todas)</td>
+      <td>Permite comunicação entre arquiteturas distintas</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>📘 2. Detalhamento Estratégico dos Dispositivos</h2>
+
+<h3>🔁 Repetidor</h3>
+<ul>
+  <li>Regenera sinais elétricos ou ópticos enfraquecidos.</li>
+  <li>Utilizado para estender o alcance físico de uma rede.</li>
+  <li><strong>Não toma decisões de encaminhamento</strong>.</li>
+</ul>
+
+<h3>🔌 Hub</h3>
+<ul>
+  <li>Dispositivo de conexão central para redes pequenas.</li>
+  <li>Envia todos os dados recebidos para todas as portas (broadcast).</li>
+  <li><strong>Sem filtragem ou roteamento.</strong></li>
+</ul>
+
+<div class="alerta">
+  ⚠️ <strong>CESPE adora:</strong> confundir <code>Hub</code> (burro) com <code>Switch</code> (inteligente).
+</div>
+
+<h3>🔀 Bridge</h3>
+<ul>
+  <li>Filtra e encaminha quadros entre segmentos de rede com base no endereço MAC.</li>
+  <li>Trabalha na <strong>Camada 2 (Enlace)</strong>.</li>
+  <li>Divide uma rede em domínios de colisão menores.</li>
+</ul>
+
+<h3>🎛️ Switch</h3>
+<ul>
+  <li>Dispositivo de comutação que envia os dados apenas para a porta de destino.</li>
+  <li>Opera na Camada 2, mas <strong>existem switches multicamadas (Camada 3)</strong>.</li>
+  <li>Aprende e armazena os endereços MAC em uma tabela interna (CAM table).</li>
+</ul>
+
+<div class="exemplo">
+  ⚙️ <strong>Exemplo de uso:</strong> Um switch com 24 portas pode conectar 24 dispositivos que comunicam simultaneamente.
+</div>
+
+<h3>🌐 Roteador</h3>
+<ul>
+  <li>Encaminha pacotes entre redes diferentes usando endereços IP.</li>
+  <li>Baseia-se em tabelas de roteamento e protocolos como <code>OSPF</code>, <code>BGP</code>.</li>
+  <li>Fundamental na Internet.</li>
+</ul>
+
+<div class="importante">
+  📌 <strong>Lembre-se:</strong> O roteador separa <strong>domínios de broadcast</strong>.
+</div>
+
+<h3>🔁 Gateway</h3>
+<ul>
+  <li>Dispositivo ou software que converte protocolos entre redes distintas (ex: IP <-> AppleTalk).</li>
+  <li>Pode operar em todas as camadas do modelo OSI (muitas vezes associado à camada 7).</li>
+  <li>Exemplos: gateway de email, gateway de VoIP.</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ <strong>Dica CESPE:</strong> Gateway ≠ Roteador. Gateway faz conversão de protocolos, o roteador apenas encaminha pacotes IP.
+</div>
+
+<hr>
+
+<h2>🧠 3. Dicas CESPE/Cebraspe - Como Eles Cobrariam</h2>
+<ul>
+  <li>⚡ <strong>Repetidor ≠ Hub:</strong> repetidor amplifica, hub apenas repassa.</li>
+  <li>🔄 <strong>Bridge e Switch:</strong> mesma camada (2), mas switch é mais moderno e eficiente.</li>
+  <li>🌍 <strong>Gateway:</strong> só ele faz tradução entre arquiteturas/protocolos diferentes.</li>
+  <li>📶 <strong>Roteador:</strong> único da lista que usa endereços IP (Camada 3).</li>
+</ul>
+
+<hr>
+
+<h2>📚 4. Fontes de Estudo Recomendadas</h2>
+<ul>
+  <li><strong>Livro:</strong> Redes de Computadores – Andrew S. Tanenbaum</li>
+  <li><strong>Livro:</strong> Comunicação de Dados e Redes – William Stallings</li>
+  <li><strong>Cisco Packet Tracer:</strong> Simulador gratuito para praticar conceitos de rede</li>
+</ul>
+
+<div class="importante">
+  📝 <strong>Resumo mental:</strong><br>
+  <code>Repetidor & Hub</code> (Físico) → <code>Bridge & Switch</code> (Enlace) → <code>Roteador</code> (Rede) → <code>Gateway</code> (Aplicação)
+</div>
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo: Montadores, Compiladores, Ligadores e Interpretadores</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8fafc;
+      color: #1e293b;
+      padding: 30px;
+      line-height: 1.7;
+    }
+    h1, h2 {
+      color: #1d4ed8;
+    }
+    h1 {
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 8px;
+    }
+    h2 {
+      border-left: 5px solid #3b82f6;
+      padding-left: 12px;
+      margin-top: 40px;
+    }
+    .box {
+      background-color: #e0f2fe;
+      border-left: 6px solid #0284c7;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .alerta {
+      background-color: #fef9c3;
+      border-left: 6px solid #facc15;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .exemplo {
+      background-color: #f0fdf4;
+      border-left: 5px solid #22c55e;
+      padding: 12px;
+      margin: 15px 0;
+      font-family: monospace;
+    }
+    ul {
+      padding-left: 25px;
+    }
+    code {
+      background-color: #e2e8f0;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Montadores, Compiladores, Ligadores e Interpretadores</h1>
+
+<p>Esses componentes são fundamentais no ciclo de tradução e execução de programas. Entender como cada um atua ajuda a prever o comportamento de uma linguagem e suas ferramentas de desenvolvimento.</p>
+
+<h2>🔧 1. Montador (Assembler)</h2>
+<p>Traduz um código escrito em linguagem Assembly para linguagem de máquina (binário).</p>
+
+<ul>
+  <li>Entrada: Código Assembly (.asm)</li>
+  <li>Saída: Código objeto (.obj ou .o)</li>
+  <li>É específico para a arquitetura do processador (x86, ARM, etc.)</li>
+</ul>
+
+<div class="exemplo">
+  mov eax, 1  →  0xB8 0x01 0x00 0x00 0x00
+</div>
+
+<h2>🧠 2. Compilador (Compiler)</h2>
+<p>Traduz o código-fonte de uma linguagem de alto nível para código de máquina ou intermediário.</p>
+
+<ul>
+  <li>Entrada: Código-fonte (.c, .java, .pas, etc.)</li>
+  <li>Saída: Código objeto ou binário</li>
+  <li>Tipos:
+    <ul>
+      <li><strong>Compilador Nativo:</strong> Gera executável direto (ex: GCC)</li>
+      <li><strong>Compilador para Bytecode:</strong> Gera código intermediário (ex: Java → .class → JVM)</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="box">
+  <strong>CEBRASPE GOSTA:</strong> De perguntas sobre estágios de compilação:
+  <ul>
+    <li>Análise léxica</li>
+    <li>Análise sintática</li>
+    <li>Análise semântica</li>
+    <li>Geração de código intermediário</li>
+    <li>Otimização</li>
+  </ul>
+</div>
+
+<h2>🔗 3. Ligador (Linker)</h2>
+<p>Une vários módulos de código objeto em um único executável final.</p>
+
+<ul>
+  <li>Combina bibliotecas externas</li>
+  <li>Resolve referências entre funções e variáveis</li>
+  <li>Gera o programa executável (.exe, .out, etc.)</li>
+</ul>
+
+<div class="exemplo">
+  main.obj + math.obj + printf.obj → a.exe
+</div>
+
+<h3>Tipos de Linking:</h3>
+<ul>
+  <li><strong>Estático:</strong> Bibliotecas são incorporadas ao binário final</li>
+  <li><strong>Dinâmico:</strong> Bibliotecas são carregadas em tempo de execução (.dll, .so)</li>
+</ul>
+
+<div class="alerta">
+  <strong>Dica CEBRASPE:</strong> Perguntas sobre <code>ligação estática vs dinâmica</code> são comuns!
+</div>
+
+<h2>🗣️ 4. Interpretador</h2>
+<p>Executa o código linha por linha, sem gerar binário intermediário.</p>
+
+<ul>
+  <li>Entrada: Código-fonte</li>
+  <li>Saída: Ação direta</li>
+  <li>Mais lento, mas útil para scripts e testes</li>
+</ul>
+
+<h3>Linguagens com interpretadores famosos:</h3>
+<ul>
+  <li><strong>Python</strong> (CPython, PyPy)</li>
+  <li><strong>JavaScript</strong> (V8, SpiderMonkey)</li>
+  <li><strong>Ruby</strong>, <strong>Perl</strong>, <strong>Bash</strong></li>
+</ul>
+
+<div class="exemplo">
+  Python:
+  <br>
+  <code>print("Olá, Perito!")</code> → interpretado imediatamente
+</div>
+
+<h2>⚖️ Comparativo Rápido</h2>
+
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width:100%; background-color: #ffffff;">
+  <thead style="background-color: #dbeafe;">
+    <tr>
+      <th>Processador</th>
+      <th>Entrada</th>
+      <th>Saída</th>
+      <th>Quando Atua</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Montador</td>
+      <td>Assembly</td>
+      <td>Código objeto</td>
+      <td>Antes do Linker</td>
+    </tr>
+    <tr>
+      <td>Compilador</td>
+      <td>Código-fonte (C, Java, etc.)</td>
+      <td>Código objeto / bytecode</td>
+      <td>Antes do Montador ou Máquina Virtual</td>
+    </tr>
+    <tr>
+      <td>Ligador</td>
+      <td>Códigos objeto</td>
+      <td>Executável final</td>
+      <td>Após compilação</td>
+    </tr>
+    <tr>
+      <td>Interpretador</td>
+      <td>Código-fonte</td>
+      <td>Execução direta</td>
+      <td>Tempo de execução (run-time)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>📌 Palavras-chave para revisar na véspera</h2>
+<ul>
+  <li>Lexema, token, árvore sintática</li>
+  <li>Compilação x Interpretação</li>
+  <li>Ligação dinâmica x estática</li>
+  <li>Assembler, Compiler, Linker, Interpreter</li>
+  <li>Compilação para bytecode (Java, C#)</li>
+</ul>
+
+<div class="box">
+  <strong>Dica Final:</strong> CEBRASPE cobra <em>comparações</em> e <em>fluxo de processo</em>. Estude em blocos: "compilar → montar → ligar → executar".
+</div>
+
+</body>
+</html>

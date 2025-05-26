@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistemas de Arquivos - PF</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      padding: 20px;
+      line-height: 1.7;
+    }
+    h1, h2, h3 {
+      color: #1a237e;
+    }
+    h1 {
+      border-bottom: 2px solid #1a237e;
+      padding-bottom: 6px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .box {
+      background-color: #e3f2fd;
+      border-left: 5px solid #1976d2;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .alerta {
+      background-color: #fff3e0;
+      border-left: 5px solid #f57c00;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th {
+      background-color: #bbdefb;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sistemas de Arquivos: FAT32, exFAT, NTFS, EXT3, EXT4, XFS</h1>
+
+  <p>Resumo objetivo para concursos da Polícia Federal. Entenda os principais sistemas de arquivos, suas diferenças, características e funcionamento — com foco nos tópicos mais cobrados pela banca CEBRASPE.</p>
+
+  <div class="box">
+    <h2>1. Conceito de Sistema de Arquivos</h2>
+    <ul>
+      <li>Método de organização e armazenamento de dados em dispositivos como HDs, SSDs e pendrives.</li>
+      <li>Define estrutura de diretórios, permissões, blocos, metadados e limites.</li>
+      <li>Cada SO (Windows, Linux, etc.) tem suporte nativo a determinados sistemas.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>2. Comparativo Rápido</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Sistema</th>
+          <th>SO Nativo</th>
+          <th>Max. Arquivo</th>
+          <th>Max. Partição</th>
+          <th>Journaling</th>
+          <th>Permissões</th>
+          <th>Criptografia</th>
+          <th>Observações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>FAT32</td>
+          <td>Windows</td>
+          <td>4 GB</td>
+          <td>8 TB</td>
+          <td>Não</td>
+          <td>Não</td>
+          <td>Não</td>
+          <td>Alta compatibilidade, mas limitado.</td>
+        </tr>
+        <tr>
+          <td>exFAT</td>
+          <td>Windows</td>
+          <td>16 EB</td>
+          <td>128 PB</td>
+          <td>Não</td>
+          <td>Não</td>
+          <td>Não</td>
+          <td>Ideal para pendrives modernos, compatível com Mac.</td>
+        </tr>
+        <tr>
+          <td>NTFS</td>
+          <td>Windows</td>
+          <td>16 TB (prático)</td>
+          <td>256 TB</td>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Padrão Windows. Suporte a compressão e logs.</td>
+        </tr>
+        <tr>
+          <td>EXT3</td>
+          <td>Linux</td>
+          <td>2 TB</td>
+          <td>32 TB</td>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Parcial</td>
+          <td>Primeiro ext com journaling.</td>
+        </tr>
+        <tr>
+          <td>EXT4</td>
+          <td>Linux</td>
+          <td>16 TB</td>
+          <td>1 EB</td>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Melhor desempenho que o EXT3.</td>
+        </tr>
+        <tr>
+          <td>XFS</td>
+          <td>Linux</td>
+          <td>8 EB</td>
+          <td>8 EB</td>
+          <td>Sim</td>
+          <td>Sim</td>
+          <td>Não</td>
+          <td>Alta performance e escalabilidade.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="box">
+    <h2>3. O que são Metadados?</h2>
+    <ul>
+      <li>São dados sobre os dados: informações que descrevem arquivos.</li>
+      <li>Incluem: nome, data de criação, permissões, localização, tamanho, etc.</li>
+      <li>Fundamentais para sistemas de arquivos com <strong>controle de acesso e auditoria</strong>.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>4. Journaling</h2>
+    <ul>
+      <li>Recurso que registra mudanças antes de executá-las, evitando corrupção em caso de falhas.</li>
+      <li><strong>EXT3, EXT4, NTFS e XFS</strong> têm journaling.</li>
+      <li>FAT32 e exFAT <strong>não têm</strong>.</li>
+    </ul>
+  </div>
+
+  <div class="alerta">
+    <h3>🎯 Pegadinhas comuns da CEBRASPE:</h3>
+    <ul>
+      <li><strong>exFAT ≠ FAT32</strong> → Suporte muito maior a arquivos e partições.</li>
+      <li><strong>EXT4 é retrocompatível com EXT3</strong>, mas não o contrário.</li>
+      <li><strong>NTFS tem suporte a logs, criptografia e compressão</strong>.</li>
+      <li><strong>XFS é altamente escalável</strong>, ideal para grandes volumes de dados.</li>
+    </ul>
+  </div>
+
+  <div class="alerta">
+    <h3>💡 Dica de memorização</h3>
+    <ul>
+      <li><strong>FAT32:</strong> “Fraco, Antigo, Tamanho 32-bit”</li>
+      <li><strong>exFAT:</strong> “Estendido para dispositivos móveis”</li>
+      <li><strong>NTFS:</strong> “Nativo, Totalmente Seguro”</li>
+      <li><strong>EXT3/EXT4:</strong> “Extensão Linux com Journaling”</li>
+      <li><strong>XFS:</strong> “eXtremely Fast System”</li>
+    </ul>
+  </div>
+
+</body>
+</html>

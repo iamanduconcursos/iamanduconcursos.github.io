@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Segurança da Informação: Tipos de Malware</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8fafc;
+      color: #1f2937;
+      padding: 30px;
+      line-height: 1.7;
+    }
+    h1, h2 {
+      color: #1d4ed8;
+    }
+    h1 {
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 8px;
+    }
+    h2 {
+      border-left: 5px solid #3b82f6;
+      padding-left: 12px;
+      margin-top: 40px;
+    }
+    .box {
+      background-color: #e0f2fe;
+      border-left: 6px solid #0284c7;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .alerta {
+      background-color: #fef9c3;
+      border-left: 6px solid #facc15;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .exemplo {
+      background-color: #f0fdf4;
+      border-left: 5px solid #22c55e;
+      padding: 12px;
+      margin: 15px 0;
+      font-family: monospace;
+    }
+    ul {
+      padding-left: 25px;
+    }
+    .malware-title {
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #0f172a;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Segurança da Informação: Tipos de Malware</h1>
+
+<p>O entendimento dos diferentes tipos de malwares é essencial para detectar ameaças e adotar medidas eficazes de proteção. Este resumo é otimizado para provas CEBRASPE/CESPE.</p>
+
+<h2>💀 O que é Malware?</h2>
+<p>Malware = <strong>Malicious Software</strong>. Programa projetado para causar dano, roubo, espionagem ou acesso não autorizado a sistemas.</p>
+
+<h2>🧠 Classificação Estratégica</h2>
+
+<h3 class="malware-title">📌 1. Vírus</h3>
+<ul>
+  <li>Depende de um <strong>arquivo hospedeiro</strong></li>
+  <li>Requer <strong>execução manual</strong> para se espalhar</li>
+  <li>Pode danificar arquivos, setores de boot, etc.</li>
+</ul>
+
+<div class="exemplo">
+  Exemplo: "Melissa", "ILOVEYOU"
+</div>
+
+<h3 class="malware-title">📌 2. Worms (vermes)</h3>
+<ul>
+  <li>Se replicam <strong>automaticamente</strong> em redes</li>
+  <li>Não precisam de hospedeiro</li>
+  <li>Causam lentidão, consumo de banda, DoS</li>
+</ul>
+
+<div class="exemplo">
+  Exemplo: "SQL Slammer", "Conficker"
+</div>
+
+<h3 class="malware-title">📌 3. Trojan (Cavalo de Troia)</h3>
+<ul>
+  <li>Disfarçado de software legítimo</li>
+  <li>Permite <strong>acesso remoto</strong>, roubo de dados</li>
+  <li>Não se replica, mas pode instalar outros malwares</li>
+</ul>
+
+<h3 class="malware-title">📌 4. Spyware</h3>
+<ul>
+  <li>Espiona atividades do usuário sem consentimento</li>
+  <li>Coleta dados, hábitos de navegação, senhas</li>
+  <li>Pode ser instalado via sites ou trojans</li>
+</ul>
+
+<h3 class="malware-title">📌 5. Keylogger</h3>
+<ul>
+  <li>Captura tudo digitado no teclado</li>
+  <li>Roubos de credenciais e dados bancários</li>
+  <li>Pode ser hardware ou software</li>
+</ul>
+
+<h3 class="malware-title">📌 6. Adware</h3>
+<ul>
+  <li>Exibe anúncios excessivos (às vezes legítimo, às vezes não)</li>
+  <li>Coleta dados de navegação</li>
+  <li>Pode degradar performance</li>
+</ul>
+
+<h3 class="malware-title">📌 7. Backdoor</h3>
+<ul>
+  <li>Cria uma "porta dos fundos" no sistema</li>
+  <li>Permite acesso remoto não autorizado</li>
+  <li>É utilizado por trojans, rootkits e APTs</li>
+</ul>
+
+<h3 class="malware-title">📌 8. Rootkit</h3>
+<ul>
+  <li>Se oculta no sistema operacional (nível kernel ou usermode)</li>
+  <li>Garante <strong>persistência e invisibilidade</strong></li>
+  <li>Dificulta a detecção por antivírus e logs</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ Rootkits são perigosos pois <strong>modificam funções do sistema</strong> para esconder outros malwares.
+</div>
+
+<h3 class="malware-title">📌 9. Ransomware</h3>
+<ul>
+  <li>Criptografa arquivos e exige resgate (em criptomoeda)</li>
+  <li>Frequente em ataques a empresas e órgãos públicos</li>
+  <li>Tem variações como: Locker (bloqueio do sistema), Crypto (cripta dados)</li>
+</ul>
+
+<div class="exemplo">
+  Exemplo: WannaCry, Locky, Petya
+</div>
+
+<h3 class="malware-title">📌 10. Fileless Malware</h3>
+<ul>
+  <li>Não grava arquivos no disco</li>
+  <li>Age na memória (RAM)</li>
+  <li>Dificulta detecção por antivírus tradicionais</li>
+  <li>Utiliza ferramentas legítimas (ex: PowerShell)</li>
+</ul>
+
+<div class="box">
+  <strong>Fileless = Invisível para antivírus</strong> <br>
+  Muito usado em ataques persistentes (APT)
+</div>
+
+<h2>📊 Comparativo rápido</h2>
+<table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%; background: #fff;">
+  <thead style="background-color: #dbeafe;">
+    <tr>
+      <th>Tipo</th>
+      <th>Se replica?</th>
+      <th>Instala silencioso?</th>
+      <th>Rouba dados?</th>
+      <th>Invisível?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Vírus</td>
+      <td>Sim (com ação do usuário)</td>
+      <td>Parcial</td>
+      <td>Possivelmente</td>
+      <td>Não</td>
+    </tr>
+    <tr>
+      <td>Worm</td>
+      <td>Sim (automático)</td>
+      <td>Sim</td>
+      <td>Não</td>
+      <td>Não</td>
+    </tr>
+    <tr>
+      <td>Trojan</td>
+      <td>Não</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <td>Keylogger</td>
+      <td>Não</td>
+      <td>Sim</td>
+      <td>Sim (teclado)</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <td>Ransomware</td>
+      <td>Não</td>
+      <td>Sim</td>
+      <td>Sim (sequestro)</td>
+      <td>Parcial</td>
+    </tr>
+    <tr>
+      <td>Rootkit</td>
+      <td>Não</td>
+      <td>Sim</td>
+      <td>Não diretamente</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <td>Fileless</td>
+      <td>Não</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim (RAM)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>📌 Palavras-chave de prova</h2>
+<ul>
+  <li><code>Fileless = Memória</code></li>
+  <li><code>Rootkit = Ocultação</code></li>
+  <li><code>Trojan ≠ vírus</code></li>
+  <li><code>Spyware ≠ Adware</code></li>
+  <li><code>Ransomware = Sequestro de arquivos</code></li>
+</ul>
+
+<div class="alerta">
+  <strong>⚠️ CEBRASPE gosta de pegadinhas:</strong> "Todo vírus se replica automaticamente" — FALSO. Precisa da execução do hospedeiro.
+</div>
+
+</body>
+</html>

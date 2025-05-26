@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo: Autômatos DFA e NFA - PF Perito Digital</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8fafc;
+      color: #1f2937;
+      line-height: 1.7;
+      padding: 30px;
+    }
+    h1, h2 {
+      color: #1d4ed8;
+    }
+    h1 {
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 8px;
+    }
+    h2 {
+      border-left: 5px solid #3b82f6;
+      padding-left: 12px;
+      margin-top: 40px;
+    }
+    .box {
+      background-color: #e0f2fe;
+      border-left: 6px solid #0284c7;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .alerta {
+      background-color: #fef9c3;
+      border-left: 6px solid #facc15;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .exemplo {
+      background-color: #f0fdf4;
+      border-left: 5px solid #22c55e;
+      padding: 12px;
+      margin: 15px 0;
+      font-family: monospace;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background-color: #ffffff;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    th {
+      background-color: #dbeafe;
+    }
+    code {
+      background-color: #e2e8f0;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Autômatos Determinísticos (DFA) e Não-Determinísticos (NFA)</h1>
+
+<p>Autômatos são modelos matemáticos que reconhecem linguagens formais. Muito cobrados em provas por exigirem raciocínio lógico e domínio de estruturas teóricas.</p>
+
+<h2>⚙️ Conceitos Fundamentais</h2>
+<ul>
+  <li><strong>AFD (DFA):</strong> Autômato Finito Determinístico</li>
+  <li><strong>AFND (NFA):</strong> Autômato Finito Não-Determinístico</li>
+  <li><strong>Linguagem Regular:</strong> Conjunto de cadeias reconhecidas por um autômato</li>
+  <li><strong>Expressões Regulares:</strong> Equivalentes a AFDs e AFNDs</li>
+</ul>
+
+<h2>🔁 Componentes de um Autômato</h2>
+<ul>
+  <li><strong>Q:</strong> Conjunto de estados</li>
+  <li><strong>Σ (Sigma):</strong> Alfabeto (símbolos de entrada)</li>
+  <li><strong>δ (delta):</strong> Função de transição</li>
+  <li><strong>q₀:</strong> Estado inicial</li>
+  <li><strong>F:</strong> Conjunto de estados finais</li>
+</ul>
+
+<div class="box">
+  <strong>CEBRASPE GOSTA:</strong> Questões que envolvem a simulação de entrada em autômatos, construção de AFND para expressões regulares e conversão para AFD.
+</div>
+
+<h2>✅ Autômato Finito Determinístico (AFD / DFA)</h2>
+
+<ul>
+  <li>Para cada estado <code>q</code> e símbolo <code>a</code> existe UMA única transição.</li>
+  <li>Não possui transições vazias (ε).</li>
+</ul>
+
+<div class="exemplo">
+  Exemplo DFA:<br>
+  Q = {q0, q1}<br>
+  Σ = {0, 1}<br>
+  δ(q0, 0) = q1<br>
+  δ(q1, 1) = q0<br>
+  q₀ = q0<br>
+  F = {q1}
+</div>
+
+<h2>❓ Autômato Finito Não-Determinístico (AFND / NFA)</h2>
+<ul>
+  <li>Pode haver múltiplas transições para o mesmo símbolo.</li>
+  <li>Permite transições com <strong>ε (vazio)</strong>.</li>
+  <li>Aceita se <strong>pelo menos um caminho</strong> levar ao estado final.</li>
+</ul>
+
+<div class="exemplo">
+  Exemplo AFND:<br>
+  Q = {q0, q1, q2}<br>
+  Σ = {a, b}<br>
+  δ(q0, a) = {q0, q1}<br>
+  δ(q1, b) = {q2}<br>
+  δ(q2, ε) = {q0}<br>
+  q₀ = q0<br>
+  F = {q2}
+</div>
+
+<h2>🔄 Conversão de AFND para AFD</h2>
+<p>Usa-se o <strong>conjunto de estados</strong> para representar transições não determinísticas. Chama-se <strong>construção de subconjuntos</strong>.</p>
+
+<ul>
+  <li>Aumenta o número de estados</li>
+  <li>Remove ε-transições</li>
+  <li>Cria um AFD equivalente (mesma linguagem reconhecida)</li>
+</ul>
+
+<div class="alerta">
+  <strong>⚠️ Atenção:</strong> Toda linguagem reconhecida por um AFND também pode ser reconhecida por um AFD. Eles são <strong>equivalentes em poder computacional</strong>.
+</div>
+
+<h2>📊 Comparativo DFA vs NFA</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Característica</th>
+      <th>DFA (AFD)</th>
+      <th>NFA (AFND)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Determinismo</td>
+      <td>1 transição por símbolo</td>
+      <td>Múltiplas transições possíveis</td>
+    </tr>
+    <tr>
+      <td>ε-transições</td>
+      <td>Não permite</td>
+      <td>Permite</td>
+    </tr>
+    <tr>
+      <td>Facilidade de simulação</td>
+      <td>Mais fácil (linear)</td>
+      <td>Mais complexa (backtracking ou árvore de caminhos)</td>
+    </tr>
+    <tr>
+      <td>Poder computacional</td>
+      <td>Igual</td>
+      <td>Igual</td>
+    </tr>
+    <tr>
+      <td>Uso prático</td>
+      <td>Compiladores, analisadores léxicos</td>
+      <td>Modelagem teórica, regex</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>🔍 Palavras-chave CEBRASPE</h2>
+<ul>
+  <li><code>δ: Q × Σ → Q</code> (AFD)</li>
+  <li><code>δ: Q × Σ → 2^Q</code> (AFND)</li>
+  <li>Função de transição, estado de aceitação</li>
+  <li>Construção de subconjuntos</li>
+  <li>Equivalência entre AFND e AFD</li>
+</ul>
+
+<div class="box">
+  <strong>Dica de Ouro:</strong> Se a banca apresentar um autômato, simule a cadeia passo a passo. Não tente adivinhar — a CEBRASPE adora erros por descuido.
+</div>
+
+<h2>🎯 O que memorizar até a prova?</h2>
+<ul>
+  <li>Diferença entre AFD e AFND</li>
+  <li>Representação formal de autômatos</li>
+  <li>Como simular uma cadeia em um autômato</li>
+  <li>Relação com expressões regulares</li>
+  <li>Construção de AFD a partir de AFND</li>
+</ul>
+
+</body>
+</html>

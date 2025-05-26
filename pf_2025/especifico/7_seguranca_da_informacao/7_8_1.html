@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Recuperação de Dados - Perito Digital PF</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8fafd;
+      color: #1a1a1a;
+      max-width: 960px;
+      margin: 30px auto;
+      padding: 30px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #102c57;
+    }
+    .section {
+      background-color: #ffffff;
+      padding: 25px 30px;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 30px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .highlight {
+      background-color: #d6ebff;
+      border-left: 6px solid #102c57;
+      padding: 15px;
+      margin: 20px 0;
+      font-weight: 600;
+    }
+    code {
+      background-color: #e4edf7;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h1>Perito Digital PF – Segurança da Informação</h1>
+    <h2>🧩 Recuperação de Dados: Técnicas e Sistemas de Arquivos</h2>
+
+    <h3>1. Fundamentos da Recuperação de Dados</h3>
+    <ul>
+      <li>Processo de reaquisição de dados perdidos, deletados, corrompidos ou inacessíveis.</li>
+      <li>Pode ser realizada de forma lógica (software) ou física (hardware/sala limpa).</li>
+      <li>É essencial no contexto forense para recuperação de evidências digitais.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. Por que é possível recuperar dados apagados?</h2>
+    <ul>
+      <li>Em muitos sistemas de arquivos, apagar um arquivo apenas remove o ponteiro de referência — os dados continuam fisicamente presentes até serem sobrescritos.</li>
+      <li>Espaços marcados como "livres" ainda podem conter conteúdo recuperável.</li>
+    </ul>
+    <div class="highlight">
+      Exceção: sistemas com TRIM (SSD) ou criptografia total tornam a recuperação quase impossível após deleção.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>3. Principais Sistemas de Arquivos e Como Tratar</h2>
+    <ul>
+      <li><strong>FAT32 / exFAT:</strong> Preserva estrutura de diretório. Apagar remove apenas entrada da FAT. Ferramentas como <code>PhotoRec</code> e <code>R-Studio</code> recuperam facilmente.</li>
+      <li><strong>NTFS:</strong> Mantém MFT (Master File Table). Fragmentação pode dificultar, mas metadados ajudam na reconstituição.</li>
+      <li><strong>ext3/ext4 (Linux):</strong> Apagar com <code>rm</code> remove inode, mas dados permanecem no disco.</li>
+      <li><strong>HFS+/APFS (macOS):</strong> Complexidade aumenta com snapshots. APFS pode criptografar automaticamente.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>4. Técnicas de Recuperação Lógica (Software)</h2>
+    <ul>
+      <li><strong>Verificação de headers:</strong> Busca por assinaturas de arquivos (PDF, JPG, DOCX) no disco.</li>
+      <li><strong>Carving de arquivos:</strong> Recuperação baseada em padrões binários e extensões, mesmo sem metadados.</li>
+      <li><strong>Reconstrução manual:</strong> Em investigações complexas, dados podem ser remontados a partir de fragmentos.</li>
+      <li><strong>Logs e Journal:</strong> Alguns sistemas mantêm logs temporários com referências antigas.</li>
+    </ul>
+    <div class="highlight">
+      Ferramentas comuns: <code>TestDisk</code>, <code>PhotoRec</code>, <code>Autopsy</code>, <code>FTK Imager</code>, <code>Recuva</code>.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>5. Técnicas de Recuperação Física (Hardware)</h2>
+    <ul>
+      <li>Necessária quando há falhas mecânicas, danos elétricos ou mídia corrompida.</li>
+      <li>Realizada em ambientes controlados ("sala limpa").</li>
+      <li>Usada para clonagem de discos danificados via técnicas como <code>ddrescue</code>.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>6. Itens Quentes na Banca CEBRASPE</h2>
+    <ul>
+      <li>Como arquivos são marcados como apagados em diferentes sistemas de arquivos.</li>
+      <li>Diferenciação entre deleção lógica e destruição física de dados.</li>
+      <li>Conhecimento de ferramentas de recuperação e suas aplicações.</li>
+      <li>Riscos de recuperação após uso de SSD com TRIM ou wipes seguros.</li>
+    </ul>
+    <div class="highlight">
+      ⚠️ Cuidado: a banca gosta de explorar confusões entre "deleção" e "sobrescrição definitiva". Atenção também ao funcionamento dos sistemas de arquivos!
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>7. Boas Práticas Forenses</h2>
+    <ul>
+      <li>Trabalhar sempre com cópias forenses (imagens bit a bit).</li>
+      <li>Preservar a cadeia de custódia.</li>
+      <li>Evitar montar discos em sistemas operacionais que possam sobrescrevê-los.</li>
+      <li>Usar ferramentas de write-blocking sempre que possível.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔑 Conclusão</h2>
+    <p>
+      O domínio das técnicas de recuperação de dados é uma habilidade crucial para o Perito Digital. A banca CEBRASPE exige não só conhecimento técnico das ferramentas, mas também compreensão profunda dos sistemas de arquivos e seus mecanismos internos.
+    </p>
+    <p>
+      Prepare-se para questões teóricas e aplicadas, com análise de situações reais e escolha de ferramentas apropriadas.
+    </p>
+  </div>
+
+</body>
+</html>

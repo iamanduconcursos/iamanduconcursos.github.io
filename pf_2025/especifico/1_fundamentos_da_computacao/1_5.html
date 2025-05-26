@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tecnologias de Virtualização - PF</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      padding: 20px;
+      line-height: 1.7;
+    }
+    h1, h2, h3 {
+      color: #1a237e;
+    }
+    h1 {
+      border-bottom: 2px solid #1a237e;
+      padding-bottom: 8px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .box {
+      background-color: #e3f2fd;
+      border-left: 5px solid #1976d2;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .alerta {
+      background-color: #fff3e0;
+      border-left: 5px solid #f57c00;
+      padding: 15px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tecnologias de Virtualização</h1>
+
+  <p>Resumo otimizado para concursos da Polícia Federal sobre <strong>virtualização e tecnologias correlatas</strong>. Foco total no que a banca CEBRASPE costuma exigir: <em>conceitos, comparações, arquitetura e aplicação prática.</em></p>
+
+  <div class="box">
+    <h2>1. O que é Virtualização?</h2>
+    <ul>
+      <li>Técnica que simula um ambiente computacional completo (hardware ou software).</li>
+      <li>Permite rodar múltiplos sistemas operacionais ou aplicações isoladamente.</li>
+      <li>Base para computação em nuvem, ambientes de teste e segurança digital.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>2. Emuladores</h2>
+    <ul>
+      <li>Simulam <strong>hardware e software</strong> completamente.</li>
+      <li>Permite executar sistemas de uma arquitetura diferente da máquina host.</li>
+      <li>Exemplo: QEMU, emuladores de Android, SNES, PSP, etc.</li>
+      <li><strong>Lento</strong>, pois tudo é traduzido para o hardware hospedeiro.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>3. Máquinas Virtuais (VMs)</h2>
+    <ul>
+      <li>Simulam um computador completo com <strong>hardware virtualizado</strong>.</li>
+      <li>Executam múltiplos sistemas operacionais no mesmo host físico.</li>
+      <li>Utilizam um hipervisor (tipo 1 ou 2).</li>
+      <li><strong>Exemplos:</strong> VMware, VirtualBox, Hyper-V, KVM.</li>
+      <li>Boa <strong>isolação</strong>, mas uso maior de recursos.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>4. Contêineres</h2>
+    <ul>
+      <li>Isolam aplicações usando o <strong>kernel do host</strong> (não virtualizam hardware).</li>
+      <li>Compartilham sistema operacional base → mais <strong>leves e rápidos</strong> que VMs.</li>
+      <li>Mais adequados para microserviços e DevOps.</li>
+      <li><strong>Exemplos:</strong> Docker, LXC, Podman.</li>
+      <li>Isolamento é menor que em VMs (dependem do kernel do host).</li>
+    </ul>
+  </div>
+
+  <div class="alerta">
+    <h3>🎯 CEBRASPE adora cobrar:</h3>
+    <ul>
+      <li><strong>Comparação entre VMs e Contêineres</strong>: leveza, desempenho, isolamento.</li>
+      <li><strong>Diferença entre emulação e virtualização</strong>.</li>
+      <li><strong>Hipervisores tipo 1 e 2</strong>:
+        <ul>
+          <li><strong>Tipo 1:</strong> Bare-metal, roda direto no hardware (Ex: ESXi, Hyper-V Server).</li>
+          <li><strong>Tipo 2:</strong> Roda sobre o sistema operacional (Ex: VirtualBox, VMware Workstation).</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>5. Comparativo Final</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+      <thead>
+        <tr style="background-color:#bbdefb">
+          <th>Recurso</th>
+          <th>Emulador</th>
+          <th>Máquina Virtual</th>
+          <th>Contêiner</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Virtualiza Hardware?</td>
+          <td>Simulado (via software)</td>
+          <td>Sim</td>
+          <td>Não</td>
+        </tr>
+        <tr>
+          <td>Isolamento</td>
+          <td>Completo</td>
+          <td>Alto</td>
+          <td>Médio</td>
+        </tr>
+        <tr>
+          <td>Desempenho</td>
+          <td>Baixo</td>
+          <td>Bom</td>
+          <td>Excelente</td>
+        </tr>
+        <tr>
+          <td>Uso de Recursos</td>
+          <td>Alto</td>
+          <td>Alto</td>
+          <td>Baixo</td>
+        </tr>
+        <tr>
+          <td>Exemplos</td>
+          <td>QEMU, ePSXe</td>
+          <td>VirtualBox, KVM</td>
+          <td>Docker, LXC</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="alerta">
+    <h3>💡 Memorização Turbo:</h3>
+    <ul>
+      <li><strong>“Emulador = Engana”</strong> → simula tudo, mesmo que lento.</li>
+      <li><strong>“VM = Virtual Machine real”</strong> → simula um PC completo.</li>
+      <li><strong>“Contêiner = Compartilha Kernel”</strong> → leve, rápido, menos isolado.</li>
+    </ul>
+  </div>
+
+</body>
+</html>

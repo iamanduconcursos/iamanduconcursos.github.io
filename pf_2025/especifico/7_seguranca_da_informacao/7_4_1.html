@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Autenticação e Autorização - Segurança da Informação</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8fafc;
+      color: #1e293b;
+      padding: 30px;
+      line-height: 1.7;
+    }
+    h1, h2 {
+      color: #1d4ed8;
+    }
+    h1 {
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 8px;
+    }
+    h2 {
+      border-left: 5px solid #3b82f6;
+      padding-left: 12px;
+      margin-top: 40px;
+    }
+    .box {
+      background-color: #e0f2fe;
+      border-left: 6px solid #0284c7;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .alerta {
+      background-color: #fef9c3;
+      border-left: 6px solid #facc15;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    code {
+      background-color: #e2e8f0;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    ul {
+      padding-left: 25px;
+    }
+    .tabela {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+    }
+    .tabela th, .tabela td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    .tabela th {
+      background-color: #dbeafe;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Autenticação, Autorização e Identidade Federada</h1>
+
+<p>Esses conceitos são pilares da <strong>Segurança da Informação</strong> e figuram constantemente em provas da <strong>CEBRASPE/CESPE</strong> para cargos de TI e Perícia Digital.</p>
+
+<h2>🔐 Fundamentos: Autenticação vs Autorização</h2>
+<ul>
+  <li><strong>Autenticação</strong> — Provar "quem é você"</li>
+  <li><strong>Autorização</strong> — Verificar "o que você pode fazer"</li>
+</ul>
+
+<div class="box">
+  <strong>Exemplo:</strong> Você faz login com senha (autenticação), e só depois acessa o painel de admin (autorização).
+</div>
+
+<h2>🧠 Conceitos-chave</h2>
+<ul>
+  <li><strong>Fatores de autenticação:</strong>
+    <ul>
+      <li>Algo que você sabe (senha)</li>
+      <li>Algo que você tem (token, smartcard)</li>
+      <li>Algo que você é (biometria)</li>
+    </ul>
+  </li>
+  <li><strong>Identidade federada:</strong> Um usuário se autentica uma vez e acessa múltiplos serviços</li>
+  <li><strong>Delegação:</strong> Um serviço atua em nome do usuário (ex: OAuth)</li>
+</ul>
+
+<h2>🔁 Single Sign-On (SSO)</h2>
+<p>Permite que o usuário se autentique <strong>uma vez</strong> e acesse diversos sistemas sem precisar relogar.</p>
+
+<ul>
+  <li>Reduz atrito de acesso</li>
+  <li>Base de identidade centralizada</li>
+  <li>Exemplo: login único do Google em Gmail, YouTube e Drive</li>
+</ul>
+
+<div class="alerta">
+  <strong>⚠️ Cuidado:</strong> SSO ≠ login social. SSO é um mecanismo técnico de sessão compartilhada. Login social é um uso comum com OAuth.
+</div>
+
+<h2>📘 SAML (Security Assertion Markup Language)</h2>
+<p>Padrão baseado em XML usado para <strong>SSO corporativo</strong>. Muito comum em empresas que usam AD/LDAP.</p>
+
+<ul>
+  <li><strong>Provedor de Identidade (IdP):</strong> Quem autentica</li>
+  <li><strong>Provedor de Serviço (SP):</strong> Quem fornece o serviço</li>
+  <li>Troca de mensagens via navegador (browser-based)</li>
+</ul>
+
+<div class="box">
+  <strong>Fluxo SAML típico:</strong>
+  <ol>
+    <li>Usuário acessa o SP (ex: app corporativo)</li>
+    <li>SP redireciona para o IdP (ex: Active Directory)</li>
+    <li>IdP autentica e retorna uma <strong>assertiva SAML</strong></li>
+    <li>SP valida a assertiva e concede acesso</li>
+  </ol>
+</div>
+
+<h2>🔑 OAuth 2.0 — Autorização baseada em tokens</h2>
+<p>OAuth é um <strong>protocolo de autorização</strong> usado para <strong>delegar acesso</strong> sem expor senhas.</p>
+
+<ul>
+  <li>Usuário concede permissão a um app para agir em seu nome</li>
+  <li>Não autentica o usuário diretamente (não é login)</li>
+</ul>
+
+<h3>Fluxo clássico:</h3>
+<ol>
+  <li>Usuário consente que App acesse dados da API</li>
+  <li>App recebe um <strong>Access Token</strong></li>
+  <li>Token é usado para acessar recursos</li>
+</ol>
+
+<h3>Perfis mais comuns:</h3>
+<ul>
+  <li><strong>Authorization Code:</strong> seguro, usado em apps web</li>
+  <li><strong>Implicit Flow:</strong> menos seguro, apps client-side</li>
+  <li><strong>Client Credentials:</strong> comunicação entre sistemas</li>
+</ul>
+
+<div class="alerta">
+  <strong>Importante:</strong> OAuth ≠ autenticação. Ele apenas autoriza acesso a APIs em nome do usuário.
+</div>
+
+<h2>🧭 OpenID Connect (OIDC)</h2>
+<p>É uma camada de <strong>autenticação</strong> construída sobre o OAuth 2.0.</p>
+
+<ul>
+  <li>Adiciona <strong>ID Token</strong> (JWT) que identifica o usuário</li>
+  <li>Permite login federado e coleta de perfil (e-mail, nome, etc.)</li>
+</ul>
+
+<h3>Tokens envolvidos:</h3>
+<ul>
+  <li><code>Access Token:</code> usado para acessar a API</li>
+  <li><code>ID Token:</code> identifica o usuário autenticado</li>
+</ul>
+
+<div class="box">
+  <strong>OIDC = OAuth 2.0 + Identidade</strong><br>
+  É o protocolo por trás do login via Google, Microsoft, Apple, etc.
+</div>
+
+<h2>📊 Comparativo SAML x OAuth x OIDC</h2>
+
+<table class="tabela">
+  <thead>
+    <tr>
+      <th>Aspecto</th>
+      <th>SAML</th>
+      <th>OAuth 2.0</th>
+      <th>OpenID Connect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tipo</td>
+      <td>Autenticação + SSO</td>
+      <td>Autorização</td>
+      <td>Autenticação + Identidade</td>
+    </tr>
+    <tr>
+      <td>Formato</td>
+      <td>XML</td>
+      <td>JSON</td>
+      <td>JSON / JWT</td>
+    </tr>
+    <tr>
+      <td>Transporte</td>
+      <td>Browser-based (redirect)</td>
+      <td>Redirect + REST</td>
+      <td>Redirect + REST</td>
+    </tr>
+    <tr>
+      <td>Uso comum</td>
+      <td>SSO corporativo</td>
+      <td>APIs, apps móveis</td>
+      <td>Login federado</td>
+    </tr>
+    <tr>
+      <td>Token de identidade</td>
+      <td>Sim (assertiva)</td>
+      <td>Não</td>
+      <td>Sim (ID Token)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>🧠 Palavras-chave para a prova</h2>
+<ul>
+  <li>SSO</li>
+  <li>OAuth não autentica</li>
+  <li>SAML → XML + Empresas</li>
+  <li>OIDC → JWT + Login federado</li>
+  <li>Access Token ≠ ID Token</li>
+  <li>Delegação de acesso</li>
+</ul>
+
+<div class="alerta">
+  <strong>Dica CEBRASPE:</strong> A banca adora questões com fluxo passo a passo ("o que acontece após o login", "quem autentica quem?"). Estude com diagramas mentais e tokens.
+</div>
+
+</body>
+</html>

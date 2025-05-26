@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistemas Operacionais: Gerenciador de Memória – Resumo Estratégico</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #f9f9d1; padding: 12px; border-left: 5px solid #f1c40f; margin: 10px 0; }
+    code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+
+<h2>🧠 Gerenciador de Memória – Sistemas Operacionais (Resumo para Perito PF)</h2>
+
+<div class="highlight">
+  Tema clássico e recorrente em provas da CEBRASPE/CESPE. Questões exigem domínio de conceitos, funcionamento interno e vantagens/desvantagens dos métodos.
+</div>
+
+<h3>📌 Função do Gerenciador de Memória</h3>
+<ul>
+  <li>Controlar o uso da memória principal (RAM) pelos processos.</li>
+  <li>Garantir <strong>isolamento</strong>, <strong>proteção</strong>, <strong>alocação eficiente</strong> e <strong>compartilhamento</strong>.</li>
+</ul>
+
+<h3>📦 Tipos de Gerenciamento de Memória</h3>
+<ul>
+  <li><strong>Particionamento Fixo:</strong> divide a memória em blocos fixos. Simples, mas pode causar fragmentação interna.</li>
+  <li><strong>Particionamento Variável:</strong> blocos do tamanho exato necessário. Reduz fragmentação interna, mas pode ter fragmentação externa.</li>
+</ul>
+
+<h3>🔢 Segmentação</h3>
+<ul>
+  <li>Memória dividida logicamente (ex: código, dados, pilha).</li>
+  <li>Permite <strong>proteção e compartilhamento</strong>.</li>
+  <li><strong>Endereço lógico</strong> = número do segmento + deslocamento.</li>
+</ul>
+
+<h3>📚 Paginação</h3>
+<ul>
+  <li>Divide memória física e lógica em <strong>páginas e molduras (frames)</strong>.</li>
+  <li><strong>Evita fragmentação externa.</strong></li>
+  <li>Endereço lógico dividido em: número da página + deslocamento.</li>
+  <li>Necessita de uma <strong>tabela de páginas</strong> para mapeamento.</li>
+</ul>
+
+<h3>🧠 Segmentação com Paginação</h3>
+<ul>
+  <li>Combina os dois métodos: segmentos são divididos em páginas.</li>
+  <li>Usado em arquiteturas modernas como o Intel x86.</li>
+</ul>
+
+<h3>💡 Memória Virtual</h3>
+<ul>
+  <li>Permite execução de programas maiores que a memória física.</li>
+  <li>Baseada em <strong>paginação sob demanda</strong>.</li>
+  <li><strong>Swap:</strong> movimentação entre RAM e disco.</li>
+  <li><strong>Page Fault:</strong> falha ao acessar página ausente na RAM.</li>
+</ul>
+
+<h3>📊 Comparativo dos Métodos</h3>
+<table>
+  <thead>
+    <tr><th>Método</th><th>Vantagem</th><th>Desvantagem</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Particionamento Fixo</td><td>Simplicidade</td><td>Fragmentação interna</td></tr>
+    <tr><td>Particionamento Variável</td><td>Eficiência de uso</td><td>Fragmentação externa</td></tr>
+    <tr><td>Segmentação</td><td>Organização lógica</td><td>Complexidade</td></tr>
+    <tr><td>Paginação</td><td>Sem fragmentação externa</td><td>Overhead de mapeamento</td></tr>
+  </tbody>
+</table>
+
+<h3>📚 Questões Clássicas CESPE/CEBRASPE</h3>
+<ul>
+  <li>"A paginação elimina a fragmentação externa." – <strong>VERDADEIRO</strong></li>
+  <li>"A segmentação permite proteção de cada parte do programa." – <strong>VERDADEIRO</strong></li>
+  <li>"Page fault ocorre quando uma página está corrompida." – <strong>FALSO</strong></li>
+</ul>
+
+<h3>🔑 Palavras-chave para Memorizar</h3>
+<ul>
+  <li>Segmentação = divisão lógica</li>
+  <li>Paginação = divisão física</li>
+  <li>Page Fault = ausência na RAM</li>
+  <li>Swap = usa o disco</li>
+</ul>
+
+<h3>🎯 Dica Final</h3>
+<p>Domine os <strong>modelos de alocação</strong> e <strong>diferenças entre paginação e segmentação</strong>. Questões cobram muito interpretação e diferenças conceituais.</p>
+
+</body>
+</html>

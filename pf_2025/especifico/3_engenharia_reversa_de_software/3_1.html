@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resumo - Engenharia Reversa de Software</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 2rem; background: #f9f9f9; color: #333; }
+    h1, h2, h3 { color: #1a1a1a; }
+    h1 { border-bottom: 2px solid #0077cc; padding-bottom: 0.3em; }
+    h2 { color: #0077cc; margin-top: 2em; }
+    ul { margin-bottom: 1.5em; }
+    code { background: #eaeaea; padding: 0.2em 0.4em; border-radius: 4px; }
+    .highlight { background: #dff0d8; padding: 1em; border-left: 4px solid #4cae4c; }
+  </style>
+</head>
+<body>
+
+  <h1>Engenharia Reversa de Software - Resumo para Concurso (Perito PF)</h1>
+
+  <h2>🧩 Engenharia Reversa de Software</h2>
+
+  <h3>1. Definição e Objetivos</h3>
+  <ul>
+    <li>Processo de análise de sistemas para entender seu funcionamento sem o código-fonte.</li>
+    <li><strong>Objetivos:</strong> identificar vulnerabilidades, analisar malware, recuperar código.</li>
+  </ul>
+
+  <h3>2. Aplicações Relevantes</h3>
+  <ul>
+    <li><strong>Análise de malware</strong>: entender comportamento malicioso.</li>
+    <li><strong>Auditoria de segurança</strong>: identificação de falhas.</li>
+    <li><strong>Recuperação de código</strong>: análise de binários.</li>
+  </ul>
+
+  <h2>🔍 Técnicas de Descompilação de Programas</h2>
+
+  <h3>1. Descompilação Estática</h3>
+  <ul>
+    <li>Converte binário em código de alto nível (ex: C).</li>
+    <li><strong>Limitações:</strong> perda de informações e dificuldade com código ofuscado.</li>
+  </ul>
+
+  <h3>2. Descompilação Dinâmica</h3>
+  <ul>
+    <li>Análise em tempo de execução.</li>
+    <li><strong>Ferramentas:</strong> OllyDbg, Immunity Debugger.</li>
+  </ul>
+
+  <h3>3. Técnicas de Ofuscação</h3>
+  <ul>
+    <li>Renomeação de variáveis e funções.</li>
+    <li>Inserção de código inútil.</li>
+    <li>Alterações em estruturas de controle.</li>
+  </ul>
+
+  <h3>4. Técnicas de Anti-Depuração</h3>
+  <ul>
+    <li>Detectar e desviar execução quando depuradores são encontrados.</li>
+    <li>Verificações comuns: <code>IsDebuggerPresent()</code>, <code>NtQueryInformationProcess</code>.</li>
+  </ul>
+
+  <h2>🛠️ Ferramentas Comuns</h2>
+  <ul>
+    <li><strong>IDA Pro</strong>: Desmontador e depurador.</li>
+    <li><strong>Ghidra</strong>: Ferramenta da NSA para análise de binários.</li>
+    <li><strong>Radare2</strong> e <strong>Cutter</strong>: ferramentas open source para engenharia reversa.</li>
+  </ul>
+
+  <h2>📚 Dicas para Estudo</h2>
+  <ul>
+    <li>Faça <strong>exercícios práticos</strong> com ferramentas reais.</li>
+    <li>Estude <strong>casos de malwares</strong> e técnicas de evasão.</li>
+    <li>Mantenha-se <strong>atualizado</strong> com novas versões e métodos.</li>
+  </ul>
+
+  <div class="highlight">
+    <h3>✅ Pontos Chave para a Prova (Cebraspe/CESPE)</h3>
+    <ul>
+      <li>Conceitos básicos de engenharia reversa.</li>
+      <li>Diferença entre descompilação estática e dinâmica.</li>
+      <li>Uso prático de ferramentas: IDA, Ghidra, Radare2.</li>
+      <li>Identificação de técnicas de ofuscação e anti-depuração.</li>
+      <li>Aplicações forenses e de segurança da engenharia reversa.</li>
+    </ul>
+  </div>
+
+</body>
+</html>

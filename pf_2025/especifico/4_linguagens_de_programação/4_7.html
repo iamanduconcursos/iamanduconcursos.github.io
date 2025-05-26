@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Linguagens de Programação - Análise Estática de Código e SonarQube</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9fbfc;
+      color: #222;
+      margin: 20px auto;
+      max-width: 900px;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #0a47a1;
+    }
+    .section {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .highlight {
+      background-color: #dbe9fb;
+      border-left: 6px solid #0a47a1;
+      padding: 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+    code {
+      background-color: #eef3f7;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h1>Perito Digital PF - Linguagens de Programação</h1>
+    <h2>📌 Análise Estática de Código Fonte e SonarQube</h2>
+
+    <h3>1. O que é Análise Estática de Código?</h3>
+    <p>
+      Técnica automatizada que verifica o código-fonte sem executá-lo, buscando erros, vulnerabilidades, bugs e más práticas.
+      É fundamental para garantir qualidade, segurança e manutenção do software.
+    </p>
+
+    <h3>2. Benefícios da Análise Estática</h3>
+    <ul>
+      <li>Detecta problemas antes da execução ou integração.</li>
+      <li>Reduz custos corrigindo erros precocemente.</li>
+      <li>Promove código mais seguro e legível.</li>
+      <li>Facilita compliance com padrões e normas (ex: OWASP, CWE).</li>
+    </ul>
+
+    <h3>3. Introdução ao SonarQube</h3>
+    <p>
+      SonarQube é uma plataforma open source para análise contínua de código-fonte que oferece:
+    </p>
+    <ul>
+      <li>Identificação de bugs, vulnerabilidades e "code smells".</li>
+      <li>Métricas de qualidade como cobertura de testes, duplicações e complexidade.</li>
+      <li>Suporte a múltiplas linguagens (Java, C#, JavaScript, Python, etc.).</li>
+      <li>Integração com CI/CD (Integração contínua e entrega contínua).</li>
+    </ul>
+
+    <h3>4. Componentes e Funcionamento do SonarQube</h3>
+    <ul>
+      <li><strong>Scanner:</strong> Ferramenta que analisa o código localmente e envia os dados para o servidor SonarQube.</li>
+      <li><strong>Servidor SonarQube:</strong> Interface web onde são exibidos relatórios, dashboards e histórico de análises.</li>
+      <li><strong>Qualidade do Código:</strong> Medida por regras que avaliam erros, vulnerabilidades e manutenção.</li>
+      <li><strong>Quality Gates:</strong> Critérios que determinam se uma versão do software está pronta para produção.</li>
+    </ul>
+
+    <h3>5. Principais Métricas e Termos Importantes</h3>
+    <ul>
+      <li><strong>Bugs:</strong> Defeitos que podem causar falhas.</li>
+      <li><strong>Vulnerabilidades:</strong> Pontos de segurança fracos exploráveis.</li>
+      <li><strong>Code Smells:</strong> Más práticas de programação que prejudicam manutenção.</li>
+      <li><strong>Cobertura de Testes:</strong> Percentual de código executado por testes automatizados.</li>
+      <li><strong>Complexidade Ciclomática:</strong> Quantidade de caminhos lógicos no código.</li>
+    </ul>
+
+    <h3>6. Por que o SonarQube é cobrado em concursos?</h3>
+    <p>
+      A banca CEBRASPE valoriza o conhecimento prático e conceitual da análise estática porque é essencial para garantir integridade, qualidade e segurança em softwares utilizados por órgãos públicos.
+    </p>
+    <p>Além disso, a análise estática é ferramenta-chave do Perito Digital para auditoria e investigação forense em código-fonte.</p>
+
+    <div class="highlight">
+      <strong>Dica CEBRASPE:</strong> Estude funcionamento geral do SonarQube, principais métricas, e entenda o que são bugs, vulnerabilidades e code smells. Saiba diferenciar análise estática e dinâmica.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>7. Passos básicos para usar o SonarQube</h2>
+    <ol>
+      <li>Configurar o projeto no SonarQube Server.</li>
+      <li>Executar o Sonar Scanner no código-fonte.</li>
+      <li>Analisar o relatório gerado no dashboard web.</li>
+      <li>Identificar e corrigir problemas reportados.</li>
+      <li>Repetir análise para garantir qualidade contínua.</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h2>8. Complementos e Ferramentas Relacionadas</h2>
+    <ul>
+      <li><strong>SonarLint:</strong> Plugin para IDE que aponta problemas em tempo real.</li>
+      <li><strong>Jenkins / GitLab CI:</strong> Integração do SonarQube com pipelines de integração contínua.</li>
+      <li><strong>OWASP Dependency Check:</strong> Complementa a análise com verificação de bibliotecas vulneráveis.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>9. Estudo Focado para Concurso</h2>
+    <ul>
+      <li>Conheça o conceito e vantagens da análise estática frente à análise dinâmica.</li>
+      <li>Entenda o papel do SonarQube como ferramenta de qualidade de código.</li>
+      <li>Foque nas métricas que o SonarQube apresenta e seu significado.</li>
+      <li>Pratique interpretação de relatórios simples gerados por SonarQube.</li>
+      <li>Revise conceitos básicos de qualidade de software e segurança da informação.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔑 Conclusão</h2>
+    <p>
+      A análise estática de código, com ferramentas como o SonarQube, é indispensável para garantir a qualidade, segurança e confiabilidade do software, atributos essenciais para o trabalho do Perito Digital na Polícia Federal. Dominar esses conceitos trará vantagem nas provas da banca CEBRASPE.
+    </p>
+  </div>
+
+</body>
+</html>

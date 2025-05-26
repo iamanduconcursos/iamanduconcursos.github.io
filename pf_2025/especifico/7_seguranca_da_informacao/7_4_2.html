@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Autenticação e Autorização - Segurança da Informação</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      padding: 30px;
+      background-color: #fdfdfd;
+      color: #222;
+    }
+    h1, h2 {
+      color: #002e5d;
+    }
+    h3 {
+      color: #004a80;
+    }
+    .box {
+      background-color: #eef6ff;
+      border-left: 6px solid #007acc;
+      padding: 14px;
+      margin: 20px 0;
+    }
+    .destaque {
+      background-color: #fffbe6;
+      border-left: 6px solid #ffcc00;
+    }
+    .perigo {
+      background-color: #ffe6e6;
+      border-left: 6px solid #ff3333;
+    }
+    code {
+      background-color: #f4f4f4;
+      padding: 3px 6px;
+      font-family: monospace;
+      border-radius: 4px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Autenticação e Autorização</h1>
+  <p><strong>Disciplina:</strong> Segurança da Informação<br>
+     <strong>Tema:</strong> Autenticação, Autorização e Biometria<br>
+     <strong>Concurso:</strong> Perito Criminal Federal – Polícia Federal<br>
+     <strong>Banca:</strong> CEBRASPE/CESPE</p>
+
+  <hr>
+
+  <h2>🔑 Conceitos Fundamentais</h2>
+
+  <h3>Autenticação</h3>
+  <p>Processo de <strong>verificar a identidade</strong> de um usuário, dispositivo ou sistema.</p>
+
+  <h3>Autorização</h3>
+  <p>Processo de <strong>conceder ou negar acesso</strong> a recursos com base nas permissões do usuário autenticado.</p>
+
+  <div class="box destaque">
+    ⚠️ <strong>Dica CESPE:</strong> Autenticação → "Quem é você?"<br>
+    Autorização → "Você pode acessar este recurso?"
+  </div>
+
+  <h3>Fatores de Autenticação</h3>
+  <ul>
+    <li><strong>Algo que você sabe:</strong> senha, PIN</li>
+    <li><strong>Algo que você tem:</strong> token, cartão, celular</li>
+    <li><strong>Algo que você é:</strong> biometria física (impressão digital, íris)</li>
+    <li><strong>Algo que você faz:</strong> biometria comportamental (voz, digitação)</li>
+  </ul>
+
+  <hr>
+
+  <h2>🧬 Biometria Física vs. Comportamental</h2>
+
+  <h3>Biometria Física</h3>
+  <ul>
+    <li><strong>Impressão digital:</strong> popular, rápida, alta precisão</li>
+    <li><strong>Reconhecimento facial:</strong> usado em celulares e aeroportos</li>
+    <li><strong>Análise de íris:</strong> altamente segura, mais cara</li>
+  </ul>
+
+  <h3>Biometria Comportamental</h3>
+  <ul>
+    <li><strong>Dinâmica de digitação:</strong> padrão de teclas e tempo</li>
+    <li><strong>Reconhecimento de voz:</strong> baseado em padrão vocal e fala</li>
+    <li><strong>Movimentação do mouse / toque:</strong> padrão de navegação</li>
+  </ul>
+
+  <div class="box destaque">
+    🔍 Biometria física → traço fixo e anatômico<br>
+    🔍 Biometria comportamental → traço dinâmico e comportamental
+  </div>
+
+  <hr>
+
+  <h2>📌 Características de Sistemas Biométricos</h2>
+
+  <ul>
+    <li><strong>FAR (False Acceptance Rate):</strong> taxa de falso positivo</li>
+    <li><strong>FRR (False Rejection Rate):</strong> taxa de falso negativo</li>
+    <li><strong>MRR (Matching Rate):</strong> taxa de acerto de identificação</li>
+    <li><strong>Tempo de resposta</strong> e <strong>custo</strong> também influenciam a adoção</li>
+  </ul>
+
+  <div class="box perigo">
+    ⚠️ Pegadinha comum: alta segurança exige baixo FAR, mas pode aumentar o FRR.
+  </div>
+
+  <h3>Prós e Contras:</h3>
+
+  <ul>
+    <li><strong>Alta segurança:</strong> biometria física (íris > rosto > digital)</li>
+    <li><strong>Menos invasiva:</strong> comportamental (voz, digitação)</li>
+    <li><strong>Problemas:</strong> spoofing, falhas técnicas, acessibilidade</li>
+  </ul>
+
+  <hr>
+
+  <h2>🎯 Dicas para CESPE</h2>
+  <ul>
+    <li>Autenticação ≠ autorização. Cada uma responde a uma pergunta distinta.</li>
+    <li>Biometria é algo que você <strong>é ou faz</strong>, não algo que você sabe ou tem.</li>
+    <li>Comportamental ≠ física! Voz, digitação e toque são <strong>dinâmicos</strong>.</li>
+    <li>Reconhecimento facial ≠ leitura de íris. São tecnologias diferentes!</li>
+    <li>Não confundir token (fator de posse) com biometria (fator de inerência).</li>
+  </ul>
+
+  <div class="box">
+    <strong>Resumo final:</strong><br>
+    - Autenticação: valida identidade<br>
+    - Autorização: valida acesso<br>
+    - Fatores: saber, ter, ser, fazer<br>
+    - Biometria física = impressão, íris, rosto<br>
+    - Biometria comportamental = voz, digitação, navegação<br>
+    - CESPE cobra associações e distinções finas entre conceitos
+  </div>
+
+</body>
+</html>

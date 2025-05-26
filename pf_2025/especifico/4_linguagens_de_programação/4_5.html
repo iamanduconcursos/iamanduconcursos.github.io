@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo - Linguagens de Programação | PF</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      padding: 30px;
+      background-color: #fefefe;
+      color: #222;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    h3 {
+      color: #004a7c;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 4px;
+      font-family: monospace;
+      border-radius: 4px;
+    }
+    .box {
+      background: #f9f9f9;
+      padding: 12px;
+      margin: 12px 0;
+      border-left: 5px solid #0074D9;
+    }
+    .destaque {
+      background: #fff8e1;
+      border-left: 5px solid #ffcc00;
+    }
+    .perigo {
+      background: #ffe6e6;
+      border-left: 5px solid #ff4444;
+    }
+    ul {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resumo Estratégico – Linguagens de Programação</h1>
+  <p><strong>Concurso:</strong> Perito Criminal Federal (Área de Computação)<br>
+     <strong>Banca:</strong> CEBRASPE/CESPE<br>
+     <strong>Disciplina:</strong> Linguagens de Programação<br>
+     <strong>Foco:</strong> C, Java, JavaScript, Python</p>
+
+  <hr>
+
+  <h2>🔹 Linguagem C</h2>
+  <h3>Pontos-Chave:</h3>
+  <ul>
+    <li>Tipagem estática, compilada e estruturada</li>
+    <li>Manipulação direta de memória com <code>malloc</code> e <code>free</code></li>
+    <li>Uso extensivo de ponteiros</li>
+    <li>Estruturas como <code>struct</code>, <code>typedef</code></li>
+    <li>Funções como <code>printf</code>, <code>scanf</code></li>
+  </ul>
+  <div class="destaque box">
+    Mais cobrado: ponteiros, arrays, passagem por referência, aritmética de ponteiros.
+  </div>
+  <div class="perigo box">
+    Pegadinha clássica CESPE: confusão entre ponteiro e valor da variável.
+  </div>
+
+  <h3>Exemplo:</h3>
+  <code>int *p; p = &x;</code>
+
+  <hr>
+
+  <h2>🔹 Java</h2>
+  <h3>Pontos-Chave:</h3>
+  <ul>
+    <li>Fortemente orientado a objetos (POO)</li>
+    <li>Classes, objetos, herança, polimorfismo, interfaces</li>
+    <li><code>public static void main(String[] args)</code></li>
+    <li>Tipos primitivos e classes wrapper (<code>int</code> vs <code>Integer</code>)</li>
+    <li>Tratamento de exceções: <code>try-catch-finally</code></li>
+  </ul>
+  <div class="destaque box">
+    Mais cobrado: conceitos de POO, herança, polimorfismo e exceções.
+  </div>
+
+  <h3>Exemplo:</h3>
+  <code>
+    class Animal { void som() { System.out.println("Som"); } }<br>
+    class Cachorro extends Animal { void som() { System.out.println("Latido"); } }
+  </code>
+
+  <div class="perigo box">
+    Pegadinha: "interface" não é uma classe. Interface não pode ter atributos de instância.
+  </div>
+
+  <hr>
+
+  <h2>🔹 JavaScript</h2>
+  <h3>Pontos-Chave:</h3>
+  <ul>
+    <li>Linguagem interpretada, dinâmica e orientada a eventos</li>
+    <li>Suporte a funções anônimas (arrow functions)</li>
+    <li>Manipulação de DOM</li>
+    <li>Funções como <code>addEventListener</code>, <code>setTimeout</code>, <code>JSON.parse</code></li>
+    <li><code>var</code>, <code>let</code>, <code>const</code> – escopo</li>
+  </ul>
+  <div class="destaque box">
+    Mais cobrado: escopos, assíncrono (promises), manipulação básica de objetos e arrays.
+  </div>
+
+  <h3>Exemplo:</h3>
+  <code>
+    const soma = (a, b) => a + b;
+  </code>
+
+  <div class="perigo box">
+    Pegadinha: <code>this</code> em arrow functions não se comporta como nas funções normais.
+  </div>
+
+  <hr>
+
+  <h2>🔹 Python</h2>
+  <h3>Pontos-Chave:</h3>
+  <ul>
+    <li>Sintaxe limpa, identação obrigatória</li>
+    <li>Tipagem dinâmica, interpretada</li>
+    <li>Estruturas: listas, dicionários, tuplas, sets</li>
+    <li>Funções: <code>def</code>, <code>lambda</code>, <code>map</code>, <code>filter</code></li>
+    <li>Classes: <code>class</code>, <code>__init__</code>, <code>self</code></li>
+  </ul>
+  <div class="destaque box">
+    Mais cobrado: listas, dicionários, compreensão de listas, manipulação de strings.
+  </div>
+
+  <h3>Exemplo:</h3>
+  <code>
+    def saudacao(nome):<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;return f"Olá, {nome}"
+  </code>
+
+  <div class="perigo box">
+    Pegadinha: identação incorreta muda a lógica do programa.
+  </div>
+
+  <hr>
+
+  <h2>🔁 Comparativo Rápido</h2>
+  <table border="1" cellpadding="6" cellspacing="0">
+    <tr>
+      <th>Linguagem</th>
+      <th>Compilada?</th>
+      <th>Tipagem</th>
+      <th>Paradigma</th>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>Sim</td>
+      <td>Estática</td>
+      <td>Estruturado</td>
+    </tr>
+    <tr>
+      <td>Java</td>
+      <td>Sim (bytecode)</td>
+      <td>Estática</td>
+      <td>Orientado a Objetos</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>Não</td>
+      <td>Dinâmica</td>
+      <td>Multiparadigma</td>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>Não</td>
+      <td>Dinâmica</td>
+      <td>Multiparadigma</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h2>🧠 Estratégia de Revisão para CESPE</h2>
+  <ul>
+    <li>Evite decoreba → foque em lógica e funcionamento</li>
+    <li>Resolva questões do estilo: "O código acima imprimirá..."</li>
+    <li>Pratique leitura e interpretação de código</li>
+    <li>Monte um “errolog”: registre seus erros e revise semanalmente</li>
+  </ul>
+
+  <div class="box">
+    <strong>Flash Final:</strong> <br>
+    - Java = OOP forte + exceções <br>
+    - Python = expressividade + listas e dicionários <br>
+    - C = ponteiros + memória + structs <br>
+    - JS = escopos + callbacks + assíncrono
+  </div>
+
+</body>
+</html>

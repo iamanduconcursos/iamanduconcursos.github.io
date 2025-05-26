@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo Criptografia - Hashes (Concurso PF)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3, h4 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #eaf7ff; padding: 10px; border-left: 5px solid #3498db; margin: 10px 0; }
+  </style>
+</head>
+<body>
+
+<h2>🔐 Resumo Criptografia – Hashes (Perito Digital PF)</h2>
+
+<div class="highlight">
+  <strong>Conceito-chave:</strong> Funções hash criptográficas transformam dados de entrada (mensagem) em um valor fixo (resumo), usado para garantir integridade e autenticidade.
+</div>
+
+<h3>📘 Propriedades Desejáveis de Funções Hash</h3>
+<ul>
+  <li><strong>Determinística:</strong> mesma entrada sempre gera a mesma saída</li>
+  <li><strong>Rapidez:</strong> computação eficiente</li>
+  <li><strong>Resistência à colisão:</strong> difícil encontrar duas entradas diferentes com o mesmo hash</li>
+  <li><strong>Resistência à pré-imagem:</strong> difícil encontrar uma entrada a partir do hash</li>
+  <li><strong>Resistência à segunda pré-imagem:</strong> difícil encontrar outra entrada com o mesmo hash de uma entrada dada</li>
+</ul>
+
+<h3>📊 Comparativo dos Principais Algoritmos</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Algoritmo</th>
+      <th>Comprimento do Hash</th>
+      <th>Status</th>
+      <th>Vulnerabilidades</th>
+      <th>Uso Atual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td>128 bits</td>
+      <td>Obsoleto</td>
+      <td>Colisões práticas</td>
+      <td>Baixo</td>
+    </tr>
+    <tr>
+      <td>SHA-1</td>
+      <td>160 bits</td>
+      <td>Depreciado</td>
+      <td>Colisões comprovadas</td>
+      <td>Baixo</td>
+    </tr>
+    <tr>
+      <td>SHA-2 (SHA-256, SHA-512)</td>
+      <td>256 a 512 bits</td>
+      <td>Ativo</td>
+      <td>Sem colisões conhecidas</td>
+      <td>Alto</td>
+    </tr>
+    <tr>
+      <td>SHA-3</td>
+      <td>Variável (224, 256, 384, 512)</td>
+      <td>Ativo (Padrão NIST)</td>
+      <td>Base diferente (Keccak)</td>
+      <td>Crescente</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>🔍 Detalhamento dos Principais Hashes</h3>
+
+<h4>🔸 MD5</h4>
+<ul>
+  <li>Hash de 128 bits</li>
+  <li>Alta velocidade</li>
+  <li><strong>Obsoleto:</strong> colisões geradas com baixo custo computacional</li>
+  <li><strong>Não recomendado</strong> para segurança</li>
+</ul>
+
+<h4>🔸 SHA-1</h4>
+<ul>
+  <li>Hash de 160 bits</li>
+  <li><strong>Colisões comprovadas (ataque SHAttered, 2017)</strong></li>
+  <li>Não é seguro</li>
+  <li>Foi amplamente usado em certificados SSL</li>
+</ul>
+
+<h4>🔸 SHA-2</h4>
+<ul>
+  <li>Família: SHA-224, SHA-256, SHA-384, SHA-512</li>
+  <li><strong>SHA-256</strong> é o mais utilizado</li>
+  <li>Considerado seguro</li>
+  <li>Usado em <strong>criptomoedas (Bitcoin)</strong>, SSL, VPNs</li>
+</ul>
+
+<h4>🔸 SHA-3 (Keccak)</h4>
+<ul>
+  <li>Baseado em construção esponja (sponge construction)</li>
+  <li>Substitui internamente SHA-2, mas <strong>não é uma atualização direta</strong></li>
+  <li>Mais resistente a alguns ataques teóricos</li>
+</ul>
+
+<h3>💥 Colisões – Conceito e Impacto</h3>
+<div class="highlight">
+  <strong>Colisão:</strong> Quando duas entradas diferentes geram o mesmo valor hash.
+</div>
+<ul>
+  <li><strong>Impacto:</strong> Permite falsificação de mensagens digitais, fraudes, burlas em verificações de integridade.</li>
+  <li><strong>CEBRASPE cobra:</strong> Exemplo clássico é o ataque de colisão ao MD5 ou SHA-1 → resultado: documento falso com hash idêntico ao legítimo.</li>
+</ul>
+
+<h3>⚠️ Questões Estilo CEBRASPE</h3>
+<ul>
+  <li><strong>“SHA-1 ainda é seguro para autenticação digital.” – FALSO</strong></li>
+  <li><strong>“SHA-3 é derivado diretamente do SHA-2.” – FALSO</strong></li>
+  <li><strong>“Funções hash criptográficas devem ser reversíveis.” – FALSO</strong></li>
+  <li><strong>“MD5 e SHA-1 não são recomendados para novos sistemas.” – VERDADEIRO</strong></li>
+</ul>
+
+<h3>🧠 Dicas-Chave para a Prova</h3>
+<ul>
+  <li>Evite MD5 e SHA-1 em qualquer aplicação moderna</li>
+  <li>SHA-256 (SHA-2) é padrão atual mais seguro</li>
+  <li>SHA-3 usa construção esponja e é mais novo, mas ainda em fase de adoção</li>
+  <li>Colisões comprometem autenticidade → essencial entender para questões de segurança</li>
+</ul>
+
+</body>
+</html>

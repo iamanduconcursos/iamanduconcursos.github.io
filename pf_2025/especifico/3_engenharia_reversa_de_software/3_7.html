@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Engenharia Reversa - Técnicas de Sandboxing</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f4f6f9; color: #333; padding: 20px; line-height: 1.6; }
+    h1, h2, h3 { color: #0056b3; }
+    .section { background: #ffffff; padding: 20px; border-radius: 8px; margin-bottom: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+    ul { margin-top: 10px; margin-bottom: 20px; }
+    li { margin-bottom: 8px; }
+    .highlight { background: #e2f0fb; padding: 10px; border-left: 5px solid #007bff; }
+  </style>
+</head>
+<body>
+
+<div class="section">
+  <h1>Resumo para Perito Digital - PF</h1>
+  <h2>📄 Engenharia Reversa de Software - Técnicas de Sandboxing</h2>
+
+  <h3>1. O que é Sandboxing?</h3>
+  <p>
+    Sandboxing é uma técnica de segurança usada para executar códigos suspeitos em um ambiente isolado, 
+    seguro e controlado, conhecido como "caixa de areia", sem risco para o sistema real.
+  </p>
+
+  <h3>2. Importância na Análise de Malware</h3>
+  <ul>
+    <li><strong>Isolamento Seguro:</strong> Executa código potencialmente malicioso sem afetar o sistema principal.</li>
+    <li><strong>Observação Detalhada:</strong> Permite análise comportamental de malware.</li>
+    <li><strong>Coleta de Evidências:</strong> Registro de comportamentos como conexões de rede e modificações no sistema.</li>
+  </ul>
+
+  <h3>3. Técnicas Comuns de Sandboxing</h3>
+
+  <h4>3.1 Virtualização</h4>
+  <ul>
+    <li>Criação de máquinas virtuais para análise segura.</li>
+    <li><strong>Ferramentas:</strong> VirtualBox, VMware.</li>
+  </ul>
+
+  <h4>3.2 Containerização</h4>
+  <ul>
+    <li>Isolamento por containers, menor uso de recursos.</li>
+    <li><strong>Ferramentas:</strong> Docker, Podman.</li>
+  </ul>
+
+  <h4>3.3 Detonation Chambers</h4>
+  <ul>
+    <li>Ambientes monitorados para "explodir" malware e observar consequências.</li>
+  </ul>
+
+  <h4>3.4 Ferramentas Dinâmicas</h4>
+  <ul>
+    <li><strong>Cuckoo Sandbox:</strong> Automação da análise de malware.</li>
+    <li><strong>Hybrid Analysis:</strong> Plataforma online de sandboxing.</li>
+  </ul>
+
+  <h3>4. Técnicas de Evasão de Sandbox</h3>
+  <ul>
+    <li><strong>Detecção de Máquina Virtual:</strong> Verifica se está rodando em VM.</li>
+    <li><strong>Delays Temporais:</strong> Executa código malicioso após um tempo.</li>
+    <li><strong>Verificação de Usuário:</strong> Espera interação humana antes de agir.</li>
+  </ul>
+
+  <h3>5. Ferramentas Relevantes</h3>
+  <ul>
+    <li><strong>Cuckoo Sandbox:</strong> Análise automatizada de malware.</li>
+    <li><strong>ProcMon:</strong> Monitoramento de sistema em tempo real.</li>
+    <li><strong>Wireshark:</strong> Captura e análise de tráfego de rede.</li>
+  </ul>
+
+  <h3>6. Aplicações Práticas</h3>
+  <ul>
+    <li>Identificação de malwares novos.</li>
+    <li>Desenvolvimento de assinaturas de antivírus.</li>
+    <li>Pesquisa de segurança cibernética.</li>
+  </ul>
+
+  <h2>📘 Dicas para Provas CEBRASPE</h2>
+  <ul>
+    <li>Foque em <strong>conceitos básicos e aplicações práticas</strong>.</li>
+    <li>Estude questões anteriores sobre análise de malware e sandboxing.</li>
+    <li>Conheça o funcionamento de ferramentas como Cuckoo, ProcMon e VirtualBox.</li>
+    <li>Acompanhe tendências em malware e técnicas de evasão.</li>
+  </ul>
+
+  <h2>🧠 Conclusão</h2>
+  <p class="highlight">
+    Sandboxing é uma das técnicas mais importantes na análise de ameaças digitais. Compreender seus métodos, ferramentas e limitações é fundamental para atuar como Perito Digital na Polícia Federal.
+  </p>
+</div>
+
+</body>
+</html>

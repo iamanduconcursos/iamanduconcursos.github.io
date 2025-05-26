@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Arquitetura Cliente-Servidor - Redes PF</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; background: #fff; color: #222; padding: 2em; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .importante { background: #e2f0cb; padding: 10px; border-left: 5px solid #3c763d; margin: 1em 0; }
+    .exemplo { background: #d9edf7; padding: 10px; border-left: 5px solid #31708f; margin: 1em 0; }
+    table { border-collapse: collapse; width: 100%; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h1>🖧 Arquitetura Cliente-Servidor</h1>
+<p><strong>Resumo didático e otimizado</strong> para concursos CESPE/Cebraspe e o cargo de <strong>Perito Digital da PF</strong>, com foco em <strong>protocolos, funcionamento, vantagens, desvantagens e comparações</strong>.</p>
+
+<hr>
+
+<h2>🔍 1. O que é a Arquitetura Cliente-Servidor?</h2>
+<ul>
+  <li>Modelo de comunicação em que <strong>clientes requisitam serviços</strong> e <strong>servidores os processam e respondem</strong>.</li>
+  <li>Altamente usado na Internet: web, email, bancos de dados, etc.</li>
+  <li>Baseado na <strong>divisão de tarefas</strong> e funções entre cliente e servidor.</li>
+</ul>
+
+<div class="exemplo">
+  🧠 <strong>Exemplo:</strong> Um navegador web (cliente) acessa uma página hospedada em um servidor HTTP.
+</div>
+
+<h3>📌 Conceito-chave:</h3>
+<p>Servidor <strong>espera por conexões</strong> em uma porta específica; cliente <strong>inicia a comunicação</strong>.</p>
+
+<hr>
+
+<h2>⚙️ 2. Como Funciona?</h2>
+
+<h3>Fluxo básico:</h3>
+<ol>
+  <li>Cliente envia requisição ao servidor (ex: HTTP GET).</li>
+  <li>Servidor processa e retorna a resposta (ex: HTML, JSON).</li>
+  <li>Conexão pode ser encerrada ou mantida (ex: HTTP/1.1 vs HTTP/2).</li>
+</ol>
+
+<h3>Exemplos de Protocolos:</h3>
+<ul>
+  <li><strong>HTTP / HTTPS:</strong> Web</li>
+  <li><strong>SMTP / IMAP / POP3:</strong> Email</li>
+  <li><strong>FTP:</strong> Transferência de arquivos</li>
+  <li><strong>DNS:</strong> Resolução de nomes</li>
+  <li><strong>SSH:</strong> Acesso remoto seguro</li>
+</ul>
+
+<div class="importante">
+  🔐 <strong>Dica de ouro:</strong> Servidores geralmente usam <strong>portas conhecidas</strong>, como 80 (HTTP), 443 (HTTPS), 22 (SSH), 53 (DNS).
+</div>
+
+<hr>
+
+<h2>📊 3. Comparação: Cliente x Servidor</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Cliente</th>
+      <th>Servidor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Solicita recursos</td>
+      <td>Fornece recursos</td>
+    </tr>
+    <tr>
+      <td>Inicia a conexão</td>
+      <td>Aguarda conexões</td>
+    </tr>
+    <tr>
+      <td>Ex: navegador, app de e-mail</td>
+      <td>Ex: Apache, Nginx, Sendmail</td>
+    </tr>
+    <tr>
+      <td>Uso de porta efêmera</td>
+      <td>Portas bem conhecidas (ex: 80, 443)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🎯 4. Vantagens e Desvantagens</h2>
+
+<h3>✅ Vantagens</h3>
+<ul>
+  <li>Centralização de dados e serviços</li>
+  <li>Fácil gerenciamento e controle de acesso</li>
+  <li>Maior escalabilidade em infraestruturas modernas (ex: cloud)</li>
+</ul>
+
+<h3>❌ Desvantagens</h3>
+<ul>
+  <li>Dependência do servidor: se falhar, todos os clientes são afetados</li>
+  <li>Carga concentrada no servidor</li>
+  <li>Maior custo de implementação</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ <strong>Ponto de atenção:</strong> Se cair “cliente-servidor distribui a carga igualmente”, está errado! A carga é maior no servidor.
+</div>
+
+<hr>
+
+<h2>🧠 5. Comparação com Arquitetura Ponto-a-Ponto (P2P)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Cliente-Servidor</th>
+      <th>Ponto-a-Ponto (P2P)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Centralização dos serviços</td>
+      <td>Distribuição entre nós (peers)</td>
+    </tr>
+    <tr>
+      <td>Servidores dedicados</td>
+      <td>Todos os dispositivos atuam como cliente e servidor</td>
+    </tr>
+    <tr>
+      <td>Ex: Gmail, sites web</td>
+      <td>Ex: BitTorrent, Blockchain</td>
+    </tr>
+    <tr>
+      <td>Fácil de controlar e auditar</td>
+      <td>Difícil de rastrear e controlar</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>📌 6. Dicas CESPE/Cebraspe</h2>
+
+<ul>
+  <li>📨 <strong>O cliente sempre inicia a comunicação</strong>, exceto em modelos assíncronos com polling ou long-polling.</li>
+  <li>🔌 <strong>Servidores escutam em portas conhecidas</strong>; clientes usam portas efêmeras.</li>
+  <li>🧭 <strong>Centralização x Distribuição:</strong> Entenda bem essa diferença com a arquitetura P2P.</li>
+  <li>🛠️ <strong>Protocolo + Porta:</strong> Questões CESPE adoram esse cruzamento!</li>
+</ul>
+
+<hr>
+
+<h2>📚 7. Fontes e Apoio</h2>
+<ul>
+  <li><strong>Livro:</strong> Redes de Computadores – Tanenbaum</li>
+  <li><strong>Livro:</strong> Comunicação de Dados – Forouzan</li>
+  <li><strong>RFC 2616:</strong> HTTP/1.1 – Detalhamento técnico do protocolo</li>
+</ul>
+
+<div class="importante">
+  🧠 <strong>Resumo mental:</strong><br>
+  <code>Cliente → Solicita | Servidor → Responde</code><br>
+  <code>Portas Efêmeras (cliente) → Portas Conhecidas (servidor)</code><br>
+  <code>HTTP, FTP, SMTP, SSH = Arquitetura Cliente-Servidor</code>
+</div>
+
+</body>
+</html>

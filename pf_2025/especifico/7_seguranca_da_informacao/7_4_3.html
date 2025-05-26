@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Segurança da Informação: Autenticação, Autorização e Protocolos sem Senha (FIDO2/WebAuthn)</title>
+<style>
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f7f9fc;
+    color: #2d3436;
+    line-height: 1.6;
+  }
+  h1, h2 {
+    color: #0984e3;
+  }
+  h1 {
+    border-bottom: 3px solid #0984e3;
+    padding-bottom: 8px;
+  }
+  ul {
+    margin-left: 20px;
+  }
+  code {
+    background-color: #dfe6e9;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-family: monospace;
+  }
+  .highlight {
+    background-color: #74b9ff20;
+    border-left: 5px solid #0984e3;
+    padding: 15px;
+    margin: 20px 0;
+  }
+  em {
+    color: #636e72;
+  }
+</style>
+</head>
+<body>
+
+<h1>🔒 Segurança da Informação: Autenticação, Autorização e Protocolos sem Senha (FIDO2/WebAuthn)</h1>
+
+<h2>1. Autenticação e Autorização: Conceitos Fundamentais</h2>
+<ul>
+  <li><strong>Autenticação:</strong> processo que verifica a identidade do usuário ou sistema.</li>
+  <li><strong>Autorização:</strong> processo que determina o que um usuário autenticado pode fazer (permissões).</li>
+  <li><strong>Características principais da Autenticação:</strong>
+    <ul>
+      <li>Baseada em algo que o usuário sabe (senha), tem (token, dispositivo), ou é (biometria).</li>
+      <li>Pode ser simples (senha única) ou multifatorial (MFA).</li>
+      <li>Objetivo: garantir que quem está acessando é realmente quem diz ser.</li>
+    </ul>
+  </li>
+  <li><strong>Características principais da Autorização:</strong>
+    <ul>
+      <li>Controla acesso a recursos após autenticação.</li>
+      <li>Modelos comuns: RBAC (Role-Based Access Control), ABAC (Attribute-Based Access Control).</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>2. Protocolos de Autenticação Sem Senha</h2>
+<p>Alternativas modernas para aumentar segurança e usabilidade, eliminando o uso tradicional de senhas.</p>
+
+<h3>2.1 FIDO2</h3>
+<ul>
+  <li>Framework desenvolvido pela <strong>FIDO Alliance</strong> para autenticação forte e sem senha.</li>
+  <li>Baseado em autenticação <strong>por chave pública/privada</strong>, onde o dispositivo do usuário guarda a chave privada e o servidor mantém a chave pública.</li>
+  <li>Previne phishing, replay attacks e roubo de senhas.</li>
+  <li>Composto por duas partes:
+    <ul>
+      <li><strong>WebAuthn:</strong> API padronizada pela W3C que permite que navegadores e plataformas realizem autenticação segura.</li>
+      <li><strong>CTAP (Client to Authenticator Protocol):</strong> protocolo que permite comunicação entre o cliente (computador, smartphone) e dispositivos autenticadores externos (ex: tokens USB).</li>
+    </ul>
+  </li>
+  <li>Suporta diversos autenticadores: biometria, hardware tokens, smartphones.</li>
+  <li>Alta resistência a ataques, pois não transmite nem armazena senhas.</li>
+</ul>
+
+<h3>2.2 WebAuthn</h3>
+<ul>
+  <li>É a especificação W3C que implementa o protocolo FIDO2 no navegador.</li>
+  <li>Permite registro e autenticação de usuários usando dispositivos de autenticação compatíveis.</li>
+  <li>Processo:
+    <ul>
+      <li><strong>Registro:</strong> cria e registra um par de chaves pública/privada.</li>
+      <li><strong>Autenticação:</strong> usuário responde a um desafio criptográfico usando a chave privada.</li>
+    </ul>
+  </li>
+  <li>Fundamental para eliminar senhas e fortalecer a segurança sem perder usabilidade.</li>
+</ul>
+
+<div class="highlight">
+  <h2>⚠️ Dicas para provas CEBRASPE / CESPE</h2>
+  <ul>
+    <li>Entenda a diferença entre autenticação e autorização, destacando seus papéis no controle de acesso.</li>
+    <li>Saiba o que é autenticação sem senha e por que é considerada mais segura que senhas tradicionais.</li>
+    <li>Decore os componentes e funcionamento básico do FIDO2: uso de chave pública/privada e resistência a phishing.</li>
+    <li>Conheça o papel do WebAuthn como API padronizada e sua relação com FIDO2.</li>
+    <li>Esteja preparado para questões que abordem vantagens e características desses protocolos modernos.</li>
+  </ul>
+</div>
+
+<p><em>Este material é sua base rápida para dominar o tema e garantir destaque na prova para Perito Digital da Polícia Federal.</em></p>
+
+</body>
+</html>

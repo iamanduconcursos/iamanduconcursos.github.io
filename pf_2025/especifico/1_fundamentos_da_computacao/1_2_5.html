@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Middleware – Sistemas Operacionais (Resumo Estratégico)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #e8f8f5; padding: 12px; border-left: 5px solid #1abc9c; margin: 10px 0; }
+    code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+
+<h2>🔌 Middleware – Sistemas Operacionais (Resumo para Perito PF)</h2>
+
+<div class="highlight">
+  Middleware é um dos temas menos óbvios, mas com alta chance de ser cobrado em provas da CEBRASPE/CESPE, especialmente na interface entre sistemas operacionais e aplicações distribuídas.
+</div>
+
+<h3>📌 O que é Middleware?</h3>
+<ul>
+  <li>É um <strong>software intermediário</strong> que conecta aplicações ou componentes distribuídos.</li>
+  <li>Facilita a comunicação, <strong>abstraindo complexidades de rede, protocolos e sistemas operacionais</strong>.</li>
+  <li>Age como uma “cola” entre aplicações e serviços.</li>
+</ul>
+
+<h3>🧱 Camadas de Middleware</h3>
+<ul>
+  <li><strong>Middleware de comunicação:</strong> gerencia transmissão de mensagens (Ex: RPC, CORBA, SOAP, gRPC).</li>
+  <li><strong>Middleware orientado a mensagens:</strong> troca assíncrona de mensagens (Ex: Kafka, RabbitMQ).</li>
+  <li><strong>Middleware orientado a objetos:</strong> permite objetos remotos (Ex: RMI, CORBA).</li>
+  <li><strong>Middleware orientado a transações:</strong> garante consistência (Ex: Montran, Tuxedo).</li>
+  <li><strong>Middleware de banco de dados:</strong> integra diferentes SGBDs.</li>
+</ul>
+
+<h3>🧠 Características Desejáveis</h3>
+<ul>
+  <li><strong>Transparência:</strong> oculta detalhes de implementação.</li>
+  <li><strong>Portabilidade:</strong> roda em diferentes plataformas.</li>
+  <li><strong>Escalabilidade:</strong> permite crescer sem reescrita.</li>
+  <li><strong>Desempenho:</strong> afeta diretamente o tempo de resposta.</li>
+</ul>
+
+<h3>⚙️ Aplicações Típicas</h3>
+<ul>
+  <li>Sistemas distribuídos (Ex: microserviços).</li>
+  <li>Integração entre sistemas heterogêneos.</li>
+  <li>Sistemas corporativos com múltiplos serviços e bancos de dados.</li>
+</ul>
+
+<h3>📚 Exemplos Populares</h3>
+<table>
+  <thead>
+    <tr><th>Middleware</th><th>Função</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Apache Kafka</td><td>Streaming e filas de mensagens distribuídas</td></tr>
+    <tr><td>RabbitMQ</td><td>Mensageria assíncrona baseada em filas</td></tr>
+    <tr><td>gRPC</td><td>Chamada de Procedimento Remoto (RPC) eficiente</td></tr>
+    <tr><td>SOAP</td><td>Troca de dados estruturados via XML</td></tr>
+    <tr><td>RMI (Java)</td><td>Invocação de métodos remotos</td></tr>
+  </tbody>
+</table>
+
+<h3>❓ Cuidado com Pegadinhas (CESPE)</h3>
+<ul>
+  <li>"Middleware é um sistema operacional." – <strong>FALSO</strong>, ele roda acima do sistema operacional.</li>
+  <li>"Middleware pode prover transparência de localização e rede." – <strong>VERDADEIRO</strong></li>
+  <li>"Middleware substitui o kernel do sistema." – <strong>FALSO</strong></li>
+</ul>
+
+<h3>🔑 Palavras-chave para Memorizar</h3>
+<ul>
+  <li>Transparência</li>
+  <li>Interoperabilidade</li>
+  <li>Escalabilidade</li>
+  <li>Conectividade</li>
+</ul>
+
+<h3>🎯 Dica Final</h3>
+<p>Middleware é uma camada vital em arquiteturas distribuídas modernas. Foque nos <strong>tipos, finalidades</strong> e <strong>exemplos clássicos</strong>. Questões CESPE exigem interpretação e diferenciação com sistema operacional e rede.</p>
+
+</body>
+</html>

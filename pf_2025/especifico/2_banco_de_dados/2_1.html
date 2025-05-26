@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Arquitetura, Modelos Lógicos e Representação Física – Banco de Dados</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #f9f9d1; padding: 12px; border-left: 5px solid #f1c40f; margin: 10px 0; }
+  </style>
+</head>
+<body>
+
+<h2>🗄️ Arquitetura, Modelos Lógicos e Representação Física – Banco de Dados</h2>
+
+<div class="highlight">
+  Assunto frequentemente cobrado pela banca CEBRASPE em provas de concursos da área policial e de TI. Vamos direto ao ponto, com foco no que mais cai!
+</div>
+
+<h3>🏗️ Arquitetura de Banco de Dados</h3>
+<ul>
+  <li><strong>Arquitetura ANSI/SPARC</strong> em 3 níveis:
+    <ul>
+      <li><strong>Nível Externo (Visão):</strong> visão individual do usuário.</li>
+      <li><strong>Nível Conceitual:</strong> estrutura lógica global do banco (modelo de dados).</li>
+      <li><strong>Nível Interno:</strong> como os dados são armazenados fisicamente.</li>
+    </ul>
+  </li>
+  <li><strong>Independência de dados:</strong>
+    <ul>
+      <li><strong>Lógica:</strong> mudanças no modelo conceitual não afetam o externo.</li>
+      <li><strong>Física:</strong> mudanças na estrutura física não afetam o modelo conceitual.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>📐 Modelos de Dados (Lógicos)</h3>
+<ul>
+  <li><strong>Modelo Relacional:</strong> baseia-se em tabelas (relacionamentos por chaves).</li>
+  <li><strong>Modelo Hierárquico:</strong> estrutura em forma de árvore.</li>
+  <li><strong>Modelo de Rede:</strong> estrutura em forma de grafo, mais complexa.</li>
+  <li><strong>Modelo Orientado a Objetos:</strong> combina dados e comportamento (atributos + métodos).</li>
+</ul>
+
+<h3>📊 Comparativo entre Modelos</h3>
+<table>
+  <thead>
+    <tr><th>Modelo</th><th>Vantagens</th><th>Desvantagens</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Relacional</td>
+      <td>Fácil de usar, SQL, independência lógica</td>
+      <td>Menos eficiente para dados hierárquicos</td>
+    </tr>
+    <tr>
+      <td>Hierárquico</td>
+      <td>Simples, eficiente em leitura</td>
+      <td>Rigidez, difícil manutenção</td>
+    </tr>
+    <tr>
+      <td>De Rede</td>
+      <td>Flexível, suporte a múltiplos relacionamentos</td>
+      <td>Complexidade de navegação</td>
+    </tr>
+    <tr>
+      <td>Orientado a Objetos</td>
+      <td>Reuso, integração com OOP</td>
+      <td>Mais complexo, menos usado em BD tradicionais</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>💾 Representação Física dos Dados</h3>
+<ul>
+  <li>Dados armazenados em <strong>blocos de disco</strong>, organizados em <strong>arquivos</strong>.</li>
+  <li>Índices melhoram performance de busca (<strong>B-Tree</strong>, <strong>Hash</strong> etc.).</li>
+  <li>Buffers de memória ajudam no desempenho.</li>
+  <li><strong>Page, Tuple, Slot:</strong> termos técnicos usados em SGBDs para representar dados em nível físico.</li>
+</ul>
+
+<h3>📚 Questões Cobradas com Frequência</h3>
+<ul>
+  <li>"A arquitetura ANSI/SPARC possui dois níveis." – <strong>FALSO</strong> (são três).</li>
+  <li>"Independência física significa que o modelo conceitual independe do armazenamento físico." – <strong>VERDADEIRO</strong></li>
+  <li>"O modelo relacional é baseado em grafos." – <strong>FALSO</strong></li>
+</ul>
+
+<h3>🧠 Palavras-chave para Memorizar</h3>
+<ul>
+  <li>ANSI/SPARC – Externo, Conceitual, Interno</li>
+  <li>Independência Lógica vs Física</li>
+  <li>Modelo Relacional = tabelas, SQL</li>
+  <li>Representação Física = disco, índices, buffers</li>
+</ul>
+
+<h3>🎯 Dica Final</h3>
+<ul>
+  <li>Em provas da CEBRASPE, foque na <strong>arquitetura em 3 níveis</strong> e no <strong>modelo relacional</strong> como padrão dominante.</li>
+</ul>
+
+</body>
+</html>

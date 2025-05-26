@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Redes Peer-to-Peer (P2P) - Perito PF</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; background: #fff; color: #222; padding: 2em; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .importante { background: #e2f0cb; padding: 10px; border-left: 5px solid #3c763d; margin: 1em 0; }
+    .exemplo { background: #d9edf7; padding: 10px; border-left: 5px solid #31708f; margin: 1em 0; }
+    table { border-collapse: collapse; width: 100%; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h1>🔗 Redes Peer-to-Peer (P2P)</h1>
+<p>Resumo essencial para quem está se preparando para o concurso de <strong>Perito Digital da Polícia Federal</strong>, com foco em provas da banca <strong>CESPE/Cebraspe</strong>.</p>
+
+<hr>
+
+<h2>📌 1. O que é uma Rede P2P?</h2>
+<ul>
+  <li>Em uma <strong>rede peer-to-peer</strong>, todos os dispositivos (peers) atuam simultaneamente como clientes e servidores.</li>
+  <li>Não há um servidor central; a comunicação é distribuída entre os pares.</li>
+  <li>Ideal para compartilhamento de arquivos, conteúdo distribuído e redes resilientes.</li>
+</ul>
+
+<div class="exemplo">
+  🎥 <strong>Exemplos famosos:</strong><br>
+  BitTorrent, eMule, Gnutella, IPFS, redes blockchain (ex: Ethereum, Bitcoin).
+</div>
+
+<hr>
+
+<h2>⚙️ 2. Funcionamento de uma Rede P2P</h2>
+<ul>
+  <li>Cada peer compartilha seus próprios recursos com outros.</li>
+  <li>Não há hierarquia fixa: qualquer nó pode iniciar ou responder comunicações.</li>
+  <li>Escalabilidade horizontal: mais usuários = mais recursos.</li>
+</ul>
+
+<h3>📡 Tipos de P2P:</h3>
+<ul>
+  <li><strong>P2P Puro:</strong> Todos os peers são iguais, sem controle central (ex: Gnutella).</li>
+  <li><strong>P2P Híbrido:</strong> Usa servidores para facilitar a conexão entre peers (ex: BitTorrent com trackers).</li>
+</ul>
+
+<div class="importante">
+  🔍 <strong>Importante:</strong> A maioria das redes P2P atuais são híbridas. Isso melhora eficiência sem comprometer a descentralização.
+</div>
+
+<hr>
+
+<h2>📊 3. Comparativo: P2P vs Cliente-Servidor</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Peer-to-Peer (P2P)</th>
+      <th>Cliente-Servidor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Todos os nós são iguais</td>
+      <td>Cliente solicita, servidor responde</td>
+    </tr>
+    <tr>
+      <td>Descentralizado</td>
+      <td>Centralizado</td>
+    </tr>
+    <tr>
+      <td>Escalabilidade horizontal</td>
+      <td>Escalabilidade limitada pela capacidade do servidor</td>
+    </tr>
+    <tr>
+      <td>Alta tolerância a falhas</td>
+      <td>Falha do servidor compromete a rede</td>
+    </tr>
+    <tr>
+      <td>Difícil de controlar e monitorar</td>
+      <td>Mais fácil de gerenciar</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🌐 4. Protocolos e Aplicações Típicas</h2>
+
+<h3>🔁 Protocolos:</h3>
+<ul>
+  <li><strong>BitTorrent:</strong> Protocolo de compartilhamento fragmentado</li>
+  <li><strong>Gnutella:</strong> Arquitetura de roteamento P2P puro</li>
+  <li><strong>IPFS:</strong> Sistema de arquivos descentralizado</li>
+  <li><strong>Blockchain:</strong> Transações P2P com validação distribuída</li>
+</ul>
+
+<h3>🔒 Segurança em P2P</h3>
+<ul>
+  <li>Autenticação e criptografia são desafios constantes.</li>
+  <li>Risco elevado de disseminação de malwares e arquivos ilegais.</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ <strong>Ponto crítico CESPE:</strong> "P2P é mais seguro porque é descentralizado" → <strong>FALSO</strong>. Descentralização ≠ segurança.
+</div>
+
+<hr>
+
+<h2>🧠 5. Vantagens e Desvantagens</h2>
+
+<h3>✅ Vantagens</h3>
+<ul>
+  <li>Escalabilidade natural com aumento de peers</li>
+  <li>Alta resiliência a falhas</li>
+  <li>Baixo custo operacional (sem servidor dedicado)</li>
+</ul>
+
+<h3>❌ Desvantagens</h3>
+<ul>
+  <li>Dificuldade em gerenciar e monitorar</li>
+  <li>Problemas com consistência e controle de versões</li>
+  <li>Mais vulnerável a conteúdo ilegal/malicioso</li>
+</ul>
+
+<hr>
+
+<h2>🧪 6. Dicas Quentes CESPE/Cebraspe</h2>
+
+<ul>
+  <li>🚫 "Em redes P2P, há um servidor central coordenando as conexões" → FALSO</li>
+  <li>📡 "P2P permite que qualquer nó seja simultaneamente cliente e servidor" → VERDADEIRO</li>
+  <li>🔗 "BitTorrent é um exemplo de rede P2P híbrida" → VERDADEIRO</li>
+  <li>⚠️ "P2P garante maior segurança de dados por ser descentralizada" → FALSO</li>
+</ul>
+
+<div class="importante">
+  🧠 <strong>Resumo mental:</strong><br>
+  <code>P2P = descentralizado + distribuído</code><br>
+  <code>Qualquer peer pode servir + solicitar</code><br>
+  <code>Exemplos: BitTorrent, IPFS, Blockchain</code>
+</div>
+
+<hr>
+
+<h2>📚 7. Fontes Recomendadas</h2>
+<ul>
+  <li><strong>Livro:</strong> Redes de Computadores – Andrew S. Tanenbaum</li>
+  <li><strong>RFC 6761:</strong> BitTorrent Protocol Specification</li>
+  <li><strong>Documentações:</strong> IPFS, Ethereum, Bitcoin White Paper</li>
+</ul>
+
+</body>
+</html>

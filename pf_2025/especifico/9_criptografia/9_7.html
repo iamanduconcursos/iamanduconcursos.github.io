@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Criptografia e Técnicas de Ataque - Resumo para Perito PF</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; background: #fff; color: #222; padding: 2em; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .importante { background: #e2f0cb; padding: 10px; border-left: 5px solid #3c763d; margin: 1em 0; }
+    .exemplo { background: #d9edf7; padding: 10px; border-left: 5px solid #31708f; margin: 1em 0; }
+  </style>
+</head>
+<body>
+
+<h1>🛡️ Criptografia e Técnicas de Ataque</h1>
+<p><strong>Disciplina essencial</strong> para o cargo de <em>Perito Criminal Federal - Área de Computação</em>. Conteúdo altamente cobrado por bancas como <strong>CESPE/Cebraspe</strong>.</p>
+
+<hr>
+
+<h2>🔐 1. Conceitos Fundamentais de Criptografia</h2>
+
+<h3>1.1 Tipos de Criptografia</h3>
+<ul>
+  <li><strong>Simétrica:</strong> mesma chave para criptografar e descriptografar.</li>
+  <li><strong>Assimétrica:</strong> usa <em>par de chaves</em>: pública (criptografa) e privada (descriptografa).</li>
+</ul>
+
+<div class="exemplo">
+  <strong>Exemplo:</strong> AES é simétrico. RSA é assimétrico.
+</div>
+
+<h3>1.2 Principais Algoritmos</h3>
+<ul>
+  <li><strong>Simétrica:</strong> AES, DES, 3DES, Blowfish, RC4</li>
+  <li><strong>Assimétrica:</strong> RSA, ECC, ElGamal, Diffie-Hellman (troca de chaves)</li>
+  <li><strong>Hash:</strong> SHA-1, SHA-256, MD5 (obsoleto!)</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ <strong>CESPE gosta de cobrar:</strong> AES como padrão atual, RSA para comunicação segura, MD5 como algoritmo obsoleto.
+</div>
+
+<h3>1.3 Propriedades Criptográficas</h3>
+<ul>
+  <li><strong>Confidencialidade:</strong> garante que só quem tem a chave lê.</li>
+  <li><strong>Integridade:</strong> dados não foram alterados (usa hash).</li>
+  <li><strong>Autenticidade:</strong> garante identidade (certificado digital).</li>
+  <li><strong>Não-repúdio:</strong> emissor não pode negar (uso de assinatura digital).</li>
+</ul>
+
+<hr>
+
+<h2>🎯 2. Técnicas de Ataque (Criptoanálise e Exploração)</h2>
+
+<h3>2.1 Força Bruta</h3>
+<ul>
+  <li>Tenta todas as combinações possíveis de chave até encontrar a correta.</li>
+  <li>Inviável em chaves fortes (ex: AES-256), mas útil contra senhas fracas.</li>
+</ul>
+
+<div class="importante">
+  🧠 <strong>Memorize:</strong> Força bruta ≠ criptoanálise. Força bruta não exige conhecimento da lógica do algoritmo.
+</div>
+
+<h3>2.2 Criptoanálise</h3>
+<p>Estudo matemático para quebrar a cifra sem conhecer a chave.</p>
+<ul>
+  <li><strong>Criptoanálise linear:</strong> usa aproximações lineares da cifra.</li>
+  <li><strong>Diferencial:</strong> foca em como diferenças em entradas afetam saídas.</li>
+</ul>
+
+<h3>2.3 Ataques com base no acesso ao texto</h3>
+<ul>
+  <li><strong>Ataque de texto conhecido:</strong> atacante conhece o <em>texto plano</em> e o <em>criptografado</em>.</li>
+  <li><strong>Ataque de texto escolhido:</strong> atacante escolhe o texto que será criptografado.</li>
+</ul>
+
+<div class="exemplo">
+  🧪 <strong>Exemplo:</strong> Em um sistema vulnerável, atacante envia "AAAA" e obtém a cifra, tentando deduzir o padrão.
+</div>
+
+<h3>2.4 Ataques por Canal Lateral</h3>
+<p>Exploram <strong>informações físicas</strong> da implementação:</p>
+<ul>
+  <li><strong>Tempo de execução</strong></li>
+  <li><strong>Consumo de energia</strong></li>
+  <li><strong>Emissão eletromagnética</strong></li>
+</ul>
+
+<div class="alerta">
+  ⚠️ <strong>Ponto chave:</strong> Não atacam o algoritmo, mas sua implementação.
+</div>
+
+<h3>2.5 Ataque Man-in-the-Middle (MITM)</h3>
+<p>Intermediário intercepta e possivelmente altera a comunicação entre duas partes sem que percebam.</p>
+<ul>
+  <li>Geralmente ocorre em protocolos inseguros (sem HTTPS ou sem verificação de certificado).</li>
+  <li>Evita-se com <strong>uso de certificados digitais válidos</strong> e <strong>autenticação mútua</strong>.</li>
+</ul>
+
+<div class="exemplo">
+  💻 <strong>Exemplo:</strong> Alice envia chave para Bob, mas Eve intercepta e troca por sua própria.
+</div>
+
+<hr>
+
+<h2>🔑 3. Dicas Quentes para CESPE</h2>
+<ul>
+  <li>🔐 <strong>AES é o padrão simétrico atual mais seguro</strong> – saiba o tamanho de chave: 128, 192, 256 bits.</li>
+  <li>🔓 <strong>RSA depende de fatoração de primos grandes</strong>.</li>
+  <li>🚫 <strong>MD5 e SHA-1 estão obsoletos</strong> – suscetíveis a colisões.</li>
+  <li>🎯 <strong>CESPE adora perguntar sobre diferença entre técnicas de ataque</strong>: confunde força bruta com criptoanálise, canal lateral com ataque lógico.</li>
+  <li>🧠 Estude sempre os 4 pilares: Confidencialidade, Integridade, Autenticidade e Não-repúdio.</li>
+</ul>
+
+<div class="importante">
+  ✅ <strong>Resumo mental:</strong> <em>“Força bruta é burra. Criptoanálise é esperta. MITM é traiçoeira. Canal lateral é sutil.”</em>
+</div>
+
+<hr>
+
+<h2>📚 Fontes recomendadas para aprofundamento</h2>
+<ul>
+  <li>Livro: <strong>“Criptografia e Segurança de Redes” – William Stallings</strong></li>
+  <li>Artigos da <strong>RFC (Request for Comments)</strong> sobre TLS, RSA, AES</li>
+  <li>Material da <strong>ENAP, SERPRO e CERT.br</strong> sobre segurança</li>
+</ul>
+
+</body>
+</html>

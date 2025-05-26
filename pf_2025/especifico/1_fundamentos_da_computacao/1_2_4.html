@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerenciador de E/S - Sistemas Operacionais</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      padding: 20px;
+      line-height: 1.7;
+    }
+    h1, h2, h3 {
+      color: #0d47a1;
+    }
+    h1 {
+      border-bottom: 2px solid #0d47a1;
+      padding-bottom: 6px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .box {
+      background-color: #e3f2fd;
+      border-left: 5px solid #1976d2;
+      padding: 15px;
+      margin: 15px 0;
+    }
+    .alerta {
+      background-color: #fff3e0;
+      border-left: 5px solid #f57c00;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sistemas Operacionais – Gerenciador de E/S</h1>
+
+  <p>Resumo otimizado para concursos da Polícia Federal sobre <strong>gerência de Entrada e Saída (E/S)</strong> em sistemas operacionais. Essencial para entender o funcionamento de dispositivos, drivers, interrupções e controladores de hardware.</p>
+
+  <div class="box">
+    <h2>1. O que é o Gerenciador de E/S?</h2>
+    <ul>
+      <li>Componente do kernel responsável por controlar <strong>dispositivos periféricos</strong>.</li>
+      <li>Oferece uma <strong>interface uniforme</strong> entre o hardware e o software.</li>
+      <li>Converte chamadas de alto nível em operações de baixo nível nos dispositivos.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>2. Principais Responsabilidades</h2>
+    <ul>
+      <li>Comunicação com dispositivos via <strong>drivers</strong>.</li>
+      <li>Gerenciamento de <strong>buffers</strong> e cache.</li>
+      <li>Controle de interrupções de hardware.</li>
+      <li>Controle de acesso concorrente aos dispositivos.</li>
+      <li>Fila de requisições de E/S e escalonamento.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>3. Técnicas de Acesso à E/S</h2>
+    <ul>
+      <li><strong>E/S Programada</strong>:
+        <ul>
+          <li>CPU consulta constantemente o dispositivo.</li>
+          <li>Ineficiente, mas simples.</li>
+        </ul>
+      </li>
+      <li><strong>E/S por Interrupção</strong>:
+        <ul>
+          <li>Dispositivo avisa a CPU quando estiver pronto.</li>
+          <li>Mais eficiente, pois evita polling.</li>
+        </ul>
+      </li>
+      <li><strong>E/S com DMA (Acesso Direto à Memória)</strong>:
+        <ul>
+          <li>Controlador transfere dados diretamente para a memória, sem a CPU.</li>
+          <li>Melhora desempenho.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>4. Componentes do Gerenciamento de E/S</h2>
+    <ul>
+      <li><strong>Controladores de Dispositivo</strong>: Circuito que gerencia um dispositivo físico.</li>
+      <li><strong>Drivers de Dispositivo</strong>: Software que traduz comandos do SO para o hardware.</li>
+      <li><strong>Buffer</strong>: Área de memória usada para troca temporária de dados.</li>
+      <li><strong>Spooling</strong>: Técnica de enfileiramento, comum em impressão.</li>
+    </ul>
+  </div>
+
+  <div class="alerta">
+    <h3>🎯 Fique Atento!</h3>
+    <ul>
+      <li><strong>E/S programada ≠ E/S por interrupção</strong>: A primeira é mais simples, a segunda mais eficiente.</li>
+      <li><strong>DMA não usa CPU</strong> durante a transferência, mas precisa da CPU para iniciar.</li>
+      <li><strong>Drivers são parte do kernel</strong>, mas podem ser atualizados independentemente do SO.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>5. Arquitetura de Software de E/S</h2>
+    <ul>
+      <li><strong>Nível de usuário</strong>: onde o processo solicita uma operação de E/S.</li>
+      <li><strong>Chamadas de sistema</strong>: interface entre aplicação e kernel.</li>
+      <li><strong>Camada do driver</strong>: executa ações específicas para o hardware.</li>
+      <li><strong>Hardware</strong>: realiza a operação física.</li>
+    </ul>
+    <p><em>Fluxo: Aplicação → SO → Driver → Dispositivo</em></p>
+  </div>
+
+  <div class="alerta">
+    <h3>🧠 Estratégia de Fixação</h3>
+    <p>Use a sigla <strong>ICD-B</strong> para lembrar:</p>
+    <ul>
+      <li><strong>I</strong>: Interrupções</li>
+      <li><strong>C</strong>: Controladores</li>
+      <li><strong>D</strong>: Drivers</li>
+      <li><strong>B</strong>: Buffers</li>
+    </ul>
+  </div>
+
+</body>
+</html>

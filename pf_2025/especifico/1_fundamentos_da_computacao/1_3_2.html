@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Processadores - Hyper-Threading</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f9;
+      color: #333;
+      padding: 20px;
+      line-height: 1.7;
+    }
+    h1, h2, h3 {
+      color: #1a237e;
+    }
+    h1 {
+      border-bottom: 2px solid #1a237e;
+      padding-bottom: 6px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .box {
+      background-color: #e3f2fd;
+      border-left: 5px solid #1976d2;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .alerta {
+      background-color: #fff3e0;
+      border-left: 5px solid #f57c00;
+      padding: 15px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Fundamentos da Computação – Hyper-Threading</h1>
+
+  <p>Entenda o que é, como funciona e o que a banca CEBRASPE costuma cobrar sobre <strong>Hyper-Threading</strong> — uma tecnologia essencial no desempenho de processadores modernos.</p>
+
+  <div class="box">
+    <h2>1. O que é Hyper-Threading?</h2>
+    <ul>
+      <li>Tecnologia desenvolvida pela <strong>Intel</strong>.</li>
+      <li>Permite que um único núcleo físico execute <strong>dois threads simultaneamente</strong>.</li>
+      <li>Cada núcleo se comporta como se fosse <strong>dois núcleos lógicos</strong>.</li>
+      <li>Melhora a eficiência da CPU em tarefas paralelas leves.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>2. Como Funciona?</h2>
+    <ul>
+      <li>Compartilha recursos físicos do núcleo (ex: ALUs, cache, registradores).</li>
+      <li>Utiliza ociosidade de um thread para executar instruções do segundo thread.</li>
+      <li><strong>Thread 1 e Thread 2</strong> são gerenciadas pelo sistema operacional como processadores virtuais separados.</li>
+    </ul>
+    <p><strong>Exemplo:</strong> Um processador com 4 núcleos físicos e Hyper-Threading ativado aparece como 8 núcleos lógicos no sistema.</p>
+  </div>
+
+  <div class="box">
+    <h2>3. Vantagens do Hyper-Threading</h2>
+    <ul>
+      <li>Melhora o desempenho em <strong>tarefas multi-threaded leves</strong>.</li>
+      <li><strong>Melhor aproveitamento do núcleo</strong> em aplicações com muitas instruções curtas.</li>
+      <li><strong>Eficiência energética</strong>: mais performance sem mais consumo proporcional.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>4. Limitações e Cuidados</h2>
+    <ul>
+      <li>Não dobra a performance — apenas melhora o uso da CPU em certos cenários.</li>
+      <li>Menor ganho em aplicações que já consomem 100% dos recursos de um núcleo.</li>
+      <li>Segurança: vulnerável a ataques como <strong>Spectre</strong> e <strong>Meltdown</strong>.</li>
+      <li>Requer suporte do <strong>sistema operacional</strong> e da <strong>aplicação</strong>.</li>
+    </ul>
+  </div>
+
+  <div class="alerta">
+    <h3>🎯 Pontos Quentes para a CEBRASPE:</h3>
+    <ul>
+      <li><strong>Hyper-Threading ≠ Multicore real</strong>. É um ganho lógico, não físico.</li>
+      <li><strong>Thread ≠ Processo</strong>: Hyper-Threading atua no nível de thread (linha de execução).</li>
+      <li>Importante saber que é o <strong>SO quem vê dois núcleos</strong> lógicos, mas eles competem pelo mesmo núcleo físico.</li>
+      <li>Em geral, ganhos de <strong>20% a 30%</strong> no melhor dos cenários.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>5. Comparativo Rápido</h2>
+    <ul>
+      <li><strong>Multicore</strong>: múltiplos núcleos físicos reais → mais caro e mais desempenho real.</li>
+      <li><strong>Hyper-Threading</strong>: divide um núcleo físico em dois lógicos → mais eficiente, mas limitado.</li>
+    </ul>
+  </div>
+
+  <div class="alerta">
+    <h3>💡 Dica de Memorização</h3>
+    <p><strong>“1 físico, 2 lógicos”</strong> → lembre que um núcleo físico com Hyper-Threading ativa dois threads simultâneos, mas compartilham os mesmos recursos internos.</p>
+  </div>
+
+</body>
+</html>

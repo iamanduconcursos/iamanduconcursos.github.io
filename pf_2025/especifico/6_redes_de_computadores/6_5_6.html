@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Redes Móveis de Dados (Celular) - Perito PF</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #fff; color: #222; line-height: 1.6; padding: 2em; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .importante { background: #d4edda; padding: 10px; border-left: 5px solid #28a745; margin: 1em 0; }
+    .exemplo { background: #d1ecf1; padding: 10px; border-left: 5px solid #17a2b8; margin: 1em 0; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h1>📱 Redes Móveis de Dados (Celular)</h1>
+<p>Resumo objetivo e estratégico para a disciplina de <strong>Redes de Computadores</strong>, com foco no concurso de <strong>Perito Digital da Polícia Federal</strong> e no perfil da banca <strong>CESPE/Cebraspe</strong>.</p>
+
+<hr>
+
+<h2>📶 1. O que são Redes Móveis de Dados?</h2>
+<ul>
+  <li>Redes móveis são sistemas de comunicação que permitem a conexão de dispositivos (celulares, tablets, IoT) sem fio, com mobilidade total.</li>
+  <li>Utilizam espectro de radiofrequência licenciado, torres de comunicação (ERBs) e padrões definidos por gerações (2G, 3G, 4G, 5G).</li>
+</ul>
+
+<div class="importante">
+  🧠 <strong>Dica de prova:</strong> CESPE costuma cobrar a <strong>evolução tecnológica e a arquitetura envolvida em cada geração</strong>.
+</div>
+
+<hr>
+
+<h2>📈 2. Evolução das Gerações (Gx)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Geração</th>
+      <th>Nome</th>
+      <th>Tecnologia</th>
+      <th>Taxa de Dados</th>
+      <th>Principais Características</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2G</td>
+      <td>GSM</td>
+      <td>GPRS / EDGE</td>
+      <td>Até 200 Kbps</td>
+      <td>Voz digital, SMS, internet básica</td>
+    </tr>
+    <tr>
+      <td>3G</td>
+      <td>UMTS / WCDMA</td>
+      <td>HSPA+</td>
+      <td>Até 42 Mbps</td>
+      <td>Melhor suporte a dados, videochamadas</td>
+    </tr>
+    <tr>
+      <td>4G</td>
+      <td>LTE</td>
+      <td>OFDM</td>
+      <td>Até 1 Gbps</td>
+      <td>Alta velocidade, VoLTE, streaming HD</td>
+    </tr>
+    <tr>
+      <td>5G</td>
+      <td>NR (New Radio)</td>
+      <td>mmWave, beamforming</td>
+      <td>Até 10 Gbps</td>
+      <td>Baixa latência, IoT massivo, realidade aumentada</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🏗️ 3. Arquitetura das Redes Celulares</h2>
+
+<h3>Componentes principais:</h3>
+<ul>
+  <li><strong>UE (User Equipment):</strong> Dispositivo móvel (ex: smartphone)</li>
+  <li><strong>eNodeB / gNodeB:</strong> Antena base (4G/5G)</li>
+  <li><strong>EPC (Evolved Packet Core):</strong> Núcleo da rede 4G</li>
+  <li><strong>5GC (5G Core):</strong> Núcleo nativo 5G</li>
+</ul>
+
+<div class="exemplo">
+  📡 <strong>Resumo visual:</strong><br>
+  <code>UE → Antena (eNodeB) → Core (EPC/5GC) → Internet/Serviços</code>
+</div>
+
+<h3>Camadas envolvidas:</h3>
+<ul>
+  <li><strong>Física:</strong> Transmissão via rádio</li>
+  <li><strong>Enlace:</strong> Controle de acesso ao meio (MAC)</li>
+  <li><strong>Rede:</strong> Encaminhamento de pacotes (IP)</li>
+  <li><strong>Aplicação:</strong> VoIP, navegação, streaming</li>
+</ul>
+
+<hr>
+
+<h2>🔐 4. Segurança em Redes Móveis</h2>
+
+<ul>
+  <li>Criptografia de dados entre UE e estação base (ex: AES, SNOW 3G)</li>
+  <li>Autenticação mútua SIM ↔ rede (ex: algoritmos AKA - Authentication and Key Agreement)</li>
+  <li>5G traz segurança por design: IMSI oculta, integridade de sinalização, etc.</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ <strong>Pegadinha CESPE:</strong> "As redes móveis oferecem segurança apenas no núcleo da rede" → <strong>Errado!</strong> A criptografia também ocorre entre o celular e a estação base.
+</div>
+
+<hr>
+
+<h2>📲 5. Aplicações práticas e uso no contexto pericial</h2>
+
+<ul>
+  <li><strong>Rastreamento de dispositivos móveis</strong> (triangulação por torres)</li>
+  <li><strong>Interceptações legais (Lawful Interception)</strong> via operadoras</li>
+  <li><strong>Identificação de IMEI / IMSI</strong> em investigações</li>
+  <li><strong>Monitoramento de metadados:</strong> localização, tempo de conexão, uso de dados</li>
+</ul>
+
+<hr>
+
+<h2>🧠 6. Dicas CESPE/Cebraspe</h2>
+<ul>
+  <li>📡 LTE = 4G (não confundir com 3G evoluído)</li>
+  <li>⚙️ 5G ≠ apenas velocidade. Ele inclui <strong>baixa latência</strong>, <strong>maior densidade</strong> de dispositivos, e <strong>novas aplicações IoT</strong>.</li>
+  <li>🔐 A segurança é ponta a ponta: UE → estação → núcleo</li>
+  <li>🔗 VoLTE = Voz sobre IP em rede LTE</li>
+  <li>🚫 "GSM transmite apenas voz" → FALSO. Já suporta dados via GPRS/EDGE</li>
+</ul>
+
+<hr>
+
+<h2>📚 7. Fontes e apoio para aprofundar</h2>
+<ul>
+  <li><strong>Livro:</strong> Redes Móveis - William Stallings</li>
+  <li><strong>3GPP Specs:</strong> https://www.3gpp.org/</li>
+  <li><strong>ANATEL:</strong> Normas técnicas sobre uso do espectro</li>
+</ul>
+
+<div class="importante">
+  ✅ <strong>Resumo mental:</strong><br>
+  <code>2G → GSM</code> | <code>3G → UMTS</code> | <code>4G → LTE</code> | <code>5G → NR (New Radio)</code><br>
+  <code>LTE → IP puro</code> | <code>5G → nativo para IoT e baixa latência</code>
+</div>
+
+</body>
+</html>

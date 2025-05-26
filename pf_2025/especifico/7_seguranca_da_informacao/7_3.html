@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Segurança da Informação - Segurança de Contêineres</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f8fa;
+      color: #222;
+      margin: 20px auto;
+      max-width: 900px;
+      padding: 25px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #1b3a77;
+    }
+    .section {
+      background: #fff;
+      padding: 22px 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgb(0 0 0 / 0.1);
+      margin-bottom: 30px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .highlight {
+      background-color: #dbeeff;
+      border-left: 6px solid #1b3a77;
+      padding: 15px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+    code {
+      background-color: #e3ebf9;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h1>Perito Digital PF - Segurança da Informação</h1>
+    <h2>🔒 Segurança de Contêineres: Docker, Kubernetes e Runtime Security</h2>
+
+    <h3>1. Introdução à Segurança de Contêineres</h3>
+    <p>
+      Contêineres são unidades leves de software que empacotam aplicações e suas dependências. Segurança em contêineres visa proteger o ambiente e as aplicações contra ameaças específicas desse modelo.
+    </p>
+    <ul>
+      <li>Contêiner x Máquina Virtual: Contêiner compartilha kernel do host, exigindo atenção redobrada em isolamento.</li>
+      <li>Importância: Amplamente usados em ambientes de nuvem, DevOps, e microserviços.</li>
+    </ul>
+
+    <h3>2. Docker - Conceitos e Segurança</h3>
+    <ul>
+      <li><strong>Imagens:</strong> Devem ser verificadas para vulnerabilidades antes do uso.</li>
+      <li><strong>Privilégios:</strong> Evitar execução de contêineres como root para minimizar riscos.</li>
+      <li><strong>Isolamento:</strong> Namespaces e cgroups isolam processos e recursos.</li>
+      <li><strong>Escaneamento:</strong> Ferramentas como Docker Bench Security avaliam configurações seguras.</li>
+      <li><strong>Configurações:</strong> Uso de <code>docker-compose</code> seguro e políticas de rede restritas.</li>
+    </ul>
+
+    <h3>3. Kubernetes (K8s) e Segurança</h3>
+    <ul>
+      <li><strong>Componentes:</strong> API Server, Scheduler, Controller Manager, Kubelet - todos devem ser protegidos.</li>
+      <li><strong>RBAC (Role-Based Access Control):</strong> Controle rigoroso de permissões para usuários e serviços.</li>
+      <li><strong>Network Policies:</strong> Definição de regras para comunicação entre pods para limitar superfícies de ataque.</li>
+      <li><strong>Segurança das Imagens:</strong> Uso de registries confiáveis, assinaturas digitais e scanners de vulnerabilidades.</li>
+      <li><strong>Pod Security Policies:</strong> Restrições para configuração dos pods, limitando uso de privilégios e acesso ao host.</li>
+    </ul>
+
+    <h3>4. Runtime Security (Segurança em Tempo de Execução)</h3>
+    <ul>
+      <li><strong>Monitoramento contínuo:</strong> Detecta comportamentos anômalos durante a execução dos contêineres.</li>
+      <li><strong>Ferramentas:</strong> Falco, Aqua Security, Sysdig Secure - usadas para detecção e resposta a ameaças.</li>
+      <li><strong>Proteção contra ameaças:</strong> Injeção de código malicioso, escalonamento de privilégios, movimentos laterais e exploração de vulnerabilidades.</li>
+      <li><strong>Logs e auditoria:</strong> Coleta de logs detalhados para análises forenses.</li>
+    </ul>
+
+    <h3>5. Práticas Recomendadas</h3>
+    <ul>
+      <li>Minimizar imagens, removendo componentes desnecessários.</li>
+      <li>Atualizar imagens e componentes com frequência para corrigir vulnerabilidades.</li>
+      <li>Utilizar scanners automáticos de vulnerabilidades em pipeline CI/CD.</li>
+      <li>Configurar autenticação forte e criptografia para comunicação interna.</li>
+      <li>Isolar workloads sensíveis usando namespaces e políticas rígidas.</li>
+    </ul>
+
+    <div class="highlight">
+      <strong>Dica CEBRASPE:</strong> Entenda arquitetura básica do Docker e Kubernetes, seus principais componentes e mecanismos de segurança. Foque em práticas de isolamento, gerenciamento de privilégios, e ferramentas para segurança em tempo de execução.
+    </div>
+
+  </div>
+
+  <div class="section">
+    <h2>6. Exemplos práticos cobrados em provas</h2>
+    <ul>
+      <li>Identificação de vantagens do uso de namespaces e cgroups no Docker.</li>
+      <li>Função do RBAC no Kubernetes para controle de acesso.</li>
+      <li>Importância do uso de imagens assinadas e verificadas.</li>
+      <li>Como ferramentas de runtime security detectam anomalias em contêineres.</li>
+      <li>Riscos ao executar contêineres com privilégios de root.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>7. Conceitos chave para fixar</h2>
+    <ul>
+      <li><strong>Isolamento:</strong> Namespaces, cgroups e políticas para limitar recursos e acesso.</li>
+      <li><strong>Controle de acesso:</strong> RBAC e autenticação forte para evitar acessos indevidos.</li>
+      <li><strong>Integridade:</strong> Assinatura e verificação das imagens e componentes.</li>
+      <li><strong>Monitoramento:</strong> Detecção de comportamentos anômalos e auditoria contínua.</li>
+      <li><strong>Atualizações constantes:</strong> Corrigir vulnerabilidades rapidamente.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔑 Conclusão</h2>
+    <p>
+      A segurança de contêineres é um tema crítico e em crescimento na área de perícia digital. Dominar conceitos de Docker, Kubernetes e runtime security, com foco em isolamento, controle de acesso e monitoramento, é essencial para se destacar em provas da CEBRASPE para Perito Digital da Polícia Federal.
+    </p>
+  </div>
+
+</body>
+</html>

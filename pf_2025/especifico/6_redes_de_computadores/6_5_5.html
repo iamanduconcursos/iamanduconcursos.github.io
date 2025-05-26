@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Comunicação Sem Fio – Padrões 802.11 e Bluetooth</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #e8f8f5; padding: 12px; border-left: 5px solid #1abc9c; margin: 10px 0; }
+  </style>
+</head>
+<body>
+
+<h2>📡 Comunicação Sem Fio – IEEE 802.11 e Bluetooth</h2>
+
+<div class="highlight">
+  Redes sem fio aparecem com frequência em provas da <strong>CESPE/CEBRASPE</strong>, principalmente sobre os padrões <strong>Wi-Fi (802.11)</strong> e <strong>Bluetooth</strong>. Este é um resumo objetivo e estratégico para concursos.
+</div>
+
+<h3>📶 Padrão IEEE 802.11 (Wi-Fi)</h3>
+<ul>
+  <li>Define a comunicação de redes locais sem fio (WLAN).</li>
+  <li>Opera nas camadas <strong>física</strong> e <strong>enlace de dados</strong> do modelo OSI.</li>
+  <li>Usa técnicas como <strong>CSMA/CA</strong> para evitar colisões (diferente do Ethernet com CSMA/CD).</li>
+  <li>Frequências típicas: <strong>2.4 GHz</strong> e <strong>5 GHz</strong> (algumas versões mais novas usam 6 GHz).</li>
+</ul>
+
+<h3>🧭 Comparativo das Versões IEEE 802.11</h3>
+<table>
+  <thead>
+    <tr><th>Padrão</th><th>Velocidade Máx.</th><th>Frequência</th><th>Observações</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>802.11b</td><td>11 Mbps</td><td>2.4 GHz</td><td>Baixa velocidade, alta compatibilidade</td></tr>
+    <tr><td>802.11g</td><td>54 Mbps</td><td>2.4 GHz</td><td>Retrocompatível com 802.11b</td></tr>
+    <tr><td>802.11n</td><td>600 Mbps</td><td>2.4/5 GHz</td><td>Usa MIMO</td></tr>
+    <tr><td>802.11ac</td><td>1.3 Gbps</td><td>5 GHz</td><td>Alta performance</td></tr>
+    <tr><td>802.11ax (Wi-Fi 6)</td><td>> 10 Gbps</td><td>2.4/5/6 GHz</td><td>Melhor eficiência e desempenho</td></tr>
+  </tbody>
+</table>
+
+<h3>🔒 Segurança Wi-Fi</h3>
+<ul>
+  <li><strong>WEP:</strong> Inseguro e obsoleto</li>
+  <li><strong>WPA:</strong> Melhor que WEP, mas ainda vulnerável</li>
+  <li><strong>WPA2:</strong> Uso atual, com AES</li>
+  <li><strong>WPA3:</strong> Novo padrão, mais seguro</li>
+</ul>
+
+<h3>📲 Bluetooth</h3>
+<ul>
+  <li>Tecnologia de rede pessoal (WPAN) de curto alcance (~10 m).</li>
+  <li>Opera em <strong>2.4 GHz</strong>, usando <strong>FHSS (salto de frequência)</strong>.</li>
+  <li>Protocolos definidos pela <strong>IEEE 802.15.1</strong>.</li>
+  <li>Usado para troca de dados entre dispositivos móveis, fones, teclados etc.</li>
+</ul>
+
+<h3>📊 Versões do Bluetooth</h3>
+<table>
+  <thead>
+    <tr><th>Versão</th><th>Velocidade</th><th>Principais Características</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1.2</td><td>1 Mbps</td><td>FHSS, básico</td></tr>
+    <tr><td>2.0 + EDR</td><td>3 Mbps</td><td>Maior velocidade com taxa de dados melhorada</td></tr>
+    <tr><td>4.0 (BLE)</td><td>1 Mbps</td><td>Baixo consumo (IoT)</td></tr>
+    <tr><td>5.0</td><td>Até 2 Mbps</td><td>Maior alcance e velocidade</td></tr>
+  </tbody>
+</table>
+
+<h3>💡 Dicas Estratégicas para a Prova</h3>
+<ul>
+  <li>CSMA/CA é usado no Wi-Fi para evitar colisões (não detectar).</li>
+  <li>WPA3 é o padrão mais seguro atual em redes sem fio.</li>
+  <li>Bluetooth = WPAN / Wi-Fi = WLAN.</li>
+  <li>Frequência comum entre os dois: 2.4 GHz.</li>
+</ul>
+
+<h3>❓ Estilo CESPE/CEBRASPE – Exemplo de Questões</h3>
+<ul>
+  <li>"O padrão IEEE 802.11b opera na frequência de 5 GHz." – <strong>FALSO</strong></li>
+  <li>"O protocolo WPA3 substitui o WEP e oferece maior segurança." – <strong>VERDADEIRO</strong></li>
+  <li>"Bluetooth e Wi-Fi utilizam a técnica CSMA/CD para evitar colisões." – <strong>FALSO</strong></li>
+</ul>
+
+</body>
+</html>

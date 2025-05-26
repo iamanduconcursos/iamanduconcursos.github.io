@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Engenharia Reversa: Malware Polimórfico</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    h1 {
+      border-bottom: 2px solid #2c3e50;
+      padding-bottom: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .highlight {
+      background-color: #ecf0f1;
+      padding: 12px;
+      border-left: 6px solid #3498db;
+      margin: 20px 0;
+    }
+    em {
+      color: #7f8c8d;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧬 Engenharia Reversa de Software: Malware Polimórfico</h1>
+
+  <h2>1. O que é Malware Polimórfico?</h2>
+  <p>Malware polimórfico é um tipo de software malicioso que altera sua assinatura cada vez que é executado, mantendo o mesmo comportamento malicioso. Isso torna a detecção por antivírus baseada em assinaturas tradicional ineficaz.</p>
+
+  <h2>2. Características Principais</h2>
+  <ul>
+    <li><strong>Mutação Constante:</strong> Cada cópia é única em termos de código binário.</li>
+    <li><strong>Comportamento Preservado:</strong> Apesar da mudança de forma, a funcionalidade maliciosa continua.</li>
+    <li><strong>Alta Evasividade:</strong> Dificulta a detecção por antivírus convencionais.</li>
+  </ul>
+
+  <h2>3. Técnicas Comuns Utilizadas</h2>
+  <ul>
+    <li><strong>Criptografia de Payload:</strong> O código malicioso é criptografado e só é executado após ser decodificado em tempo de execução.</li>
+    <li><strong>Ofuscação de Código:</strong> Uso de instruções inúteis, renomeações e controle de fluxo não linear para confundir analisadores.</li>
+    <li><strong>Geradores Polimórficos:</strong> Engines que criam novas versões do malware automaticamente.</li>
+  </ul>
+
+  <h2>4. Ferramentas de Análise Relevantes</h2>
+  <ul>
+    <li><strong>IDA Pro:</strong> Desmontador poderoso com suporte para análise estática detalhada.</li>
+    <li><strong>OllyDbg:</strong> Debugger para código x86 em Windows, ideal para análise dinâmica.</li>
+    <li><strong>Ghidra:</strong> Framework da NSA, open-source, robusto para engenharia reversa.</li>
+  </ul>
+
+  <h2>5. Desafios na Análise de Malware Polimórfico</h2>
+  <ul>
+    <li><strong>Anti-debugging:</strong> Técnicas que impedem ou dificultam o uso de depuradores.</li>
+    <li><strong>Anti-VM:</strong> Malware detecta execução em máquinas virtuais e altera seu comportamento.</li>
+    <li><strong>Descriptografia em Tempo de Execução:</strong> Exige monitoramento cuidadoso do código sendo carregado na memória.</li>
+  </ul>
+
+  <h2>6. Aplicações Práticas no Trabalho Pericial</h2>
+  <ul>
+    <li>Detecção e engenharia reversa de <strong>malware avançado</strong>.</li>
+    <li><strong>Forense digital</strong> com foco em análise de comportamento e persistência.</li>
+    <li><strong>Produção de relatórios técnicos</strong> sobre ameaças cibernéticas.</li>
+  </ul>
+
+  <h2>7. Dicas Para Provas do CEBRASPE / CESPE</h2>
+  <div class="highlight">
+    <ul>
+      <li>Entenda a <strong>diferença entre ofuscação, criptografia e polimorfismo</strong>.</li>
+      <li>Estude exemplos de <strong>engenharia reversa prática</strong> com IDA e Ghidra.</li>
+      <li>Pratique identificação de técnicas <strong>anti-debug</strong> e evasivas.</li>
+      <li><strong>Refaça questões anteriores</strong> com foco em análise estática e dinâmica.</li>
+    </ul>
+  </div>
+
+  <p><em>Este material foi feito para otimizar seus estudos. Com foco, você pode dominar este tema mesmo com pouco tempo. Boa sorte, futuro Perito Digital da PF!</em></p>
+</body>
+</html>

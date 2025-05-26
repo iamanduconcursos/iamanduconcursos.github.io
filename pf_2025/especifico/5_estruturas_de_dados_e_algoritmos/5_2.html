@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Estruturas de Dados e Algoritmos: Métodos de Acesso, Busca, Inserção e Ordenação</title>
+<style>
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #fdfdfd;
+    color: #222;
+    line-height: 1.5;
+  }
+  h1, h2 {
+    color: #2d3436;
+  }
+  h1 {
+    border-bottom: 3px solid #0984e3;
+    padding-bottom: 8px;
+  }
+  ul {
+    margin-left: 20px;
+  }
+  code {
+    background-color: #dfe6e9;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+  }
+  .highlight {
+    background-color: #74b9ff20;
+    border-left: 5px solid #0984e3;
+    padding: 15px;
+    margin: 20px 0;
+  }
+  em {
+    color: #636e72;
+  }
+</style>
+</head>
+<body>
+
+<h1>📚 Estruturas de Dados e Algoritmos</h1>
+<h2>📌 Métodos de Acesso, Busca, Inserção e Ordenação</h2>
+
+<h2>1. Métodos de Acesso</h2>
+<ul>
+  <li><strong>Acesso Sequencial (Linear):</strong> percorre elementos um a um (ex: listas, arrays não ordenados).</li>
+  <li><strong>Acesso Direto (Indexado):</strong> acesso via índice, típico de arrays.</li>
+  <li><strong>Acesso Encadeado:</strong> usado em listas encadeadas, onde cada elemento aponta para o próximo.</li>
+</ul>
+
+<h2>2. Métodos de Busca</h2>
+<ul>
+  <li><strong>Busca Linear:</strong> percorre todos os elementos sequencialmente. Complexidade: <code>O(n)</code>.</li>
+  <li><strong>Busca Binária:</strong> para dados ordenados; divide o espaço de busca ao meio a cada passo. Complexidade: <code>O(log n)</code>.</li>
+  <li><strong>Busca em Árvores:</strong> em árvores binárias de busca, aproveita a ordenação para acelerar a busca (<code>O(log n)</code> no melhor caso).</li>
+</ul>
+
+<h2>3. Métodos de Inserção</h2>
+<ul>
+  <li><strong>Inserção em Arrays:</strong> se for em posição específica, pode precisar deslocar elementos. Complexidade: <code>O(n)</code>.</li>
+  <li><strong>Inserção em Listas Encadeadas:</strong> direta, sem necessidade de deslocar elementos, geralmente <code>O(1)</code> se inserir no início.</li>
+  <li><strong>Inserção em Árvores:</strong> inserir seguindo regras da árvore (ex: árvore binária de busca).</li>
+  <li><strong>Inserção em Tabelas Hash:</strong> depende do método de tratamento de colisão (encadeamento, endereçamento aberto).</li>
+</ul>
+
+<h2>4. Métodos de Ordenação</h2>
+<ul>
+  <li><strong>Bubble Sort:</strong> troca elementos adjacentes; simples, mas lento (<code>O(n²)</code>).</li>
+  <li><strong>Selection Sort:</strong> seleciona o menor elemento a cada passo; também <code>O(n²)</code>.</li>
+  <li><strong>Insertion Sort:</strong> insere elementos na posição correta; eficiente para listas pequenas ou quase ordenadas (<code>O(n²)</code> no pior caso).</li>
+  <li><strong>Merge Sort:</strong> algoritmo divide e conquista; divide o problema, ordena e junta. Complexidade <code>O(n log n)</code>, estável.</li>
+  <li><strong>Quick Sort:</strong> particiona a lista e ordena recursivamente; <code>O(n log n)</code> no melhor caso, <code>O(n²)</code> no pior.</li>
+  <li><strong>Heap Sort:</strong> utiliza estrutura de heap para ordenar; <code>O(n log n)</code>, não estável.</li>
+</ul>
+
+<div class="highlight">
+  <h2>⚠️ Dicas para provas CEBRASPE/CESPE</h2>
+  <ul>
+    <li>Saiba identificar o método de busca adequado para dados ordenados e não ordenados.</li>
+    <li>Compreenda a diferença prática entre inserção em arrays e listas encadeadas.</li>
+    <li>Memorize complexidades temporais básicas dos algoritmos de ordenação clássicos.</li>
+    <li>Esteja confortável com os conceitos de acesso sequencial e direto.</li>
+    <li>Pratique a análise de pequenos trechos de código que implementam essas operações.</li>
+  </ul>
+</div>
+
+<p><em>Este resumo é pensado para otimizar seu estudo e garantir que você foque nos conteúdos que mais caem no concurso de Perito Digital da Polícia Federal. Bons estudos!</em></p>
+
+</body>
+</html>

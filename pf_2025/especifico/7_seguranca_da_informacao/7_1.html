@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>ISO/IEC 27001 e 27002 (2022) - Segurança da Informação</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      padding: 30px;
+      background-color: #fdfdfd;
+      color: #222;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    h3 {
+      color: #005288;
+    }
+    .box {
+      background-color: #f0f8ff;
+      border-left: 6px solid #007acc;
+      padding: 14px;
+      margin: 18px 0;
+    }
+    .destaque {
+      background-color: #fff8e1;
+      border-left: 6px solid #ffcc00;
+    }
+    .perigo {
+      background-color: #ffe6e6;
+      border-left: 6px solid #ff3333;
+    }
+    code {
+      background-color: #f4f4f4;
+      padding: 3px 6px;
+      font-family: monospace;
+      border-radius: 4px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Normas ISO/IEC 27001:2022 e 27002:2022</h1>
+  <p><strong>Disciplina:</strong> Segurança da Informação<br>
+     <strong>Assunto:</strong> NBR ISO/IEC 27001:2022 e 27002:2022<br>
+     <strong>Concurso:</strong> Perito Criminal Federal - Polícia Federal<br>
+     <strong>Banca:</strong> CEBRASPE/CESPE</p>
+
+  <hr>
+
+  <h2>📘 ISO/IEC 27001:2022 – Sistema de Gestão de Segurança da Informação (SGSI)</h2>
+
+  <h3>🧩 Conceito-chave:</h3>
+  <p>A norma 27001 define os **requisitos formais** para estabelecer, implementar, manter e melhorar um SGSI. É uma norma de **certificação**.</p>
+
+  <div class="box destaque">
+    <strong>Mais cobrado:</strong> Ciclo PDCA, cláusulas obrigatórias, relação com a 27002.
+  </div>
+
+  <h3>Cláusulas principais:</h3>
+  <ul>
+    <li><strong>4:</strong> Contexto da organização</li>
+    <li><strong>5:</strong> Liderança</li>
+    <li><strong>6:</strong> Planejamento</li>
+    <li><strong>7:</strong> Apoio (Recursos, Comunicação, Documentação)</li>
+    <li><strong>8:</strong> Operação</li>
+    <li><strong>9:</strong> Avaliação de desempenho</li>
+    <li><strong>10:</strong> Melhoria contínua</li>
+  </ul>
+
+  <h3>🔄 Ciclo PDCA aplicado:</h3>
+  <ul>
+    <li><strong>Plan:</strong> cláusulas 4 a 6</li>
+    <li><strong>Do:</strong> cláusula 8</li>
+    <li><strong>Check:</strong> cláusula 9</li>
+    <li><strong>Act:</strong> cláusula 10</li>
+  </ul>
+
+  <div class="box perigo">
+    <strong>Pegadinha:</strong> A 27001 não especifica os controles detalhados – ela referencia a 27002 para isso!
+  </div>
+
+  <hr>
+
+  <h2>📘 ISO/IEC 27002:2022 – Controles de Segurança da Informação</h2>
+  <p>A norma 27002 é um **guia de boas práticas**, descrevendo <strong>controles</strong> que podem ser selecionados e implementados conforme o risco.</p>
+
+  <h3>🗂️ Agrupamento em 4 temas principais:</h3>
+  <ul>
+    <li><strong>1. Organizacional</strong> – 37 controles</li>
+    <li><strong>2. Pessoas</strong> – 8 controles</li>
+    <li><strong>3. Físico</strong> – 14 controles</li>
+    <li><strong>4. Tecnológico</strong> – 34 controles</li>
+  </ul>
+
+  <div class="box destaque">
+    Total: 93 controles (reduzidos e reorganizados na versão 2022)<br>
+    Cada controle tem agora: <strong>nome, propósito e orientação</strong>.
+  </div>
+
+  <h3>🚨 Controles frequentemente cobrados:</h3>
+  <ul>
+    <li><code>5.7</code> – Classificação da Informação</li>
+    <li><code>5.15</code> – Gestão de Acesso</li>
+    <li><code>8.9</code> – Backup da Informação</li>
+    <li><code>5.23</code> – Gestão de Riscos de Segurança</li>
+    <li><code>7.4</code> – Monitoramento Físico</li>
+    <li><code>8.28</code> – Proteção contra malware</li>
+  </ul>
+
+  <div class="box perigo">
+    Pegadinha: a 27002 <strong>não é obrigatória</strong>, mas orienta a aplicação dos controles da 27001.
+  </div>
+
+  <h3>🔍 Novidades da versão 2022:</h3>
+  <ul>
+    <li>Menos controles (de 114 para 93)</li>
+    <li>Foco maior em tecnologia (controles como prevenção contra ransomware e proteção de dados em nuvem)</li>
+    <li>Uso de atributos (tagging) nos controles, como: tipo de ameaça, propriedade de segurança (confidencialidade, integridade, disponibilidade)</li>
+  </ul>
+
+  <hr>
+
+  <h2>📊 Comparativo ISO/IEC 27001 vs 27002</h2>
+  <table border="1" cellpadding="6" cellspacing="0">
+    <tr>
+      <th>Norma</th>
+      <th>Tipo</th>
+      <th>Foco</th>
+      <th>Obrigatória?</th>
+    </tr>
+    <tr>
+      <td>ISO/IEC 27001</td>
+      <td>Norma de requisitos</td>
+      <td>Gestão (SGSI)</td>
+      <td>Sim (certificação)</td>
+    </tr>
+    <tr>
+      <td>ISO/IEC 27002</td>
+      <td>Norma de diretrizes</td>
+      <td>Controles de segurança</td>
+      <td>Não (referencial)</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h2>🎯 Dicas de Ouro para a Banca CESPE</h2>
+  <ul>
+    <li>Entenda o ciclo PDCA e relacione com cláusulas</li>
+    <li>Separe mentalmente as funções da 27001 (gestão) da 27002 (controles)</li>
+    <li>Fique atento às novas nomenclaturas e agrupamentos da versão 2022</li>
+    <li>Revise controles com números: <code>5.7</code>, <code>5.15</code>, <code>8.9</code>, etc.</li>
+    <li>Lembre-se: segurança ≠ apenas tecnologia – inclui processos e pessoas</li>
+  </ul>
+
+  <div class="box">
+    <strong>Resumo final:</strong><br>
+    - ISO 27001:2022 = SGSI + cláusulas obrigatórias + ciclo PDCA<br>
+    - ISO 27002:2022 = 93 controles agrupados em 4 domínios + nova estrutura<br>
+    - CEBRASPE cobra associação entre cláusulas e controles, e confunde os papéis das normas.
+  </div>
+
+</body>
+</html>

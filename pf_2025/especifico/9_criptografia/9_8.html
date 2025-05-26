@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo Criptografia - Protocolo Signal (Concurso PF)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3, h4 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #eaf7ff; padding: 10px; border-left: 5px solid #3498db; margin: 10px 0; }
+  </style>
+</head>
+<body>
+
+<h2>🔐 Protocolo Signal – Resumo Estratégico (Perito Digital PF)</h2>
+
+<div class="highlight">
+  <strong>O que é?</strong><br>
+  O Protocolo Signal é um conjunto de especificações criptográficas usado em aplicativos de mensagens seguras, como o próprio <strong>Signal</strong>, <strong>WhatsApp</strong>, <strong>Messenger</strong>, entre outros.
+</div>
+
+<h3>📌 Objetivo</h3>
+<ul>
+  <li>Prover comunicação segura <strong>ponto-a-ponto</strong></li>
+  <li>Garantir <strong>confidencialidade</strong>, <strong>autenticidade</strong>, <strong>integridade</strong> e <strong>sigilo futuro</strong> (forward secrecy)</li>
+</ul>
+
+<h3>🔑 Princípios Criptográficos Envolvidos</h3>
+<ul>
+  <li><strong>Double Ratchet Algorithm</strong> – atualização constante de chaves</li>
+  <li><strong>X3DH (Extended Triple Diffie-Hellman)</strong> – troca de chaves inicial segura</li>
+  <li><strong>Prekeys</strong> – chaves pré-publicadas no servidor para facilitar início de conversas assíncronas</li>
+  <li><strong>Criptografia de ponta a ponta</strong> com autenticação e verificação de identidade</li>
+</ul>
+
+<h3>⚙️ Como Funciona – Visão Geral</h3>
+
+<h4>1. X3DH (Extended Triple Diffie-Hellman)</h4>
+<ul>
+  <li>Usado para iniciar sessões de forma segura</li>
+  <li>Combina múltiplas operações de DH:
+    <ul>
+      <li>Chave de identidade do usuário (IK)</li>
+      <li>Chave efêmera (EK)</li>
+      <li>Chave de sessão (SK)</li>
+      <li>PreKey pública (OPK/SPK)</li>
+    </ul>
+  </li>
+</ul>
+
+<h4>2. Double Ratchet</h4>
+<ul>
+  <li>Renova as chaves constantemente a cada mensagem</li>
+  <li>Inclui:
+    <ul>
+      <li><strong>Diffie-Hellman Ratchet</strong>: troca de DH a cada novo par de chaves</li>
+      <li><strong>Symmetric-key Ratchet</strong>: derivação de nova chave simétrica a cada mensagem</li>
+    </ul>
+  </li>
+  <li>Garante <strong>sigilo futuro</strong> e <strong>sigilo persistente</strong></li>
+</ul>
+
+<h3>📊 Componentes do Protocolo</h3>
+<table>
+  <tr><th>Componente</th><th>Função</th></tr>
+  <tr><td>X3DH</td><td>Troca de chaves segura ao iniciar uma conversa</td></tr>
+  <tr><td>Double Ratchet</td><td>Atualização constante de chaves durante a conversa</td></tr>
+  <tr><td>PreKeys</td><td>Facilitam mensagens assíncronas seguras</td></tr>
+  <tr><td>Criptografia ponta a ponta</td><td>Garante que apenas os participantes leiam as mensagens</td></tr>
+</table>
+
+<h3>🛡️ Características de Segurança</h3>
+<ul>
+  <li><strong>Forward Secrecy:</strong> Comprometimento de uma chave não afeta mensagens passadas</li>
+  <li><strong>Post-Compromise Security:</strong> Se um invasor comprometer a sessão, ela se recupera automaticamente</li>
+  <li><strong>Verificação de Identidade:</strong> Por meio de códigos QR ou palavras</li>
+  <li><strong>Metadados:</strong> Protocolo não cifra metadados (mas apps como Signal tentam minimizá-los)</li>
+</ul>
+
+<h3>⚠️ Padrões Cobrados em Provas CESPE/CEBRASPE</h3>
+<ul>
+  <li>Entendimento dos conceitos de <strong>X3DH</strong> e <strong>Double Ratchet</strong></li>
+  <li>Diferença entre <strong>criptografia simétrica</strong> e <strong>assimétrica</strong> no contexto do Signal</li>
+  <li>Conceito de <strong>sigilo futuro</strong> e <strong>pós-comprometimento</strong></li>
+  <li>Verificação de integridade e autenticidade das mensagens</li>
+</ul>
+
+<h3>🚩 Pegadinhas Frequentes</h3>
+<ul>
+  <li><strong>“Signal armazena mensagens criptografadas em servidores” – FALSO</strong></li>
+  <li><strong>“Signal usa apenas criptografia simétrica” – FALSO</strong> (usa ambos os tipos)</li>
+  <li><strong>“Double Ratchet impede interceptação inicial de mensagens” – FALSO</strong> (isso é função do X3DH)</li>
+</ul>
+
+<h3>📌 Dica Final</h3>
+<div class="highlight">
+  Foque em entender que o Signal <strong>combina criptografia assimétrica e simétrica</strong> com um modelo de atualização contínua de chaves. Isso proporciona segurança mesmo que um dispositivo seja comprometido.
+</div>
+
+</body>
+</html>

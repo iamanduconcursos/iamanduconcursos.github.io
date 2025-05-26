@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo de Engenharia Reversa e Ofuscação de Código - Polícia Federal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #2a3f5f;
+    }
+    h1 {
+      border-bottom: 2px solid #2a3f5f;
+    }
+    .destaque {
+      background-color: #e3f2fd;
+      border-left: 4px solid #2196f3;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .importante {
+      background-color: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Engenharia Reversa de Software</h1>
+
+<p>A Engenharia Reversa é o processo de analisar software já existente para extrair conhecimento ou recriar funcionalidades, sem acesso ao código-fonte.</p>
+
+<h2>📌 Objetivos</h2>
+<ul>
+  <li>Entender o funcionamento interno de sistemas (black-box analysis).</li>
+  <li>Detectar vulnerabilidades e malwares.</li>
+  <li>Realizar auditorias de segurança.</li>
+  <li>Recuperar algoritmos perdidos ou validar propriedade intelectual.</li>
+</ul>
+
+<h2>🛠️ Técnicas Comuns</h2>
+<ul>
+  <li><strong>Descompilação:</strong> Reverter um binário para um pseudo-código de alto nível.</li>
+  <li><strong>Desmontagem (Disassembly):</strong> Conversão de código binário para assembly.</li>
+  <li><strong>Depuração (Debugging):</strong> Execução passo a passo com ferramentas como <code>OllyDbg</code> e <code>Ghidra</code>.</li>
+  <li><strong>Monitoramento de API:</strong> Uso de ferramentas para monitorar chamadas de sistema, ex: <code>Procmon</code>.</li>
+</ul>
+
+<div class="importante">
+  <strong>🎯 CEBRASPE adora:</strong> Questões que envolvem <strong>diferença entre descompilar e desmontar</strong>, conhecimento prático de ferramentas e <strong>identificação de técnicas anti-debug</strong>.
+</div>
+
+<h2>🔍 Ferramentas mais cobradas</h2>
+<ul>
+  <li><strong>Ghidra:</strong> Plataforma open-source da NSA, permite engenharia reversa completa.</li>
+  <li><strong>IDA Pro:</strong> Referência em engenharia reversa estática e análise de malware.</li>
+  <li><strong>OllyDbg:</strong> Depurador para Windows de 32 bits.</li>
+  <li><strong>Radare2:</strong> Suite de ferramentas para análise binária.</li>
+</ul>
+
+<h2>🧠 Técnicas Anti-Reversing</h2>
+<ul>
+  <li>Criptografia de seções de código.</li>
+  <li>Verificação de debugger (ex: <code>IsDebuggerPresent()</code>).</li>
+  <li>Uso de técnicas de polimorfismo e metamorfismo.</li>
+</ul>
+
+<h2>🚨 Palavras-chave que você deve lembrar</h2>
+<ul>
+  <li>Desmontagem vs Descompilação</li>
+  <li>Black-box vs White-box</li>
+  <li>Anti-debugging</li>
+  <li>Assinatura digital vs Hash (em binários)</li>
+</ul>
+
+<hr>
+
+<h1>Ofuscação de Código</h1>
+
+<p>A ofuscação visa tornar o código propositalmente difícil de entender, sem alterar seu comportamento. É frequentemente usada como técnica de proteção.</p>
+
+<h2>⚙️ Tipos de Ofuscação</h2>
+<ul>
+  <li><strong>Ofuscação Lexical:</strong> Troca nomes de variáveis e funções por símbolos ilegíveis.</li>
+  <li><strong>Ofuscação de Controle de Fluxo:</strong> Insere lógica redundante ou confusa.</li>
+  <li><strong>Ofuscação de Dados:</strong> Criptografa strings e dados estáticos.</li>
+  <li><strong>Ofuscação Binária:</strong> Adiciona camadas de complexidade em binários compilados.</li>
+</ul>
+
+<div class="destaque">
+  <strong>Exemplo:</strong> Substituir <code>senha = "1234"</code> por uma sequência de <code>ord()</code> e <code>chr()</code> em loops.
+</div>
+
+<h2>🧩 Ferramentas e Técnicas de Ofuscação</h2>
+<ul>
+  <li><strong>ProGuard:</strong> Utilizado em Java/Android.</li>
+  <li><strong>ConfuserEx:</strong> Para .NET.</li>
+  <li><strong>VMProtect / Themida:</strong> Cria máquinas virtuais para execução de código protegido.</li>
+</ul>
+
+<h2>🔐 Relação com Engenharia Reversa</h2>
+<p>Ofuscação dificulta a engenharia reversa, sendo uma camada de proteção.</p>
+
+<div class="importante">
+  <strong>⚠️ CEBRASPE pode cobrar:</strong> Questões sobre <strong>como a ofuscação afeta a análise estática</strong>, ou qual tipo é mais eficaz contra determinada técnica.
+</div>
+
+<h2>🧠 O que você precisa decorar</h2>
+<ul>
+  <li>Diferença entre tipos de ofuscação.</li>
+  <li>Objetivo: Dificultar engenharia reversa, não impedir.</li>
+  <li>Combinações com criptografia e empacotamento de código.</li>
+</ul>
+
+<hr>
+
+<h2>📚 Dica Final</h2>
+<p>Se o tempo estiver curto, priorize:</p>
+<ul>
+  <li>Entendimento básico de Ghidra e IDA.</li>
+  <li>Tipos de ofuscação + relação com análise estática.</li>
+  <li>Ferramentas e métodos anti-debug.</li>
+  <li>Fluxo: Código-fonte → Compilação → Binário → Engenharia reversa.</li>
+</ul>
+
+<div class="destaque">
+  Revise com frequência os termos técnicos e monte mapas mentais — CEBRASPE explora seu domínio conceitual aliado ao vocabulário técnico.
+</div>
+
+</body>
+</html>

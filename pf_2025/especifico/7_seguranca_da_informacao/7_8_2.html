@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Recuperação de Dados em Nuvem - PF Perito Digital</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8fafc;
+      padding: 25px;
+      color: #1e293b;
+      line-height: 1.7;
+    }
+    h1, h2 {
+      color: #0f172a;
+    }
+    h1 {
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 5px;
+    }
+    h2 {
+      border-left: 5px solid #3b82f6;
+      padding-left: 10px;
+      margin-top: 35px;
+    }
+    .plataforma {
+      background: #e0f2fe;
+      border-left: 5px solid #0284c7;
+      padding: 15px;
+      margin: 15px 0;
+    }
+    .chave {
+      background: #fef9c3;
+      border-left: 5px solid #facc15;
+      padding: 12px;
+      margin: 20px 0;
+    }
+    .exemplo {
+      background: #f0fdf4;
+      border-left: 5px solid #22c55e;
+      padding: 10px;
+      font-family: monospace;
+    }
+    ul {
+      padding-left: 25px;
+    }
+    .topico {
+      font-weight: bold;
+      color: #334155;
+    }
+  </style>
+</head>
+<body>
+
+<h1>🚨 Recuperação de Dados em Nuvem – AWS, Azure, GCP</h1>
+
+<p>Resumo estratégico para a disciplina de <strong>Segurança da Informação</strong>, com foco nos serviços de backup, recuperação e auditoria em ambientes de nuvem — conteúdos frequentemente cobrados por <strong>CEBRASPE/CESPE</strong> no concurso para <strong>Perito Criminal Federal – Área de Computação/Forense Digital</strong>.</p>
+
+<h2>📌 Fundamentos Essenciais</h2>
+<ul>
+  <li><span class="topico">Backup:</span> cópia dos dados para recuperação posterior.</li>
+  <li><span class="topico">Snapshot:</span> "foto" do estado do sistema, normalmente de volumes/discos.</li>
+  <li><span class="topico">Replicação:</span> duplicação de dados entre regiões ou zonas de disponibilidade.</li>
+  <li><span class="topico">Alta Disponibilidade (HA):</span> tolerância a falhas.</li>
+  <li><span class="topico">Disaster Recovery (DR):</span> restauração completa após falha catastrófica.</li>
+</ul>
+
+<div class="chave">
+  🎯 <strong>Foco da banca:</strong> saber <em>quais serviços cada nuvem oferece</em> e como <em>garantem a integridade, disponibilidade e auditabilidade</em> dos dados.
+</div>
+
+<h2>☁️ Amazon Web Services (AWS)</h2>
+<div class="plataforma">
+  <ul>
+    <li><strong>AWS Backup:</strong> serviço unificado para backups de EC2, RDS, EFS, DynamoDB.</li>
+    <li><strong>Amazon S3:</strong> suporta versionamento + replicação (CRR/SRR) + armazenamento durável.</li>
+    <li><strong>Amazon EBS:</strong> snapshots dos volumes de máquinas EC2.</li>
+    <li><strong>Glacier:</strong> recuperação de arquivos arquivados (cold storage).</li>
+    <li><strong>CloudTrail:</strong> log de chamadas de API – fundamental para perícia forense e auditoria.</li>
+  </ul>
+</div>
+
+<h3>🧠 Pegadinha CEBRASPE</h3>
+<div class="chave">
+  ❌ "O AWS S3 não permite recuperar versões deletadas de objetos." <br>
+  ✅ Errado! Com versionamento ativado, é possível sim.
+</div>
+
+<h2>🔵 Microsoft Azure</h2>
+<div class="plataforma">
+  <ul>
+    <li><strong>Azure Backup:</strong> backup de máquinas virtuais, bancos de dados e arquivos.</li>
+    <li><strong>Azure Blob Storage:</strong> armazenamento de objetos com versionamento e soft delete.</li>
+    <li><strong>Azure Site Recovery (ASR):</strong> recuperação de desastres, replicação entre regiões.</li>
+    <li><strong>Azure Monitor & Log Analytics:</strong> análise de logs, monitoramento contínuo.</li>
+    <li><strong>Immutable storage:</strong> proteção contra alterações (compliance forense).</li>
+  </ul>
+</div>
+
+<h3>🧠 Dica rápida</h3>
+<div class="exemplo">
+  Azure Site Recovery = DRaaS (Disaster Recovery as a Service)<br>
+  Backup Vault = cofre de backup seguro com retenção por política.
+</div>
+
+<h2>🔴 Google Cloud Platform (GCP)</h2>
+<div class="plataforma">
+  <ul>
+    <li><strong>Cloud Storage:</strong> versionamento de objetos, replicação multirregional.</li>
+    <li><strong>Cloud Backup and DR:</strong> solução de backup nativa e automatizada.</li>
+    <li><strong>Persistent Disk Snapshots:</strong> snapshots consistentes para VMs.</li>
+    <li><strong>Operations Suite (ex-Stackdriver):</strong> logging e monitoring nativos.</li>
+    <li><strong>Bucket Lock (WORM):</strong> bloqueio imutável para fins legais e forenses.</li>
+  </ul>
+</div>
+
+<div class="chave">
+  🔐 <strong>Google Bucket Lock = proteção legal</strong>: impede exclusão/modificação por um tempo definido.
+</div>
+
+<h2>⚖️ Comparativo Rápido</h2>
+<ul>
+  <li><strong>Versionamento:</strong> AWS S3, Azure Blob, GCP Storage</li>
+  <li><strong>Snapshots:</strong> AWS EBS, Azure VM Disks, GCP Persistent Disk</li>
+  <li><strong>Auditoria:</strong> AWS CloudTrail, Azure Monitor, GCP Operations</li>
+  <li><strong>DRaaS:</strong> Azure Site Recovery é a solução mais completa</li>
+</ul>
+
+<h2>🕵️ Aplicações Forenses</h2>
+<ul>
+  <li>Logs de API → fundamentais para rastreio (CloudTrail, Azure Activity Log, GCP Logging)</li>
+  <li>Integridade → hash + armazenamento WORM (Write Once Read Many)</li>
+  <li>Coleta → snapshots, exportação de logs, imagem de disco persistente</li>
+</ul>
+
+<div class="chave">
+  🧠 Cuidado: Recuperação ≠ Alta disponibilidade. A recuperação pode levar tempo, a HA evita a queda.
+</div>
+
+<h2>🎯 Resumo para a prova</h2>
+<ul>
+  <li>S3, Blob e GCS = versionamento e replicação</li>
+  <li>CloudTrail, Azure Monitor e GCP Logs = rastreamento</li>
+  <li>Snapshot ≠ Backup, mas é útil para recuperação rápida</li>
+  <li>WORM = armazenamento forense/imutável</li>
+  <li>DRaaS = Site Recovery (Azure) e Cloud Backup (GCP)</li>
+</ul>
+
+</body>
+</html>

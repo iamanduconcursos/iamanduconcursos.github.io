@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Estruturas de Dados e Algoritmos - Complexidade de Algoritmos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fc;
+      color: #222;
+      margin: 20px auto;
+      max-width: 900px;
+      padding: 25px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #1a3e72;
+    }
+    .section {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+      margin-bottom: 30px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    code {
+      background-color: #e3eaf7;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+      font-size: 0.95em;
+    }
+    .highlight {
+      background-color: #d0e4ff;
+      border-left: 6px solid #1a3e72;
+      padding: 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h1>Perito Digital PF - Estruturas de Dados e Algoritmos</h1>
+    <h2>📊 Complexidade de Algoritmos - Resumo Essencial</h2>
+
+    <h3>1. O que é Complexidade de Algoritmos?</h3>
+    <p>
+      Medida que indica o desempenho e a eficiência de um algoritmo em termos de tempo (tempo de execução) e espaço (uso de memória) em função do tamanho da entrada.
+    </p>
+
+    <h3>2. Tipos de Complexidade</h3>
+    <ul>
+      <li><strong>Complexidade de Tempo:</strong> Quantidade de operações ou passos para executar o algoritmo.</li>
+      <li><strong>Complexidade de Espaço:</strong> Quantidade de memória consumida durante a execução.</li>
+    </ul>
+
+    <h3>3. Notação Assintótica</h3>
+    <p>Forma padrão para expressar complexidade, ignorando constantes e termos de menor ordem para focar no crescimento conforme entrada aumenta.</p>
+    <ul>
+      <li><code>O(f(n))</code> (Big O):</li>
+      <ul>
+        <li>Limite superior do crescimento — pior caso.</li>
+        <li>Exemplo: <code>O(n)</code>, <code>O(n²)</code>, <code>O(log n)</code>.</li>
+      </ul>
+      <li><code>Ω(f(n))</code> (Omega):</li>
+      <ul>
+        <li>Limite inferior — melhor caso.</li>
+      </ul>
+      <li><code>Θ(f(n))</code> (Theta):</li>
+      <ul>
+        <li>Crescimento exato — caso médio.</li>
+      </ul>
+    </ul>
+
+    <h3>4. Classes Comuns de Complexidade de Tempo</h3>
+    <ul>
+      <li><strong>Constante <code>O(1)</code>:</strong> Tempo fixo, independente do tamanho da entrada.</li>
+      <li><strong>Logarítmica <code>O(log n)</code>:</strong> Exemplo: busca binária.</li>
+      <li><strong>Linear <code>O(n)</code>:</strong> Exemplo: percorrer lista.</li>
+      <li><strong>Linearítmica <code>O(n log n)</code>:</strong> Exemplo: algoritmos eficientes de ordenação (merge sort, quicksort).</li>
+      <li><strong>Quadrática <code>O(n²)</code>:</strong> Exemplo: algoritmos de ordenação simples (bubble sort).</li>
+      <li><strong>Exponencial <code>O(2^n)</code> e Fatorial <code>O(n!)</code>:</strong> Muito ineficientes, usados em problemas complexos.</li>
+    </ul>
+
+    <h3>5. Análise Prática</h3>
+    <ul>
+      <li>Identifique o número de loops aninhados para estimar complexidade.</li>
+      <li>Funções recursivas podem ter complexidade diferente, avalie árvore de chamadas.</li>
+      <li>Considere entrada crescente para avaliar comportamento assintótico.</li>
+    </ul>
+
+    <h3>6. Importância para Prova</h3>
+    <p>
+      A banca CEBRASPE frequentemente cobra:
+    </p>
+    <ul>
+      <li>Determinação da complexidade temporal de algoritmos simples.</li>
+      <li>Interpretação de pseudocódigo para identificar loops e recursões.</li>
+      <li>Comparação entre algoritmos pela eficiência.</li>
+    </ul>
+
+    <div class="highlight">
+      <strong>Dica CEBRASPE:</strong> Treine resolver questões onde você calcula a complexidade observando os laços e operações fundamentais. Use a regra de multiplicação para loops aninhados.
+    </div>
+
+  </div>
+
+  <div class="section">
+    <h2>7. Exemplo Prático</h2>
+    <pre><code>for (i = 0; i &lt; n; i++) {
+    for (j = 0; j &lt; n; j++) {
+        // operação constante
+    }
+}</code></pre>
+    <p>
+      Complexidade: <code>O(n²)</code> porque para cada <code>i</code> (n vezes), executa <code>j</code> (n vezes).
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>8. Complexidade Espacial</h2>
+    <ul>
+      <li>Memória adicional utilizada para variáveis, estruturas auxiliares e chamadas recursivas.</li>
+      <li>Exemplo: algoritmo que cria matriz de tamanho <code>n x n</code> usa <code>O(n²)</code> de espaço.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>9. Estratégias para Prova</h2>
+    <ul>
+      <li>Identifique o tamanho da entrada <code>n</code>.</li>
+      <li>Conte o número de operações básicas em função de <code>n</code>.</li>
+      <li>Use a notação Big O para representar o limite superior.</li>
+      <li>Não se prenda a constantes ou termos menores — foque no termo dominante.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔑 Conclusão</h2>
+    <p>
+      Entender a complexidade de algoritmos é fundamental para analisar a eficiência de soluções, tomar decisões inteligentes no desenvolvimento e resolver questões típicas dos concursos da Polícia Federal com CEBRASPE.
+    </p>
+    <p>
+      Pratique análise de código e raciocínio lógico para se destacar na prova!
+    </p>
+  </div>
+
+</body>
+</html>

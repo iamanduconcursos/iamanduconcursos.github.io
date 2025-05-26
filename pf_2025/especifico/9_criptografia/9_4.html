@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Resumo Criptografia - Algoritmos</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+        table, th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        h2, h3, h4 { color: #333; }
+        ul { margin-top: 0; }
+        li { margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+
+<h2>📘 Resumo – Algoritmos Criptográficos (Concurso PF – Perito Digital)</h2>
+
+<h3>🧠 Estrutura de Estudo</h3>
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Algoritmos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Simétricos</td>
+      <td>AES, Blowfish, Twofish, IDEA, 3DES, RC4</td>
+    </tr>
+    <tr>
+      <td>Assimétricos</td>
+      <td>RSA, ECC</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>🔐 Algoritmos Simétricos</h3>
+
+<h4>🔸 AES (Advanced Encryption Standard)</h4>
+<ul>
+  <li>Bloco fixo: 128 bits</li>
+  <li>Chaves: 128, 192 ou 256 bits</li>
+  <li>Estrutura: SPN (Substituição e Permutação)</li>
+  <li>Rápido, seguro, amplamente utilizado</li>
+  <li><strong>⚠️ Cai muito em prova!</strong></li>
+</ul>
+
+<h4>🔸 3DES (Triple DES)</h4>
+<ul>
+  <li>Bloco de 64 bits, 3 operações DES</li>
+  <li>Chave: 112 ou 168 bits</li>
+  <li>Lento, mas ainda presente em sistemas legados</li>
+  <li>Obsoleto, substituído pelo AES</li>
+</ul>
+
+<h4>🔸 Blowfish</h4>
+<ul>
+  <li>Bloco: 64 bits</li>
+  <li>Chave: 32 a 448 bits</li>
+  <li>Vulnerável a ataques do tipo birthday</li>
+</ul>
+
+<h4>🔸 Twofish</h4>
+<ul>
+  <li>Sucessor do Blowfish</li>
+  <li>Bloco de 128 bits, chave de até 256 bits</li>
+  <li>Finalista do concurso AES</li>
+</ul>
+
+<h4>🔸 IDEA</h4>
+<ul>
+  <li>Bloco de 64 bits</li>
+  <li>Chave de 128 bits</li>
+  <li>Usado no PGP</li>
+</ul>
+
+<h4>🔸 RC4</h4>
+<ul>
+  <li><strong>Cifra de fluxo</strong></li>
+  <li>Chave variável até 2048 bits</li>
+  <li>Rápido, porém inseguro</li>
+  <li>Proibido em novos sistemas (WEP, SSL/TLS descontinuado)</li>
+</ul>
+
+<h3>🔐 Algoritmos Assimétricos</h3>
+
+<h4>🔸 RSA</h4>
+<ul>
+  <li>Baseado em fatoração de primos</li>
+  <li>Chave: 1024 a 4096 bits</li>
+  <li>Usado para troca de chaves, assinatura digital</li>
+</ul>
+
+<h4>🔸 ECC (Elliptic Curve Cryptography)</h4>
+<ul>
+  <li>Mesma segurança que RSA com chaves menores</li>
+  <li>Ideal para dispositivos móveis e IoT</li>
+  <li>Baseado em curvas elípticas sobre corpos finitos</li>
+</ul>
+
+<h3>📊 Tabela Resumo</h3>
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Algoritmo</th>
+      <th>Tipo</th>
+      <th>Bloco</th>
+      <th>Chave</th>
+      <th>Status</th>
+      <th>Uso Atual</th>
+      <th>Observações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AES</td>
+      <td>Simétrico</td>
+      <td>128 bits</td>
+      <td>128/192/256</td>
+      <td>Ativo</td>
+      <td>Alto</td>
+      <td>Rápido e seguro</td>
+    </tr>
+    <tr>
+      <td>3DES</td>
+      <td>Simétrico</td>
+      <td>64 bits</td>
+      <td>112/168</td>
+      <td>Obsoleto</td>
+      <td>Médio</td>
+      <td>Lento, usado em legados</td>
+    </tr>
+    <tr>
+      <td>Blowfish</td>
+      <td>Simétrico</td>
+      <td>64 bits</td>
+      <td>32–448</td>
+      <td>Antigo</td>
+      <td>Baixo</td>
+      <td>Substituído por Twofish</td>
+    </tr>
+    <tr>
+      <td>Twofish</td>
+      <td>Simétrico</td>
+      <td>128 bits</td>
+      <td>Até 256</td>
+      <td>Ativo</td>
+      <td>Médio</td>
+      <td>Finalista AES</td>
+    </tr>
+    <tr>
+      <td>IDEA</td>
+      <td>Simétrico</td>
+      <td>64 bits</td>
+      <td>128</td>
+      <td>Obsoleto</td>
+      <td>Baixo</td>
+      <td>Usado no PGP</td>
+    </tr>
+    <tr>
+      <td>RC4</td>
+      <td>Simétrico</td>
+      <td>Fluxo</td>
+      <td>Variável</td>
+      <td>Inseguro</td>
+      <td>Desuso</td>
+      <td>Não usar</td>
+    </tr>
+    <tr>
+      <td>RSA</td>
+      <td>Assimétrico</td>
+      <td>-</td>
+      <td>1024–4096</td>
+      <td>Ativo</td>
+      <td>Alto</td>
+      <td>Lento, seguro</td>
+    </tr>
+    <tr>
+      <td>ECC</td>
+      <td>Assimétrico</td>
+      <td>-</td>
+      <td>160–512</td>
+      <td>Ativo</td>
+      <td>Alto</td>
+      <td>Eficiência máxima</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>⚠️ Pegadinhas Clássicas (Estilo CEBRASPE)</h3>
+<ul>
+  <li><strong>"AES usa chave pública e privada" – ERRADO</strong> (é simétrico)</li>
+  <li><strong>"RC4 é cifra de bloco segura" – ERRADO</strong> (é fluxo e insegura)</li>
+  <li><strong>"RSA é usado para criptografar grandes volumes de dados" – ERRADO</strong></li>
+  <li><strong>"ECC é menos segura que RSA" – ERRADO</strong> (mais eficiente com chaves menores)</li>
+</ul>
+
+<h3>✅ O Que Memorizar para Gabaritar</h3>
+<ul>
+  <li>AES é o padrão atual (128/192/256 bits)</li>
+  <li>RSA = chave pública/privada, fatoração de primos</li>
+  <li>ECC = mesmo nível de segurança que RSA com chave menor</li>
+  <li>RC4 = cifra de fluxo, obsoleta</li>
+  <li>3DES é legado, lento</li>
+  <li>Twofish é forte, mas não padrão</li>
+</ul>
+
+</body>
+</html>

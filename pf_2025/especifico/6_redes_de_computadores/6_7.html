@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Computação em Nuvem - Perito PF</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #fff; color: #222; line-height: 1.6; padding: 2em; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .importante { background: #d4edda; padding: 10px; border-left: 5px solid #28a745; margin: 1em 0; }
+    .exemplo { background: #d1ecf1; padding: 10px; border-left: 5px solid #17a2b8; margin: 1em 0; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h1>☁️ Computação em Nuvem</h1>
+<p>Resumo estruturado e direto ao ponto da disciplina <strong>Redes de Computadores</strong> com foco no concurso de <strong>Perito Digital da Polícia Federal</strong> e no perfil da banca <strong>CESPE/Cebraspe</strong>.</p>
+
+<hr>
+
+<h2>📌 1. O que é Computação em Nuvem?</h2>
+<p>É um modelo de entrega de serviços de TI pela internet, sob demanda, com escalabilidade, acesso remoto e cobrança baseada em uso.</p>
+<ul>
+  <li><strong>Elasticidade:</strong> Ajusta recursos conforme a necessidade.</li>
+  <li><strong>Escalabilidade:</strong> Capacidade de crescer horizontal ou verticalmente.</li>
+  <li><strong>Pagamento por uso:</strong> Paga-se apenas pelo que é consumido.</li>
+  <li><strong>Multitenancy:</strong> Vários usuários compartilham a mesma infraestrutura com segurança.</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ Cuidado: Cloud ≠ só armazenamento! Inclui processamento, redes, bancos de dados, inteligência artificial, etc.
+</div>
+
+<hr>
+
+<h2>🏗️ 2. Modelos de Serviço</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Modelo</th>
+      <th>Nome</th>
+      <th>Responsabilidade do Cliente</th>
+      <th>Exemplos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>IaaS</strong></td>
+      <td>Infrastructure as a Service</td>
+      <td>Sistema operacional para cima (cliente gerencia)</td>
+      <td>Amazon EC2, Azure VM</td>
+    </tr>
+    <tr>
+      <td><strong>PaaS</strong></td>
+      <td>Platform as a Service</td>
+      <td>Somente aplicações e dados</td>
+      <td>Heroku, Google App Engine</td>
+    </tr>
+    <tr>
+      <td><strong>SaaS</strong></td>
+      <td>Software as a Service</td>
+      <td>Nenhuma responsabilidade técnica</td>
+      <td>Gmail, Office 365, Dropbox</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="importante">
+  ✅ Dica: SaaS → usuário final; PaaS → desenvolvedor; IaaS → administrador de infraestrutura.
+</div>
+
+<hr>
+
+<h2>📦 3. Modelos de Implantação</h2>
+<ul>
+  <li><strong>Nuvem Pública:</strong> Serviços fornecidos por terceiros pela internet. Ex: AWS, Google Cloud.</li>
+  <li><strong>Nuvem Privada:</strong> Infraestrutura exclusiva de uma organização.</li>
+  <li><strong>Nuvem Híbrida:</strong> Combinação de pública e privada.</li>
+  <li><strong>Multicloud:</strong> Uso simultâneo de múltiplos provedores de nuvem.</li>
+</ul>
+
+<hr>
+
+<h2>🔒 4. Segurança na Nuvem</h2>
+<ul>
+  <li><strong>Controle de acesso:</strong> IAM (Identity and Access Management)</li>
+  <li><strong>Criptografia:</strong> Em repouso e em trânsito</li>
+  <li><strong>Backups e recuperação:</strong> Deve ser planejada e automatizada</li>
+  <li><strong>Responsabilidade compartilhada:</strong> Fornecedor + cliente</li>
+</ul>
+
+<div class="exemplo">
+  🧠 Exemplo de responsabilidade: Em IaaS, o provedor cuida do hardware, mas o cliente cuida do sistema operacional.
+</div>
+
+<hr>
+
+<h2>🧠 5. Questões típicas CESPE/Cebraspe</h2>
+<ul>
+  <li>❌ “A computação em nuvem elimina a necessidade de backup.” — <strong>Errado!</strong></li>
+  <li>✅ “No modelo SaaS, o cliente não gerencia infraestrutura.” — <strong>Certo!</strong></li>
+  <li>❌ “Na nuvem pública, os dados são menos seguros.” — <strong>Errado!</strong> (depende da configuração)</li>
+  <li>✅ “A escalabilidade é uma das principais vantagens da computação em nuvem.” — <strong>Certo!</strong></li>
+</ul>
+
+<hr>
+
+<h2>📚 6. Provedores e Ferramentas Populares</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Provedor</th>
+      <th>Serviços Populares</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AWS</td>
+      <td>EC2, S3, RDS, Lambda</td>
+    </tr>
+    <tr>
+      <td>Microsoft Azure</td>
+      <td>VM, Blob Storage, SQL Database</td>
+    </tr>
+    <tr>
+      <td>Google Cloud</td>
+      <td>Compute Engine, Cloud Storage, BigQuery</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🔧 7. Ferramentas Associadas</h2>
+<ul>
+  <li><strong>Docker:</strong> Containers para empacotar aplicações</li>
+  <li><strong>Kubernetes:</strong> Orquestrador de containers</li>
+  <li><strong>Terraform:</strong> Infraestrutura como código</li>
+  <li><strong>Ansible:</strong> Automação de configuração</li>
+</ul>
+
+<hr>
+
+<h2>📌 8. Resumo Mental Rápido</h2>
+<div class="importante">
+  <ul>
+    <li><code>IaaS</code> = Infraestrutura</li>
+    <li><code>PaaS</code> = Plataforma</li>
+    <li><code>SaaS</code> = Software pronto</li>
+    <li><code>Nuvem pública</code> = Terceiros</li>
+    <li><code>Privada</code> = Organização</li>
+    <li><code>Híbrida</code> = Combinação</li>
+  </ul>
+</div>
+
+<hr>
+
+<h2>📖 9. Fontes Recomendadas</h2>
+<ul>
+  <li><a href="https://cloud.google.com/learn/what-is-cloud-computing" target="_blank">Google Cloud - What is Cloud Computing?</a></li>
+  <li><a href="https://aws.amazon.com/pt/what-is-cloud-computing/" target="_blank">AWS - O que é Computação em Nuvem?</a></li>
+  <li><a href="https://docs.microsoft.com/pt-br/learn/" target="_blank">Microsoft Learn - Azure</a></li>
+</ul>
+
+</body>
+</html>

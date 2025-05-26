@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Blockchain - Resumo Inteligente para Perito Digital PF</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; background: #fff; color: #222; padding: 2em; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .importante { background: #e2f0cb; padding: 10px; border-left: 5px solid #3c763d; margin: 1em 0; }
+    .exemplo { background: #d9edf7; padding: 10px; border-left: 5px solid #31708f; margin: 1em 0; }
+    ul li { margin-bottom: 0.5em; }
+  </style>
+</head>
+<body>
+
+<h1>⛓️ Blockchain - Criptografia aplicada em Redes Distribuídas</h1>
+<p>Resumo estratégico para concursos como o da <strong>Polícia Federal – Perito Digital</strong>. Foco em <strong>conceitos, arquitetura, segurança e funcionamento</strong> da Blockchain.</p>
+
+<hr>
+
+<h2>🔐 1. O que é Blockchain?</h2>
+<ul>
+  <li>É um <strong>registro distribuído, descentralizado, imutável e cronológico</strong> de dados, agrupados em blocos.</li>
+  <li>Utiliza criptografia para garantir <strong>integridade, transparência e segurança</strong>.</li>
+  <li>Não há uma entidade central controladora – a confiança é estabelecida pelo <strong>consenso da rede</strong>.</li>
+</ul>
+
+<div class="importante">
+  ✅ <strong>Para memorizar:</strong> Blockchain = <em>registro público + criptografia + consenso + descentralização</em>.
+</div>
+
+<hr>
+
+<h2>🧱 2. Estrutura de um Bloco</h2>
+
+<ul>
+  <li><strong>Header (cabeçalho):</strong> contém:
+    <ul>
+      <li><code>Hash do bloco anterior</code></li>
+      <li><code>Timestamp</code> (carimbo de tempo)</li>
+      <li><code>Nonce</code> (valor usado no processo de mineração)</li>
+    </ul>
+  </li>
+  <li><strong>Corpo:</strong> lista de transações.</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ <strong>Cai muito:</strong> a imutabilidade vem da <code>ligação entre os hashes</code> dos blocos.
+</div>
+
+<h3>📌 Hash em Blockchain</h3>
+<ul>
+  <li>Usado para identificar e proteger o conteúdo de um bloco.</li>
+  <li>Funções comuns: <code>SHA-256</code> (ex: Bitcoin).</li>
+  <li>Se qualquer dado do bloco for alterado, o hash muda – isso quebra a cadeia.</li>
+</ul>
+
+<hr>
+
+<h2>🤝 3. Mecanismos de Consenso</h2>
+
+<p>Permitem que todos os nós concordem sobre o conteúdo da blockchain sem um líder central.</p>
+
+<h3>3.1 Prova de Trabalho (PoW)</h3>
+<ul>
+  <li>Mineradores competem para resolver um <strong>problema matemático difícil</strong>.</li>
+  <li>Primeiro a resolver recebe recompensa e publica o bloco.</li>
+  <li><strong>Garante segurança, mas consome muita energia.</strong></li>
+</ul>
+
+<h3>3.2 Prova de Participação (PoS)</h3>
+<ul>
+  <li>Validador é escolhido com base na quantidade de moeda que possui ("stake").</li>
+  <li>Mais eficiente energeticamente.</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ <strong>Cuidado com confusão:</strong> PoW = computação intensiva | PoS = posse da moeda.
+</div>
+
+<h3>Outros mecanismos que podem aparecer:</h3>
+<ul>
+  <li><strong>DPoS</strong> (Delegated Proof of Stake)</li>
+  <li><strong>PBFT</strong> (Practical Byzantine Fault Tolerance)</li>
+</ul>
+
+<hr>
+
+<h2>🛡️ 4. Segurança em Blockchain</h2>
+
+<ul>
+  <li><strong>Imutabilidade:</strong> impossível alterar blocos sem alterar todos os seguintes.</li>
+  <li><strong>Transparência:</strong> todas as transações são visíveis (em blockchains públicas).</li>
+  <li><strong>Criptografia:</strong> protege a identidade e o conteúdo das transações.</li>
+</ul>
+
+<h3>Ataques mais cobrados:</h3>
+<ul>
+  <li><strong>Ataque dos 51%:</strong> quando um grupo controla mais da metade do poder computacional da rede – pode reverter transações.</li>
+  <li><strong>Double Spending:</strong> tentativa de gastar a mesma moeda mais de uma vez.</li>
+</ul>
+
+<div class="exemplo">
+  🧪 <strong>Exemplo:</strong> Se um invasor controlar 51% da rede Bitcoin, ele pode "reescrever" blocos recentes.
+</div>
+
+<hr>
+
+<h2>📘 5. Aplicações e Tipos de Blockchain</h2>
+
+<h3>Tipos</h3>
+<ul>
+  <li><strong>Pública:</strong> qualquer um pode participar (ex: Bitcoin, Ethereum).</li>
+  <li><strong>Privada:</strong> uso corporativo, acesso restrito.</li>
+  <li><strong>Consórcio:</strong> gerenciada por um grupo de organizações.</li>
+</ul>
+
+<h3>Principais aplicações:</h3>
+<ul>
+  <li>Criptomoedas</li>
+  <li>Contratos inteligentes (Smart Contracts)</li>
+  <li>Rastreamento logístico</li>
+  <li>Identidade digital</li>
+  <li>Votação eletrônica segura</li>
+</ul>
+
+<div class="importante">
+  💡 <strong>Smart Contract:</strong> programa autônomo que executa automaticamente termos de um contrato.
+</div>
+
+<hr>
+
+<h2>🧠 6. Dicas CESPE/Cebraspe</h2>
+
+<ul>
+  <li>🔍 Blockchain não é sinônimo de Bitcoin. É a tecnologia por trás.</li>
+  <li>🔐 Prova de Trabalho está ligada à <strong>mineração e gasto de energia</strong>.</li>
+  <li>📉 Imutabilidade depende do encadeamento dos blocos por hash.</li>
+  <li>👁️ Blockchain ≠ Privacidade total. Dados podem ser visíveis (pública).</li>
+  <li>⚔️ Atenção ao ataque dos 51% e sua relação com poder computacional.</li>
+</ul>
+
+<hr>
+
+<h2>📚 Fontes Recomendadas</h2>
+<ul>
+  <li><strong>Livro:</strong> Mastering Bitcoin – Andreas Antonopoulos</li>
+  <li>Whitepapers do Bitcoin e Ethereum</li>
+  <li>Sites oficiais de redes blockchain (Ethereum.org, Bitcoin.org)</li>
+  <li>Manuais do CERT.br sobre segurança em redes e criptografia</li>
+</ul>
+
+<hr>
+
+<h2>🧩 Resumo Rápido (Mental Map)</h2>
+<ul>
+  <li><strong>Blockchain:</strong> livro-razão distribuído</li>
+  <li><strong>Bloco:</strong> hash + transações + timestamp + nonce</li>
+  <li><strong>Segurança:</strong> vem do hash + consenso</li>
+  <li><strong>PoW:</strong> força computacional | <strong>PoS:</strong> stake</li>
+  <li><strong>Ataques:</strong> 51%, Double Spending</li>
+</ul>
+
+</body>
+</html>

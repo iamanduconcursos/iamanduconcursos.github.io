@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Protocolos de Rede - Perito PF</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #fff; color: #222; line-height: 1.6; padding: 2em; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .importante { background: #d4edda; padding: 10px; border-left: 5px solid #28a745; margin: 1em 0; }
+    .exemplo { background: #d1ecf1; padding: 10px; border-left: 5px solid #17a2b8; margin: 1em 0; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h1>🌐 Protocolos de Rede (Resumo para Concurso PF)</h1>
+<p>Resumo essencial da disciplina <strong>Redes de Computadores</strong> com foco no concurso de <strong>Perito Digital da Polícia Federal</strong>. Estruturado para te dar o máximo de conteúdo com o mínimo de leitura. Ideal para questões da banca <strong>CESPE/Cebraspe</strong>.</p>
+
+<hr>
+
+<h2>📦 1. Camada de Rede</h2>
+<ul>
+  <li><strong>IP (Internet Protocol):</strong> Endereçamento e roteamento de pacotes.</li>
+  <li><strong>IPv4:</strong> 32 bits (ex: 192.168.0.1)</li>
+  <li><strong>IPv6:</strong> 128 bits (ex: 2001:0db8::7334)</li>
+  <li><strong>ARP:</strong> Mapeia IP para MAC (camada de enlace ↔ rede).</li>
+  <li><strong>ICMP:</strong> Diagnóstico e mensagens de erro (ex: <code>ping</code>).</li>
+  <li><strong>DNS:</strong> Tradução de nomes para IPs (ex: www.exemplo.com → 8.8.8.8).</li>
+  <li><strong>DHCP:</strong> Atribui IPs dinamicamente a clientes na rede.</li>
+</ul>
+
+<hr>
+
+<h2>🔀 2. Camada de Transporte</h2>
+<ul>
+  <li><strong>TCP:</strong> Orientado à conexão, confiável (confirmação, retransmissão).</li>
+  <li><strong>UDP:</strong> Sem conexão, mais rápido, mas sem garantia de entrega.</li>
+  <li><strong>SCTP:</strong> Multistreaming + confiável, combina TCP e UDP.</li>
+</ul>
+
+<hr>
+
+<h2>🌐 3. Camada de Aplicação</h2>
+<ul>
+  <li><strong>HTTP:</strong> Transmissão de páginas web (porta 80).</li>
+  <li><strong>HTTPS:</strong> HTTP com criptografia TLS/SSL (porta 443).</li>
+  <li><strong>FTP:</strong> Transferência de arquivos (portas 20 e 21).</li>
+  <li><strong>SFTP:</strong> FTP com segurança via SSH (porta 22).</li>
+  <li><strong>SSH:</strong> Acesso remoto seguro (porta 22).</li>
+  <li><strong>SMTP:</strong> Envio de e-mails (porta 25).</li>
+  <li><strong>POP3:</strong> Recebimento de e-mails, baixa para o cliente (porta 110).</li>
+  <li><strong>IMAP:</strong> Acesso remoto ao e-mail, sincronização com servidor (porta 143).</li>
+</ul>
+
+<hr>
+
+<h2>📌 4. Portas Padrão para Protocolos</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Protocolo</th>
+      <th>Porta</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>HTTP</td><td>80</td><td>Web sem criptografia</td></tr>
+    <tr><td>HTTPS</td><td>443</td><td>Web com criptografia (SSL/TLS)</td></tr>
+    <tr><td>FTP</td><td>20/21</td><td>Transferência de arquivos</td></tr>
+    <tr><td>SFTP</td><td>22</td><td>FTP seguro via SSH</td></tr>
+    <tr><td>SSH</td><td>22</td><td>Acesso remoto seguro</td></tr>
+    <tr><td>SMTP</td><td>25</td><td>Envio de e-mail</td></tr>
+    <tr><td>POP3</td><td>110</td><td>Recebimento de e-mail (local)</td></tr>
+    <tr><td>IMAP</td><td>143</td><td>Recebimento de e-mail (servidor)</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🎯 5. Dicas CESPE/Cebraspe</h2>
+<ul>
+  <li>📬 <strong>POP3</strong> baixa e-mails para o cliente e apaga do servidor (salvo configuração).</li>
+  <li>🔁 <strong>IMAP</strong> mantém os e-mails no servidor, ideal para múltiplos dispositivos.</li>
+  <li>🔐 <strong>SFTP</strong> é diferente de FTP com SSL (FTPS). Ele usa SSH.</li>
+  <li>🚨 <strong>ICMP</strong> não é confiável para segurança (pode ser usado para ataques).</li>
+  <li>📥 <strong>DHCP</strong> oferece IP, gateway, DNS automaticamente.</li>
+  <li>🧠 <strong>DNS</strong> usa geralmente UDP na porta 53, mas pode usar TCP em transferências zone.</li>
+</ul>
+
+<div class="importante">
+  💡 <strong>Resumo mental:</strong><br>
+  <code>HTTP = 80</code> | <code>HTTPS = 443</code> | <code>FTP = 21</code> | <code>SFTP = 22</code><br>
+  <code>SMTP = 25</code> | <code>POP3 = 110</code> | <code>IMAP = 143</code>
+</div>
+
+<hr>
+
+<h2>🧪 6. Aplicações Práticas para Perícia Digital</h2>
+<ul>
+  <li><strong>Identificar protocolos e portas em logs de tráfego</strong></li>
+  <li><strong>Reconstruir sessões HTTP/S ou FTP</strong></li>
+  <li><strong>Detectar acessos remotos via SSH</strong></li>
+  <li><strong>Rastrear remetentes de e-mails via cabeçalhos SMTP</strong></li>
+</ul>
+
+<hr>
+
+<h2>📚 7. Fontes e Referências</h2>
+<ul>
+  <li><a href="https://www.ietf.org/" target="_blank">IETF - Internet Engineering Task Force</a></li>
+  <li><a href="https://www.3gpp.org/" target="_blank">3GPP - Padrões de comunicação</a></li>
+  <li><a href="https://www.rfc-editor.org/" target="_blank">RFCs (protocolos oficiais)</a></li>
+</ul>
+
+</body>
+</html>

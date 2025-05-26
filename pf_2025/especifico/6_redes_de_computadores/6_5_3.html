@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Ethernet - Arquitetura e Protocolos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #fef9e7; padding: 12px; border-left: 5px solid #f1c40f; margin: 10px 0; }
+  </style>
+</head>
+<body>
+
+<h2>🔌 Ethernet – Arquiteturas e Protocolos de Redes</h2>
+
+<div class="highlight">
+  A Ethernet é a tecnologia de rede local mais cobrada em concursos de TI, especialmente em provas da <strong>CESPE/CEBRASPE</strong>. Dominar seus conceitos, funcionamento e padrões é essencial!
+</div>
+
+<h3>📌 Conceito</h3>
+<ul>
+  <li>Ethernet é uma <strong>tecnologia de rede de enlace</strong> que define cabeamento, sinalização e acesso ao meio.</li>
+  <li>Trabalha nas <strong>camadas 1 (física) e 2 (enlace)</strong> do modelo OSI.</li>
+  <li>Emprega <strong>endereçamento MAC</strong> (Media Access Control).</li>
+</ul>
+
+<h3>🔁 Funcionamento</h3>
+<ul>
+  <li>Antigamente usava <strong>CSMA/CD</strong> (Carrier Sense Multiple Access with Collision Detection) para detectar colisões.</li>
+  <li>Hoje, com switches, o ambiente é <strong>livre de colisão (full-duplex)</strong>.</li>
+</ul>
+
+<h3>📦 Estrutura do Quadro Ethernet</h3>
+<table>
+  <thead>
+    <tr><th>Campo</th><th>Tamanho</th><th>Descrição</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Préâmbulo + SFD</td><td>8 bytes</td><td>Sinaliza início do quadro</td></tr>
+    <tr><td>Endereço MAC de destino</td><td>6 bytes</td><td>Identifica o receptor</td></tr>
+    <tr><td>Endereço MAC de origem</td><td>6 bytes</td><td>Identifica o emissor</td></tr>
+    <tr><td>Tipo/Comprimento</td><td>2 bytes</td><td>Indica protocolo da camada superior</td></tr>
+    <tr><td>Dados</td><td>46-1500 bytes</td><td>Payload</td></tr>
+    <tr><td>CRC</td><td>4 bytes</td><td>Verificação de erros (FCS)</td></tr>
+  </tbody>
+</table>
+
+<h3>📡 Padrões Ethernet</h3>
+<table>
+  <thead>
+    <tr><th>Padrão</th><th>Velocidade</th><th>Meio</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ethernet (10BASE-T)</td><td>10 Mbps</td><td>Par trançado</td></tr>
+    <tr><td>Fast Ethernet (100BASE-TX)</td><td>100 Mbps</td><td>Par trançado</td></tr>
+    <tr><td>Gigabit Ethernet (1000BASE-T)</td><td>1 Gbps</td><td>Par trançado cat 5e/6</td></tr>
+    <tr><td>10 Gigabit Ethernet (10GBASE-SR)</td><td>10 Gbps</td><td>Fibra óptica</td></tr>
+  </tbody>
+</table>
+
+<h3>📍 Endereçamento MAC</h3>
+<ul>
+  <li>48 bits (6 bytes), formato hexadecimal, exemplo: <code>00:1A:2B:3C:4D:5E</code></li>
+  <li>Primeiros 3 bytes: OUI (Identificador do Fabricante)</li>
+  <li>Últimos 3 bytes: Identificador do dispositivo</li>
+</ul>
+
+<h3>📘 Dicas para a Prova</h3>
+<ul>
+  <li>Switches operam na camada 2 e segmentam domínios de colisão.</li>
+  <li>Hubs operam na camada 1 e compartilham domínio de colisão.</li>
+  <li>MAC é endereço físico fixo; IP é lógico e configurável.</li>
+  <li>Ethernet moderna não usa mais CSMA/CD por operar em full-duplex com switches.</li>
+</ul>
+
+<h3>❓ Questões de Estilo CESPE/CEBRASPE</h3>
+<ul>
+  <li>"O endereço MAC é configurado manualmente pelo usuário." – <strong>FALSO</strong></li>
+  <li>"O protocolo CSMA/CD é ainda utilizado em redes Ethernet modernas." – <strong>FALSO</strong></li>
+  <li>"Switches operam na camada de enlace e usam endereços MAC para encaminhar quadros." – <strong>VERDADEIRO</strong></li>
+</ul>
+
+<h3>💡 Memorização Rápida</h3>
+<ul>
+  <li><strong>10/100/1000</strong> = Mbps padrão (Ethernet, Fast, Gigabit)</li>
+  <li><strong>MAC = Endereço físico único</strong></li>
+  <li><strong>CSMA/CD = Antigo método de detecção de colisão</strong></li>
+</ul>
+
+</body>
+</html>

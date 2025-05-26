@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Bancos de Dados Multidimensionais – Resumo Estratégico</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #fdf5e6; padding: 12px; border-left: 5px solid #e67e22; margin: 10px 0; }
+    code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+
+<h2>📊 Bancos de Dados Multidimensionais – Resumo para Prova (Perito PF)</h2>
+
+<div class="highlight">
+  Essencial em provas da área de dados e inteligência, especialmente pela CEBRASPE. Entenda os conceitos OLAP, cubo de dados e suas aplicações práticas.
+</div>
+
+<h3>🧩 O que são Bancos de Dados Multidimensionais?</h3>
+<ul>
+  <li>Modelos voltados para <strong>análise de grandes volumes de dados</strong>, geralmente em ambientes de <strong>Data Warehousing</strong>.</li>
+  <li>Dados são organizados em <strong>dimensões</strong> e <strong>fatos</strong>, permitindo consultas analíticas otimizadas.</li>
+  <li>Base para ferramentas de <strong>OLAP (Online Analytical Processing)</strong>.</li>
+</ul>
+
+<h3>📐 Componentes Principais</h3>
+<ul>
+  <li><strong>Fatos:</strong> métricas ou medidas quantitativas (ex: vendas, receita).</li>
+  <li><strong>Dimensões:</strong> perspectivas pelas quais os fatos podem ser analisados (ex: tempo, produto, região).</li>
+  <li><strong>Cubo de dados:</strong> representação multidimensional dos dados.</li>
+</ul>
+
+<h3>📊 Modelos de Dados Multidimensionais</h3>
+<ul>
+  <li><strong>Modelo Estrela (Star Schema):</strong> uma tabela fato central conectada a várias tabelas de dimensão.</li>
+  <li><strong>Modelo Floco de Neve (Snowflake Schema):</strong> as dimensões são normalizadas em várias tabelas.</li>
+  <li><strong>Constelação de Fatos:</strong> múltiplas tabelas fato compartilhando dimensões comuns.</li>
+</ul>
+
+<table>
+  <thead>
+    <tr><th>Modelo</th><th>Vantagem</th><th>Desvantagem</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Estrela</td>
+      <td>Performance, simplicidade</td>
+      <td>Redundância de dados</td>
+    </tr>
+    <tr>
+      <td>Floco de Neve</td>
+      <td>Redução de redundância</td>
+      <td>Consultas mais complexas</td>
+    </tr>
+    <tr>
+      <td>Constelação</td>
+      <td>Flexível, representa cenários complexos</td>
+      <td>Modelo mais difícil de manter</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>🧠 Operações OLAP</h3>
+<ul>
+  <li><strong>Roll-up:</strong> consolida dados (ex: de mês para trimestre).</li>
+  <li><strong>Drill-down:</strong> detalha dados (ex: de ano para mês).</li>
+  <li><strong>Slice:</strong> seleciona um valor de uma dimensão.</li>
+  <li><strong>Dice:</strong> seleciona múltiplos valores de múltiplas dimensões.</li>
+  <li><strong>Pivot (Rotate):</strong> reorienta a visualização dos dados.</li>
+</ul>
+
+<h3>📚 Questões Frequentes em Provas</h3>
+<ul>
+  <li>"Em bancos multidimensionais, a operação drill-down agrega dados." – <strong>FALSO</strong>, é o roll-up que agrega.</li>
+  <li>"No modelo estrela, as dimensões são normalizadas." – <strong>FALSO</strong>, quem normaliza é o floco de neve.</li>
+  <li>"O cubo de dados é formado por medidas e dimensões." – <strong>VERDADEIRO</strong></li>
+</ul>
+
+<h3>🔑 Palavras-chave para Memorizar</h3>
+<ul>
+  <li><strong>Fato = Métrica</strong>, <strong>Dimensão = Categoria</strong></li>
+  <li><strong>Star Schema</strong> = desempenho</li>
+  <li><strong>Snowflake Schema</strong> = normalização</li>
+  <li><strong>OLAP</strong> = análise multidimensional</li>
+</ul>
+
+<h3>🎯 Dica Final</h3>
+<p>Entenda bem o que é fato, dimensão e as <strong>operações OLAP</strong>. Esses conceitos são cobrados com frequência em forma de certo/errado pela CEBRASPE.</p>
+
+</body>
+</html>

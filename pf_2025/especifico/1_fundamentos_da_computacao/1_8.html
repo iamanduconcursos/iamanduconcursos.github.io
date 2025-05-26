@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Computação Quântica - Fundamentos para Concursos</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #ffffff; color: #1a1a1a; padding: 2em; line-height: 1.6; }
+    h1, h2, h3 { color: #003366; }
+    code { background-color: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+    .importante { background: #d4edda; padding: 10px; border-left: 5px solid #28a745; margin: 1em 0; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .exemplo { background: #e2f0ff; padding: 10px; border-left: 5px solid #007bff; margin: 1em 0; }
+    ul li { margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h1>🧠 Computação Quântica: Conceitos Envolvidos</h1>
+<p>Resumo prático e otimizado para concursos da <strong>Polícia Federal - Perito Digital</strong>, abordando os <strong>fundamentos da computação quântica</strong> com foco em provas da <strong>CESPE/Cebraspe</strong>.</p>
+
+<hr>
+
+<h2>🔍 1. O que é Computação Quântica?</h2>
+<p>É um modelo de computação baseado nos princípios da mecânica quântica, diferente da computação clássica. Utiliza qubits (bits quânticos) em vez de bits binários (0 ou 1).</p>
+
+<ul>
+  <li><strong>Computação Clássica:</strong> Usa bits (0 ou 1).</li>
+  <li><strong>Computação Quântica:</strong> Usa <strong>qubits</strong> que podem estar em estado 0, 1 ou ambos simultaneamente (superposição).</li>
+</ul>
+
+<div class="importante">
+  ✅ CESPE adora cobrar a diferença entre qubit e bit, além de conceitos como superposição e entrelaçamento.
+</div>
+
+<hr>
+
+<h2>🧪 2. Princípios Quânticos Fundamentais</h2>
+
+<h3>🌀 2.1 Superposição</h3>
+<p>Um qubit pode existir simultaneamente nos estados 0 e 1 até que seja medido. Isso permite paralelismo massivo.</p>
+
+<h3>🔗 2.2 Emaranhamento (Entanglement)</h3>
+<p>Dois ou mais qubits entrelaçados mantêm uma conexão tal que o estado de um determina instantaneamente o estado do outro, mesmo a distância.</p>
+
+<h3>🎲 2.3 Interferência Quântica</h3>
+<p>Utilizada para reforçar ou cancelar certos estados quânticos, ajudando algoritmos a convergirem para a solução correta.</p>
+
+<h3>🔄 2.4 Reversibilidade</h3>
+<p>Portas quânticas são unitárias e reversíveis (sem perda de informação), ao contrário das portas clássicas.</p>
+
+<div class="exemplo">
+  📌 Exemplo de questão CESPE: "O princípio da superposição permite que um qubit represente simultaneamente os estados 0 e 1." — <strong>VERDADEIRO</strong>.
+</div>
+
+<hr>
+
+<h2>🔧 3. Componentes e Operações Quânticas</h2>
+
+<h3>💠 Qubit</h3>
+<ul>
+  <li>Unidade básica de informação quântica.</li>
+  <li>Representado por vetores em um espaço vetorial (|0⟩, |1⟩, ou α|0⟩ + β|1⟩).</li>
+</ul>
+
+<h3>🛠️ Portas Lógicas Quânticas</h3>
+<ul>
+  <li><strong>Hadamard (H):</strong> Coloca um qubit em superposição.</li>
+  <li><strong>Pauli-X:</strong> Inversão (equivalente ao NOT clássico).</li>
+  <li><strong>CNOT:</strong> Porta de controle-condição entre dois qubits (essencial para emaranhamento).</li>
+</ul>
+
+<h3>🧮 Medição</h3>
+<p>Colapsa o estado do qubit para 0 ou 1. Resultado é probabilístico.</p>
+
+<div class="alerta">
+  ⚠️ A medição destrói o estado de superposição. Isso é um ponto cobrado em provas para verificar atenção à mecânica quântica.
+</div>
+
+<hr>
+
+<h2>🚀 4. Algoritmos Quânticos Famosos</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Algoritmo</th>
+      <th>Propósito</th>
+      <th>Impacto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Shor</td>
+      <td>Fatoração de inteiros grandes</td>
+      <td>Quebra criptografia RSA</td>
+    </tr>
+    <tr>
+      <td>Grover</td>
+      <td>Busca não estruturada</td>
+      <td>Melhora busca em banco de dados (√n)</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="importante">
+  ✅ Shor e Grover são <strong>muito cobrados</strong>. Foque em seus objetivos e implicações práticas.
+</div>
+
+<hr>
+
+<h2>🌐 5. Aplicações Reais da Computação Quântica</h2>
+
+<ul>
+  <li>Criptografia quântica (QKD - Quantum Key Distribution).</li>
+  <li>Simulações de moléculas na indústria farmacêutica.</li>
+  <li>Otimização em logística e finanças.</li>
+  <li>Processamento de linguagem natural e aprendizado de máquina.</li>
+</ul>
+
+<hr>
+
+<h2>📚 6. Tópicos mais cobrados pela CESPE</h2>
+<ul>
+  <li>Definição de qubit e seu funcionamento.</li>
+  <li>Conceitos: superposição, emaranhamento e medição.</li>
+  <li>Portas quânticas básicas e suas funções.</li>
+  <li>Diferenças entre computação clássica e quântica.</li>
+  <li>Aplicações e impacto dos algoritmos de Shor e Grover.</li>
+</ul>
+
+<hr>
+
+<h2>🔗 7. Fontes para estudo adicional</h2>
+<ul>
+  <li><a href="https://quantum.country" target="_blank">Quantum Country (Memorize quantum computing)</a></li>
+  <li><a href="https://qiskit.org/" target="_blank">Qiskit - IBM Quantum</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Quantum_computing" target="_blank">Wikipedia: Quantum Computing</a></li>
+</ul>
+
+</body>
+</html>

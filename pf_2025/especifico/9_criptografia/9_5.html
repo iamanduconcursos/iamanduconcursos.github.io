@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo: Protocolo Diffie–Hellman (Criptografia - Concurso PF)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3, h4 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f9f9f9; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #eaf7ff; padding: 5px; border-left: 4px solid #3498db; margin: 10px 0; }
+  </style>
+</head>
+<body>
+
+<h2>🔐 Protocolo Diffie–Hellman – Resumo Estratégico (Perito Digital PF)</h2>
+
+<div class="highlight">
+  <strong>O que é?</strong>  
+  O protocolo Diffie–Hellman (DH) é um método de troca segura de chaves criptográficas sobre um canal inseguro, proposto em 1976 por Whitfield Diffie e Martin Hellman.
+</div>
+
+<h3>🧠 Conceito Central</h3>
+<ul>
+  <li>Permite que duas partes compartilhem uma <strong>chave secreta</strong> comum sem que a chave trafegue pela rede.</li>
+  <li>Baseado em matemática de <strong>aritmética modular</strong> e no problema da dificuldade de calcular logaritmos discretos.</li>
+  <li>Usado em protocolos como <strong>SSL/TLS, IPsec, SSH</strong>.</li>
+</ul>
+
+<h3>🔎 Etapas do Protocolo</h3>
+<ol>
+  <li>Ambas as partes concordam com dois números públicos:
+    <ul>
+      <li><strong>p</strong>: número primo grande</li>
+      <li><strong>g</strong>: base geradora (geralmente pequena)</li>
+    </ul>
+  </li>
+  <li>Cada parte escolhe um número secreto:
+    <ul>
+      <li>Parte A escolhe <strong>a</strong> e calcula A = g^a mod p</li>
+      <li>Parte B escolhe <strong>b</strong> e calcula B = g^b mod p</li>
+    </ul>
+  </li>
+  <li>Trocam A e B entre si (valores públicos)</li>
+  <li>Cada parte calcula a chave secreta comum:
+    <ul>
+      <li>Parte A: s = B^a mod p</li>
+      <li>Parte B: s = A^b mod p</li>
+    </ul>
+  </li>
+  <li>Ambos obtêm a mesma <strong>chave secreta</strong>.</li>
+</ol>
+
+<h3>🔐 Exemplo Rápido</h3>
+<p>Considere p = 23 e g = 5</p>
+<ul>
+  <li>Alice escolhe a = 6 → A = 5⁶ mod 23 = 8</li>
+  <li>Bob escolhe b = 15 → B = 5¹⁵ mod 23 = 2</li>
+  <li>Chave comum:
+    <ul>
+      <li>Alice: s = 2⁶ mod 23 = 64 mod 23 = 18</li>
+      <li>Bob: s = 8¹⁵ mod 23 = 18</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>⚠️ Pontos que CEBRASPE gosta de cobrar</h3>
+<ul>
+  <li>DH <strong>não fornece autenticação</strong> – vulnerável a ataque "man-in-the-middle" se não usado com autenticação.</li>
+  <li>É um <strong>protocolo de troca de chaves</strong>, <strong>não cifra dados diretamente</strong>.</li>
+  <li>Baseia-se na dificuldade de resolver o <strong>logaritmo discreto</strong> (problema matemático).</li>
+  <li>Não é eficiente para ambientes com poucos recursos (melhor usar ECC).</li>
+</ul>
+
+<h3>✅ Quadro Resumo</h3>
+<table>
+  <tr><th>Característica</th><th>Descrição</th></tr>
+  <tr><td>Tipo</td><td>Protocolo de troca de chaves</td></tr>
+  <tr><td>Segurança</td><td>Baseada no problema do logaritmo discreto</td></tr>
+  <tr><td>Usos</td><td>SSL/TLS, IPsec, SSH</td></tr>
+  <tr><td>Vulnerabilidade</td><td>Man-in-the-middle (sem autenticação)</td></tr>
+  <tr><td>Chave final</td><td>Derivada a partir dos valores públicos trocados</td></tr>
+</table>
+
+<h3>🚩 Pegadinhas Frequentes</h3>
+<ul>
+  <li><strong>“DH cifra dados diretamente” – ERRADO</strong></li>
+  <li><strong>“DH depende de fatoração de primos” – ERRADO</strong> (depende de logaritmo discreto)</li>
+  <li><strong>“DH garante autenticação” – ERRADO</strong></li>
+  <li><strong>“DH não pode ser usado em redes inseguras” – ERRADO</strong> (pode, mas precisa de autenticação)</li>
+</ul>
+
+<h3>📌 Dica Final para Prova</h3>
+<div class="highlight">
+  Lembre-se: Diffie–Hellman é para <strong>troca de chaves</strong>. Ele é seguro <strong>matematicamente</strong>, mas não garante <strong>autenticidade</strong>. Em redes inseguras, deve ser combinado com outros mecanismos como <strong>certificados digitais</strong> ou assinaturas.
+</div>
+
+</body>
+</html>

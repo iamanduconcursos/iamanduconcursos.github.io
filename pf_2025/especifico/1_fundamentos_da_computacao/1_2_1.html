@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Fundamentos da Computação - Kernel</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.7;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #1a237e;
+    }
+    h1 {
+      border-bottom: 2px solid #1a237e;
+      padding-bottom: 8px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .box {
+      background-color: #e3f2fd;
+      border-left: 5px solid #1e88e5;
+      padding: 15px;
+      margin-top: 15px;
+    }
+    .alerta {
+      background-color: #fff3e0;
+      border-left: 5px solid #fb8c00;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sistemas Operacionais – Arquiteturas e Kernel</h1>
+
+  <p>Resumo completo sobre <strong>arquiteturas de sistemas operacionais e o papel do Kernel</strong>, com foco no que é mais exigido em concursos da Polícia Federal.</p>
+
+  <div class="box">
+    <h2>1. Conceito de Sistema Operacional (SO)</h2>
+    <ul>
+      <li>Interface entre hardware e software.</li>
+      <li>Gerencia recursos como CPU, memória, dispositivos e arquivos.</li>
+      <li>Executa programas e oferece serviços ao usuário e a aplicações.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>2. Kernel: Coração do SO</h2>
+    <ul>
+      <li>Camada central que controla tudo no sistema operacional.</li>
+      <li>Responsável pela comunicação entre software e hardware.</li>
+      <li>Funções principais:
+        <ul>
+          <li>Gerenciamento de processos</li>
+          <li>Gerenciamento de memória</li>
+          <li>Gerenciamento de arquivos</li>
+          <li>Gerenciamento de dispositivos</li>
+          <li>Chamadas de sistema</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>3. Tipos de Kernel</h2>
+    <ul>
+      <li><strong>Monolítico</strong>:
+        <ul>
+          <li>Todo o SO é executado em modo kernel.</li>
+          <li>Alta performance, porém difícil de manter.</li>
+          <li>Exemplo: Linux.</li>
+        </ul>
+      </li>
+      <li><strong>Microkernel</strong>:
+        <ul>
+          <li>Somente funções essenciais no núcleo.</li>
+          <li>Serviços rodam em espaço de usuário.</li>
+          <li>Mais seguro e modular, mas pode ser mais lento.</li>
+          <li>Exemplo: Minix, QNX.</li>
+        </ul>
+      </li>
+      <li><strong>Híbrido</strong>:
+        <ul>
+          <li>Combina vantagens dos dois modelos anteriores.</li>
+          <li>Exemplo: Windows NT, macOS.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>4. Arquitetura de Sistemas Operacionais</h2>
+    <ul>
+      <li><strong>Monolítica</strong>: Estrutura única, todo o código no mesmo espaço de memória.</li>
+      <li><strong>Em Camadas</strong>: Cada camada depende da anterior, facilitando manutenção.</li>
+      <li><strong>Microkernel</strong>: Mínimo de código no núcleo, foco em segurança e modularidade.</li>
+      <li><strong>Máquina Virtual</strong>: Abstrai múltiplos sistemas no mesmo hardware.</li>
+      <li><strong>Cliente-Servidor</strong>: SO como conjunto de serviços, separados por funções.</li>
+    </ul>
+  </div>
+
+  <div class="alerta">
+    <h3>🎯 Cuidado com Pegadinhas da CEBRASPE:</h3>
+    <ul>
+      <li><strong>Microkernels não são sempre melhores</strong> – eles oferecem modularidade, mas com custo de desempenho.</li>
+      <li><strong>Kernel ≠ Sistema Operacional completo</strong>: é apenas seu núcleo.</li>
+      <li>Chamadas de sistema (syscalls) sempre <strong>passam pelo kernel</strong>.</li>
+      <li>Arquiteturas híbridas são as mais comuns atualmente (Windows, macOS).</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>5. Componentes Gerenciados pelo Kernel</h2>
+    <ul>
+      <li><strong>Processos</strong>: criação, escalonamento, sincronização e término.</li>
+      <li><strong>Memória</strong>: alocação, paginação, swapping.</li>
+      <li><strong>Dispositivos</strong>: drivers, buffers e gerenciamento de E/S.</li>
+      <li><strong>Sistema de Arquivos</strong>: leitura, gravação e controle de permissões.</li>
+      <li><strong>Chamadas de Sistema</strong>: interface entre programas de usuário e o kernel.</li>
+    </ul>
+  </div>
+
+  <div class="alerta">
+    <h3>🧠 Estratégia de Memorização</h3>
+    <p>Use a sigla <strong>PMDAS</strong> para lembrar os principais gerenciamentos do kernel:</p>
+    <ul>
+      <li><strong>P</strong>rocessos</li>
+      <li><strong>M</strong>emória</li>
+      <li><strong>D</strong>ispositivos</li>
+      <li><strong>A</strong>rquivos</li>
+      <li><strong>S</strong>istema (chamadas de sistema)</li>
+    </ul>
+  </div>
+
+</body>
+</html>

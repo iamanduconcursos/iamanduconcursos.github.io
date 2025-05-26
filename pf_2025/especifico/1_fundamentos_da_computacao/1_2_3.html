@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerenciador de Arquivos - Sistemas Operacionais</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #ffffff; color: #222; line-height: 1.6; padding: 2em; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .importante { background: #d4edda; padding: 10px; border-left: 5px solid #28a745; margin: 1em 0; }
+    .exemplo { background: #d1ecf1; padding: 10px; border-left: 5px solid #17a2b8; margin: 1em 0; }
+    ul li { margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h1>📂 Gerenciador de Arquivos - Sistemas Operacionais</h1>
+<p>Resumo estratégico sobre o componente <strong>Gerenciador de Arquivos</strong> em Sistemas Operacionais para o concurso de <strong>Perito Digital da Polícia Federal</strong>. Este resumo destaca os tópicos mais cobrados pelas bancas <strong>Cebraspe</strong> e <strong>CESPE</strong>.</p>
+
+<hr>
+
+<h2>📌 1. O que é o Gerenciador de Arquivos?</h2>
+<p>O <strong>Gerenciador de Arquivos</strong> é responsável por organizar, armazenar, acessar e manipular os arquivos no sistema operacional. Ele gerencia a estrutura de diretórios e arquivos de maneira eficiente, garantindo a integridade e segurança dos dados.</p>
+
+<ul>
+  <li>Permite a criação, leitura, escrita, exclusão e manipulação de arquivos.</li>
+  <li>Controla o acesso aos arquivos e diretórios através de permissões.</li>
+  <li>Estrutura hierárquica de arquivos: diretórios e subdiretórios.</li>
+</ul>
+
+<div class="importante">
+  ✅ As bancas frequentemente pedem os tipos de sistemas de arquivos e suas vantagens. Esteja preparado para identificar características específicas de cada sistema de arquivos.
+</div>
+
+<hr>
+
+<h2>🔧 2. Tipos de Sistemas de Arquivos</h2>
+
+<h3>🔸 FAT (File Allocation Table)</h3>
+<ul>
+  <li>Simplificado e amplamente utilizado em sistemas pequenos (dispositivos móveis, pen drives, etc).</li>
+  <li>Vantagens: Facilidade de implementação e compatibilidade.</li>
+  <li>Desvantagens: Não possui recursos avançados de segurança e gerenciamento.</li>
+</ul>
+
+<h3>🔸 NTFS (New Technology File System)</h3>
+<ul>
+  <li>Usado principalmente no Windows, suporta arquivos maiores e mais complexos.</li>
+  <li>Vantagens: Suporte a permissões, criptografia e logs.</li>
+  <li>Desvantagens: Menos compatível com sistemas não-Windows.</li>
+</ul>
+
+<h3>🔸 ext4 (Fourth Extended File System)</h3>
+<ul>
+  <li>Comumente utilizado em sistemas Linux.</li>
+  <li>Vantagens: Alta performance, suporte a arquivos grandes e robustez.</li>
+  <li>Desvantagens: Menor compatibilidade com outros sistemas operacionais.</li>
+</ul>
+
+<h3>🔸 HFS+ (Hierarchical File System Plus)</h3>
+<ul>
+  <li>Usado no macOS, otimizado para dispositivos Apple.</li>
+  <li>Vantagens: Boa integração com o sistema Apple e recursos como Time Machine.</li>
+  <li>Desvantagens: Compatibilidade limitada com sistemas não-Apple.</li>
+</ul>
+
+<div class="alerta">
+  ⚠️ CESPE costuma comparar características de sistemas de arquivos, como FAT e NTFS, cobrando detalhes como segurança e suporte a permissões.
+</div>
+
+<hr>
+
+<h2>🔄 3. Operações Básicas do Gerenciador de Arquivos</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Operação</th>
+      <th>Descrição</th>
+      <th>Exemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Criação</td>
+      <td>Criação de novos arquivos ou diretórios no sistema.</td>
+      <td><code>touch arquivo.txt</code> (Linux)</td>
+    </tr>
+    <tr>
+      <td>Abertura</td>
+      <td>Abertura de arquivos para leitura ou escrita.</td>
+      <td><code>fopen()</code> (C)</td>
+    </tr>
+    <tr>
+      <td>Leitura</td>
+      <td>Leitura de dados contidos em arquivos.</td>
+      <td><code>cat arquivo.txt</code> (Linux)</td>
+    </tr>
+    <tr>
+      <td>Escrita</td>
+      <td>Escrita de dados em arquivos existentes.</td>
+      <td><code>echo "Texto" > arquivo.txt</code> (Linux)</td>
+    </tr>
+    <tr>
+      <td>Exclusão</td>
+      <td>Exclusão de arquivos ou diretórios do sistema.</td>
+      <td><code>rm arquivo.txt</code> (Linux)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🔒 4. Permissões de Acesso aos Arquivos</h2>
+<p>O gerenciador de arquivos também é responsável por controlar o acesso aos arquivos e diretórios. Ele usa um sistema de permissões para garantir que apenas usuários autorizados possam executar certas operações.</p>
+
+<ul>
+  <li><strong>Leitura (r)</strong>: Permite visualizar o conteúdo do arquivo.</li>
+  <li><strong>Escrita (w)</strong>: Permite modificar o conteúdo do arquivo.</li>
+  <li><strong>Execução (x)</strong>: Permite executar o arquivo como um programa.</li>
+</ul>
+
+<h3>🔸 Exemplos de Comandos de Permissão</h3>
+<ul>
+  <li><code>chmod 755 arquivo.txt</code> — Altera permissões de um arquivo no Linux.</li>
+  <li><code>chmod 777 arquivo.txt</code> — Dá permissões totais a todos os usuários.</li>
+</ul>
+
+<div class="exemplo">
+  🧠 Exemplo de questão: "O comando <code>chmod 777</code> em sistemas Linux dá permissões totais de leitura, escrita e execução a todos os usuários." — <strong>VERDADEIRO!</strong>
+</div>
+
+<hr>
+
+<h2>⚙️ 5. Tópicos Favoritos da CESPE/Cebraspe</h2>
+<ul>
+  <li>Diferença entre os sistemas de arquivos FAT, NTFS e ext4.</li>
+  <li>Funções do gerenciador de arquivos: criação, leitura, escrita, exclusão.</li>
+  <li>Permissões de acesso em sistemas Unix/Linux e Windows.</li>
+  <li>Organização de arquivos e diretórios em sistemas operacionais modernos.</li>
+</ul>
+
+<hr>
+
+<h2>📚 6. Leitura e Estudo Complementar</h2>
+<ul>
+  <li><a href="https://www.geeksforgeeks.org/file-management-system-in-operating-system/" target="_blank">File Management System in OS - Geeks for Geeks</a></li>
+  <li><a href="https://www.tutorialspoint.com/operating_system/os_file_management.htm" target="_blank">File Management in Operating System - Tutorialspoint</a></li>
+  <li><a href="https://www.linux.com/topic/desktop/understanding-linux-file-permissions/" target="_blank">Understanding Linux File Permissions - Linux.com</a></li>
+</ul>
+
+</body>
+</html>

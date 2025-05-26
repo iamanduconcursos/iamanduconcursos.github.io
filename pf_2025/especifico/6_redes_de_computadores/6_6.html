@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Redes TOR – Resumo Estratégico para Concurso</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h2, h3 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    ul { margin-top: 0; }
+    li { margin-bottom: 8px; }
+    .highlight { background-color: #fef9e7; padding: 12px; border-left: 5px solid #f1c40f; margin: 10px 0; }
+    code { background-color: #eee; padding: 2px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+
+<h2>🕵️‍♂️ Redes TOR – Conceitos Fundamentais para Provas de Concurso</h2>
+
+<div class="highlight">
+  A rede TOR é frequentemente cobrada em provas voltadas à área de segurança da informação, especialmente em concursos como o de Perito Digital da Polícia Federal. Entender seu funcionamento, arquitetura e limitações é essencial!
+</div>
+
+<h3>🔍 O que é a Rede TOR?</h3>
+<ul>
+  <li><strong>TOR (The Onion Router)</strong> é uma rede que permite <strong>comunicação anônima</strong> pela Internet.</li>
+  <li>Utiliza <strong>criptografia em camadas</strong> (como uma cebola) e múltiplos nós para ocultar a origem do tráfego.</li>
+  <li>É amplamente usada para garantir <strong>anonimato e privacidade</strong> em acessos à Internet.</li>
+</ul>
+
+<h3>🔐 Como Funciona?</h3>
+<ul>
+  <li>O tráfego é criptografado múltiplas vezes e roteado por ao menos <strong>3 nós TOR</strong>:
+    <ul>
+      <li><strong>Nó de entrada (Guard):</strong> conhece o IP do usuário, mas não o destino.</li>
+      <li><strong>Nó intermediário (Relay):</strong> encaminha o tráfego, sem saber origem ou destino.</li>
+      <li><strong>Nó de saída:</strong> descriptografa a última camada e entrega ao destino.</li>
+    </ul>
+  </li>
+  <li>Cada nó conhece apenas seu <strong>nó anterior e próximo</strong> (princípio do "onion routing").</li>
+</ul>
+
+<h3>🌐 Acesso à Rede TOR</h3>
+<ul>
+  <li>Feito via navegador especial: <strong>Tor Browser</strong>, baseado no Firefox.</li>
+  <li>Sites acessados na rede TOR terminam com <code>.onion</code>.</li>
+</ul>
+
+<h3>📌 Características da Rede TOR</h3>
+<table>
+  <thead>
+    <tr><th>Aspecto</th><th>Descrição</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Anonimato</td><td>Usuário esconde seu IP real</td></tr>
+    <tr><td>Criptografia</td><td>Múltiplas camadas (end-to-end parcial)</td></tr>
+    <tr><td>Desempenho</td><td>Mais lento que redes comuns</td></tr>
+    <tr><td>Uso legítimo</td><td>Privacidade, denúncia, pesquisa</td></tr>
+    <tr><td>Uso ilícito</td><td>Mercado negro, malware, tráfico</td></tr>
+  </tbody>
+</table>
+
+<h3>⚠️ Limitações e Riscos</h3>
+<ul>
+  <li><strong>Nó de saída pode ver dados não criptografados</strong> (por isso, use HTTPS).</li>
+  <li>Velocidade de conexão reduzida devido ao roteamento em múltiplos nós.</li>
+  <li>Alguns governos e entidades bloqueiam ou monitoram acessos ao TOR.</li>
+</ul>
+
+<h3>💡 Dicas para a Prova (Estilo CESPE/CEBRASPE)</h3>
+<ul>
+  <li>"TOR garante anonimato total na Internet." – <strong>FALSO</strong>, há riscos no nó de saída.</li>
+  <li>"TOR é baseado em múltiplas camadas de criptografia." – <strong>VERDADEIRO</strong></li>
+  <li>"O nó de entrada na rede TOR conhece o endereço IP de destino." – <strong>FALSO</strong></li>
+</ul>
+
+<h3>📚 Palavras-chave para memorizar</h3>
+<ul>
+  <li><strong>Onion Routing</strong> = Criptografia em camadas</li>
+  <li><strong>.onion</strong> = Domínio exclusivo da rede TOR</li>
+  <li><strong>Guard, Relay, Exit</strong> = Nós da rede TOR</li>
+  <li><strong>Tor Browser</strong> = Navegador necessário</li>
+</ul>
+
+<h3>🚨 TOR e Atuação Forense</h3>
+<ul>
+  <li>Identificação de usuários é <strong>difícil</strong>, mas não impossível (análise de tráfego, falhas no cliente, engenharia social).</li>
+  <li>Conhecimento de TOR é essencial para <strong>investigações cibernéticas</strong> e análise de crimes digitais.</li>
+</ul>
+
+</body>
+</html>

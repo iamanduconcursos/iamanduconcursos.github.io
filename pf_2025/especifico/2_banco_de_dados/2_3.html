@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>SQLite - SGBD Relacional (Perito PF)</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #fff; color: #222; line-height: 1.6; padding: 2em; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+    .alerta { background: #fff3cd; padding: 10px; border-left: 5px solid #ffcc00; margin: 1em 0; }
+    .importante { background: #d4edda; padding: 10px; border-left: 5px solid #28a745; margin: 1em 0; }
+    .exemplo { background: #d1ecf1; padding: 10px; border-left: 5px solid #17a2b8; margin: 1em 0; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+<h1>💾 SQLite - SGBD Relacional</h1>
+<p><strong>Resumo estratégico</strong> da disciplina <strong>Bancos de Dados</strong> com foco na banca <strong>CESPE/Cebraspe</strong> para o concurso de <strong>Perito Digital da Polícia Federal</strong>.</p>
+
+<hr>
+
+<h2>📌 1. O que é SQLite?</h2>
+<ul>
+  <li>É um <strong>SGBD relacional leve e embutido</strong>.</li>
+  <li>Não exige instalação de servidor: <strong>zero configuração</strong>.</li>
+  <li>Armazena o banco de dados <strong>em um único arquivo</strong>.</li>
+  <li>Extremamente usado em apps móveis, IoT e sistemas embarcados.</li>
+</ul>
+
+<div class="importante">
+  ✅ Dica CESPE: SQLite é um banco <strong>relacional e transacional</strong>, mesmo sem servidor.
+</div>
+
+<hr>
+
+<h2>🔍 2. Características principais</h2>
+<ul>
+  <li><strong>Servidor embutido:</strong> biblioteca que é integrada à aplicação.</li>
+  <li><strong>ACID:</strong> Garante propriedades de atomicidade, consistência, isolamento e durabilidade.</li>
+  <li><strong>SQL padrão:</strong> Suporta a maior parte da linguagem SQL.</li>
+  <li><strong>Tipos de dados dinâmicos:</strong> Tipagem é baseada em valores, não em colunas (tipagem fraca).</li>
+</ul>
+
+<hr>
+
+<h2>📂 3. Vantagens</h2>
+<ul>
+  <li>Pequeno (menos de 1 MB)</li>
+  <li>Portável: funciona em quase qualquer SO</li>
+  <li>Ideal para testes, protótipos e pequenos sistemas</li>
+  <li>Baixo consumo de recursos</li>
+</ul>
+
+<div class="exemplo">
+  🧠 Exemplo: Aplicativos Android e iOS frequentemente usam SQLite como banco local.
+</div>
+
+<hr>
+
+<h2>🚫 4. Limitações</h2>
+<ul>
+  <li>Não suporta múltiplas conexões simultâneas com alta concorrência.</li>
+  <li>Não recomendado para sistemas corporativos com grande volume de usuários.</li>
+  <li>Sem recursos avançados de segurança nativos (como autenticação por usuários).</li>
+</ul>
+
+<hr>
+
+<h2>🛠️ 5. Comandos SQL no SQLite</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Comando</th>
+      <th>Descrição</th>
+      <th>Exemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>CREATE TABLE</code></td>
+      <td>Cria uma tabela</td>
+      <td><code>CREATE TABLE clientes (id INTEGER PRIMARY KEY, nome TEXT);</code></td>
+    </tr>
+    <tr>
+      <td><code>INSERT INTO</code></td>
+      <td>Insere dados</td>
+      <td><code>INSERT INTO clientes (nome) VALUES ('João');</code></td>
+    </tr>
+    <tr>
+      <td><code>SELECT</code></td>
+      <td>Consulta dados</td>
+      <td><code>SELECT * FROM clientes;</code></td>
+    </tr>
+    <tr>
+      <td><code>UPDATE</code></td>
+      <td>Atualiza dados</td>
+      <td><code>UPDATE clientes SET nome = 'Maria' WHERE id = 1;</code></td>
+    </tr>
+    <tr>
+      <td><code>DELETE</code></td>
+      <td>Remove registros</td>
+      <td><code>DELETE FROM clientes WHERE id = 1;</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>⚠️ 6. Pegadinhas comuns da CESPE</h2>
+<ul>
+  <li>❌ “SQLite não é relacional.” — <strong>Errado!</strong></li>
+  <li>❌ “SQLite exige instalação de servidor.” — <strong>Errado!</strong></li>
+  <li>✅ “SQLite é um banco transacional que suporta ACID.” — <strong>Certo!</strong></li>
+  <li>❌ “SQLite usa tipos de dados rígidos como no PostgreSQL.” — <strong>Errado!</strong></li>
+  <li>✅ “SQLite é baseado em arquivo e funciona bem para aplicações locais.” — <strong>Certo!</strong></li>
+</ul>
+
+<hr>
+
+<h2>🧠 7. Fatos Rápidos</h2>
+<ul>
+  <li>Extensão de arquivo padrão: <code>.sqlite</code> ou <code>.db</code></li>
+  <li>Usado por: Firefox, Chrome, Android, Skype, Dropbox</li>
+  <li>Não possui gerenciamento de usuários integrado</li>
+  <li>Permite transações com <code>BEGIN</code>, <code>COMMIT</code> e <code>ROLLBACK</code></li>
+</ul>
+
+<hr>
+
+<h2>📌 8. Quando usar SQLite</h2>
+<ul>
+  <li>Aplicativos mobile</li>
+  <li>Sistemas desktop leves</li>
+  <li>Dispositivos embarcados (IoT)</li>
+  <li>Ambientes de teste/protótipo</li>
+</ul>
+
+<div class="importante">
+  ✅ CESPE valoriza o entendimento da <strong>aplicabilidade e limitações reais</strong> da tecnologia.
+</div>
+
+<hr>
+
+<h2>📖 9. Referências e Leitura Complementar</h2>
+<ul>
+  <li><a href="https://www.sqlite.org/index.html" target="_blank">Site oficial do SQLite</a></li>
+  <li><a href="https://sqlite.org/whentouse.html" target="_blank">Quando usar SQLite?</a></li>
+  <li><a href="https://www.sqlitetutorial.net/" target="_blank">SQLite Tutorial</a></li>
+</ul>
+
+</body>
+</html>

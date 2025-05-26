@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Estruturas de Dados - Perito PF</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      padding: 30px;
+      background-color: #fdfdfd;
+      color: #222;
+    }
+    h1, h2 {
+      color: #002244;
+    }
+    h3 {
+      color: #003366;
+    }
+    code {
+      background-color: #f4f4f4;
+      padding: 3px 6px;
+      font-family: monospace;
+      border-radius: 4px;
+    }
+    .box {
+      background: #f0f8ff;
+      padding: 12px;
+      margin: 16px 0;
+      border-left: 6px solid #007acc;
+    }
+    .destaque {
+      background: #fffbe6;
+      border-left: 6px solid #ffcc00;
+    }
+    .perigo {
+      background: #ffe6e6;
+      border-left: 6px solid #ff3333;
+    }
+    ul {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resumo Estratégico – Estruturas de Dados</h1>
+  <p><strong>Disciplina:</strong> Estruturas de Dados e Algoritmos<br>
+     <strong>Assunto:</strong> Listas, Filas, Pilhas e Árvores<br>
+     <strong>Concurso:</strong> Perito Criminal Federal - Polícia Federal<br>
+     <strong>Banca:</strong> CEBRASPE/CESPE</p>
+
+  <hr>
+
+  <h2>🔹 Listas</h2>
+  <p>Conjunto de elementos organizados linearmente. Permite inserção, remoção e acesso sequencial.</p>
+
+  <ul>
+    <li><strong>Lista Estática:</strong> usa arrays, tamanho fixo</li>
+    <li><strong>Lista Dinâmica:</strong> usa ponteiros (listas encadeadas)</li>
+    <li><strong>Listas simplesmente encadeadas:</strong> apontam para o próximo</li>
+    <li><strong>Listas duplamente encadeadas:</strong> apontam para o próximo e anterior</li>
+  </ul>
+
+  <div class="destaque box">
+    Mais cobrado: lista encadeada, operações de inserção/remoção e complexidade temporal.
+  </div>
+
+  <h3>Operações comuns:</h3>
+  <ul>
+    <li><code>inserir_inicio()</code></li>
+    <li><code>inserir_fim()</code></li>
+    <li><code>remover()</code></li>
+    <li><code>buscar()</code></li>
+  </ul>
+
+  <div class="perigo box">
+    Pegadinha CESPE: listas estáticas (vetores) têm custo O(n) na inserção no meio, enquanto listas encadeadas têm O(1) se o ponteiro for conhecido.
+  </div>
+
+  <hr>
+
+  <h2>🔹 Pilhas (Stacks)</h2>
+  <p>Estrutura LIFO (Last In, First Out). O último a entrar é o primeiro a sair.</p>
+
+  <h3>Principais operações:</h3>
+  <ul>
+    <li><code>push()</code> → insere no topo</li>
+    <li><code>pop()</code> → remove do topo</li>
+    <li><code>peek()</code> ou <code>top()</code> → consulta topo sem remover</li>
+  </ul>
+
+  <div class="destaque box">
+    Mais cobrado: simulações com chamadas de função recursiva, avaliação de expressões, controle de fluxo.
+  </div>
+
+  <h3>Aplicações:</h3>
+  <ul>
+    <li>Undo/Redo</li>
+    <li>Parênteses balanceados</li>
+    <li>Recursão</li>
+  </ul>
+
+  <div class="perigo box">
+    Confundir LIFO (pilha) com FIFO (fila) é erro clássico cobrado pela banca.
+  </div>
+
+  <hr>
+
+  <h2>🔹 Filas (Queues)</h2>
+  <p>Estrutura FIFO (First In, First Out). O primeiro a entrar é o primeiro a sair.</p>
+
+  <h3>Principais operações:</h3>
+  <ul>
+    <li><code>enqueue()</code> → insere no final</li>
+    <li><code>dequeue()</code> → remove do início</li>
+  </ul>
+
+  <div class="destaque box">
+    Mais cobrado: filas circulares, simulações de atendimentos, algoritmos de BFS.
+  </div>
+
+  <h3>Tipos de filas:</h3>
+  <ul>
+    <li><strong>Fila Circular:</strong> reaproveita espaço</li>
+    <li><strong>Fila de Prioridade:</strong> usa heap; ordena por importância</li>
+  </ul>
+
+  <div class="perigo box">
+    Em BFS (Busca em Largura), usar pilha em vez de fila muda completamente o resultado!
+  </div>
+
+  <hr>
+
+  <h2>🔹 Árvores</h2>
+  <p>Estrutura hierárquica. Cada nó possui um valor e ponteiros para filhos (nós descendentes).</p>
+
+  <h3>Tipos mais comuns:</h3>
+  <ul>
+    <li><strong>Árvore Binária:</strong> cada nó com até 2 filhos</li>
+    <li><strong>Árvore Binária de Busca (BST):</strong> esquerda &lt; nó &lt; direita</li>
+    <li><strong>Árvore Balanceada (AVL, Red-Black):</strong> mantêm altura equilibrada</li>
+  </ul>
+
+  <h3>Travessias (caminhamentos):</h3>
+  <ul>
+    <li><code>Pré-ordem:</code> raiz → esquerda → direita</li>
+    <li><code>Em ordem:</code> esquerda → raiz → direita</li>
+    <li><code>Pós-ordem:</code> esquerda → direita → raiz</li>
+    <li><code>Em largura (níveis):</code> usa fila (BFS)</li>
+  </ul>
+
+  <div class="destaque box">
+    Mais cobrado: caminhamento em ordem, inserção/remoção em BST, altura e balanceamento.
+  </div>
+
+  <h3>Aplicações:</h3>
+  <ul>
+    <li>Expressões matemáticas</li>
+    <li>Índices de banco de dados</li>
+    <li>Estruturas de compiladores</li>
+  </ul>
+
+  <div class="perigo box">
+    Pegadinha: nem toda árvore binária é de busca. Em BST, a ordem é sempre: esq < raiz < dir.
+  </div>
+
+  <hr>
+
+  <h2>🔁 Complexidade de Operações (Big-O)</h2>
+  <table border="1" cellpadding="6" cellspacing="0">
+    <tr>
+      <th>Estrutura</th>
+      <th>Inserção</th>
+      <th>Remoção</th>
+      <th>Busca</th>
+    </tr>
+    <tr>
+      <td>Lista Encadeada</td>
+      <td>O(1) ou O(n)</td>
+      <td>O(1) ou O(n)</td>
+      <td>O(n)</td>
+    </tr>
+    <tr>
+      <td>Pilha</td>
+      <td>O(1)</td>
+      <td>O(1)</td>
+      <td>O(1)</td>
+    </tr>
+    <tr>
+      <td>Fila</td>
+      <td>O(1)</td>
+      <td>O(1)</td>
+      <td>O(n)</td>
+    </tr>
+    <tr>
+      <td>BST (balanceada)</td>
+      <td>O(log n)</td>
+      <td>O(log n)</td>
+      <td>O(log n)</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h2>🧠 Dicas Finais para CESPE</h2>
+  <ul>
+    <li>Memorize as travessias de árvore</li>
+    <li>Treine identificar se o código simula pilha, fila ou lista</li>
+    <li>Questões frequentemente pedem o “estado final da estrutura”</li>
+    <li>Cuidado com complexidade: não chute O(1) sempre</li>
+    <li>Não confunda árvore binária com árvore genérica</li>
+  </ul>
+
+  <div class="box">
+    <strong>Resumo Rápido:</strong><br>
+    Pilha = LIFO, <code>push/pop</code><br>
+    Fila = FIFO, <code>enqueue/dequeue</code><br>
+    Lista = encadeada ou vetor<br>
+    Árvore = estrutura hierárquica com travessias específicas
+  </div>
+
+</body>
+</html>

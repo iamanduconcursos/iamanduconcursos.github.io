@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo para Concurso - Perito Digital PF</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #1a237e;
+    }
+    h1 {
+      border-bottom: 2px solid #1a237e;
+      padding-bottom: 5px;
+    }
+    ul {
+      margin-top: 0;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    .highlight {
+      background-color: #e8f0fe;
+      padding: 10px;
+      border-left: 5px solid #1a237e;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resumo: Perito Digital - Polícia Federal</h1>
+
+  <section>
+    <h2>1. Bancos de Dados</h2>
+
+    <h3>1.1 Arquitetura, Modelos Lógicos e Representação Física</h3>
+    <ul>
+      <li><strong>Modelo ANSI/SPARC</strong>: Três esquemas - externo, conceitual e interno.</li>
+      <li><strong>Modelos de Dados</strong>:
+        <ul>
+          <li>Hierárquico</li>
+          <li>Rede</li>
+          <li>Relacional</li>
+          <li>Objeto-Relacional</li>
+        </ul>
+      </li>
+      <li><strong>Representação Física</strong>: índices, partições e clusters.</li>
+    </ul>
+
+    <h3>1.2 Implementação de SGBDs Relacionais</h3>
+    <ul>
+      <li><strong>SGBDs comuns</strong>: MySQL, PostgreSQL, Oracle, SQL Server.</li>
+      <li><strong>Componentes</strong>:
+        <ul>
+          <li>Gerenciador de Armazenamento</li>
+          <li>Gerenciador de Consultas</li>
+          <li>Gerenciador de Transações</li>
+          <li>Gerenciador de Buffer</li>
+          <li>Gerenciador de Logs</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>1.3 Linguagem de Consulta Estruturada (SQL)</h3>
+    <ul>
+      <li><strong>DDL</strong>: CREATE, ALTER, DROP</li>
+      <li><strong>DML</strong>: SELECT, INSERT, UPDATE, DELETE</li>
+      <li><strong>DCL</strong>: GRANT, REVOKE</li>
+      <li><strong>TCL</strong>: COMMIT, ROLLBACK, SAVEPOINT</li>
+      <li><strong>Triggers</strong>: procedimentos automáticos baseados em eventos</li>
+    </ul>
+
+    <h3>1.4 Bancos de Dados Não Relacionais (NoSQL)</h3>
+    <ul>
+      <li><strong>Tipos</strong>:
+        <ul>
+          <li>Documentos (MongoDB)</li>
+          <li>Chave-Valor (Redis)</li>
+          <li>Colunas (Cassandra)</li>
+          <li>Grafos (Neo4j)</li>
+        </ul>
+      </li>
+      <li><strong>Características</strong>: escalabilidade, alta disponibilidade, flexibilidade.</li>
+      <li><strong>Estratégias</strong>: replicação, particionamento, tolerância a falhas, consistência eventual.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. Transações: Características e Análise de Logs</h2>
+
+    <h3>2.1 Características das Transações (ACID)</h3>
+    <ul>
+      <li><strong>Atomicidade</strong>: tudo ou nada</li>
+      <li><strong>Consistência</strong>: banco vai de um estado válido a outro</li>
+      <li><strong>Isolamento</strong>: transações não interferem entre si</li>
+      <li><strong>Durabilidade</strong>: alterações persistem após falhas</li>
+    </ul>
+
+    <h3>2.2 Análise de Logs</h3>
+    <ul>
+      <li><strong>Função</strong>: registro de operações, auditoria e recuperação</li>
+      <li><strong>Tipos</strong>:
+        <ul>
+          <li>Redo Logs: persistência</li>
+          <li>Undo Logs: rollback</li>
+          <li>Audit Logs: auditoria</li>
+        </ul>
+      </li>
+      <li><strong>Ferramentas</strong>:
+        <ul>
+          <li>MySQL Enterprise Audit</li>
+          <li>pgAudit</li>
+          <li>Auditd (Linux)</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section class="highlight">
+    <h3>🧠 Dicas Finais</h3>
+    <ul>
+      <li>Pratique SQL com exemplos reais.</li>
+      <li>Familiarize-se com logs e ferramentas de análise.</li>
+      <li>Resolva simulados da banca CEBRASPE (antiga CESPE).</li>
+      <li>Invista tempo nos tópicos de SGBD e transações ACID.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
