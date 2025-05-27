@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo - Crimes Cibernéticos e Vestígios Forenses</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f7f9fc;
+      color: #333;
+      padding: 30px;
+    }
+    h1, h2, h3 {
+      color: #0d47a1;
+    }
+    .box {
+      background-color: #ffffff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 6px solid #0d47a1;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .alert {
+      background-color: #fff3e0;
+      padding: 10px;
+      border-left: 5px solid #ff9800;
+      margin-top: 15px;
+    }
+    .danger {
+      background-color: #ffebee;
+      padding: 10px;
+      border-left: 5px solid #c62828;
+      margin-top: 15px;
+    }
+    .keyword {
+      color: #1a237e;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resumo: Crimes Cibernéticos e seus Vestígios</h1>
+  <p>🔍 Foco na disciplina <strong>Princípios da Computação Forense</strong> — Concurso <strong>Perito Digital – Polícia Federal</strong> – Banca: <strong>CEBRASPE</strong>.</p>
+
+  <div class="box">
+    <h2>1. O que são Crimes Cibernéticos?</h2>
+    <ul>
+      <li>São delitos cometidos por meio de sistemas computacionais, redes e dispositivos conectados.</li>
+      <li>Podem ser classificados como:
+        <ul>
+          <li><strong>Crimes puros ou próprios da informática</strong> – dependem do meio digital (ex: invasão de dispositivo).</li>
+          <li><strong>Crimes mistos</strong> – usam a informática como meio (ex: estelionato com uso de phishing).</li>
+        </ul>
+      </li>
+      <li>Exemplos:
+        <ul>
+          <li><span class="keyword">Invasão de dispositivo informático</span> (Art. 154-A do CP).</li>
+          <li><span class="keyword">Furto mediante fraude digital</span> (Art. 155 do CP c/c Lei 14.155/21).</li>
+          <li><span class="keyword">Crimes contra a honra online</span>, pornografia de vingança, grooming, etc.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="alert">
+      ⚖️ <strong>Dica legal:</strong> A Lei nº 12.737/2012 (Lei Carolina Dieckmann) e a Lei nº 14.155/2021 são marcos regulatórios da repressão penal aos crimes cibernéticos no Brasil.
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>2. Vestígios Digitais – O que são?</h2>
+    <ul>
+      <li>São quaisquer traços eletrônicos que indicam que uma ação ocorreu em um sistema.</li>
+      <li>Podem ser <strong>voláteis</strong> (RAM, conexões de rede) ou <strong>não voláteis</strong> (HD, logs, backups).</li>
+      <li>Principais tipos:
+        <ul>
+          <li><strong>Arquivos de log</strong> – registros de sistema, aplicativos, segurança.</li>
+          <li><strong>Metadados</strong> – dados sobre dados (ex: horário de criação, alteração).</li>
+          <li><strong>Registros de rede</strong> – IPs, portas, cabeçalhos de pacotes.</li>
+          <li><strong>Histórico de navegação e cookies</strong>.</li>
+          <li><strong>Artefatos de malware</strong> – keyloggers, backdoors, scripts.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="alert">
+      🧠 <strong>CEBRASPE adora:</strong> perguntas sobre <em>quais vestígios são voláteis</em> e como <em>preservá-los sem comprometimento</em>.
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>3. Princípios da Computação Forense</h2>
+    <ul>
+      <li><strong>Preservação</strong> – garantir que o vestígio não seja alterado.</li>
+      <li><strong>Coleta</strong> – obtenção dos vestígios com integridade e cadeia de custódia.</li>
+      <li><strong>Análise</strong> – examinar os dados em ambiente forense (imagens forenses, hash, logs).</li>
+      <li><strong>Documentação</strong> – registro minucioso do processo.</li>
+      <li><strong>Apresentação</strong> – traduzir o técnico em laudo compreensível para autoridades.</li>
+    </ul>
+
+    <div class="tip">
+      🛡️ <strong>Importante:</strong> a cadeia de custódia é essencial para validade jurídica da prova digital.
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>4. Ferramentas e Técnicas Usadas</h2>
+    <ul>
+      <li><span class="keyword">FTK Imager</span>, <span class="keyword">Autopsy</span>, <span class="keyword">EnCase</span> – coleta e análise forense.</li>
+      <li><span class="keyword">Wireshark</span>, <span class="keyword">tcpdump</span> – análise de tráfego de rede.</li>
+      <li><span class="keyword">Volatility</span> – análise de memória RAM.</li>
+      <li><span class="keyword">hash (MD5, SHA-1, SHA-256)</span> – integridade dos dados.</li>
+    </ul>
+
+    <div class="alert">
+      🛠️ <strong>Foco da banca:</strong> associar ferramentas às suas funções e saber diferenciar coleta direta x imagem forense.
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>5. Estratégia para a Prova</h2>
+    <ul>
+      <li>Memorize o <strong>fluxo da investigação forense</strong> e os princípios de integridade.</li>
+      <li>Entenda quais vestígios estão onde e como coletá-los corretamente.</li>
+      <li>Estude as leis mais recentes relacionadas a crimes digitais.</li>
+      <li>Pratique com casos reais e simulações de análise forense (mesmo teóricas).</li>
+      <li>Revise diferenças entre <strong>crime informático puro e misto</strong>.</li>
+    </ul>
+
+    <div class="danger">
+      ⚠️ <strong>Pegadinhas frequentes:</strong>
+      <ul>
+        <li>Dizer que arquivos excluídos não podem ser recuperados (falso).</li>
+        <li>Afirmar que logs sempre provam autoria (falso — apenas indicam ações).</li>
+        <li>Confundir evidência com prova (evidência ≠ prova judicial sem cadeia de custódia).</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p style="text-align: center; color: #999; font-size: 0.9em;">
+      Desenvolvido por ChatGPT | Resumo estratégico para concursos PF – 2025
+    </p>
+  </footer>
+
+</body>
+</html>

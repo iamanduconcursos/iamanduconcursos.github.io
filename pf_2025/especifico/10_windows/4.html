@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resumo - Registro do Windows | PF - Perito Digital</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #004085;
+    }
+    h3 {
+      color: #333;
+    }
+    .section {
+      background: #fff;
+      border-left: 6px solid #004085;
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .highlight {
+      background-color: #e6f2ff;
+      padding: 10px;
+      margin: 10px 0;
+      border-left: 4px solid #007bff;
+      font-weight: bold;
+    }
+    .danger {
+      background-color: #ffe6e6;
+      padding: 10px;
+      margin: 10px 0;
+      border-left: 4px solid #cc0000;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resumo Rápido: Registro do Windows</h1>
+  <p><em>Disciplina: Sistema Operacional Windows | Concurso: Perito Digital - Polícia Federal</em></p>
+
+  <div class="section">
+    <h2>1. O que é o Registro do Windows?</h2>
+    <p>O Registro do Windows é um banco de dados hierárquico que armazena configurações e opções do sistema operacional, aplicativos, serviços e dispositivos de hardware.</p>
+    <ul>
+      <li>Substituiu arquivos INI no Windows.</li>
+      <li>Utilizado pelo kernel, drivers e aplicações.</li>
+      <li>Editável via <strong>Regedit</strong> (<code>regedit.exe</code>) ou <strong>Regedt32</strong>.</li>
+    </ul>
+    <div class="highlight">Cuidado: alterações incorretas podem comprometer o sistema.</div>
+  </div>
+
+  <div class="section">
+    <h2>2. Estrutura do Registro</h2>
+    <p>O registro é dividido em 5 chaves principais (também chamadas de <strong>hives</strong>):</p>
+    <ul>
+      <li><strong>HKEY_CLASSES_ROOT (HKCR)</strong>: associações de arquivos, extensões e tipos de objeto.</li>
+      <li><strong>HKEY_CURRENT_USER (HKCU)</strong>: preferências do usuário atualmente logado.</li>
+      <li><strong>HKEY_LOCAL_MACHINE (HKLM)</strong>: configurações globais do sistema, drivers e serviços.</li>
+      <li><strong>HKEY_USERS (HKU)</strong>: perfis de todos os usuários do sistema.</li>
+      <li><strong>HKEY_CURRENT_CONFIG (HKCC)</strong>: informações de hardware da sessão atual.</li>
+    </ul>
+    <div class="highlight">Mais cobrado em prova: HKLM, HKCU e HKCR.</div>
+  </div>
+
+  <div class="section">
+    <h2>3. Formato e Funcionamento</h2>
+    <ul>
+      <li>Cada chave possui subchaves e valores.</li>
+      <li>Valores podem ser do tipo:
+        <ul>
+          <li><strong>REG_SZ</strong>: String (texto).</li>
+          <li><strong>REG_DWORD</strong>: Valor binário de 32 bits.</li>
+          <li><strong>REG_BINARY</strong>: Dados binários puros.</li>
+        </ul>
+      </li>
+      <li>Armazenado fisicamente em arquivos <strong>hive</strong> dentro de:
+        <ul>
+          <li><code>%SystemRoot%\System32\Config</code></li>
+          <li><code>%UserProfile%\NTUSER.DAT</code></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>4. Ferramentas Relacionadas</h2>
+    <ul>
+      <li><strong>regedit.exe:</strong> Interface gráfica para editar o registro.</li>
+      <li><strong>reg.exe:</strong> Ferramenta de linha de comando para automação.</li>
+      <li><strong>PowerShell:</strong> Acesso avançado ao registro com comandos como <code>Get-ItemProperty</code> e <code>Set-ItemProperty</code>.</li>
+      <li><strong>Políticas de Grupo (GPO):</strong> Alterações em massa nas chaves de registro.</li>
+    </ul>
+    <div class="highlight">CEBRASPE costuma exigir que você saiba onde e como modificar configurações específicas usando o registro.</div>
+  </div>
+
+  <div class="section">
+    <h2>5. Questões clássicas CEBRASPE</h2>
+    <ul>
+      <li>Diferença entre HKCU e HKLM.</li>
+      <li>Riscos de edição direta no Regedit.</li>
+      <li>Tipos de valores e suas funções.</li>
+      <li>Função do registro no boot e nos serviços do Windows.</li>
+    </ul>
+  </div>
+
+  <div class="danger">
+    ⚠️ <strong>Atenção:</strong> O CEBRASPE gosta de frases do tipo: “É possível remover permanentemente uma chave do registro via linha de comando?” ou “O que acontece se a hive HKLM for corrompida?”. Saiba identificar afirmações verdadeiras/falsas com base na prática.
+  </div>
+
+</body>
+</html>

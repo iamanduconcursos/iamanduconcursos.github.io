@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Segurança de Redes - Ataques e MITRE ATT&CK</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #f9fafb;
+    color: #1a202c;
+    line-height: 1.6;
+  }
+  h1, h2 {
+    color: #2b6cb0;
+  }
+  h2 {
+    border-bottom: 3px solid #2b6cb0;
+    padding-bottom: 8px;
+    margin-top: 40px;
+  }
+  section {
+    background: #e2e8f0;
+    border-left: 6px solid #2c5282;
+    padding: 20px 25px;
+    margin-top: 25px;
+    border-radius: 6px;
+  }
+  ul {
+    margin-left: 20px;
+  }
+  .highlight {
+    background-color: #bee3f8;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 30px;
+    font-weight: 600;
+    color: #2a4365;
+  }
+  code {
+    background-color: #cbd5e0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+  }
+</style>
+</head>
+<body>
+
+<h1>Segurança de Redes de Computadores</h1>
+<h2>Ataques a Redes – Framework MITRE ATT&CK</h2>
+
+<section>
+  <h3>1. Introdução ao MITRE ATT&CK</h3>
+  <p>O <strong>MITRE ATT&CK</strong> é um framework de conhecimento que categoriza as técnicas e táticas usadas por invasores para comprometer sistemas e redes.</p>
+  <ul>
+    <li>ATT&CK significa <em>Adversarial Tactics, Techniques, and Common Knowledge</em>.</li>
+    <li>Foco em técnicas reais usadas em ataques cibernéticos observados no mundo real.</li>
+    <li>Base amplamente utilizada para defesa cibernética, detecção e resposta a incidentes.</li>
+  </ul>
+</section>
+
+<section>
+  <h3>2. Estrutura Básica do MITRE ATT&CK</h3>
+  <p>Dividido em <strong>Táticas</strong> (objetivos do atacante) e <strong>Técnicas</strong> (como o atacante alcança esses objetivos).</p>
+  <ul>
+    <li><strong>Táticas:</strong> fases do ataque, por exemplo:
+      <ul>
+        <li><code>Reconhecimento</code>: coleta de informações sobre o alvo;</li>
+        <li><code>Execução</code>: execução de código malicioso;</li>
+        <li><code>Persistência</code>: manter acesso contínuo;</li>
+        <li><code>Escalação de privilégios</code>, <code>Evasão de defesa</code>, <code>Coleta</code>, <code>Exfiltração</code>, etc.</li>
+      </ul>
+    </li>
+    <li><strong>Técnicas:</strong> métodos específicos usados para realizar uma tática, por exemplo, uso de <em>phishing</em> para iniciar o ataque.</li>
+  </ul>
+</section>
+
+<section>
+  <h3>3. Principais Táticas e Técnicas Relevantes para Redes</h3>
+  <ul>
+    <li><strong>Reconhecimento:</strong> varredura de rede (port scanning), coleta de informações públicas (OSINT).</li>
+    <li><strong>Inicialização do Acesso:</strong> spear phishing, exploração de vulnerabilidades, uso de credenciais roubadas.</li>
+    <li><strong>Execução:</strong> execução remota de código (RCE), execução de scripts maliciosos.</li>
+    <li><strong>Persistência:</strong> criação de backdoors, agendamento de tarefas maliciosas.</li>
+    <li><strong>Escalação de privilégios:</strong> exploração de falhas para aumentar permissões.</li>
+    <li><strong>Evasão de Defesa:</strong> técnicas para evitar antivírus e firewalls, como ofuscação de código.</li>
+    <li><strong>Movimentação lateral:</strong> uso de protocolos legítimos (ex: SMB, RDP) para acessar outras máquinas.</li>
+    <li><strong>Coleta e Exfiltração:</strong> coleta de dados sensíveis e envio para servidores externos.</li>
+  </ul>
+</section>
+
+<section>
+  <h3>4. Exemplos Práticos e Aplicações em Provas</h3>
+  <ul>
+    <li>Identificar técnicas usadas em ataques de rede comuns, por exemplo:
+      <ul>
+        <li><code>Phishing</code> → inicialização do acesso;</li>
+        <li><code>Brute force</code> → obtenção de credenciais;</li>
+        <li><code>Pass-the-Hash</code> → movimentação lateral;</li>
+        <li><code>Exfiltração via protocolo HTTP/HTTPS</code>.</li>
+      </ul>
+    </li>
+    <li>Relacionar técnicas a fases do ataque e medidas mitigatórias.</li>
+    <li>Questões com análise de cenários que envolvem reconhecimento, invasão, persistência e exfiltração.</li>
+  </ul>
+</section>
+
+<section>
+  <h3>5. Mitigações e Boas Práticas</h3>
+  <ul>
+    <li>Monitoramento contínuo das redes para detectar padrões suspeitos.</li>
+    <li>Atualização constante de sistemas para corrigir vulnerabilidades.</li>
+    <li>Uso de autenticação multifator (MFA) para reduzir riscos de credenciais roubadas.</li>
+    <li>Segmentação de redes para limitar movimentação lateral.</li>
+    <li>Treinamento dos usuários para evitar phishing.</li>
+  </ul>
+</section>
+
+<div class="highlight">
+  💡 <strong>Resumo para provas CEBRASPE/CESPE:</strong>
+  <ul>
+    <li>Conhecer o que é o MITRE ATT&CK e sua aplicação prática.</li>
+    <li>Entender as principais táticas e técnicas usadas em ataques a redes.</li>
+    <li>Relacionar técnicas a fases do ataque, com foco em persistência, escalonamento e evasão.</li>
+    <li>Importância das medidas mitigatórias e conceitos de defesa em profundidade.</li>
+    <li>Estar preparado para análise crítica de cenários envolvendo ataques cibernéticos.</li>
+  </ul>
+</div>
+
+</body>
+</html>

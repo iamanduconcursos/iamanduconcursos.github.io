@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo Estratégico - Memória e Processos | Android e iOS</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #0d47a1;
+    }
+    .box {
+      background: #fff;
+      border-left: 6px solid #1565c0;
+      margin: 20px 0;
+      padding: 20px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+    }
+    .alerta {
+      background: #fff8e1;
+      border-left: 6px solid #f9a825;
+    }
+    .comparativo {
+      background: #e3f2fd;
+      border-left: 6px solid #64b5f6;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    code {
+      background: #e0e0e0;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    footer {
+      font-size: 0.9em;
+      color: #777;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Gerenciamento de Memória e Processos</h1>
+  <p><strong>Sistemas Operacionais Móveis:</strong> Android & iOS<br>
+     <strong>Disciplina:</strong> Sistemas Operacionais Móveis<br>
+     <strong>Assunto:</strong> Gerenciamento de memória e processos<br>
+     <strong>Cargo:</strong> Perito Criminal Federal – Informática<br>
+     <strong>Banca:</strong> CEBRASPE (CESPE)</p>
+
+  <div class="box">
+    <h2>1. Conceitos Fundamentais</h2>
+    <ul>
+      <li><strong>Processo:</strong> instância de um aplicativo em execução.</li>
+      <li><strong>Memória RAM:</strong> recurso crítico — ambos os sistemas adotam técnicas de otimização.</li>
+      <li><strong>Multitarefa:</strong> preemptiva, mas com controle rigoroso de background.</li>
+      <li><strong>Kill policies:</strong> sistemas finalizam processos automaticamente para preservar desempenho/bateria.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>2. Android — Gerenciamento de Memória e Processos</h2>
+    <ul>
+      <li>Baseado em <strong>Linux Kernel</strong></li>
+      <li><strong>Zygote:</strong> processo pai de todos os apps — carrega classes e frameworks padrões</li>
+      <li>Gerencia memória com:
+        <ul>
+          <li><strong>OOM Killer:</strong> mata processos com base na prioridade (adj values)</li>
+          <li><strong>LMK (Low Memory Killer):</strong> política adicional para liberar RAM</li>
+        </ul>
+      </li>
+      <li>Prioridade de processos (do mais importante ao menos):
+        <ul>
+          <li>Foreground</li>
+          <li>Visible</li>
+          <li>Service</li>
+          <li>Background</li>
+          <li>Empty</li>
+        </ul>
+      </li>
+      <li>Comandos úteis (via ADB):
+        <ul>
+          <li><code>adb shell top</code> — monitorar processos</li>
+          <li><code>dumpsys meminfo</code> — detalha uso de memória</li>
+          <li><code>logcat</code> — logs do sistema</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>3. iOS — Gerenciamento de Memória e Processos</h2>
+    <ul>
+      <li>Baseado no kernel XNU (Unix + Mach)</li>
+      <li>Gerencia multitarefa com <strong>App States</strong>:
+        <ul>
+          <li><strong>Not Running</strong></li>
+          <li><strong>Inactive</strong></li>
+          <li><strong>Active</strong></li>
+          <li><strong>Background</strong></li>
+          <li><strong>Suspended</strong> — permanece na memória, mas sem CPU</li>
+        </ul>
+      </li>
+      <li>Não permite que apps rodem indefinidamente em background</li>
+      <li><strong>Jetsam:</strong> mecanismo que força encerramento de processos para preservar RAM</li>
+      <li>Desenvolvedores devem liberar recursos no método:
+        <code>applicationDidReceiveMemoryWarning()</code></li>
+    </ul>
+  </div>
+
+  <div class="box comparativo">
+    <h3>🔍 Comparativo Android vs iOS</h3>
+    <table border="0" cellpadding="5">
+      <tr><th></th><th>Android</th><th>iOS</th></tr>
+      <tr>
+        <td><strong>Kernel</strong></td>
+        <td>Linux</td>
+        <td>XNU (Mach + BSD)</td>
+      </tr>
+      <tr>
+        <td><strong>Gerenciamento de processos</strong></td>
+        <td>OOM + LMK</td>
+        <td>Jetsam</td>
+      </tr>
+      <tr>
+        <td><strong>Multitarefa</strong></td>
+        <td>Completa com prioridades</td>
+        <td>Limitada com estados fixos</td>
+      </tr>
+      <tr>
+        <td><strong>Encerramento de apps</strong></td>
+        <td>Por prioridade e pressão de memória</td>
+        <td>Quando excede uso de RAM</td>
+      </tr>
+      <tr>
+        <td><strong>Logs e depuração</strong></td>
+        <td>ADB, logcat</td>
+        <td>Console.app, Instruments</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="box alerta">
+    <h3>🎯 Cobrados com frequência pela banca</h3>
+    <ul>
+      <li>Diferença entre <strong>Jetsam</strong> (iOS) e <strong>Low Memory Killer</strong> (Android)</li>
+      <li>Funções de <code>applicationDidReceiveMemoryWarning()</code></li>
+      <li>Política de multitarefa e estados dos apps no iOS</li>
+      <li>Ferramentas de análise: <code>adb shell dumpsys</code>, <code>logcat</code>, <code>top</code></li>
+      <li>Modelo de prioridade dos processos no Android</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>4. Dicas Rápidas de Memorização</h2>
+    <ul>
+      <li>Android = Linux + OOM/LMK + ADB</li>
+      <li>iOS = XNU + Jetsam + Estados rígidos</li>
+      <li>Ambos possuem multitarefa, mas iOS é mais restritivo</li>
+      <li><strong>Pressão de memória</strong> define quais apps são terminados</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>📱 Resumo elaborado por ChatGPT com foco em concursos técnicos federais | Atualização: Maio/2025</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Segurança de Redes - PF | Firewall, IPS/IDS, antivírus, EDR, XDR, SOAR, SIEM, NAT, proxy, VPN</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+    color: #222;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px 30px;
+  }
+  h1, h2, h3 {
+    color: #004085;
+  }
+  .section {
+    background: #fff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin-bottom: 28px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+  }
+  ul {
+    margin-left: 20px;
+  }
+  strong {
+    color: #0a58ca;
+  }
+  .highlight {
+    background-color: #e7f1ff;
+    padding: 10px 15px;
+    border-left: 5px solid #0a58ca;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .tip {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    padding: 10px 15px;
+    margin-top: 15px;
+  }
+</style>
+</head>
+<body>
+
+  <h1>Segurança de Redes de Computadores - Resumo para PF (CEBRASPE/CESPE)</h1>
+  <p><em>Foco no que mais cai em prova - tópicos essenciais e conceitos práticos.</em></p>
+
+  <div class="section">
+    <h2>1. Firewall</h2>
+    <ul>
+      <li><strong>Definição:</strong> Dispositivo ou software que controla o tráfego de rede entre redes diferentes, bloqueando ou liberando pacotes com base em regras pré-definidas.</li>
+      <li><strong>Tipos:</strong>
+        <ul>
+          <li>Packet Filtering (filtragem por pacotes)</li>
+          <li>Stateful Inspection (análise do estado da conexão)</li>
+          <li>Proxy Firewall (firewall de aplicação)</li>
+          <li>Next-Generation Firewall (NGFW) - com funções avançadas, como inspeção profunda de pacotes.</li>
+        </ul>
+      </li>
+      <li><strong>Função principal:</strong> proteger a rede interna de acessos não autorizados, aplicando políticas de segurança.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. IPS (Intrusion Prevention System) e IDS (Intrusion Detection System)</h2>
+    <ul>
+      <li><strong>IDS:</strong> Sistema de Detecção de Intrusão - monitora e alerta sobre tentativas de ataque, sem bloquear o tráfego.</li>
+      <li><strong>IPS:</strong> Sistema de Prevenção de Intrusão - monitora e bloqueia automaticamente tráfego suspeito.</li>
+      <li><strong>Funcionamento:</strong> Baseado em assinaturas, anomalias ou comportamento.</li>
+      <li><strong>Uso em conjunto com firewall para proteção reforçada.</strong></li>
+    </ul>
+    <div class="highlight">
+      <strong>Dica CEBRASPE:</strong> Entender que <em>IDS apenas alerta</em>, enquanto <em>IPS age bloqueando</em> automaticamente.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>3. Antivírus</h2>
+    <ul>
+      <li>Software que detecta, previne e remove malwares (vírus, worms, trojans, ransomware).</li>
+      <li>Utiliza assinaturas, heurística e análise comportamental.</li>
+      <li>Importante manter sempre atualizado para evitar falhas.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>4. EDR (Endpoint Detection and Response)</h2>
+    <ul>
+      <li>Ferramenta avançada para detectar e responder a ameaças nos endpoints (computadores, servidores).</li>
+      <li>Monitoramento contínuo, coleta de dados e análise comportamental para identificar ataques sofisticados.</li>
+      <li>Permite resposta automatizada ou manual para conter ataques.</li>
+    </ul>
+    <div class="tip">
+      <strong>CEBRASPE foca em:</strong> Diferenciar EDR de antivírus tradicional, destacando a capacidade de resposta rápida e análise detalhada.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>5. XDR (Extended Detection and Response)</h2>
+    <ul>
+      <li>Evolução do EDR que integra dados e respostas de múltiplas camadas (endpoints, redes, servidores, cloud).</li>
+      <li>Proporciona visão unificada para detectar e responder a ameaças em toda a infraestrutura.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>6. SOAR (Security Orchestration, Automation and Response)</h2>
+    <ul>
+      <li>Plataforma que integra ferramentas de segurança, automatizando respostas a incidentes.</li>
+      <li>Orquestra processos, coleta dados e executa playbooks de resposta automática.</li>
+      <li>Reduz tempo de reação e erros humanos.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>7. SIEM (Security Information and Event Management)</h2>
+    <ul>
+      <li>Centraliza e correlaciona eventos e logs de várias fontes para monitoramento e análise de segurança.</li>
+      <li>Permite detectar padrões de ataques e gerar alertas.</li>
+      <li>Fundamental para análise forense e compliance.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>8. NAT (Network Address Translation)</h2>
+    <ul>
+      <li>Recurso que traduz endereços IP privados em públicos e vice-versa.</li>
+      <li>Permite que múltiplos dispositivos usem um único IP público para acessar a internet.</li>
+      <li>Garante segurança ao ocultar a estrutura interna da rede.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>9. Proxy</h2>
+    <ul>
+      <li>Servidor intermediário que realiza requisições em nome dos usuários.</li>
+      <li>Utilizado para controlar acesso, melhorar desempenho (cache) e ocultar IP real.</li>
+      <li>Pode filtrar conteúdo e registrar atividades.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>10. VPN (Virtual Private Network)</h2>
+    <ul>
+      <li>Túnel seguro que permite conexão criptografada entre redes ou usuários remotos.</li>
+      <li>Garante confidencialidade e integridade dos dados transmitidos.</li>
+      <li>Muito usada para acesso remoto seguro a redes corporativas.</li>
+    </ul>
+    <div class="highlight">
+      <strong>CEBRASPE costuma cobrar:</strong> Conceito de VPN, uso da criptografia e finalidade de proteção do tráfego em redes inseguras.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Resumo Rápido</h2>
+    <ul>
+      <li><strong>Firewall:</strong> bloqueia/permite tráfego conforme regras.</li>
+      <li><strong>IDS:</strong> detecta e alerta ataques.</li>
+      <li><strong>IPS:</strong> detecta e bloqueia ataques.</li>
+      <li><strong>Antivírus:</strong> combate malwares.</li>
+      <li><strong>EDR/XDR:</strong> detecção avançada e resposta integrada.</li>
+      <li><strong>SOAR/SIEM:</strong> orquestração, automação e análise centralizada de segurança.</li>
+      <li><strong>NAT:</strong> traduz IPs e protege a rede interna.</li>
+      <li><strong>Proxy:</strong> intermediário para controle e anonimato.</li>
+      <li><strong>VPN:</strong> cria canal seguro para tráfego.</li>
+    </ul>
+  </div>
+
+</body>
+</html>

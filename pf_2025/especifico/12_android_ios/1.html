@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arquitetura Android e iOS - Resumo Estratégico | PF - Perito Digital</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fbfd;
+      color: #1e1e1e;
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #0d3c61;
+    }
+    .section {
+      background-color: #ffffff;
+      border-left: 6px solid #0d3c61;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .highlight {
+      background-color: #e6f0ff;
+      border-left: 4px solid #1a73e8;
+      padding: 12px;
+      margin: 15px 0;
+    }
+    .danger {
+      background-color: #fff4e6;
+      border-left: 4px solid #ff8800;
+      padding: 12px;
+      margin: 15px 0;
+    }
+    code {
+      background-color: #eef;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 90%;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resumo Estratégico: Arquitetura dos Sistemas Android e iOS</h1>
+  <p><em>Foco na prova de Perito Digital da Polícia Federal – Banca CEBRASPE</em></p>
+
+  <div class="section">
+    <h2>1. Visão Geral</h2>
+    <ul>
+      <li><strong>Android:</strong> Sistema operacional móvel de código aberto baseado em Linux, desenvolvido inicialmente pela Android Inc. (comprada pelo Google).</li>
+      <li><strong>iOS:</strong> Sistema fechado da Apple, baseado no macOS e em UNIX, projetado exclusivamente para dispositivos Apple (iPhone, iPad, etc).</li>
+    </ul>
+    <div class="highlight">
+      A CEBRASPE costuma explorar diferenças estruturais entre Android e iOS.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>2. Arquitetura do Android</h2>
+    <h3>Camadas:</h3>
+    <ul>
+      <li><strong>Linux Kernel:</strong> Base do sistema. Gerencia drivers, segurança, rede, energia.</li>
+      <li><strong>Libraries & Android Runtime:</strong> Bibliotecas nativas (C/C++), ART (Android Runtime substitui o antigo Dalvik).</li>
+      <li><strong>Application Framework:</strong> Fornece APIs para construção de apps (ex: <code>Activity Manager</code>, <code>Content Providers</code>).</li>
+      <li><strong>Applications:</strong> Interface com o usuário – apps nativos e de terceiros.</li>
+    </ul>
+    <div class="highlight">
+      ⚠️ ART (Android Runtime) compila apps na instalação – difere da execução just-in-time do Dalvik.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>3. Arquitetura do iOS</h2>
+    <h3>Camadas:</h3>
+    <ul>
+      <li><strong>Cocoa Touch:</strong> Interface do usuário, gerenciamento de eventos e multitouch.</li>
+      <li><strong>Media Layer:</strong> Áudio, vídeo, gráficos, animações (OpenGL ES, Core Animation).</li>
+      <li><strong>Core Services:</strong> Serviços essenciais como Core Foundation, SQLite, iCloud, etc.</li>
+      <li><strong>Core OS:</strong> Base UNIX e kernel XNU (híbrido).</li>
+    </ul>
+    <div class="highlight">
+      XNU = “X is Not Unix”, kernel híbrido usado no macOS e iOS.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>4. Diferenças Relevantes para a Prova</h2>
+    <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+      <thead style="background-color: #f0f4f8;">
+        <tr>
+          <th>Aspecto</th>
+          <th>Android</th>
+          <th>iOS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Base do SO</td>
+          <td>Linux</td>
+          <td>UNIX (XNU)</td>
+        </tr>
+        <tr>
+          <td>Licença</td>
+          <td>AOSP (Apache 2.0, open source)</td>
+          <td>Proprietária (Apple)</td>
+        </tr>
+        <tr>
+          <td>Apps</td>
+          <td>Java/Kotlin (via Android SDK)</td>
+          <td>Swift/Objective-C (via Xcode)</td>
+        </tr>
+        <tr>
+          <td>Execução</td>
+          <td>Android Runtime (ART)</td>
+          <td>Nativo (sem VM)</td>
+        </tr>
+        <tr>
+          <td>Loja de apps</td>
+          <td>Google Play / F-Droid</td>
+          <td>App Store</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>5. Pontos-Chave para Revisão</h2>
+    <ul>
+      <li>Nome das camadas e o que cada uma faz.</li>
+      <li>Diferenças entre Android Runtime e execução nativa do iOS.</li>
+      <li>Base do sistema: Linux vs XNU (UNIX).</li>
+      <li>Diferença entre código aberto (Android) e sistema fechado (iOS).</li>
+    </ul>
+  </div>
+
+  <div class="danger">
+    🚨 <strong>Questões típicas da CEBRASPE:</strong>
+    <ul>
+      <li>Arquitetura em camadas do Android e iOS.</li>
+      <li>Execução de aplicativos – ART x nativo.</li>
+      <li>Componentes do Application Framework no Android.</li>
+      <li>Camadas do iOS – Cocoa Touch, Core OS, etc.</li>
+    </ul>
+  </div>
+
+</body>
+</html>

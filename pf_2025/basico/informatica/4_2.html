@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<title>Noções de Segurança da Informação - Malware | PF</title>
+<style>
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f9fafb; color: #212121; margin: 30px; }
+  h1, h2, h3 { color: #0d47a1; }
+  h1 { border-bottom: 3px solid #0d47a1; padding-bottom: 10px; }
+  .container { background: white; border-left: 6px solid #1976d2; padding: 20px; margin-bottom: 20px; box-shadow: 0 0 12px rgba(25, 118, 210, 0.15); }
+  ul { margin-left: 20px; }
+  .highlight { color: #d32f2f; font-weight: bold; }
+  .term { color: #1565c0; font-weight: bold; }
+  .definition { margin-top: 5px; margin-bottom: 15px; }
+  .tip { background: #e3f2fd; padding: 8px 12px; border-left: 4px solid #42a5f5; margin-bottom: 15px; font-style: italic; }
+  .table-container { overflow-x:auto; margin-top: 15px; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #90caf9; padding: 10px; text-align: left; }
+  th { background-color: #bbdefb; }
+</style>
+</head>
+<body>
+
+<h1>Noções de Segurança da Informação</h1>
+<h2>Malware: Tipos e Características — Resumo para PF</h2>
+
+<div class="container">
+  <h3>🔍 O que é Malware?</h3>
+  <p><span class="highlight">Malware</span> é um software malicioso projetado para causar danos, roubar dados, controlar sistemas ou extorquir vítimas. Conhecer os principais tipos é fundamental para o exame.</p>
+</div>
+
+<div class="container">
+  <h3>🦠 Principais Tipos de Malware</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Tipo</th>
+        <th>Descrição</th>
+        <th>Características / Objetivo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="term">Vírus</td>
+        <td class="definition">Programa que se replica infectando arquivos e sistemas.</td>
+        <td>Necessita de ação humana (ex: abrir arquivo) para se propagar; causa corrupção de dados.</td>
+      </tr>
+      <tr>
+        <td class="term">Worm</td>
+        <td class="definition">Malware autorreplicante que se propaga automaticamente pela rede.</td>
+        <td>Não depende do usuário; pode causar lentidão e ataques em larga escala.</td>
+      </tr>
+      <tr>
+        <td class="term">Cavalo de Troia (Trojan)</td>
+        <td class="definition">Programa disfarçado de útil, mas que executa ações maliciosas.</td>
+        <td>Permite acesso remoto ao invasor, roubo de dados ou instalação de outros malwares.</td>
+      </tr>
+      <tr>
+        <td class="term">Spyware</td>
+        <td class="definition">Software espião que monitora atividades do usuário sem consentimento.</td>
+        <td>Rastreia navegação, senhas, dados pessoais; usado para roubo de identidade.</td>
+      </tr>
+      <tr>
+        <td class="term">Ransomware</td>
+        <td class="definition">Malware que sequestra arquivos, criptografando-os, e exige resgate.</td>
+        <td>Bloqueia acesso aos dados até pagamento; alto risco financeiro.</td>
+      </tr>
+      <tr>
+        <td class="term">Backdoor</td>
+        <td class="definition">Porta dos fundos criada para acesso remoto não autorizado.</td>
+        <td>Permite invasão contínua e instalação de outros malwares, sem alerta ao usuário.</td>
+      </tr>
+      <tr>
+        <td class="term">Zero-day Exploit</td>
+        <td class="definition">Ataque que explora vulnerabilidade desconhecida (zero-day) antes de correção.</td>
+        <td>Altamente perigoso por não existir defesa imediata.</td>
+      </tr>
+      <tr>
+        <td class="term">Keylogger</td>
+        <td class="definition">Programa que registra teclas digitadas.</td>
+        <td>Rouba senhas, dados bancários e informações sensíveis.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container">
+  <h3>🎯 Dicas para Prova CEBRASPE/CESPE</h3>
+  <ul>
+    <li><span class="highlight">Diferencie vírus e worms:</span> vírus precisa de usuário para propagação; worm não.</li>
+    <li><span class="highlight">Trojan não se replica sozinho</span>, mas abre brecha para invasão.</li>
+    <li><span class="highlight">Spyware e Keylogger são focados em espionagem e coleta de dados.</span></li>
+    <li><span class="highlight">Ransomware é extorsão digital — atenção em perguntas sobre medidas de prevenção.</li>
+    <li><span class="highlight">Backdoor é difícil de detectar pois oculta o acesso malicioso.</span></li>
+    <li><span class="highlight">Zero-day é uma vulnerabilidade antes desconhecida e explorada rapidamente.</span></li>
+  </ul>
+</div>
+
+<div class="container tip">
+  ⚠️ <strong>Importante:</strong> CEBRASPE costuma cobrar situações práticas, por isso interprete cenários com cuidado. Por exemplo, "Um malware que se espalha sem ação do usuário é:" e a resposta correta será <em>worm</em>.
+</div>
+
+<div class="container">
+  <h3>🧠 Resumo Rápido para Memorização</h3>
+  <ul>
+    <li><strong>Vírus:</strong> necessita de ação humana para propagar.</li>
+    <li><strong>Worm:</strong> se propaga sozinho pela rede.</li>
+    <li><strong>Trojan:</strong> disfarçado, abre porta para invasão.</li>
+    <li><strong>Spyware:</strong> espionagem e monitoramento.</li>
+    <li><strong>Ransomware:</strong> sequestra dados, exige resgate.</li>
+    <li><strong>Backdoor:</strong> acesso remoto oculto.</li>
+    <li><strong>Zero-day:</strong> vulnerabilidade inédita explorada.</li>
+    <li><strong>Keylogger:</strong> registra teclas digitadas.</li>
+  </ul>
+</div>
+
+</body>
+</html>

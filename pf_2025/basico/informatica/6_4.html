@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Chaves e Relacionamentos - Banco de Dados | PF</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background-color: #f5f8fa;
+      color: #212121;
+      margin: 40px;
+    }
+    h1, h2, h3 {
+      color: #0d47a1;
+    }
+    h1 {
+      border-bottom: 3px solid #1565c0;
+      padding-bottom: 10px;
+    }
+    .container {
+      background-color: #ffffff;
+      padding: 20px 30px;
+      border-left: 6px solid #1565c0;
+      box-shadow: 0 3px 8px rgba(21, 101, 192, 0.15);
+      margin-bottom: 25px;
+    }
+    .term {
+      font-weight: bold;
+      color: #1976d2;
+    }
+    .highlight {
+      color: #c62828;
+      font-weight: bold;
+    }
+    .tip {
+      background-color: #e3f2fd;
+      padding: 10px 15px;
+      border-left: 4px solid #42a5f5;
+      margin-top: 15px;
+      font-style: italic;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #bbdefb;
+      padding: 10px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #bbdefb;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Noções de Bancos de Dados</h1>
+<h2>🔗 Chaves e Relacionamentos — Essencial para a prova da PF</h2>
+
+<div class="container">
+  <h3>📌 Conceito de Chave</h3>
+  <p>Chaves são atributos (ou conjuntos de atributos) usados para <span class="highlight">identificar registros</span> de forma única em uma tabela.</p>
+</div>
+
+<div class="container">
+  <h3>🔐 Tipos de Chaves</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Tipo de Chave</th>
+        <th>Descrição</th>
+        <th>Exemplo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="term">Chave Primária (Primary Key)</td>
+        <td>Identifica unicamente cada registro na tabela. Não pode ter <strong>valores nulos</strong> ou duplicados.</td>
+        <td>ID, CPF, Matrícula</td>
+      </tr>
+      <tr>
+        <td class="term">Chave Candidata</td>
+        <td>Atributo(s) que podem ser usados como chave primária. Todos têm potencial para identificação única.</td>
+        <td>CPF, e-mail</td>
+      </tr>
+      <tr>
+        <td class="term">Chave Alternativa</td>
+        <td>Chave candidata que <strong>não foi escolhida</strong> como primária.</td>
+        <td>Se CPF for chave primária, e-mail pode ser alternativa</td>
+      </tr>
+      <tr>
+        <td class="term">Chave Estrangeira (Foreign Key)</td>
+        <td>Atributo que cria um <strong>relacionamento entre tabelas</strong>. Refere-se à chave primária de outra tabela.</td>
+        <td>cliente_id em uma tabela de pedidos</td>
+      </tr>
+      <tr>
+        <td class="term">Chave Surrogada</td>
+        <td>Chave artificial criada para identificar registros (geralmente numérica).</td>
+        <td>ID autoincremental</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container">
+  <h3>🤝 Relacionamentos entre Tabelas</h3>
+  <p>São usados para <strong>ligar informações</strong> distribuídas em tabelas diferentes.</p>
+  <p>Os relacionamentos são definidos através de <span class="term">chaves primárias e estrangeiras</span>.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Tipo</th>
+        <th>Descrição</th>
+        <th>Exemplo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="term">1 para 1 (1:1)</td>
+        <td>Um registro de uma tabela se relaciona com <strong>no máximo um</strong> da outra.</td>
+        <td>Pessoa - RG</td>
+      </tr>
+      <tr>
+        <td class="term">1 para N (1:N)</td>
+        <td>Um registro da tabela A pode estar ligado a <strong>vários</strong> registros da B.</td>
+        <td>Cliente - Pedidos</td>
+      </tr>
+      <tr>
+        <td class="term">N para N (N:N)</td>
+        <td>Registros de ambas as tabelas se relacionam com vários registros da outra.</td>
+        <td>Aluno - Disciplina (via tabela intermediária)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container tip">
+  💡 <strong>CEBRASPE adora:</strong> Confundir <strong>chave primária</strong> com <strong>chave estrangeira</strong>, e fazer questões que envolvam integridade referencial. Fique atento a <strong>tabelas com relacionamentos 1:N e N:N</strong>.
+</div>
+
+<div class="container">
+  <h3>✅ Integridade Referencial</h3>
+  <p>Garante que a chave estrangeira em uma tabela <strong>corresponda a uma chave primária existente</strong> na outra tabela.</p>
+  <ul>
+    <li>Evita registros órfãos (sem referência válida).</li>
+    <li>É uma regra de consistência entre tabelas relacionadas.</li>
+  </ul>
+</div>
+
+<div class="container">
+  <h3>🧠 Resumo para Revisão Rápida</h3>
+  <ul>
+    <li><strong>Chave Primária:</strong> identifica unicamente, não aceita nulos ou duplicados.</li>
+    <li><strong>Chave Estrangeira:</strong> referência cruzada para relacionar tabelas.</li>
+    <li><strong>Relacionamentos:</strong> 1:1, 1:N, N:N — saiba identificar a estrutura.</li>
+    <li><strong>Integridade Referencial:</strong> mantém coerência entre dados relacionados.</li>
+    <li><strong>Dica:</strong> Use sempre a lógica: "o que identifica" e "o que referencia"?</li>
+  </ul>
+</div>
+
+</body>
+</html>

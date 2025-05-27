@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Operações com Conjuntos – Raciocínio Lógico | PF - CEBRASPE</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    padding: 30px 40px;
+    max-width: 900px;
+    margin: auto;
+  }
+  h1, h2, h3 {
+    color: #00539c;
+  }
+  .box {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+    padding: 25px 30px;
+    margin-bottom: 28px;
+  }
+  ul {
+    margin-left: 20px;
+  }
+  code {
+    background-color: #d0e9ff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #003e7e;
+  }
+  .exemplo {
+    background-color: #e3f0ff;
+    border-left: 5px solid #00539c;
+    padding: 12px 18px;
+    margin-top: 15px;
+    font-style: italic;
+  }
+  .dica {
+    background-color: #fff9db;
+    border-left: 5px solid #f7b733;
+    padding: 12px 18px;
+    margin-top: 18px;
+  }
+  .armadilha {
+    background-color: #fdecea;
+    border-left: 5px solid #d93025;
+    padding: 12px 18px;
+    margin-top: 18px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="box">
+    <h1>Operações com Conjuntos</h1>
+    <p><strong>Disciplina:</strong> Raciocínio Lógico</p>
+    <p><strong>Assunto:</strong> Operações com conjuntos – União, Interseção, Diferença e Complemento</p>
+    <p><strong>Banca:</strong> CEBRASPE / CESPE</p>
+    <p><strong>Concurso:</strong> Perito Digital – Polícia Federal</p>
+  </div>
+
+  <div class="box">
+    <h2>1. Conceitos Fundamentais</h2>
+    <ul>
+      <li><strong>Conjunto:</strong> coleção bem definida de elementos.</li>
+      <li><strong>Universal (U):</strong> conjunto que contém todos os elementos possíveis no contexto.</li>
+      <li><strong>Elementos:</strong> membros que pertencem a um conjunto (<code>a ∈ A</code> significa "a pertence a A").</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>2. Operações Básicas</h2>
+    <ul>
+      <li><strong>União (A ∪ B):</strong> conjunto dos elementos que estão em A, ou em B, ou em ambos.</li>
+      <li><strong>Interseção (A ∩ B):</strong> conjunto dos elementos que estão em A e em B simultaneamente.</li>
+      <li><strong>Diferença (A - B):</strong> conjunto dos elementos que estão em A mas <em>não</em> em B.</li>
+      <li><strong>Complemento (A&#x2032; ou A<sup>c</sup>):</strong> elementos do universal U que <em>não</em> pertencem a A.</li>
+    </ul>
+
+    <div class="exemplo">
+      Exemplo: Se U = {1,2,3,4,5,6}, A = {1,2,3} e B = {3,4,5}, então:<br>
+      - A ∪ B = {1,2,3,4,5}<br>
+      - A ∩ B = {3}<br>
+      - A - B = {1,2}<br>
+      - A<sup>c</sup> = {4,5,6}
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>3. Propriedades Importantes</h2>
+    <ul>
+      <li><code>A ∪ A = A</code> (Idempotência)</li>
+      <li><code>A ∩ A = A</code> (Idempotência)</li>
+      <li><code>A ∪ ∅ = A</code>, <code>A ∩ ∅ = ∅</code></li>
+      <li><code>A ∪ U = U</code>, <code>A ∩ U = A</code></li>
+      <li><code>A ∪ B = B ∪ A</code>, <code>A ∩ B = B ∩ A</code> (Comutatividade)</li>
+      <li><code>A ∪ (B ∪ C) = (A ∪ B) ∪ C</code>, <code>A ∩ (B ∩ C) = (A ∩ B) ∩ C</code> (Associatividade)</li>
+      <li><code>A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)</code> (Distributividade)</li>
+      <li><code>(A<sup>c</sup>)<sup>c</sup> = A</code> (Dupla Negação)</li>
+      <li><code>A ∪ A<sup>c</sup> = U</code>, <code>A ∩ A<sup>c</sup> = ∅</code> (Complementaridade)</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>4. Diagramas de Venn para Visualização</h2>
+    <p>Os diagramas de Venn são ferramentas visuais que ajudam a entender operações com conjuntos usando círculos que representam conjuntos e sua relação.</p>
+    <p><em>Esses diagramas são muito cobrados em questões da CEBRASPE para interpretar enunciados.</em></p>
+
+    <div class="exemplo">
+      <strong>União (A ∪ B):</strong> Todo espaço coberto pelos dois círculos.<br>
+      <strong>Interseção (A ∩ B):</strong> Área comum entre os dois círculos.<br>
+      <strong>Diferença (A - B):</strong> Parte do círculo A que não se sobrepõe ao círculo B.
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>5. Aplicações Frequentes em Provas (CEBRASPE)</h2>
+    <ul>
+      <li>Determinar o número de elementos em uniões ou interseções (principais fórmulas usadas).</li>
+      <li>Resolver problemas com conjuntos disjuntos e sobrepostos.</li>
+      <li>Interpretar corretamente negações e complementos para evitar erros comuns.</li>
+      <li>Estimar quantidade mínima ou máxima de elementos em um conjunto com base em condições dadas.</li>
+    </ul>
+
+    <div class="exemplo">
+      Um problema clássico: “Em um grupo de 100 pessoas, 60 falam inglês, 45 falam espanhol. Quantas falam os dois idiomas, no mínimo?”<br>
+      <strong>Resposta:</strong> Usando fórmula de interseção mínima: <code>mínimo = (60 + 45) - 100 = 5</code>.
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>6. Fórmulas Importantes para Quantidades</h2>
+    <ul>
+      <li><code>|A ∪ B| = |A| + |B| - |A ∩ B|</code> (Contagem correta da união)</li>
+      <li><code>|A - B| = |A| - |A ∩ B|</code> (Elementos só em A)</li>
+      <li><code>|A<sup>c</sup>| = |U| - |A|</code> (Complemento)</li>
+    </ul>
+
+    <div class="dica">
+      💡 <strong>Dica CESPE:</strong> Sempre verifique o universo do problema e confirme se os conjuntos estão dentro dele, isso evita erros na contagem.
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>7. Armadilhas Comuns</h2>
+    <div class="armadilha">
+      ⚠️ Confundir diferença <code>(A - B)</code> com interseção.<br>
+      ⚠️ Esquecer de subtrair interseção na união.<br>
+      ⚠️ Interpretar errado complementos, especialmente quando o universo não está bem definido.<br>
+      ⚠️ Usar regras de conjuntos sem verificar contexto do problema.
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>8. Recomendações para o Estudo e Prova</h2>
+    <ul>
+      <li>Pratique muitos exercícios envolvendo união, interseção e diferença com números.</li>
+      <li>Desenhe sempre os diagramas de Venn para visualizar o problema.</li>
+      <li>Foque em resolver questões que envolvam a aplicação das fórmulas de contagem.</li>
+      <li>Revise as propriedades e identidades de conjuntos com frequência.</li>
+      <li>Leia com atenção o enunciado para identificar o universo e as relações entre os conjuntos.</li>
+    </ul>
+  </div>
+
+</body>
+</html>

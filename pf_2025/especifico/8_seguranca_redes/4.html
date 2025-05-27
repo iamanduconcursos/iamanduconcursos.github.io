@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Segurança de Redes Sem Fio - PF | EAP, WEP, WPA, WPA2, WPA3, 802.1X, autenticação baseada em contexto</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    background-color: #f9fafb;
+    color: #222;
+  }
+  h1, h2, h3 {
+    color: #003366;
+  }
+  .section {
+    background: white;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.08);
+  }
+  ul {
+    margin-left: 20px;
+  }
+  strong {
+    color: #00509e;
+  }
+  .highlight {
+    background-color: #dbe9ff;
+    border-left: 5px solid #00509e;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .tip {
+    background-color: #fff4e5;
+    border-left: 5px solid #ffa500;
+    padding: 10px 15px;
+    margin-top: 15px;
+  }
+</style>
+</head>
+<body>
+
+  <h1>Segurança de Redes Sem Fio - Resumo para Perito Digital (CEBRASPE/CESPE)</h1>
+  <p><em>Foco nos conceitos e tecnologias mais cobrados para prova.</em></p>
+
+  <div class="section">
+    <h2>1. Protocolos de Segurança em Redes Wi-Fi</h2>
+    <ul>
+      <li><strong>WEP (Wired Equivalent Privacy):</strong>
+        <ul>
+          <li>Primeiro protocolo de segurança Wi-Fi (1997).</li>
+          <li>Utiliza chave estática e criptografia RC4.</li>
+          <li>Vulnerável: falhas graves que permitem invasão fácil.</li>
+          <li><em>Obsoleto e inseguro, não deve ser usado.</em></li>
+        </ul>
+      </li>
+
+      <li><strong>WPA (Wi-Fi Protected Access):</strong>
+        <ul>
+          <li>Substituto do WEP (introduzido em 2003).</li>
+          <li>Uso de TKIP (Temporal Key Integrity Protocol) para melhorar a criptografia.</li>
+          <li>Compatível com hardware antigo.</li>
+          <li>Mais seguro que WEP, mas hoje também considerado vulnerável.</li>
+        </ul>
+      </li>
+
+      <li><strong>WPA2:</strong>
+        <ul>
+          <li>Padronizado em 2004, melhora a segurança com AES e CCMP.</li>
+          <li>Considerado seguro por muito tempo.</li>
+          <li>Modo Enterprise (802.1X + EAP) para autenticação forte em redes corporativas.</li>
+          <li>Modo Personal (PSK) para redes domésticas.</li>
+        </ul>
+      </li>
+
+      <li><strong>WPA3:</strong>
+        <ul>
+          <li>Lançado em 2018 para corrigir vulnerabilidades do WPA2.</li>
+          <li>Usa criptografia SAE (Simultaneous Authentication of Equals) – mais robusta contra ataques de dicionário.</li>
+          <li>Modo Personal e Enterprise com segurança reforçada.</li>
+          <li>Inclui proteção mesmo quando a senha é fraca.</li>
+          <li><em>Tendência atual e foco da banca para redes Wi-Fi seguras.</em></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. EAP (Extensible Authentication Protocol)</h2>
+    <ul>
+      <li>Protocolo usado para autenticação em redes sem fio, especialmente em WPA-Enterprise.</li>
+      <li>Não define um método específico, mas suporta vários métodos (EAP-TLS, EAP-TTLS, PEAP etc.).</li>
+      <li>Funciona em conjunto com o protocolo 802.1X para controle de acesso.</li>
+      <li>Permite autenticação forte usando certificados digitais e/ou senhas.</li>
+    </ul>
+    <div class="highlight">
+      <strong>Dica CEBRASPE:</strong> Relacione <em>802.1X + EAP</em> com autenticação robusta em redes Wi-Fi corporativas.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>3. Protocolo 802.1X</h2>
+    <ul>
+      <li>Protocolo para controle de acesso à rede baseado em autenticação.</li>
+      <li>Funciona como um "port-based Network Access Control".</li>
+      <li>Utiliza o EAP para autenticar usuários antes de conceder acesso.</li>
+      <li>Muito usado em redes Wi-Fi Enterprise para garantir segurança.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>4. Autenticação baseada em contexto</h2>
+    <ul>
+      <li>Segurança adaptativa que considera o contexto do usuário (localização, dispositivo, horário, comportamento) para permitir ou negar acesso.</li>
+      <li>Permite políticas dinâmicas, mais flexíveis e inteligentes.</li>
+      <li>Exemplo: bloquear acesso fora do horário comercial ou de dispositivos não autorizados.</li>
+    </ul>
+    <div class="tip">
+      <strong>Na prova CEBRASPE:</strong> Pode aparecer como conceito para melhorar a segurança além da senha tradicional.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Resumo Rápido dos Protocolos</h2>
+    <ul>
+      <li><strong>WEP:</strong> inseguro, obsoleto.</li>
+      <li><strong>WPA:</strong> melhoria do WEP, ainda vulnerável.</li>
+      <li><strong>WPA2:</strong> AES, seguro, usado amplamente.</li>
+      <li><strong>WPA3:</strong> segurança reforçada, SAE, futuro do Wi-Fi seguro.</li>
+      <li><strong>EAP + 802.1X:</strong> autenticação forte, rede corporativa.</li>
+      <li><strong>Autenticação baseada em contexto:</strong> controle dinâmico, políticas inteligentes.</li>
+    </ul>
+  </div>
+
+</body>
+</html>

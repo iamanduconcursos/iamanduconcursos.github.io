@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabelas Verdade – Lógica Proposicional | PF - CESPE</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      color: #212121;
+      line-height: 1.6;
+      padding: 40px;
+    }
+    h1, h2, h3 {
+      color: #0d47a1;
+    }
+    .box {
+      background-color: #ffffff;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+    }
+    code {
+      background: #eeeeee;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #e3f2fd;
+    }
+    .conectivo {
+      background-color: #e8f5e9;
+      padding: 10px;
+      border-left: 5px solid #43a047;
+      margin: 10px 0;
+    }
+    .dica {
+      background-color: #fffde7;
+      border-left: 5px solid #fbc02d;
+      padding: 12px;
+      margin-top: 20px;
+    }
+    .armadilha {
+      background-color: #ffebee;
+      border-left: 5px solid #d32f2f;
+      padding: 12px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h1>Tabelas Verdade – Lógica Proposicional</h1>
+    <p><strong>Disciplina:</strong> Raciocínio Lógico<br>
+       <strong>Assunto:</strong> Lógica Sentencial – Tabelas Verdade<br>
+       <strong>Concurso:</strong> Perito Digital da Polícia Federal<br>
+       <strong>Banca:</strong> CEBRASPE/CESPE</p>
+  </div>
+
+  <div class="box">
+    <h2>1. O que é Tabela-Verdade?</h2>
+    <p>É uma ferramenta que permite verificar os valores lógicos (V ou F) de proposições compostas com base nas proposições simples que a compõem.</p>
+    <p>Usada para:</p>
+    <ul>
+      <li>Identificar <strong>contradições</strong> (sempre falsa)</li>
+      <li>Identificar <strong>tautologias</strong> (sempre verdadeira)</li>
+      <li>Avaliar a <strong>validade de argumentos</strong></li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>2. Conectivos Lógicos e Suas Tabelas</h2>
+
+    <div class="conectivo">
+      <h3>Conjunção ( ∧ ) – “e”</h3>
+      <p>Verdadeira somente se ambas forem verdadeiras.</p>
+      <table>
+        <tr><th>P</th><th>Q</th><th>P ∧ Q</th></tr>
+        <tr><td>V</td><td>V</td><td>V</td></tr>
+        <tr><td>V</td><td>F</td><td>F</td></tr>
+        <tr><td>F</td><td>V</td><td>F</td></tr>
+        <tr><td>F</td><td>F</td><td>F</td></tr>
+      </table>
+    </div>
+
+    <div class="conectivo">
+      <h3>Disjunção ( ∨ ) – “ou”</h3>
+      <p>Falsa somente se ambas forem falsas.</p>
+      <table>
+        <tr><th>P</th><th>Q</th><th>P ∨ Q</th></tr>
+        <tr><td>V</td><td>V</td><td>V</td></tr>
+        <tr><td>V</td><td>F</td><td>V</td></tr>
+        <tr><td>F</td><td>V</td><td>V</td></tr>
+        <tr><td>F</td><td>F</td><td>F</td></tr>
+      </table>
+    </div>
+
+    <div class="conectivo">
+      <h3>Condicional ( → ) – “se... então”</h3>
+      <p>Falsa somente se P é V e Q é F.</p>
+      <table>
+        <tr><th>P</th><th>Q</th><th>P → Q</th></tr>
+        <tr><td>V</td><td>V</td><td>V</td></tr>
+        <tr><td>V</td><td>F</td><td>F</td></tr>
+        <tr><td>F</td><td>V</td><td>V</td></tr>
+        <tr><td>F</td><td>F</td><td>V</td></tr>
+      </table>
+    </div>
+
+    <div class="conectivo">
+      <h3>Bicondicional ( ↔ ) – “se e somente se”</h3>
+      <p>Verdadeira quando ambos os valores são iguais.</p>
+      <table>
+        <tr><th>P</th><th>Q</th><th>P ↔ Q</th></tr>
+        <tr><td>V</td><td>V</td><td>V</td></tr>
+        <tr><td>V</td><td>F</td><td>F</td></tr>
+        <tr><td>F</td><td>V</td><td>F</td></tr>
+        <tr><td>F</td><td>F</td><td>V</td></tr>
+      </table>
+    </div>
+
+    <div class="conectivo">
+      <h3>Negação ( ¬ ) – “não”</h3>
+      <p>Inverte o valor lógico da proposição.</p>
+      <table>
+        <tr><th>P</th><th>¬P</th></tr>
+        <tr><td>V</td><td>F</td></tr>
+        <tr><td>F</td><td>V</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>3. Construção da Tabela-Verdade Completa</h2>
+    <p>Para N proposições simples, teremos 2ⁿ linhas. Exemplo com 3 proposições (P, Q, R):</p>
+    <p><strong>2³ = 8 linhas</strong></p>
+    <p>Monte as combinações V/F de forma binária e aplique as colunas passo a passo.</p>
+  </div>
+
+  <div class="box">
+    <h2>4. Análise de Argumentos Lógicos</h2>
+    <ul>
+      <li>Um argumento é <strong>válido</strong> se, sempre que as premissas forem verdadeiras, a conclusão também for.</li>
+      <li>Use tabela-verdade para testar todos os cenários.</li>
+      <li>Verifique se há alguma linha com premissas V e conclusão F → argumento inválido.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>5. Tautologia, Contradição e Contingência</h2>
+    <ul>
+      <li><strong>Tautologia:</strong> sempre verdadeira</li>
+      <li><strong>Contradição:</strong> sempre falsa</li>
+      <li><strong>Contingente:</strong> varia entre V e F</li>
+    </ul>
+    <p><strong>Exemplo:</strong> <code>P ∨ ¬P</code> → Tautologia</p>
+    <p><strong>Exemplo:</strong> <code>P ∧ ¬P</code> → Contradição</p>
+  </div>
+
+  <div class="box">
+    <h2>6. Dicas para a Prova</h2>
+
+    <div class="dica">
+      ✅ <strong>Treine lógica com frases comuns</strong>. A CEBRASPE adora transformar enunciados simples em estruturas formais!
+    </div>
+
+    <div class="dica">
+      ✅ <strong>Use tabelas-verdade reduzidas</strong> quando o número de proposições for grande.
+    </div>
+
+    <div class="armadilha">
+      ⚠️ <strong>Erro clássico:</strong> Achar que <code>P → Q</code> é falso quando P e Q são falsos. <br>
+      <strong>Na verdade:</strong> só é falso quando P é V e Q é F.
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Noções de Sistemas Operacionais - PF</title>
+  <style>
+    body { font-family: Segoe UI, sans-serif; background-color: #f1f1f1; padding: 30px; color: #333; }
+    h1, h2, h3 { color: #1a237e; }
+    h1 { border-bottom: 3px solid #3949ab; padding-bottom: 10px; }
+    .bloco { background-color: #ffffff; padding: 20px; border-left: 6px solid #1e88e5; margin-bottom: 20px; box-shadow: 0 0 10px #ccc; }
+    .alerta { background-color: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin-top: 10px; border-radius: 4px; }
+    .importante { color: #c62828; font-weight: bold; }
+    .topico { color: #1565c0; font-weight: bold; }
+    ul { margin-left: 20px; }
+    code { background-color: #e3f2fd; padding: 2px 4px; border-radius: 3px; font-family: Consolas, monospace; }
+  </style>
+</head>
+<body>
+
+  <h1>Informática — Noções de Sistemas Operacionais</h1>
+  <h2>Windows • Android • iOS</h2>
+
+  <div class="bloco">
+    <h3>💡 O que a banca quer saber?</h3>
+    <p>O CEBRASPE cobra detalhes funcionais, comportamentais e comparativos entre os sistemas. O foco não é técnico profundo, mas sim <span class="topico">funcionalidade, recursos padrão, compatibilidade e configurações comuns</span>.</p>
+  </div>
+
+  <div class="bloco">
+    <h3>🪟 WINDOWS (10 e 11)</h3>
+    <ul>
+      <li><span class="topico">Interface:</span> Área de trabalho (desktop), Menu Iniciar, Barra de Tarefas, Central de Ações.</li>
+      <li><span class="topico">Gerenciador de Tarefas:</span> <code>Ctrl + Shift + Esc</code> (visualiza apps, CPU, RAM etc.).</li>
+      <li><span class="topico">Sistema de arquivos:</span> NTFS (moderno) e FAT32 (compatível com mais dispositivos).</li>
+      <li><span class="topico">Explorador de Arquivos:</span> Visualiza, organiza e busca arquivos — muito cobrado!</li>
+      <li><span class="topico">Painel de Controle vs Configurações:</span> Configurações modernas (interface UWP) substituem o Painel clássico.</li>
+      <li><span class="topico">Atalhos úteis:</span>
+        <ul>
+          <li><code>Win + D</code>: Mostrar/ocultar área de trabalho</li>
+          <li><code>Alt + Tab</code>: Alternar janelas</li>
+          <li><code>Win + E</code>: Abrir o Explorador</li>
+        </ul>
+      </li>
+    </ul>
+    <div class="alerta">
+      🎯 <strong>CESPE adora cobrar:</strong> atalhos, gerenciamento de tarefas, pastas padrão (Documentos, Downloads).
+    </div>
+  </div>
+
+  <div class="bloco">
+    <h3>🤖 ANDROID</h3>
+    <ul>
+      <li><span class="topico">Base:</span> Sistema operacional móvel baseado em Linux, desenvolvido pelo Google.</li>
+      <li><span class="topico">Loja de apps:</span> Google Play Store</li>
+      <li><span class="topico">Gerenciamento:</span> Permissões, notificações e uso de bateria são acessados via Configurações.</li>
+      <li><span class="topico">Sistema de arquivos:</span> Acesso via “Meus Arquivos” (interface do usuário), suporta FAT32/exFAT.</li>
+      <li><span class="topico">Conta Google:</span> Essencial para sincronizar apps, contatos, backup e localização.</li>
+    </ul>
+    <div class="alerta">
+      ⚠️ <strong>Evite confundir:</strong> Android permite <span class="importante">instalação de apps de fontes externas</span> (APK), enquanto iOS é mais restrito.
+    </div>
+  </div>
+
+  <div class="bloco">
+    <h3>📱 iOS (iPhone/iPad)</h3>
+    <ul>
+      <li><span class="topico">Desenvolvedor:</span> Apple. Sistema fechado, seguro, com controle rigoroso de apps.</li>
+      <li><span class="topico">Loja de apps:</span> App Store</li>
+      <li><span class="topico">Interface:</span> Simples, ícones organizados por páginas, sem gaveta de apps.</li>
+      <li><span class="topico">Sistema de arquivos:</span> Não visível nativamente. Apps acessam arquivos isoladamente (sandbox).</li>
+      <li><span class="topico">iCloud:</span> Backup automático, localização de dispositivos e sincronização com outros Apple devices.</li>
+    </ul>
+    <div class="alerta">
+      🧠 <strong>Em provas:</strong> iOS <span class="importante">não permite acesso direto ao sistema de arquivos</span>. Tudo é feito por apps e configurações.
+    </div>
+  </div>
+
+  <div class="bloco">
+    <h3>📊 Comparativo Rápido</h3>
+    <table border="1" cellpadding="8" cellspacing="0" style="width:100%; border-collapse: collapse; margin-top: 10px;">
+      <thead style="background-color:#e3f2fd;">
+        <tr>
+          <th>Sistema</th>
+          <th>Loja</th>
+          <th>Permite fontes externas?</th>
+          <th>Tipo de sistema</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Windows</strong></td>
+          <td>Microsoft Store (mas não é obrigatória)</td>
+          <td>Sim</td>
+          <td>Desktop, multitarefa total</td>
+        </tr>
+        <tr>
+          <td><strong>Android</strong></td>
+          <td>Google Play Store</td>
+          <td><span class="importante">Sim (APK)</span></td>
+          <td>Móvel, multitarefa com limitações</td>
+        </tr>
+        <tr>
+          <td><strong>iOS</strong></td>
+          <td>App Store</td>
+          <td><span class="importante">Não</span> (exceto jailbreak)</td>
+          <td>Móvel, ambiente controlado</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="bloco">
+    <h3>🧠 Pegadinhas de Prova (CESPE)</h3>
+    <ul>
+      <li>❌ “O iOS permite instalação de apps de fontes não autorizadas.”</li>
+      <li>✅ “O Android permite múltiplas contas de usuário em alguns dispositivos.”</li>
+      <li>❌ “No Windows, o Gerenciador de Tarefas pode ser acessado com Alt + F4.”</li>
+      <li>✅ “O Windows permite exibição de arquivos ocultos via opções de pasta.”</li>
+    </ul>
+  </div>
+
+  <div class="bloco">
+    <h3>🎯 Conclusão para Revisão de Véspera</h3>
+    <ul>
+      <li>Decore <span class="topico">atalhos e funções principais</span> do Windows.</li>
+      <li>Entenda as <span class="topico">diferenças entre Android e iOS</span>.</li>
+      <li>Foque em <span class="topico">conceitos funcionais</span>, não técnicos profundos.</li>
+      <li>Evite confundir permissividade do Android com as restrições do iOS.</li>
+    </ul>
+  </div>
+
+</body>
+</html>

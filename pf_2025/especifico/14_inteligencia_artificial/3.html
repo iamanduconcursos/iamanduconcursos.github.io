@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo | LLMs & PLN - Perito Digital PF</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f3f6f9;
+      color: #333;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #1a237e;
+    }
+    .box {
+      background: #ffffff;
+      border-left: 6px solid #3949ab;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+    }
+    .alerta {
+      background: #fff3cd;
+      border-left: 6px solid #fbc02d;
+    }
+    code {
+      background: #e0e0e0;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resumo Estratégico: LLMs & Processamento de Linguagem Natural</h1>
+  <p><strong>Disciplina:</strong> Inteligência Artificial<br>
+     <strong>Assunto:</strong> LLMs e Processamento de Linguagem Natural (PLN)<br>
+     <strong>Cargo:</strong> Perito Criminal Federal – Área: Informática<br>
+     <strong>Banca:</strong> CEBRASPE / CESPE</p>
+
+  <div class="box">
+    <h2>1. O que é PLN (Processamento de Linguagem Natural)?</h2>
+    <ul>
+      <li>Área da IA focada em permitir que máquinas compreendam e processem linguagem humana.</li>
+      <li>Objetivos:
+        <ul>
+          <li>Compreensão, geração e tradução de textos</li>
+          <li>Extração de sentimentos, entidades e intenções</li>
+        </ul>
+      </li>
+      <li>Etapas do PLN:
+        <ul>
+          <li><strong>Tokenização</strong> – dividir frases em palavras</li>
+          <li><strong>Lematização/Stemming</strong> – reduzir palavras à raiz</li>
+          <li><strong>POS Tagging</strong> – classificar palavras (verbo, substantivo...)</li>
+          <li><strong>Parsing</strong> – estrutura sintática</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>2. O que são LLMs (Large Language Models)?</h2>
+    <ul>
+      <li>Modelos de IA com bilhões de parâmetros treinados em grandes volumes de texto.</li>
+      <li>Baseados em <strong>redes neurais profundas</strong>, principalmente <strong>Transformers</strong>.</li>
+      <li>Exemplos:
+        <ul>
+          <li><strong>GPT (OpenAI)</strong>, <strong>BERT (Google)</strong>, <strong>LLaMA (Meta)</strong></li>
+        </ul>
+      </li>
+      <li>Aplicações:
+        <ul>
+          <li>Chatbots, assistentes virtuais, tradução, classificação de texto</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>3. Arquitetura Transformer (Base dos LLMs)</h2>
+    <ul>
+      <li>Introduzida por Vaswani et al. (2017): <em>"Attention is All You Need"</em></li>
+      <li>Usa mecanismos de <strong>self-attention</strong> para entender contexto de palavras</li>
+      <li>Vantagens:
+        <ul>
+          <li>Treinamento paralelo</li>
+          <li>Capacidade de lidar com longos contextos</li>
+        </ul>
+      </li>
+      <li>Composto por:
+        <ul>
+          <li><strong>Encoder</strong> (entrada)</li>
+          <li><strong>Decoder</strong> (geração de saída)</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>4. Diferença entre modelos</h2>
+    <ul>
+      <li><strong>BERT:</strong> bidirecional, usado para tarefas de compreensão (classificação, NER)</li>
+      <li><strong>GPT:</strong> unidirecional, usado para geração de texto</li>
+      <li><strong>T5:</strong> transforma tudo em tarefa de texto-para-texto</li>
+    </ul>
+  </div>
+
+  <div class="box alerta">
+    <h3>🎯 Pontos mais cobrados pela CEBRASPE</h3>
+    <ul>
+      <li>Definição e aplicações do PLN</li>
+      <li>Arquitetura e funcionamento dos Transformers</li>
+      <li>Finalidades dos modelos BERT × GPT</li>
+      <li>Termos técnicos: tokenização, embeddings, attention</li>
+      <li>Função da etapa de pré-processamento em PLN</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>5. Glossário Técnico</h2>
+    <ul>
+      <li><code>Embedding</code>: representação vetorial de palavras</li>
+      <li><code>Attention</code>: mecanismo que identifica palavras mais relevantes no contexto</li>
+      <li><code>Fine-tuning</code>: ajuste de um modelo já treinado para uma tarefa específica</li>
+      <li><code>Zero-shot</code> / <code>Few-shot learning</code>: inferência com nenhum ou poucos exemplos</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>6. Questão típica de prova (exemplo CEBRASPE)</h2>
+    <p><strong>(Certo ou Errado)</strong> – Em modelos como o BERT, o mecanismo de atenção permite ao modelo considerar apenas as palavras seguintes no texto, o que o caracteriza como modelo unidirecional.</p>
+    <p><strong>Gabarito:</strong> <span style="color:red;"><b>Errado</b></span><br>
+      <small>→ O BERT é bidirecional. Quem é unidirecional (esquerda para direita) é o GPT.</small></p>
+  </div>
+
+  <footer>
+    <p>🧠 Resumo gerado por ChatGPT | Concurso PF - Inteligência Artificial | Atualizado em Maio/2025</p>
+  </footer>
+
+</body>
+</html>

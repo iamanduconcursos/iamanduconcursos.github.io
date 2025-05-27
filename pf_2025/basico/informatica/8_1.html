@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Noções de Python para Concurso PF</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4faff;
+      color: #1e1e1e;
+      max-width: 960px;
+      margin: auto;
+      padding: 30px;
+      line-height: 1.7;
+    }
+    h1, h2 {
+      color: #003366;
+      border-bottom: 2px solid #0099cc;
+      padding-bottom: 5px;
+    }
+    section {
+      background-color: #e6f3ff;
+      border-left: 6px solid #007acc;
+      padding: 20px;
+      margin: 25px 0;
+      box-shadow: 1px 1px 6px rgba(0,0,0,0.05);
+    }
+    .codigo {
+      background-color: #f0f0f0;
+      padding: 10px;
+      font-family: monospace;
+      border-left: 4px solid #666;
+      white-space: pre-wrap;
+    }
+    .alerta {
+      background-color: #fff3cd;
+      border-left: 6px solid #ff9900;
+      padding: 20px;
+      font-weight: bold;
+      margin: 25px 0;
+      color: #5a4500;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    footer {
+      font-size: 0.9em;
+      color: #555;
+      text-align: center;
+      border-top: 1px solid #ccc;
+      margin-top: 40px;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Noções de Programação – Linguagem Python</h1>
+<p><em>Resumo estratégico para concursos da Polícia Federal – Banca CEBRASPE</em></p>
+
+<section>
+  <h2>1. Fundamentos Básicos</h2>
+  <ul>
+    <li>Python é uma linguagem <strong>interpretada, de alto nível, e orientada a objetos</strong>.</li>
+    <li>Foco na <strong>simplicidade e legibilidade</strong> do código.</li>
+    <li>Não exige declaração de tipos (tipagem dinâmica).</li>
+  </ul>
+</section>
+
+<section>
+  <h2>2. Sintaxe Básica</h2>
+  <div class="codigo">
+# Comentário
+x = 10           # Inteiro
+y = 3.14         # Ponto flutuante
+nome = "Ana"     # String
+print(nome)
+  </div>
+  <ul>
+    <li><strong>Indentação é obrigatória</strong> para definir blocos (como if, loops, funções).</li>
+  </ul>
+</section>
+
+<section>
+  <h2>3. Estruturas de Controle</h2>
+  <div class="codigo">
+if x > 5:
+    print("Maior que 5")
+else:
+    print("Menor ou igual a 5")
+
+for i in range(3):
+    print(i)
+
+while x > 0:
+    x -= 1
+  </div>
+  <ul>
+    <li><strong>range()</strong> gera sequências de números.</li>
+    <li><strong>break</strong> e <strong>continue</strong> controlam loops.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>4. Funções</h2>
+  <div class="codigo">
+def saudacao(nome):
+    return "Olá, " + nome
+
+print(saudacao("Carlos"))
+  </div>
+  <ul>
+    <li>Funções são definidas com <code>def</code>.</li>
+    <li>Podem ter parâmetros opcionais e retorno.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>5. Estruturas de Dados</h2>
+  <ul>
+    <li><strong>Listas:</strong> coleções ordenadas e mutáveis.
+      <div class="codigo">frutas = ["maçã", "banana"]</div>
+    </li>
+    <li><strong>Tuplas:</strong> ordenadas e imutáveis.
+      <div class="codigo">cores = ("azul", "vermelho")</div>
+    </li>
+    <li><strong>Dicionários:</strong> chave-valor.
+      <div class="codigo">aluno = {"nome": "João", "idade": 20}</div>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>6. Tratamento de Exceções</h2>
+  <div class="codigo">
+try:
+    x = int("dez")
+except ValueError:
+    print("Erro de conversão")
+  </div>
+</section>
+
+<section>
+  <h2>7. Manipulação de Arquivos</h2>
+  <div class="codigo">
+with open("arquivo.txt", "r") as f:
+    conteudo = f.read()
+  </div>
+  <ul>
+    <li><code>"r"</code> = leitura, <code>"w"</code> = escrita, <code>"a"</code> = append.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>8. Orientação a Objetos</h2>
+  <div class="codigo">
+class Pessoa:
+    def __init__(self, nome):
+        self.nome = nome
+
+    def falar(self):
+        print("Olá, meu nome é", self.nome)
+  </div>
+</section>
+
+<section class="alerta">
+⚠️ <strong>CEBRASPE ADORA PEGADINHAS!</strong><br>
+✔ Indentação errada = erro de execução!<br>
+✔ Strings podem ser delimitadas por aspas simples ou duplas.<br>
+✔ Tuplas são imutáveis! Métodos como <code>append()</code> não funcionam nelas.<br>
+✔ Não confunda <code>==</code> (comparação) com <code>=</code> (atribuição).<br>
+✔ range(3) gera: 0, 1, 2 (não inclui o 3).
+</section>
+
+<section>
+  <h2>9. Tópicos Comuns em Provas</h2>
+  <ul>
+    <li>Identificar erros de sintaxe em pequenos trechos de código.</li>
+    <li>Compreender o funcionamento de estruturas de repetição e condição.</li>
+    <li>Entender funções e passagem de parâmetros.</li>
+    <li>Diferenciar listas, tuplas e dicionários.</li>
+    <li>Tratar exceções com try/except.</li>
+  </ul>
+</section>
+
+<footer>
+  <p>📌 Estude com foco nos comandos básicos, estruturas de decisão, listas e erros comuns.<br>
+  💡 Banca CEBRASPE costuma testar interpretação de código e lógica básica.<br>
+  🚀 Prepare-se de forma estratégica e ganhe pontos preciosos em Python na sua prova!</p>
+</footer>
+
+</body>
+</html>

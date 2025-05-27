@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo – Deepfakes (Inteligência Artificial)</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fbfd;
+      margin: 30px;
+      color: #2e2e2e;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    h1 {
+      border-bottom: 2px solid #003366;
+      padding-bottom: 8px;
+    }
+    ul {
+      margin-top: 0;
+      padding-left: 20px;
+    }
+    .destaque {
+      background-color: #e6f2ff;
+      padding: 12px;
+      border-left: 5px solid #0073e6;
+      margin: 20px 0;
+    }
+    code {
+      background-color: #eaeaea;
+      padding: 2px 5px;
+      border-radius: 3px;
+      font-family: "Courier New", monospace;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    th {
+      background-color: #d0e6ff;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Deepfakes – O que você precisa saber para a PF (CESPE)</h1>
+
+<div class="destaque">
+  <strong>🎯 CESPE Foco:</strong> A banca explora aspectos técnicos e éticos dos deepfakes, uso malicioso, fundamentos com IA (especialmente GANs), detecção, legislação aplicável (LGPD e crimes digitais) e implicações forenses.
+</div>
+
+<h2>1. O que são Deepfakes?</h2>
+<ul>
+  <li>Conteúdos (principalmente vídeos ou áudios) <strong>gerados ou alterados com IA</strong> para simular eventos, falas ou ações que nunca ocorreram.</li>
+  <li>Usam <strong>Redes Geradoras Adversariais (GANs)</strong> para criar imagens ou sons hiper-realistas.</li>
+  <li>Combinação de deep learning + visão computacional + manipulação digital.</li>
+</ul>
+
+<h2>2. Tecnologias Envolvidas</h2>
+<ul>
+  <li><strong>GAN (Generative Adversarial Networks):</strong> dois modelos que "competem":
+    <ul>
+      <li><strong>Generator:</strong> cria imagens falsas.</li>
+      <li><strong>Discriminator:</strong> tenta identificar se a imagem é real ou falsa.</li>
+    </ul>
+  </li>
+  <li><strong>Autoencoders:</strong> redes neurais treinadas para reconstruir dados com compressão → podem ser usadas para substituição de rostos.</li>
+  <li><strong>Transferência de estilo e sincronização labial:</strong> para ajustar fala e expressões.</li>
+</ul>
+
+<h2>3. Aplicações Lícitas e Ilícitas</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Lícitas</th>
+      <th>Ilícitas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Filmes (de-aging, recriação de atores falecidos)</td>
+      <td>Fake news, extorsão, pornografia não consensual</td>
+    </tr>
+    <tr>
+      <td>Assistência a deficientes auditivos e visuais</td>
+      <td>Fraudes políticas e financeiras</td>
+    </tr>
+    <tr>
+      <td>Entretenimento e marketing interativo</td>
+      <td>Roubo de identidade e difamação</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>4. Riscos e Desafios</h2>
+<ul>
+  <li><strong>Confiança pública abalada:</strong> dificulta distinguir o que é real ou falso.</li>
+  <li><strong>Risco à democracia:</strong> manipulação de discursos e eleições.</li>
+  <li><strong>Privacidade e imagem:</strong> violações diretas à LGPD.</li>
+</ul>
+
+<h2>5. Detecção de Deepfakes</h2>
+<ul>
+  <li>Algoritmos de IA que detectam padrões não humanos (piscadas, movimentações labiais, iluminação incoerente).</li>
+  <li><strong>Forense digital:</strong> análise de metadados, inconsistência em arquivos de mídia.</li>
+  <li><strong>Técnicas:</strong>
+    <ul>
+      <li>Detecção de ruído residual.</li>
+      <li>Detecção de artefatos de compressão.</li>
+      <li>Análise de variação de frame por segundo.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>6. Legislação Aplicável</h2>
+<ul>
+  <li><strong>LGPD (Lei Geral de Proteção de Dados):</strong> deepfakes podem envolver tratamento indevido de dados pessoais sensíveis.</li>
+  <li><strong>Marco Civil da Internet:</strong> responsabilização por conteúdo falso e manipulado.</li>
+  <li><strong>Lei 12.737/2012 (Lei Carolina Dieckmann):</strong> invasão de dispositivo para coletar vídeos/fotos originais.</li>
+  <li><strong>Propostas legislativas em andamento</strong> sobre criminalização explícita de uso malicioso de deepfakes.</li>
+</ul>
+
+<div class="destaque">
+  <strong>⚠️ Pegadinhas comuns:</strong>
+  <ul>
+    <li>Confundir deepfake com CGI → <strong>CGI é renderizado, deepfake é IA realista aprendendo com dados.</strong></li>
+    <li>Afirmar que todo deepfake é ilegal → <strong>falso</strong>, depende do uso.</li>
+    <li>Dizer que deepfakes não são detectáveis → <strong>falso</strong>, há técnicas em desenvolvimento constante.</li>
+  </ul>
+</div>
+
+<h2>7. Para memorizar antes da prova</h2>
+<div class="destaque">
+  <code>
+    Deepfake = GAN = Vídeo falso realista<br>
+    GAN = Generator x Discriminator<br>
+    Risco = Fake news + pornografia + política<br>
+    Defesa = IA forense + análise de frame + metadados<br>
+    Lei = LGPD + Marco Civil + crimes digitais
+  </code>
+</div>
+
+<h2>8. Tópicos queridinhos da CESPE</h2>
+<ul>
+  <li>O que são GANs e como funcionam.</li>
+  <li>Funções do generator e do discriminator.</li>
+  <li>Aplicações forenses dos deepfakes.</li>
+  <li>Consequências legais do uso malicioso.</li>
+  <li>Limites éticos da IA na geração de imagem/vídeo.</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Acesso Remoto: VPN e RDP - Resumo para Concurso PF</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      max-width: 850px;
+      margin: 40px auto;
+      background-color: #f8fafc;
+      color: #1e293b;
+      padding: 20px 30px;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      color: #1d4ed8;
+      border-bottom: 2px solid #3b82f6;
+      padding-bottom: 6px;
+    }
+
+    .section {
+      background-color: #e0f2fe;
+      border-left: 6px solid #0284c7;
+      padding: 15px 25px;
+      margin: 25px 0;
+      border-radius: 8px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    .highlight {
+      background-color: #fef9c3;
+      border-left: 6px solid #facc15;
+      padding: 15px 25px;
+      font-weight: 600;
+      color: #92400e;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+
+    code {
+      background-color: #e2e8f0;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Informática – Redes de Computadores</h1>
+  <h2>Acesso Remoto: VPN e RDP</h2>
+
+  <div class="section">
+    <h3>1. O que é Acesso Remoto?</h3>
+    <ul>
+      <li>Ato de acessar um computador ou rede à distância, como se estivesse fisicamente presente.</li>
+      <li>Recurso vital em ambientes corporativos e teletrabalho.</li>
+      <li>Exige autenticação e protocolos seguros.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>2. VPN – Virtual Private Network</h3>
+    <ul>
+      <li>Cria um “túnel” criptografado entre o usuário e a rede remota.</li>
+      <li>Garante <strong>confidencialidade, integridade e segurança</strong> na troca de dados.</li>
+      <li><strong>Funciona sobre a Internet</strong>, mas simula estar na rede interna da organização.</li>
+      <li><strong>Protocolos usados:</strong>
+        <ul>
+          <li><code>IPSec</code></li>
+          <li><code>SSL/TLS</code></li>
+          <li><code>PPTP</code> (obsoleto e inseguro)</li>
+          <li><code>L2TP</code> (geralmente usado com IPSec)</li>
+        </ul>
+      </li>
+      <li><strong>Exemplo prático:</strong> Acessar sistemas internos da Polícia Federal via VPN.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>3. RDP – Remote Desktop Protocol</h3>
+    <ul>
+      <li>Protocolo desenvolvido pela Microsoft.</li>
+      <li>Permite controlar um computador remotamente, com acesso ao ambiente gráfico como se estivesse no local.</li>
+      <li>Utilizado no serviço de <strong>Área de Trabalho Remota (Remote Desktop)</strong>.</li>
+      <li><strong>Porta padrão:</strong> <code>3389</code></li>
+      <li>É necessário que o computador remoto esteja ligado e com o serviço habilitado.</li>
+      <li><strong>Segurança:</strong> Pode usar autenticação com criptografia; idealmente deve ser utilizado com VPN.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>4. Comparação entre VPN e RDP</h3>
+    <ul>
+      <li><strong>VPN:</strong> Conecta você à rede remota, como se estivesse fisicamente nela.</li>
+      <li><strong>RDP:</strong> Conecta você diretamente a um computador remoto, exibindo a tela dele.</li>
+      <li>Ambos podem ser utilizados em conjunto para mais segurança.</li>
+    </ul>
+  </div>
+
+  <div class="highlight">
+    <p><strong>O que mais cai na CEBRASPE/CESPE:</strong></p>
+    <ul>
+      <li>Diferença conceitual entre VPN e RDP.</li>
+      <li>Finalidade, funcionamento e protocolos utilizados pela VPN.</li>
+      <li>Porta padrão e objetivo do RDP.</li>
+      <li>Segurança envolvida no acesso remoto.</li>
+      <li>Reconhecimento de exemplos de uso (situações práticas).</li>
+    </ul>
+  </div>
+
+  <p style="margin-top: 30px; font-style: italic;">
+    <strong>Dica final:</strong> Quando for resolver questões, atente-se a cenários práticos. CEBRASPE costuma apresentar situações reais para avaliar seu entendimento técnico e aplicado.
+  </p>
+
+</body>
+</html>

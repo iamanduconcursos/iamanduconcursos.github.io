@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lógica de Primeira Ordem — Raciocínio Lógico para PF</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fcff;
+      color: #1b2631;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 40px;
+      border-left: 8px solid #2e86c1;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      border-radius: 6px;
+    }
+    h1, h2 {
+      color: #2e86c1;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 10px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 30px;
+    }
+    ul {
+      margin-left: 25px;
+      margin-bottom: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .highlight {
+      background: #d6eaf8;
+      padding: 15px;
+      border-left: 5px solid #2980b9;
+      border-radius: 4px;
+      font-style: italic;
+      margin: 25px 0;
+    }
+    .example {
+      background: #f4f6f7;
+      padding: 12px 18px;
+      border-left: 4px solid #5dade2;
+      margin: 15px 0;
+      font-family: monospace;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #aed6f1;
+      padding: 10px;
+    }
+    th {
+      background-color: #2980b9;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Lógica de Primeira Ordem – Resumo para Concurso PF</h1>
+
+<p>A lógica de primeira ordem (LPO), também conhecida como lógica de predicados, é uma extensão da lógica proposicional. É mais expressiva e permite representar relações entre objetos e propriedades com o uso de <strong>quantificadores</strong>.</p>
+
+<div class="highlight">
+  🎯 <strong>CEBRASPE adora testar:</strong> interpretação de quantificadores, negação de proposições com ∀ e ∃, e equivalências com predicados.
+</div>
+
+<h2>1. Elementos da Lógica de Primeira Ordem</h2>
+<ul>
+  <li><strong>Predicados:</strong> Indicam propriedades ou relações entre objetos. Ex: P(x), R(x,y)</li>
+  <li><strong>Variáveis:</strong> Símbolos genéricos (x, y, z) que representam elementos do domínio.</li>
+  <li><strong>Quantificadores:</strong>
+    <ul>
+      <li>Universal (∀): “para todo”, “qualquer que”</li>
+      <li>Existencial (∃): “existe”, “ao menos um”</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>2. Traduções Comuns (Português ↔ Simbologia)</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Português</th>
+      <th>Linguagem Formal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Todos os policiais são honestos</td>
+      <td>∀x (Policial(x) → Honesto(x))</td>
+    </tr>
+    <tr>
+      <td>Alguns servidores são engenheiros</td>
+      <td>∃x (Servidor(x) ∧ Engenheiro(x))</td>
+    </tr>
+    <tr>
+      <td>Nenhum aluno é irresponsável</td>
+      <td>¬∃x (Aluno(x) ∧ Irresponsável(x))</td>
+    </tr>
+    <tr>
+      <td>Se alguém estuda, então será aprovado</td>
+      <td>∃x (Estuda(x) → Aprovado(x))</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>3. Negação de Proposições com Quantificadores</h2>
+<p>Este é o ponto <strong>mais cobrado</strong> pela banca:</p>
+
+<ul>
+  <li><strong>¬(∀x P(x)) ≡ ∃x ¬P(x)</strong> (negação do ∀ vira ∃ com negação do predicado)</li>
+  <li><strong>¬(∃x P(x)) ≡ ∀x ¬P(x)</strong> (negação do ∃ vira ∀ com negação do predicado)</li>
+</ul>
+
+<div class="example">
+  Frase: "Todos os sistemas são seguros"<br>
+  Simbologia: ∀x (Sistema(x) → Seguro(x))<br>
+  Negação: ∃x (Sistema(x) ∧ ¬Seguro(x))<br>
+  Tradução: “Existe algum sistema que não é seguro”
+</div>
+
+<h2>4. Implicação com Quantificadores</h2>
+<ul>
+  <li>Frases com "todos" geralmente viram uma implicação com quantificador universal: ∀x (P(x) → Q(x))</li>
+  <li>Frases com "existe" são mais comuns com conjunção: ∃x (P(x) ∧ Q(x))</li>
+</ul>
+
+<h2>5. Dicas de Ouro para Prova</h2>
+<ul>
+  <li>Interprete com calma o que o quantificador está fazendo: abrangência ou existência?</li>
+  <li>Fique atento às negações! O erro mais comum em provas é inverter mal o quantificador.</li>
+  <li>Lembre-se: 
+    <ul>
+      <li>Negar ∀ é usar ∃ com negação do predicado;</li>
+      <li>Negar ∃ é usar ∀ com negação do predicado.</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="highlight">
+  💡 <strong>Exemplo típico CESPE:</strong> A negação de “Todos os sistemas são auditáveis” é “Existe ao menos um sistema que não é auditável”.
+</div>
+
+<h2>6. Exemplo de Questão Estilo CESPE</h2>
+<p><strong>Enunciado:</strong> A negação da proposição “Todos os arquivos são criptografados” é logicamente equivalente a:</p>
+<ol type="A">
+  <li>Nenhum arquivo é criptografado.</li>
+  <li>Alguns arquivos não são criptografados.</li>
+  <li>Todos os arquivos não são criptografados.</li>
+  <li>Se um arquivo é criptografado, então ele não é acessível.</li>
+</ol>
+
+<p><strong>Resposta:</strong> Letra <strong>B</strong> – ∃x (Arquivo(x) ∧ ¬Criptografado(x))</p>
+
+</body>
+</html>

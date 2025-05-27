@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Raciocínio Lógico – Contagem e Probabilidade</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfdfd;
+      color: #202020;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    h2 {
+      border-bottom: 3px solid #0073e6;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+    section {
+      margin-top: 30px;
+      background: #eef5fc;
+      border-left: 5px solid #0066cc;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .formula {
+      font-family: monospace;
+      background: #fff;
+      padding: 4px 10px;
+      border-radius: 5px;
+      display: inline-block;
+      color: #003366;
+    }
+    .highlight {
+      background-color: #dff0d8;
+      border-left: 6px solid #3c763d;
+      padding: 15px;
+      border-radius: 6px;
+      font-weight: bold;
+      color: #2b542c;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Raciocínio Lógico</h1>
+  <h2>Princípios de Contagem e Probabilidade</h2>
+
+  <section>
+    <h3>1. Princípios de Contagem</h3>
+    <ul>
+      <li><strong>Princípio da Multiplicação:</strong> Se uma tarefa é dividida em <em>etapas sucessivas</em>, e a primeira pode ser feita de <span class="formula">n</span> formas e a segunda de <span class="formula">m</span> formas, o total será <span class="formula">n × m</span>.</li>
+      <li><strong>Princípio da Adição:</strong> Se uma tarefa pode ser realizada por dois caminhos diferentes e excludentes, o total será <span class="formula">n + m</span>.</li>
+      <li><strong>Arranjos:</strong> Ordem importa. Fórmula: <span class="formula">A(n,p) = n! / (n - p)!</span></li>
+      <li><strong>Permutações:</strong> Todos os elementos são usados, com ou sem repetição.
+        <ul>
+          <li>Sem repetição: <span class="formula">P(n) = n!</span></li>
+          <li>Com repetição: <span class="formula">P(n₁, n₂, ..., nk) = n! / (n₁! × n₂! × ... × nk!)</span></li>
+        </ul>
+      </li>
+      <li><strong>Combinações:</strong> Ordem <strong>não</strong> importa. Fórmula:
+        <span class="formula">C(n, p) = n! / [p! × (n - p)!]</span>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>2. Probabilidade</h3>
+    <ul>
+      <li><strong>Definição:</strong> Probabilidade de um evento:
+        <span class="formula">P(E) = n(E) / n(S)</span>, onde:
+        <ul>
+          <li><span class="formula">n(E)</span>: número de casos favoráveis</li>
+          <li><span class="formula">n(S)</span>: número total de casos possíveis (espaço amostral)</li>
+        </ul>
+      </li>
+      <li><strong>Eventos mutuamente exclusivos:</strong> Não ocorrem ao mesmo tempo.
+        <span class="formula">P(A ou B) = P(A) + P(B)</span></li>
+      <li><strong>Eventos independentes:</strong> Ocorrência de um não interfere no outro.
+        <span class="formula">P(A e B) = P(A) × P(B)</span></li>
+      <li><strong>Probabilidade complementar:</strong> <span class="formula">P(não A) = 1 - P(A)</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>3. Questões Cobradas com Frequência pela CEBRASPE</h3>
+    <ul>
+      <li>Problemas envolvendo <strong>senha</strong>, <strong>códigos</strong>, <strong>escalas de trabalho</strong>.</li>
+      <li><strong>Combinação x Arranjo:</strong> Identificação do modelo correto segundo a ordem.</li>
+      <li><strong>Probabilidade de eventos complementares e sucessivos</strong>.</li>
+      <li>Provas com <strong>interpretação lógica de problemas verbais</strong> com cálculo de probabilidades.</li>
+    </ul>
+  </section>
+
+  <div class="highlight">
+    ✨ <strong>Resumo do que mais cai:</strong>
+    <ul>
+      <li>Arranjos vs Combinações – distinguir se a ordem importa!</li>
+      <li>Permutações com repetição (ex: letras da palavra “BANANA”)</li>
+      <li>Probabilidade com dados, moedas, cartas e sorteios simples.</li>
+      <li>Espaço amostral correto – erro comum nas provas!</li>
+    </ul>
+  </div>
+
+  <p style="margin-top: 30px;"><em>Dica final: se tiver dúvida sobre usar arranjo ou combinação, pergunte-se: “A ordem muda o resultado?” — se sim, é arranjo!</em></p>
+
+</body>
+</html>

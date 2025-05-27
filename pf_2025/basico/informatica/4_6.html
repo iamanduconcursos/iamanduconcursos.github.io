@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resumo - Assinatura e Certificação Digital</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fafb;
+      color: #1e293b;
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px 30px;
+      line-height: 1.5;
+    }
+    h1, h2 {
+      color: #0f172a;
+      border-bottom: 3px solid #3b82f6;
+      padding-bottom: 6px;
+      margin-bottom: 20px;
+    }
+    .section {
+      background-color: #e0e7ff;
+      padding: 15px 25px;
+      border-left: 6px solid #3b82f6;
+      margin-bottom: 25px;
+      border-radius: 8px;
+    }
+    ul {
+      margin-left: 25px;
+      margin-top: 10px;
+    }
+    .highlight {
+      background-color: #fef3c7;
+      border-left: 6px solid #fbbf24;
+      padding: 15px 25px;
+      margin-top: 20px;
+      font-weight: 700;
+      color: #92400e;
+      border-radius: 8px;
+    }
+    code {
+      background-color: #c7d2fe;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Informática - Segurança da Informação</h1>
+  <h2>Assinatura e Certificação Digital</h2>
+
+  <div class="section">
+    <h3>1. Conceitos Fundamentais</h3>
+    <ul>
+      <li><strong>Assinatura Digital:</strong> Mecanismo eletrônico que garante a autenticidade, integridade e não-repúdio de documentos digitais.</li>
+      <li><strong>Certificação Digital:</strong> Processo que vincula uma chave pública a uma identidade (pessoa física ou jurídica) por meio de um certificado digital.</li>
+      <li><strong>Certificado Digital:</strong> Documento eletrônico emitido por uma Autoridade Certificadora (AC) que contém dados do titular e a chave pública.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>2. Autoridade Certificadora (AC)</h3>
+    <ul>
+      <li>Instituição responsável pela emissão, renovação e revogação dos certificados digitais.</li>
+      <li>Funciona como um "cartório digital", garantindo a confiança dos certificados.</li>
+      <li>Exemplo no Brasil: ICP-Brasil (Infraestrutura de Chaves Públicas Brasileira).</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>3. Funcionamento da Assinatura Digital</h3>
+    <ul>
+      <li>Utiliza criptografia assimétrica: chave privada (sigilosa) e chave pública (disponível).</li>
+      <li>Processo:
+        <ol>
+          <li>O documento é "hashificado" (função hash gera um resumo único).</li>
+          <li>O hash é criptografado com a chave privada do assinante, gerando a assinatura digital.</li>
+          <li>Para validar, utiliza-se a chave pública para descriptografar a assinatura e comparar o hash do documento.</li>
+        </ol>
+      </li>
+      <li>Garante:
+        <ul>
+          <li><strong>Autenticidade:</strong> Confirma quem assinou.</li>
+          <li><strong>Integridade:</strong> Documento não foi alterado.</li>
+          <li><strong>Não-repúdio:</strong> Assinante não pode negar a assinatura.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>4. Tipos de Certificados Digitais</h3>
+    <ul>
+      <li><strong>Certificado A1:</strong> Armazenado no computador (arquivo digital), validade de até 1 ano.</li>
+      <li><strong>Certificado A3:</strong> Armazenado em dispositivo físico (token ou smart card), validade de até 3 anos.</li>
+      <li>Escolha depende do nível de segurança e uso.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>5. Aplicações Práticas</h3>
+    <ul>
+      <li>Assinatura de contratos eletrônicos e documentos oficiais.</li>
+      <li>Envio seguro de declarações fiscais (ex.: SPED, e-CAC).</li>
+      <li>Autenticação segura em sistemas do governo e empresas.</li>
+      <li>Garantia de integridade em processos judiciais eletrônicos.</li>
+    </ul>
+  </div>
+
+  <div class="highlight">
+    <p><strong>Pontos mais cobrados pela banca CEBRASPE/CESPE:</strong></p>
+    <ul>
+      <li>Diferença entre assinatura digital e assinatura eletrônica.</li>
+      <li>Função e importância da Autoridade Certificadora (AC).</li>
+      <li>Criptografia assimétrica aplicada na assinatura digital.</li>
+      <li>Características da certificação digital ICP-Brasil.</li>
+      <li>Garantias da assinatura digital: autenticidade, integridade e não-repúdio.</li>
+      <li>Tipos básicos de certificados (A1 e A3) e suas diferenças.</li>
+    </ul>
+  </div>
+
+  <p style="font-style: italic; margin-top: 30px;">
+    <strong>Dica final:</strong> Entenda o fluxo da assinatura digital e os conceitos de chave pública e privada. Pratique a leitura de questões da CEBRASPE para consolidar o conhecimento.
+  </p>
+
+</body>
+</html>

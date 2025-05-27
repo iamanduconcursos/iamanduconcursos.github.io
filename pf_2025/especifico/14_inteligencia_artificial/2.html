@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo – Redes Neurais e Deep Learning</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      margin: 30px;
+      color: #2c2c2c;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    h1 {
+      border-bottom: 2px solid #003366;
+      padding-bottom: 6px;
+    }
+    ul {
+      margin-top: 0;
+      padding-left: 20px;
+    }
+    .destaque {
+      background-color: #e6f0ff;
+      padding: 12px;
+      border-left: 5px solid #005cbf;
+      margin: 20px 0;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 5px;
+      border-radius: 3px;
+      font-family: "Courier New", monospace;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    th {
+      background-color: #d0e6ff;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Inteligência Artificial – Redes Neurais e Deep Learning</h1>
+
+<div class="destaque">
+  <strong>🎯 CESPE em foco:</strong> Cobra <em>conceitos estruturais</em> de redes neurais, funcionamento das camadas, função de ativação, retropropagação e aplicações práticas do deep learning. Questões podem envolver pseudocódigo, interpretação de arquitetura e funcionamento do treinamento.
+</div>
+
+<h2>1. Conceitos Fundamentais</h2>
+<ul>
+  <li><strong>Rede Neural Artificial (RNA):</strong> modelo computacional inspirado no cérebro humano.</li>
+  <li><strong>Neurônio artificial:</strong> recebe entradas, aplica pesos, soma, aplica função de ativação e gera uma saída.</li>
+  <li><strong>Camadas:</strong> entrada, escondidas (ocultas), e saída.</li>
+</ul>
+
+<h2>2. Componentes de uma Rede Neural</h2>
+<ul>
+  <li><strong>Pesos (weights):</strong> determinam a influência de cada entrada.</li>
+  <li><strong>Bias (viés):</strong> valor adicional somado à entrada ponderada, permitindo maior flexibilidade.</li>
+  <li><strong>Funções de ativação:</strong>
+    <ul>
+      <li><code>ReLU</code> (mais usada no deep learning): f(x) = max(0, x)</li>
+      <li><code>Sigmoid</code>: saída entre 0 e 1 (problemas binários).</li>
+      <li><code>Softmax</code>: usada na camada de saída para classificação multiclasse.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>3. Aprendizado e Treinamento</h2>
+<ul>
+  <li><strong>Forward propagation:</strong> cálculo da saída a partir das entradas.</li>
+  <li><strong>Loss function:</strong> mede o erro da predição (ex: MSE, cross-entropy).</li>
+  <li><strong>Backpropagation:</strong> ajusta os pesos com base no erro (gradiente descendente).</li>
+  <li><strong>Época (epoch):</strong> uma varredura completa no conjunto de treinamento.</li>
+  <li><strong>Lote (batch):</strong> subconjunto dos dados usados em uma atualização.</li>
+</ul>
+
+<h2>4. Deep Learning (Aprendizado Profundo)</h2>
+<ul>
+  <li>Utiliza <strong>redes neurais profundas</strong> com várias camadas ocultas.</li>
+  <li>Requer grande volume de dados e poder computacional.</li>
+  <li><strong>Arquiteturas comuns:</strong>
+    <ul>
+      <li><strong>MLP (Perceptron Multicamadas):</strong> rede totalmente conectada.</li>
+      <li><strong>CNN (Redes Convolucionais):</strong> processamento de imagens.</li>
+      <li><strong>RNN (Redes Recorrentes):</strong> processamento sequencial (texto, séries temporais).</li>
+      <li><strong>LSTM/GRU:</strong> variações de RNN que resolvem problema de longas dependências.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>5. Comparativo Rápido</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de Rede</th>
+      <th>Usada para</th>
+      <th>Destaque</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MLP</td>
+      <td>Problemas tabulares, classificação básica</td>
+      <td>Redes densamente conectadas</td>
+    </tr>
+    <tr>
+      <td>CNN</td>
+      <td>Reconhecimento de imagem, vídeo</td>
+      <td>Usa convoluções e pooling</td>
+    </tr>
+    <tr>
+      <td>RNN</td>
+      <td>Texto, fala, previsão de séries</td>
+      <td>Tem memória de estados anteriores</td>
+    </tr>
+    <tr>
+      <td>LSTM/GRU</td>
+      <td>Tradução automática, geração de texto</td>
+      <td>Controla fluxo de memória</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>6. Pegadinhas CESPE</h2>
+<ul>
+  <li>Dizer que <strong>todas as camadas em uma rede profunda são totalmente conectadas</strong> → <strong>falso</strong> (ex: CNNs usam filtros).</li>
+  <li>Confundir <strong>função de ativação com função de perda</strong>.</li>
+  <li>Afirmar que o <strong>backpropagation ocorre apenas na última camada</strong> → <strong>falso</strong>, ele ocorre em todas.</li>
+  <li>Relacionar <strong>sigmoid com redes profundas</strong> → é usado, mas pode causar problema de vanishing gradient.</li>
+</ul>
+
+<div class="destaque">
+  <strong>📌 Dica de memorização:</strong><br>
+  <code>Entrada → Camadas Ocultas (com ReLU) → Saída (com Softmax) → Erro → Backpropagation</code><br>
+  Treinamento = ajustar pesos para minimizar erro.
+</div>
+
+<div class="destaque">
+  <strong>✔️ Lembre-se:</strong>
+  <ul>
+    <li><strong>Deep Learning</strong> = muitas camadas + muitos dados + muito poder de processamento.</li>
+    <li>Treinamento supervisionado = dados com rótulos (labels).</li>
+    <li>Aprendizado profundo é um subconjunto de aprendizado de máquina.</li>
+  </ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo - Log de Eventos do Windows | Concurso PF - Perito Digital</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f9;
+      color: #333;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #1a237e;
+    }
+    h1 {
+      border-bottom: 2px solid #3949ab;
+      padding-bottom: 5px;
+    }
+    .box {
+      background-color: #fff;
+      border-left: 6px solid #3949ab;
+      margin: 20px 0;
+      padding: 15px 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .alerta {
+      background-color: #fffde7;
+      border-left: 6px solid #fbc02d;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    code {
+      background-color: #e0e0e0;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resumo Inteligente — Log de Eventos do Windows</h1>
+  <p><strong>Disciplina:</strong> Sistemas Operacionais<br>
+     <strong>Assunto:</strong> Log de Eventos do Windows<br>
+     <strong>Cargo:</strong> Perito Criminal Federal (Área: Perícia em Informática)<br>
+     <strong>Banca:</strong> CEBRASPE / CESPE<br>
+     <strong>Dica:</strong> Foque nos detalhes técnicos e funcionalidades práticas do Windows. Banca gosta de pegadinhas e confundir eventos do sistema com aplicativos e segurança!</p>
+
+  <div class="box">
+    <h2>1. O que é o Log de Eventos?</h2>
+    <p>É um sistema de registro de atividades do Windows utilizado para <strong>auditoria, diagnóstico e solução de problemas</strong>. Ele registra eventos gerados pelo sistema operacional, aplicativos e serviços.</p>
+    <ul>
+      <li>Visualizado via: <code>Visualizador de Eventos</code> (eventvwr.msc)</li>
+      <li>Arquivos armazenados como: <code>.evtx</code></li>
+      <li>Local: <code>%SystemRoot%\System32\winevt\Logs</code></li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>2. Categorias principais de Logs</h2>
+    <p>As categorias são <strong>fixas</strong> e aparecem no painel esquerdo do Visualizador:</p>
+    <ul>
+      <li><strong>Logs do Windows</strong>:
+        <ul>
+          <li><strong>Aplicativo</strong> — logs gerados por aplicativos (ex: Word, SQL Server).</li>
+          <li><strong>Segurança</strong> — registra eventos de auditoria (logon, acesso, falhas).</li>
+          <li><strong>Instalação</strong> — eventos de instalação de softwares e atualizações.</li>
+          <li><strong>Sistema</strong> — eventos gerados por drivers e componentes do Windows.</li>
+          <li><strong>Eventos encaminhados</strong> — logs recebidos de outras máquinas.</li>
+        </ul>
+      </li>
+      <li><strong>Logs de Aplicativos e Serviços</strong> — logs específicos de apps ou serviços.</li>
+    </ul>
+  </div>
+
+  <div class="box alerta">
+    <h3>🔍 Mais cobrados pela banca CEBRASPE</h3>
+    <ul>
+      <li>Diferença entre log de <strong>Segurança</strong> e log de <strong>Sistema</strong>.</li>
+      <li>Identificação dos tipos de eventos: <strong>Informativo, Aviso e Erro</strong>.</li>
+      <li>Configuração de auditoria (via GPO) para logon, acesso a arquivos etc.</li>
+      <li>Comando <code>eventvwr.msc</code> para abrir o Visualizador.</li>
+      <li>Exportação de logs: <strong>XML, CSV, TXT</strong>.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>3. Tipos de Evento</h2>
+    <ul>
+      <li><strong>Informativo (Information)</strong> — operação bem-sucedida.</li>
+      <li><strong>Aviso (Warning)</strong> — algo não crítico, mas que pode se tornar um erro.</li>
+      <li><strong>Erro (Error)</strong> — falha em uma operação.</li>
+      <li><strong>Audit Success / Audit Failure</strong> — sucesso ou falha de eventos auditáveis.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>4. Visualizador de Eventos - Navegação e Filtros</h2>
+    <ul>
+      <li>Filtrar eventos: por nível, ID, fonte ou palavras-chave.</li>
+      <li>Criar exibições personalizadas (Custom Views).</li>
+      <li>Salvar logs em formato <code>.evtx</code> para análise forense.</li>
+    </ul>
+  </div>
+
+  <div class="box alerta">
+    <h3>🎯 Dicas para revisão de véspera</h3>
+    <ul>
+      <li>Estude IDs de evento mais comuns: <code>4624</code> (logon), <code>4625</code> (falha), <code>4648</code> (logon com credenciais explícitas).</li>
+      <li>Log de Segurança só é gerado se a <strong>auditoria estiver habilitada</strong> nas políticas locais ou via GPO.</li>
+      <li>Importante: log de Sistema ≠ log de Aplicativo.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>5. Comandos importantes (Prompt ou PowerShell)</h2>
+    <ul>
+      <li><code>eventvwr</code> — abre o Visualizador de Eventos.</li>
+      <li><code>wevtutil qe Security /c:5 /rd:true /f:text</code> — consulta os 5 últimos eventos do log de segurança.</li>
+      <li><code>Get-EventLog -LogName System -Newest 10</code> — PowerShell para visualizar últimos eventos do log "Sistema".</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>6. Aplicações em Perícia Digital</h2>
+    <p>Esses logs são <strong>essenciais para investigações forenses</strong>:</p>
+    <ul>
+      <li>Identificação de usuários e horários de acesso.</li>
+      <li>Rastreamento de execução de programas maliciosos.</li>
+      <li>Auditoria de exclusão de arquivos ou alteração de permissões.</li>
+    </ul>
+  </div>
+
+  <footer style="margin-top: 40px; font-size: 0.9em; color: #555;">
+    <p>📘 Desenvolvido por ChatGPT com foco em concursos técnicos | Última atualização: Maio/2025</p>
+  </footer>
+
+</body>
+</html>

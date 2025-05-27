@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<title>Noções de Segurança da Informação - MFA | PF</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #2c3e50;
+    margin: 30px;
+  }
+  h1, h2, h3 {
+    color: #1a237e;
+    margin-bottom: 10px;
+  }
+  h1 {
+    border-bottom: 3px solid #3949ab;
+    padding-bottom: 8px;
+  }
+  .container {
+    background-color: #fff;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border-left: 6px solid #3949ab;
+    box-shadow: 0 2px 8px rgb(57 73 171 / 15%);
+  }
+  ul {
+    margin-left: 20px;
+  }
+  .term {
+    font-weight: 700;
+    color: #283593;
+  }
+  .highlight {
+    color: #c62828;
+    font-weight: 700;
+  }
+  .tip {
+    background-color: #e3f2fd;
+    border-left: 4px solid #1976d2;
+    padding: 12px 15px;
+    margin-top: 15px;
+    font-style: italic;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+  }
+  th, td {
+    border: 1px solid #90caf9;
+    padding: 10px 12px;
+    text-align: left;
+  }
+  th {
+    background-color: #bbdefb;
+  }
+</style>
+</head>
+<body>
+
+<h1>Noções de Segurança da Informação</h1>
+<h2>Múltiplos Fatores de Autenticação (MFA)</h2>
+
+<div class="container">
+  <h3>🔑 O que é MFA?</h3>
+  <p><span class="highlight">MFA (Multi-Factor Authentication)</span> é um método de segurança que exige mais de um fator para verificar a identidade do usuário antes de permitir o acesso a sistemas ou dados.</p>
+  <p>Visa aumentar a proteção contra acessos não autorizados, mesmo que uma credencial seja comprometida.</p>
+</div>
+
+<div class="container">
+  <h3>📚 Os 3 fatores clássicos de autenticação</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Fator</th>
+        <th>Descrição</th>
+        <th>Exemplos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="term">1. Algo que você sabe</td>
+        <td>Informação secreta conhecida pelo usuário.</td>
+        <td>Senha, PIN, resposta a perguntas secretas</td>
+      </tr>
+      <tr>
+        <td class="term">2. Algo que você tem</td>
+        <td>Objeto físico ou dispositivo que o usuário possui.</td>
+        <td>Token físico, celular (para OTP), cartão inteligente</td>
+      </tr>
+      <tr>
+        <td class="term">3. Algo que você é</td>
+        <td>Características biométricas do usuário.</td>
+        <td>Impressão digital, reconhecimento facial, íris</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container">
+  <h3>⚡ MFA na prática</h3>
+  <ul>
+    <li>Combinar pelo menos dois fatores de diferentes categorias para autenticar.</li>
+    <li>Exemplo típico: <span class="term">senha + código enviado ao celular (OTP)</span>.</li>
+    <li>MFA reduz drasticamente o risco de invasão mesmo se a senha for descoberta.</li>
+  </ul>
+</div>
+
+<div class="container">
+  <h3>📌 Diferença entre MFA, 2FA e autenticação simples</h3>
+  <ul>
+    <li><span class="term">Autenticação simples:</span> usa apenas um fator, normalmente senha.</li>
+    <li><span class="term">2FA (Two-Factor Authentication):</span> usa exatamente dois fatores — caso mais comum e amplamente adotado.</li>
+    <li><span class="term">MFA:</span> usa dois ou mais fatores (pode ser 2FA, 3FA ou mais).</li>
+  </ul>
+</div>
+
+<div class="container">
+  <h3>🛡️ Vantagens do MFA</h3>
+  <ul>
+    <li>Maior segurança contra roubos de senha e ataques de phishing.</li>
+    <li>Dificulta o acesso mesmo que um fator seja comprometido.</li>
+    <li>Conformidade com padrões e regulamentações de segurança.</li>
+    <li>Reduz fraudes e acessos indevidos.</li>
+  </ul>
+</div>
+
+<div class="container">
+  <h3>⚠️ Cuidados e desafios</h3>
+  <ul>
+    <li>Usuário pode ter dificuldade ou rejeição à adoção de múltiplos fatores.</li>
+    <li>Fatores físicos podem ser perdidos ou roubados (ex: token, celular).</li>
+    <li>Biometria pode ser falsificada ou apresentar erros (falso positivo/negativo).</li>
+    <li>Sistemas devem garantir usabilidade sem abrir brechas.</li>
+  </ul>
+</div>
+
+<div class="container tip">
+  💡 <strong>Dica CEBRASPE:</strong> fique atento a questões que envolvam:
+  <ul>
+    <li>Exemplos corretos e incorretos de fatores de autenticação.</li>
+    <li>Explicação da diferença entre 2FA e MFA.</li>
+    <li>Aplicação prática do MFA para segurança em ambientes críticos.</li>
+  </ul>
+</div>
+
+<div class="container">
+  <h3>🧠 Resumo para revisão rápida</h3>
+  <ul>
+    <li><span class="term">MFA:</span> uso de dois ou mais fatores para autenticação.</li>
+    <li><span class="term">Fatores clássicos:</span> algo que você sabe, tem ou é.</li>
+    <li><span class="term">2FA é um caso especial de MFA.</span></li>
+    <li><span class="term">MFA melhora segurança e dificulta invasão.</span></li>
+  </ul>
+</div>
+
+</body>
+</html>

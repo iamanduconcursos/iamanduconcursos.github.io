@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Estruturas Lógicas - Raciocínio Lógico | PF - CESPE</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fafb;
+      color: #333;
+      padding: 30px;
+    }
+    h1, h2 {
+      color: #0d47a1;
+    }
+    .box {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    ul {
+      margin-left: 20px;
+    }
+    mark {
+      background-color: #fff176;
+      padding: 0 4px;
+    }
+    .exemplo {
+      background-color: #e3f2fd;
+      padding: 10px;
+      margin: 10px 0;
+      border-left: 4px solid #2196f3;
+    }
+    .dica {
+      background-color: #e8f5e9;
+      border-left: 4px solid #43a047;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    .erro {
+      background-color: #ffebee;
+      border-left: 4px solid #e53935;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    code {
+      font-family: monospace;
+      background-color: #eeeeee;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h1>Resumo Rápido: Estruturas Lógicas</h1>
+    <p><strong>Disciplina:</strong> Raciocínio Lógico<br>
+       <strong>Assunto:</strong> Estruturas Lógicas<br>
+       <strong>Concurso:</strong> Perito Digital – Polícia Federal<br>
+       <strong>Banca:</strong> CEBRASPE (CESPE)</p>
+  </div>
+
+  <div class="box">
+    <h2>1. O que são Estruturas Lógicas?</h2>
+    <p>São <strong>sentenças lógicas</strong> que podem ser classificadas como <mark>verdadeiras</mark> ou <mark>falsas</mark>, formadas a partir de proposições simples e operadores lógicos.</p>
+    <p>São a base para resolução de questões de:</p>
+    <ul>
+      <li>Negação de proposições</li>
+      <li>Equivalência lógica</li>
+      <li>Tabelas-verdade</li>
+      <li>Diagramas lógicos</li>
+      <li>Inferências</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>2. Conectivos Lógicos Fundamentais</h2>
+    <ul>
+      <li><strong>Conjunção (E)</strong> → <code>P ∧ Q</code> → Verdadeira somente se ambas forem verdadeiras.</li>
+      <li><strong>Disjunção (OU)</strong> → <code>P ∨ Q</code> → Falsa somente se ambas forem falsas.</li>
+      <li><strong>Condicional (SE...ENTÃO)</strong> → <code>P → Q</code> → Falsa apenas quando P é verdadeira e Q é falsa.</li>
+      <li><strong>Bicondicional (SE E SOMENTE SE)</strong> → <code>P ↔ Q</code> → Verdadeira quando ambos têm o mesmo valor.</li>
+      <li><strong>Negação (NÃO)</strong> → <code>¬P</code></li>
+    </ul>
+
+    <div class="exemplo">
+      Se P: "O sistema está seguro" e Q: "Não houve ataque"<br>
+      Condicional: <em>Se o sistema está seguro, então não houve ataque.</em><br>
+      <code>P → Q</code>
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>3. Tabelas-Verdade</h2>
+    <p>Permitem avaliar o valor lógico de uma proposição composta. São fundamentais para:</p>
+    <ul>
+      <li>Testar validade de argumentos</li>
+      <li>Determinar contradições e tautologias</li>
+    </ul>
+
+    <h3>Tabela Condicional (P → Q)</h3>
+    <table border="1" cellpadding="8" style="border-collapse: collapse;">
+      <tr><th>P</th><th>Q</th><th>P → Q</th></tr>
+      <tr><td>V</td><td>V</td><td>V</td></tr>
+      <tr><td>V</td><td>F</td><td><strong>F</strong></td></tr>
+      <tr><td>F</td><td>V</td><td>V</td></tr>
+      <tr><td>F</td><td>F</td><td>V</td></tr>
+    </table>
+  </div>
+
+  <div class="box">
+    <h2>4. Negação de Proposições</h2>
+    <p>A negação depende do tipo de conectivo:</p>
+    <ul>
+      <li>Negação de <strong>P ∧ Q</strong>: <code>¬P ∨ ¬Q</code></li>
+      <li>Negação de <strong>P ∨ Q</strong>: <code>¬P ∧ ¬Q</code></li>
+      <li>Negação de <strong>P → Q</strong>: <code>P ∧ ¬Q</code></li>
+    </ul>
+
+    <div class="exemplo">
+      Original: Se o servidor falhar, o backup será acionado.<br>
+      Negação: O servidor falha e o backup não é acionado.
+    </div>
+
+    <div class="erro">
+      ⚠️ Cuidado: <em>A negação de “Se P, então Q” não é “Se P, então não Q”</em>. Isso é armadilha clássica da CESPE!
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>5. Equivalência Lógica</h2>
+    <p>São proposições que possuem o mesmo valor lógico em todas as situações.</p>
+    <ul>
+      <li><code>P → Q</code> é equivalente a <code>¬Q → ¬P</code> (contrapositiva)</li>
+      <li><code>P → Q</code> também equivale a <code>¬P ∨ Q</code></li>
+    </ul>
+
+    <div class="exemplo">
+      Se chove, então levo guarda-chuva → Se não levo guarda-chuva, então não chove.
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>6. Questões Cobradas pela CESPE</h2>
+    <ul>
+      <li>Julgar validade de argumentos com base em lógica proposicional</li>
+      <li>Identificar negações corretas de proposições compostas</li>
+      <li>Avaliar tabelas-verdade e equivalências</li>
+      <li>Determinar inferências lógicas corretas</li>
+    </ul>
+
+    <div class="dica">
+      🎯 DICA DE OURO: A CESPE usa muito frases do cotidiano com lógica formal. Treine leitura de proposições escondidas em frases comuns!
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>7. Fechamento e Estratégia</h2>
+    <ul>
+      <li>Domine a interpretação dos conectivos lógicos.</li>
+      <li>Treine identificação da estrutura lógica de enunciados textuais.</li>
+      <li>Foque em negações e equivalências com <strong>condicional</strong>.</li>
+      <li>Monte mini tabelas-verdade mentalmente para verificar validade.</li>
+    </ul>
+  </div>
+
+</body>
+</html>

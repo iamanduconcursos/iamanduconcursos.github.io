@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistemas de Arquivos - Android e iOS | Resumo para PF</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      padding: 40px;
+      max-width: 960px;
+      margin: auto;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    .section {
+      background: #ffffff;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-left: 6px solid #005b99;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+    ul {
+      margin-left: 20px;
+    }
+    code {
+      background: #eef;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .highlight {
+      background: #e6f0ff;
+      border-left: 4px solid #0066cc;
+      padding: 12px;
+      margin: 15px 0;
+    }
+    .danger {
+      background: #fff4e6;
+      border-left: 4px solid #ff8000;
+      padding: 12px;
+      margin: 15px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+    th {
+      background-color: #e8f0fe;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sistemas de Arquivos no Android e iOS</h1>
+  <p><em>Resumo otimizado para concurso da Polícia Federal | Foco: banca CEBRASPE</em></p>
+
+  <div class="section">
+    <h2>1. Introdução ao Tema</h2>
+    <ul>
+      <li>O sistema de arquivos é responsável pela organização, leitura e gravação de dados em dispositivos móveis.</li>
+      <li>Conhecer os formatos utilizados pelo Android e iOS é fundamental para a atuação forense e segurança.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. Sistema de Arquivos no Android</h2>
+    <ul>
+      <li>Baseado no kernel Linux, o Android utiliza formatos típicos do Linux com adaptações.</li>
+      <li><strong>Principais sistemas:</strong>
+        <ul>
+          <li><code>YAFFS2</code> (Yet Another Flash File System) – versões antigas, usado em NAND flash.</li>
+          <li><code>EXT4</code> – padrão em versões mais recentes do Android.</li>
+          <li><code>F2FS</code> (Flash-Friendly File System) – otimizado para armazenamento em flash.</li>
+        </ul>
+      </li>
+      <li>O Android organiza seus diretórios com base em:
+        <ul>
+          <li><code>/system</code> – arquivos de sistema operacional.</li>
+          <li><code>/data</code> – apps e dados do usuário.</li>
+          <li><code>/cache</code> – dados temporários.</li>
+          <li><code>/sdcard</code> – armazenamento externo/emulado.</li>
+        </ul>
+      </li>
+    </ul>
+    <div class="highlight">
+      O <code>EXT4</code> é o mais comum atualmente e suporta journaling, que melhora a integridade de dados.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>3. Sistema de Arquivos no iOS</h2>
+    <ul>
+      <li>Até o iOS 10, usava o sistema <code>HFS+</code> (Hierarchical File System Plus).</li>
+      <li>A partir do iOS 10.3, a Apple passou a usar o <strong>APFS (Apple File System)</strong>.</li>
+      <li><strong>Características do APFS:</strong>
+        <ul>
+          <li>Suporte nativo a criptografia.</li>
+          <li>Snapshots para backup e recuperação.</li>
+          <li>Alta performance em SSDs e NAND Flash.</li>
+        </ul>
+      </li>
+      <li>Diretórios importantes:
+        <ul>
+          <li><code>/var</code>, <code>/private/var/mobile</code> – dados do usuário.</li>
+          <li><code>/System</code> – arquivos de sistema.</li>
+          <li><code>/Applications</code> – apps instalados.</li>
+        </ul>
+      </li>
+    </ul>
+    <div class="highlight">
+      APFS é otimizado para SSD, com foco em segurança, desempenho e integridade.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>4. Comparativo Android vs iOS</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Critério</th>
+          <th>Android</th>
+          <th>iOS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sistema principal</td>
+          <td>EXT4 / F2FS</td>
+          <td>APFS</td>
+        </tr>
+        <tr>
+          <td>Criptografia nativa</td>
+          <td>Sim (desde Android 5.0)</td>
+          <td>Sim (nativa e mais integrada no APFS)</td>
+        </tr>
+        <tr>
+          <td>Organização de dados</td>
+          <td>Linux-like: <code>/data</code>, <code>/system</code></td>
+          <td>UNIX-like: <code>/var/mobile</code>, <code>/System</code></td>
+        </tr>
+        <tr>
+          <td>Foco em forense</td>
+          <td>Acesso possível via ADB ou root</td>
+          <td>Altamente restrito, requer jailbreaking</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>5. Dicas para a Prova CEBRASPE</h2>
+    <ul>
+      <li>Memorize os principais sistemas de arquivos por SO.</li>
+      <li>Entenda a função dos diretórios <code>/data</code>, <code>/system</code>, <code>/private</code>.</li>
+      <li>Destaque para o APFS no iOS e EXT4 no Android.</li>
+      <li>Questões podem explorar segurança e criptografia do sistema de arquivos.</li>
+    </ul>
+  </div>
+
+  <div class="danger">
+    🔥 <strong>CEBRASPE ADORA:</strong>
+    <ul>
+      <li>Perguntar sobre criptografia no sistema de arquivos.</li>
+      <li>Comparar o uso de journaling em EXT4 vs recursos de snapshot no APFS.</li>
+      <li>Testar o candidato sobre as permissões de acesso aos diretórios em ambos os sistemas.</li>
+    </ul>
+  </div>
+
+</body>
+</html>

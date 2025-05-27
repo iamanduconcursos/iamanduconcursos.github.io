@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Raciocínio Lógico – Proposições Simples e Compostas</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4faff;
+      color: #1c1c1c;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    h2 {
+      border-bottom: 3px solid #0073e6;
+      padding-bottom: 6px;
+      margin-top: 40px;
+    }
+    section {
+      margin-top: 30px;
+      background: #e8f1fd;
+      border-left: 5px solid #4a90e2;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .highlight {
+      background-color: #d1ecf1;
+      border-left: 6px solid #0c5460;
+      padding: 18px;
+      border-radius: 6px;
+      font-weight: bold;
+      color: #0c3c5a;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Raciocínio Lógico</h1>
+  <h2>Proposições Simples e Compostas – Lógica Proposicional</h2>
+
+  <section>
+    <h3>1. O que é uma proposição?</h3>
+    <p>É uma sentença declarativa que pode ser <strong>verdadeira (V)</strong> ou <strong>falsa (F)</strong>, mas não as duas ao mesmo tempo.</p>
+    <ul>
+      <li><strong>Exemplo de proposição:</strong> “A Terra é redonda.” → Proposição verdadeira.</li>
+      <li><strong>Não é proposição:</strong> “Feche a porta.” (ordem) ou “Será que vai chover?” (pergunta).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>2. Proposições Simples x Compostas</h3>
+    <ul>
+      <li><strong>Simples:</strong> Não possuem conectivos. Ex: “João é alto.”</li>
+      <li><strong>Compostas:</strong> Formadas pela junção de proposições simples com <strong>conectivos lógicos</strong>.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>3. Conectivos Lógicos</h3>
+    <ul>
+      <li><strong>Negação (¬):</strong> “~p” → Inverte o valor lógico. Ex: “Não é verdade que João é alto.”</li>
+      <li><strong>Conjunção (∧):</strong> “p e q” → Verdadeira apenas se ambas forem verdadeiras.</li>
+      <li><strong>Disjunção (∨):</strong> “p ou q” → Falsa apenas se ambas forem falsas.</li>
+      <li><strong>Condicional (→):</strong> “Se p, então q” → Falsa só se p for verdadeira e q falsa.</li>
+      <li><strong>Bicondicional (↔):</strong> “p se e somente se q” → Verdadeira quando ambas têm o mesmo valor lógico.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>4. Tabelas-Verdade – Essenciais para CESPE/CEBRASPE</h3>
+    <p>As bancas costumam exigir a construção de tabelas-verdade ou análise de sentenças compostas. Treinar as combinações lógicas é fundamental.</p>
+    <ul>
+      <li>Conjunção: V ∧ V = V; o resto é F.</li>
+      <li>Disjunção: F ∨ F = F; o resto é V.</li>
+      <li>Condicional: V → F = F; o resto é V.</li>
+      <li>Bicondicional: V ↔ V = V; F ↔ F = V; o resto é F.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>5. Equivalências Lógicas Importantes</h3>
+    <ul>
+      <li><strong>~(p ∧ q) ≡ ~p ∨ ~q</strong> (De Morgan)</li>
+      <li><strong>~(p ∨ q) ≡ ~p ∧ ~q</strong></li>
+      <li><strong>p → q ≡ ~p ∨ q</strong> (equivalência fundamental)</li>
+      <li><strong>p → q ≡ ~q → ~p</strong> (contrapositiva)</li>
+    </ul>
+    <p><em>Dica de prova:</em> Questões de equivalência são muito cobradas pela CEBRASPE!</p>
+  </section>
+
+  <section>
+    <h3>6. Interpretação de Sentenças</h3>
+    <p>É necessário traduzir frases da linguagem natural para linguagem lógica:</p>
+    <ul>
+      <li>“Se João estuda, então passa.” → p → q</li>
+      <li>“João estuda e trabalha.” → p ∧ q</li>
+      <li>“João não estuda.” → ~p</li>
+    </ul>
+  </section>
+
+  <div class="highlight">
+    ⚠️ <strong>Pontos que mais caem em provas:</strong>
+    <ul>
+      <li>Identificação de proposições válidas.</li>
+      <li>Diferença entre proposições simples e compostas.</li>
+      <li>Construção e interpretação de tabelas-verdade.</li>
+      <li>Equivalências e negações corretas (principalmente de condicionais e conjunções).</li>
+      <li>Tradução de linguagem natural para lógica formal.</li>
+    </ul>
+  </div>
+
+  <p style="margin-top: 30px;"><em>Se quiser, posso criar para você questões comentadas no estilo CEBRASPE para treinar esse conteúdo!</em></p>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Raciocínio Lógico – Leis de De Morgan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4faff;
+      color: #1d1d1d;
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 40px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    h2 {
+      border-bottom: 3px solid #0073e6;
+      padding-bottom: 6px;
+      margin-top: 40px;
+    }
+    section {
+      margin-top: 30px;
+      background: #e8f1fd;
+      border-left: 5px solid #4a90e2;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .highlight {
+      background-color: #d1ecf1;
+      border-left: 6px solid #0c5460;
+      padding: 18px;
+      border-radius: 6px;
+      font-weight: bold;
+      color: #0c3c5a;
+      margin-top: 30px;
+    }
+    .formula {
+      font-family: monospace;
+      background: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Raciocínio Lógico</h1>
+  <h2>Leis de De Morgan – Lógica Proposicional</h2>
+
+  <section>
+    <h3>1. Conceito Geral</h3>
+    <p>As <strong>Leis de De Morgan</strong> são duas transformações fundamentais da lógica proposicional que envolvem a negação de expressões compostas por conjunção (<span class="formula">∧</span>) ou disjunção (<span class="formula">∨</span>).</p>
+  </section>
+
+  <section>
+    <h3>2. As Duas Leis</h3>
+    <ul>
+      <li>
+        <strong>1ª Lei:</strong> A negação de uma conjunção equivale à disjunção das negações.
+        <div class="formula">¬(p ∧ q) ≡ (¬p ∨ ¬q)</div>
+      </li>
+      <li>
+        <strong>2ª Lei:</strong> A negação de uma disjunção equivale à conjunção das negações.
+        <div class="formula">¬(p ∨ q) ≡ (¬p ∧ ¬q)</div>
+      </li>
+    </ul>
+    <p><strong>Importante:</strong> Essas leis são úteis para transformar negações de proposições compostas, especialmente em questões de equivalência e negação lógica.</p>
+  </section>
+
+  <section>
+    <h3>3. Aplicações Práticas</h3>
+    <p>Transformação de frases do cotidiano:</p>
+    <ul>
+      <li>Frase: “Não é verdade que João estuda e Maria trabalha.”</li>
+      <li>Transformação com De Morgan: “João não estuda ou Maria não trabalha.”</li>
+    </ul>
+    <p>Outro exemplo:</p>
+    <ul>
+      <li>Frase: “Não é verdade que Pedro corre ou pedala.”</li>
+      <li>Equivalente: “Pedro não corre e não pedala.”</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>4. Dicas CEBRASPE/CESPE</h3>
+    <ul>
+      <li>Questões frequentemente pedem a <strong>equivalência lógica de proposições com negação</strong>.</li>
+      <li>Use De Morgan para inverter os conectivos e negar os termos internamente.</li>
+      <li>Exigem conhecimento de equivalência com outras estruturas: condicional, bicondicional.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>5. Tabela-Verdade (comprovação opcional)</h3>
+    <p>Se necessário em provas dissertativas ou mais analíticas, você pode construir as tabelas-verdade para validar a equivalência.</p>
+    <ul>
+      <li>Monte a tabela de <span class="formula">¬(p ∧ q)</span> e compare com <span class="formula">¬p ∨ ¬q</span>.</li>
+      <li>Mesmos valores lógicos = sentenças logicamente equivalentes.</li>
+    </ul>
+  </section>
+
+  <div class="highlight">
+    ⚠️ <strong>Resumo do que mais cai em provas:</strong>
+    <ul>
+      <li>Transformações corretas usando as Leis de De Morgan.</li>
+      <li>Identificação de erros em negações (ex: usar “e” em vez de “ou” na negação de conjunções).</li>
+      <li>Substituições de proposições compostas por equivalentes com negação.</li>
+      <li>Tradução de linguagem natural para lógica formal e vice-versa.</li>
+    </ul>
+  </div>
+
+  <p style="margin-top: 30px;"><em>Pronto para treinar? Posso montar 5 questões CEBRASPE com gabarito comentado só sobre isso. Me peça!</em></p>
+
+</body>
+</html>

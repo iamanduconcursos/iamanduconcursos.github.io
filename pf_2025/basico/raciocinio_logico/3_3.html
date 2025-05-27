@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Lógica Proposicional – Equivalências | Raciocínio Lógico</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9fcff;
+      color: #1b2631;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 30px;
+      border-left: 8px solid #2e86c1;
+      border-radius: 6px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+    h1, h2 {
+      color: #2e86c1;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 30px;
+    }
+    ul, ol {
+      margin-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .highlight {
+      background-color: #d6eaf8;
+      padding: 15px;
+      border-left: 6px solid #2980b9;
+      font-style: italic;
+      margin: 25px 0;
+      border-radius: 5px;
+    }
+    .example {
+      background-color: #f4f6f7;
+      padding: 10px 15px;
+      border-left: 5px solid #5dade2;
+      font-family: monospace;
+      margin: 15px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #aed6f1;
+    }
+    th {
+      background-color: #3498db;
+      color: white;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Raciocínio Lógico – Equivalências Lógicas</h1>
+
+<p>A banca <strong>CEBRASPE (CESPE)</strong> costuma cobrar fortemente questões de <strong>equivalência lógica</strong> com foco em transformações entre proposições compostas. Este resumo aborda os pontos mais cobrados com foco prático para concursos.</p>
+
+<h2>1. Conceito de Equivalência</h2>
+<ul>
+  <li>Duas proposições são equivalentes quando possuem o <strong>mesmo valor lógico</strong> em todas as situações possíveis.</li>
+  <li>Transformações que mantêm o valor lógico da proposição original.</li>
+</ul>
+
+<h2>2. Principais Equivalências Cobradas</h2>
+
+<h3>2.1. Condicional (→)</h3>
+<p><strong>Forma original:</strong> Se P, então Q → P → Q</p>
+
+<ul>
+  <li><strong>Equivalência 1:</strong> P → Q ≡ ¬Q → ¬P (contrapositiva)</li>
+  <li><strong>Equivalência 2:</strong> P → Q ≡ ¬P ∨ Q (disjunção)</li>
+</ul>
+
+<div class="example">
+  "Se chover, então levo guarda-chuva" ≡ "Se não levar guarda-chuva, então não choveu".
+</div>
+
+<h3>2.2. Negação da condicional</h3>
+<ul>
+  <li><strong>¬(P → Q) ≡ P ∧ ¬Q</strong></li>
+</ul>
+
+<div class="example">
+  "Não é verdade que, se estudo, então passo" ≡ "Estudo e não passo".
+</div>
+
+<h3>2.3. Bicondicional (↔)</h3>
+<p><strong>Forma original:</strong> P ↔ Q</p>
+
+<ul>
+  <li><strong>Equivalência:</strong> (P → Q) ∧ (Q → P)</li>
+  <li>Ou: (P ∧ Q) ∨ (¬P ∧ ¬Q)</li>
+</ul>
+
+<div class="example">
+  "Pedro estuda se, e somente se, Maria estuda" ≡ "Se Pedro estuda, então Maria estuda, e se Maria estuda, então Pedro estuda".
+</div>
+
+<h3>2.4. Disjunção (∨) e Conjunção (∧)</h3>
+<ul>
+  <li><strong>¬(P ∧ Q) ≡ ¬P ∨ ¬Q</strong> (De Morgan)</li>
+  <li><strong>¬(P ∨ Q) ≡ ¬P ∧ ¬Q</strong> (De Morgan)</li>
+</ul>
+
+<h2>3. Tabela de Equivalências Resumida</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Proposição</th>
+      <th>Equivalência</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>P → Q</td>
+      <td>¬Q → ¬P</td>
+    </tr>
+    <tr>
+      <td>P → Q</td>
+      <td>¬P ∨ Q</td>
+    </tr>
+    <tr>
+      <td>¬(P → Q)</td>
+      <td>P ∧ ¬Q</td>
+    </tr>
+    <tr>
+      <td>P ↔ Q</td>
+      <td>(P → Q) ∧ (Q → P)</td>
+    </tr>
+    <tr>
+      <td>¬(P ∧ Q)</td>
+      <td>¬P ∨ ¬Q</td>
+    </tr>
+    <tr>
+      <td>¬(P ∨ Q)</td>
+      <td>¬P ∧ ¬Q</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>4. Questões Estilo CEBRASPE</h2>
+<ul>
+  <li>Identificação da equivalência correta entre duas proposições.</li>
+  <li>Transformação lógica de sentenças para negar, inverter ou substituir com equivalência.</li>
+  <li>Uso de De Morgan e contrapositiva com interpretação textual.</li>
+</ul>
+
+<div class="highlight">
+  <strong>💡 Dica de ouro:</strong> CEBRASPE costuma inverter a ordem e usar vocabulário textual para testar se você reconhece a equivalência lógica correta. Dominar a contrapositiva e as leis de De Morgan é essencial.
+</div>
+
+<h2>5. Exemplo de Questão Resolvida</h2>
+<p><strong>Enunciado:</strong> A proposição "Se Carlos estuda, então ele passa" é logicamente equivalente a:</p>
+<ol type="A">
+  <li>Se Carlos não estuda, então ele não passa.</li>
+  <li>Se Carlos passa, então ele estudou.</li>
+  <li>Se Carlos não passa, então ele não estudou.</li>
+  <li>Se Carlos não passa, então ele estudou.</li>
+</ol>
+
+<p><strong>Resposta correta:</strong> <strong>C</strong> — contrapositiva: ¬Q → ¬P.</p>
+
+</body>
+</html>

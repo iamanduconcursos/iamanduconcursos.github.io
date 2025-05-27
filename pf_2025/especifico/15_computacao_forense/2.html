@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resumo - Computação Forense: Vestígios Cibernéticos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 30px;
+      background-color: #f4f7fa;
+      color: #222;
+      line-height: 1.5;
+    }
+    h1, h2 {
+      color: #004080;
+    }
+    h1 {
+      border-bottom: 3px solid #004080;
+      padding-bottom: 8px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .highlight {
+      background-color: #d9eaff;
+      border-left: 6px solid #004080;
+      padding: 12px 15px;
+      margin: 20px 0;
+      font-weight: 600;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #b0c4de;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #c9d9ff;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Princípios da Computação Forense</h1>
+
+<div class="highlight">
+  <strong>🎯 Foco CEBRASPE/CESPE:</strong> enfatizam a correta cadeia de custódia, metodologias para não corromper vestígios digitais e procedimentos para garantir a integridade das provas digitais durante investigação.
+</div>
+
+<h2>1. Identificação do Vestígio Cibernético</h2>
+<ul>
+  <li>Reconhecimento e localização de dados e artefatos digitais relevantes para a investigação.</li>
+  <li>Exemplos: logs, arquivos deletados, registros de rede, metadados, dispositivos (HDs, smartphones, mídias removíveis).</li>
+  <li>Importante: entender o contexto do crime para identificar onde buscar o vestígio.</li>
+</ul>
+
+<h2>2. Isolamento do Vestígio</h2>
+<ul>
+  <li>Garantir que o vestígio não seja alterado ou contaminado.</li>
+  <li>Isolamento físico: retirar o equipamento da rede, desligar corretamente para evitar sobrescrição.</li>
+  <li>Isolamento lógico: preservar sistema de arquivos, snapshots, e imagem forense.</li>
+  <li><strong>Uso de ferramentas:</strong> write blockers para evitar gravação acidental.</li>
+</ul>
+
+<h2>3. Preservação do Vestígio</h2>
+<ul>
+  <li>Manter a integridade e autenticidade do vestígio para uso em perícia e Justiça.</li>
+  <li>Criação de cópia forense (imagens bit a bit) que é idêntica ao original.</li>
+  <li>Utilização de <code>hashes</code> (MD5, SHA-1, SHA-256) para comprovar integridade.</li>
+  <li>Documentação rigorosa: data, hora, local, condições, operador.</li>
+  <li>Evitar alterações durante o transporte e armazenamento.</li>
+</ul>
+
+<h2>4. Coleta do Vestígio</h2>
+<ul>
+  <li>Extração dos dados com ferramentas certificadas e procedimentos padronizados.</li>
+  <li>Registro de toda a cadeia de custódia.</li>
+  <li>Coleta de artefatos voláteis (RAM, processos em execução) antes de desligar sistemas.</li>
+  <li>Uso de sistemas operacionais live para acessar dados sem alteração.</li>
+  <li>Cuidados com logs de sistema, arquivos temporários e metadados.</li>
+</ul>
+
+<h2>5. Cadeia de Custódia</h2>
+<ul>
+  <li>Controle rigoroso do vestígio desde a coleta até a apresentação em juízo.</li>
+  <li>Documentar toda movimentação e manipulação dos vestígios.</li>
+  <li>Garantir que não haja interrupção ou quebra no controle do material.</li>
+</ul>
+
+<h2>6. Resumo prático para provas CEBRASPE/CESPE</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Etapa</th>
+      <th>Objetivo</th>
+      <th>Pontos Importantes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Identificação</td>
+      <td>Encontrar vestígio relevante</td>
+      <td>Contextualizar crime e local de dados</td>
+    </tr>
+    <tr>
+      <td>Isolamento</td>
+      <td>Evitar alteração ou perda</td>
+      <td>Desconectar rede, usar write blockers</td>
+    </tr>
+    <tr>
+      <td>Preservação</td>
+      <td>Manter integridade</td>
+      <td>Imagens bit a bit, uso de hashes</td>
+    </tr>
+    <tr>
+      <td>Coleta</td>
+      <td>Extrair dados corretamente</td>
+      <td>Ferramentas certificadas, cadeia de custódia</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="highlight">
+  <strong>⚠️ Dica CESPE:</strong> Sempre lembre que alterar qualquer dado antes de criar a imagem forense compromete a validade da prova! A prova cobra o correto uso do <code>write blocker</code> e a importância dos <code>hashes</code> para garantir integridade.
+</div>
+
+</body>
+</html>

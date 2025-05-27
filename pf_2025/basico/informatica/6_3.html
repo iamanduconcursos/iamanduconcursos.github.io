@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Banco de Dados Relacionais - Resumo para Concurso</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fbfd;
+      color: #1a1a1a;
+      max-width: 960px;
+      margin: auto;
+      padding: 30px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #003366;
+      border-bottom: 2px solid #0099cc;
+      padding-bottom: 6px;
+    }
+    section {
+      background-color: #e9f4ff;
+      border-left: 6px solid #007acc;
+      padding: 20px;
+      margin: 25px 0;
+      box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
+    }
+    .alerta {
+      background-color: #fff3cd;
+      border-left: 6px solid #ff9900;
+      padding: 20px;
+      font-weight: bold;
+      margin: 25px 0;
+      color: #5a4500;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    footer {
+      font-size: 0.9em;
+      color: #555;
+      text-align: center;
+      border-top: 1px solid #ccc;
+      margin-top: 40px;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Informática – Banco de Dados Relacionais</h1>
+<p><em>Resumo estratégico para concursos da Polícia Federal – Perito Digital | Banca CEBRASPE</em></p>
+
+<section>
+  <h2>1. Conceito de Banco de Dados Relacional</h2>
+  <ul>
+    <li>Baseado no modelo relacional proposto por Edgar F. Codd.</li>
+    <li>Armazena dados em <strong>tabelas (relações)</strong>, compostas por linhas (tuplas) e colunas (atributos).</li>
+    <li>Cada tabela representa uma entidade e possui uma chave primária.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>2. Componentes Essenciais</h2>
+  <ul>
+    <li><strong>Tabela:</strong> coleção de dados organizados em linhas e colunas.</li>
+    <li><strong>Chave Primária (PK):</strong> identifica de forma única cada linha.</li>
+    <li><strong>Chave Estrangeira (FK):</strong> estabelece relacionamento entre tabelas.</li>
+    <li><strong>Índice:</strong> estrutura para acelerar consultas.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>3. Linguagens de Banco de Dados (SQL)</h2>
+  <ul>
+    <li><strong>DDL (Data Definition Language):</strong> CREATE, ALTER, DROP.</li>
+    <li><strong>DML (Data Manipulation Language):</strong> SELECT, INSERT, UPDATE, DELETE.</li>
+    <li><strong>DCL (Data Control Language):</strong> GRANT, REVOKE.</li>
+    <li><strong>TCL (Transaction Control Language):</strong> COMMIT, ROLLBACK, SAVEPOINT.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>4. Regras e Integridade</h2>
+  <ul>
+    <li><strong>Integridade de Entidade:</strong> valor da PK não pode ser nulo.</li>
+    <li><strong>Integridade Referencial:</strong> FK deve referenciar uma PK existente.</li>
+    <li><strong>Integridade de Domínio:</strong> valores devem estar no domínio permitido da coluna.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>5. Normalização (até 3FN)</h2>
+  <ul>
+    <li><strong>1FN:</strong> elimina grupos repetitivos, atomicidade.</li>
+    <li><strong>2FN:</strong> elimina dependências parciais (PK composta).</li>
+    <li><strong>3FN:</strong> elimina dependências transitivas (atributos não PK dependem da PK).</li>
+    <li>Objetivo: eliminar redundância e melhorar integridade.</li>
+  </ul>
+</section>
+
+<section class="alerta">
+  ⚠️ <strong>PEGAÇÕES CEBRASPE:</strong><br>
+  ✔ Chave primária não aceita valores nulos!<br>
+  ✔ SELECT faz parte da DML, não da DDL.<br>
+  ✔ DROP apaga estrutura e dados; DELETE apaga apenas os dados.<br>
+  ✔ Integridade referencial depende da existência da chave estrangeira com correspondência.<br>
+  ✔ A 3FN exige que atributos não chave não dependam de outros atributos não chave!
+</section>
+
+<section>
+  <h2>6. Vantagens do Modelo Relacional</h2>
+  <ul>
+    <li>Fácil modelagem de dados complexos.</li>
+    <li>Independência física e lógica dos dados.</li>
+    <li>Segurança e controle de acesso integrados.</li>
+    <li>Consistência e integridade garantidas por regras.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>7. Exemplos de SGBDs Relacionais</h2>
+  <ul>
+    <li>Oracle Database</li>
+    <li>MySQL</li>
+    <li>PostgreSQL</li>
+    <li>SQL Server</li>
+    <li>MariaDB</li>
+  </ul>
+</section>
+
+<footer>
+  <p>🎯 Este resumo cobre os pontos mais cobrados sobre bancos relacionais em concursos da área policial e tecnológica.<br>
+  💡 Dica CEBRASPE: atenção a comandos SQL, estrutura de tabelas e tipos de integridade.<br>
+  🚀 Siga firme! Você está a um passo da aprovação no concurso da Polícia Federal.</p>
+</footer>
+
+</body>
+</html>

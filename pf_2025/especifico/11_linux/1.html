@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resumo Linux - Características | PF - Perito Digital</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background-color: #f3f6fa;
+      color: #1e1e1e;
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+    }
+    h1, h2 {
+      color: #0a3970;
+    }
+    h3 {
+      margin-top: 20px;
+      color: #222;
+    }
+    .section {
+      background: #ffffff;
+      border-left: 6px solid #0a3970;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .highlight {
+      background-color: #e7f1ff;
+      padding: 10px;
+      margin: 15px 0;
+      border-left: 4px solid #007bff;
+    }
+    .danger {
+      background-color: #fff2e6;
+      padding: 10px;
+      border-left: 4px solid #ff6a00;
+      margin: 10px 0;
+    }
+    code {
+      background-color: #eef;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 90%;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resumo: Características do Sistema Operacional Linux</h1>
+  <p><em>Preparação focada para concurso da Polícia Federal | Banca CEBRASPE/CESPE</em></p>
+
+  <div class="section">
+    <h2>1. O que é o Linux?</h2>
+    <ul>
+      <li>É um sistema operacional do tipo <strong>Unix-like</strong>, gratuito e de código aberto (<em>open source</em>).</li>
+      <li>Usa o <strong>kernel Linux</strong>, criado por Linus Torvalds (1991).</li>
+      <li>É mantido por uma comunidade global de desenvolvedores.</li>
+      <li>Utiliza licença <strong>GPL (GNU Public License)</strong>.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. Principais Características</h2>
+    <ul>
+      <li><strong>Multitarefa:</strong> Executa vários processos ao mesmo tempo.</li>
+      <li><strong>Multiusuário:</strong> Suporta vários usuários simultaneamente com permissões distintas.</li>
+      <li><strong>Modularidade:</strong> O kernel pode ser recompilado ou carregado por módulos.</li>
+      <li><strong>Segurança:</strong> Forte controle de permissões e isolamento de processos. Utilização de <code>sudo</code>.</li>
+      <li><strong>Hierarquia de arquivos:</strong> Estrutura em árvore iniciando em <code>/</code> (raiz).</li>
+      <li><strong>Compatibilidade:</strong> Diversas distribuições (Debian, Ubuntu, CentOS, Fedora, Kali, Arch).</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>3. Shell e Terminal</h2>
+    <ul>
+      <li>Interface de linha de comando: <code>bash</code> (mais comum), <code>zsh</code>, <code>sh</code>.</li>
+      <li>Comandos básicos: <code>ls</code>, <code>cd</code>, <code>pwd</code>, <code>mkdir</code>, <code>rm</code>, <code>cp</code>, <code>mv</code>.</li>
+      <li>Comandos administrativos: <code>sudo</code>, <code>apt</code> (Debian), <code>yum</code>/<code>dnf</code> (RHEL/CentOS).</li>
+    </ul>
+    <div class="highlight">CEBRASPE adora perguntar sobre permissões, terminal e estrutura de diretórios.</div>
+  </div>
+
+  <div class="section">
+    <h2>4. Diretórios Importantes</h2>
+    <ul>
+      <li><code>/bin</code>: comandos essenciais.</li>
+      <li><code>/etc</code>: arquivos de configuração.</li>
+      <li><code>/home</code>: diretórios dos usuários.</li>
+      <li><code>/var</code>: arquivos variáveis (logs, emails, etc).</li>
+      <li><code>/usr</code>: arquivos de programas e bibliotecas.</li>
+      <li><code>/root</code>: diretório do usuário administrador.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>5. Gerenciamento de Permissões</h2>
+    <ul>
+      <li>Três tipos de permissões: leitura (r), escrita (w), execução (x).</li>
+      <li>Três categorias: dono (user), grupo (group), outros (others).</li>
+      <li>Comando: <code>chmod</code>, <code>chown</code>.</li>
+      <li>Exemplo: <code>-rwxr-xr--</code></li>
+    </ul>
+    <div class="highlight">Questões clássicas envolvem leitura de permissões e uso do <code>chmod</code>.</div>
+  </div>
+
+  <div class="section">
+    <h2>6. Iniciação e Gerenciamento de Serviços</h2>
+    <ul>
+      <li>Processo de boot gerenciado por <strong>GRUB</strong> e <strong>systemd</strong>.</li>
+      <li>Comandos importantes: <code>systemctl status</code>, <code>systemctl start</code>, <code>journalctl</code>.</li>
+    </ul>
+  </div>
+
+  <div class="danger">
+    ⚠️ <strong>Dica da prova:</strong> Fique atento às pegadinhas sobre permissões, localização de arquivos e comandos específicos para distros Debian ou Red Hat.
+  </div>
+
+  <div class="section">
+    <h2>7. CEBRASPE costuma cobrar:</h2>
+    <ul>
+      <li>Diferença entre Linux e Windows (segurança, arquitetura, uso de terminal).</li>
+      <li>Leitura e interpretação de permissões de arquivos.</li>
+      <li>Compreensão da hierarquia de diretórios.</li>
+      <li>Comandos básicos e administrativos.</li>
+      <li>Funcionalidade de serviços como <code>systemd</code>, <code>cron</code> e <code>journalctl</code>.</li>
+    </ul>
+  </div>
+
+</body>
+</html>

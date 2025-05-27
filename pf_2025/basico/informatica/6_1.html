@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<title>Noções de Bancos de Dados - Conceitos Básicos | PF</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #212121;
+    margin: 30px;
+  }
+  h1, h2, h3 {
+    color: #0d47a1;
+    margin-bottom: 12px;
+  }
+  h1 {
+    border-bottom: 3px solid #1976d2;
+    padding-bottom: 8px;
+  }
+  .container {
+    background-color: #fff;
+    border-left: 6px solid #1976d2;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 12px rgba(25, 118, 210, 0.15);
+  }
+  ul {
+    margin-left: 20px;
+  }
+  .term {
+    font-weight: 700;
+    color: #1565c0;
+  }
+  .highlight {
+    color: #d32f2f;
+    font-weight: 700;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+  }
+  th, td {
+    border: 1px solid #90caf9;
+    padding: 10px 15px;
+    text-align: left;
+  }
+  th {
+    background-color: #bbdefb;
+  }
+  .tip {
+    background-color: #e3f2fd;
+    border-left: 5px solid #1976d2;
+    padding: 10px 15px;
+    font-style: italic;
+    margin-top: 15px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Noções de Bancos de Dados</h1>
+<h2>Conceitos Básicos e Características — Resumo para PF</h2>
+
+<div class="container">
+  <h3>📌 O que é Banco de Dados (BD)?</h3>
+  <p>Banco de Dados é um conjunto organizado de dados relacionados, armazenados eletronicamente para facilitar o acesso, gerenciamento e atualização.</p>
+  <p><span class="highlight">Importante:</span> Diferente de simples arquivos, BD permite manipulação eficiente e segura dos dados.</p>
+</div>
+
+<div class="container">
+  <h3>🛠️ Sistema de Gerenciamento de Banco de Dados (SGBD)</h3>
+  <p>É o software responsável por criar, organizar, manter e controlar o acesso aos dados armazenados no BD.</p>
+  <p>Exemplos populares: <span class="term">MySQL, PostgreSQL, Oracle, SQL Server, SQLite.</span></p>
+</div>
+
+<div class="container">
+  <h3>🏷️ Características principais de um Banco de Dados</h3>
+  <ul>
+    <li><span class="term">Persistência:</span> dados armazenados para uso a longo prazo.</li>
+    <li><span class="term">Independência dos dados:</span> mudanças na estrutura não afetam os programas que acessam o BD.</li>
+    <li><span class="term">Redundância controlada:</span> minimiza dados duplicados para evitar inconsistências.</li>
+    <li><span class="term">Integridade:</span> garante a validade e consistência dos dados.</li>
+    <li><span class="term">Segurança:</span> controle de acesso para proteger dados contra acessos não autorizados.</li>
+    <li><span class="term">Multiusuário:</span> permite que vários usuários acessem simultaneamente sem conflito.</li>
+    <li><span class="term">Backup e recuperação:</span> protege os dados contra perdas acidentais.</li>
+  </ul>
+</div>
+
+<div class="container">
+  <h3>🗂️ Modelos de Banco de Dados (visão geral)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Modelo</th>
+        <th>Descrição</th>
+        <th>Exemplo de uso</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="term">Relacional</td>
+        <td>Organiza dados em tabelas (linhas e colunas) relacionadas entre si.</td>
+        <td>Aplicações empresariais, sistemas financeiros.</td>
+      </tr>
+      <tr>
+        <td class="term">Hierárquico</td>
+        <td>Organiza dados em uma estrutura de árvore, com relacionamentos pai-filho.</td>
+        <td>Sistemas legados, bancos de dados antigos.</td>
+      </tr>
+      <tr>
+        <td class="term">Rede</td>
+        <td>Permite relacionamentos complexos, muitos-para-muitos entre registros.</td>
+        <td>Aplicações específicas que precisam de flexibilidade maior que hierárquica.</td>
+      </tr>
+      <tr>
+        <td class="term">NoSQL</td>
+        <td>Modelos flexíveis que não usam tabelas relacionais (documentos, chave-valor, grafos).</td>
+        <td>Big Data, aplicações web modernas, redes sociais.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container">
+  <h3>⚠️ Dicas CEBRASPE/CESPE</h3>
+  <ul>
+    <li>Questões sobre <span class="highlight">características do SGBD</span> e suas funções básicas são frequentes.</li>
+    <li>Conheça bem as <span class="highlight">vantagens do modelo relacional</span> (facilidade, normalização, integridade).</li>
+    <li>A banca pode cobrar <span class="highlight">diferença entre banco de dados e sistema gerenciador.</span></li>
+    <li>Esteja atento a termos como <span class="highlight">redundância controlada</span> e <span class="highlight">independência dos dados.</span></li>
+  </ul>
+</div>
+
+<div class="container tip">
+  💡 <strong>Importante para prova:</strong> CEBRASPE costuma cobrar cenários práticos, ex: "Qual a função do SGBD?" ou "Qual a principal vantagem do modelo relacional?" — esteja pronto para respostas objetivas.
+</div>
+
+<div class="container">
+  <h3>🧠 Resumo para revisão rápida</h3>
+  <ul>
+    <li><strong>Banco de Dados:</strong> conjunto organizado de dados relacionados.</li>
+    <li><strong>SGBD:</strong> software que gerencia, controla e protege os dados.</li>
+    <li><strong>Características:</strong> persistência, segurança, integridade, multiusuário.</li>
+    <li><strong>Modelos principais:</strong> relacional, hierárquico, rede, NoSQL.</li>
+  </ul>
+</div>
+
+</body>
+</html>

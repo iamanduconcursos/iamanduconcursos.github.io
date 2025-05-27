@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Resumo Linux - Gerenciamento de Usuários e Permissões</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #fefefe;
+            color: #2a2a2a;
+        }
+        h1, h2 {
+            color: #004d00;
+        }
+        h1 {
+            border-bottom: 2px solid #004d00;
+            padding-bottom: 5px;
+        }
+        ul {
+            margin-top: 0;
+        }
+        .destaque {
+            background-color: #e6ffe6;
+            padding: 10px;
+            border-left: 5px solid #008000;
+            margin-bottom: 20px;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: "Courier New", monospace;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Sistema Operacional Linux – Gerenciamento de Usuários e Permissões de Acesso</h1>
+
+<div class="destaque">
+    <strong>📌 Atenção CESPE/CEBRASPE:</strong> Cobre muito comandos, permissões octais, herança de grupos e efeitos práticos de permissões especiais como <code>setuid</code>, <code>setgid</code> e <code>sticky bit</code>.
+</div>
+
+<h2>1. Comandos Fundamentais de Usuários</h2>
+<ul>
+    <li><code>adduser</code> ou <code>useradd</code>: adiciona usuário.</li>
+    <li><code>passwd usuário</code>: define ou altera senha.</li>
+    <li><code>usermod</code>: modifica usuário (ex: <code>-aG grupo</code> para adicionar a grupo).</li>
+    <li><code>userdel</code>: remove usuário (<code>-r</code> também apaga diretório home).</li>
+    <li><code>groupadd</code>, <code>groupdel</code>, <code>groupmod</code>: gerenciamento de grupos.</li>
+</ul>
+
+<h2>2. Estrutura de Arquivos Relacionados</h2>
+<ul>
+    <li><code>/etc/passwd</code>: armazena informações dos usuários (nome, UID, GID, home, shell).</li>
+    <li><code>/etc/shadow</code>: senhas criptografadas.</li>
+    <li><code>/etc/group</code>: associações de usuários a grupos.</li>
+</ul>
+
+<h2>3. Permissões em Arquivos e Diretórios</h2>
+<ul>
+    <li>Três tipos de acesso:
+        <ul>
+            <li><strong>r (read):</strong> leitura.</li>
+            <li><strong>w (write):</strong> escrita.</li>
+            <li><strong>x (execute):</strong> execução (programas ou entrada em diretórios).</li>
+        </ul>
+    </li>
+    <li>Três níveis de usuários:
+        <ul>
+            <li><strong>Usuário (user):</strong> dono do arquivo.</li>
+            <li><strong>Grupo (group):</strong> grupo associado.</li>
+            <li><strong>Outros (others):</strong> todos os demais.</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>4. Comando <code>chmod</code> (modifica permissões)</h2>
+<ul>
+    <li>Modo simbólico: <code>chmod u+x arquivo</code></li>
+    <li>Modo octal: <code>chmod 755 arquivo</code>
+        <ul>
+            <li><code>7 = rwx</code>, <code>5 = r-x</code>, <code>0 = ---</code></li>
+        </ul>
+    </li>
+</ul>
+
+<h2>5. Comando <code>chown</code> e <code>chgrp</code></h2>
+<ul>
+    <li><code>chown user arquivo</code>: altera dono.</li>
+    <li><code>chown user:grupo arquivo</code>: altera dono e grupo.</li>
+    <li><code>chgrp grupo arquivo</code>: altera somente o grupo.</li>
+</ul>
+
+<h2>6. Permissões Especiais</h2>
+<ul>
+    <li><strong>Setuid (s):</strong> no executável, permite que ele rode com permissões do dono (usado em <code>passwd</code>).
+        <br><code>chmod u+s arquivo</code></li>
+    <li><strong>Setgid (s):</strong> em diretório, novos arquivos herdam o grupo.
+        <br><code>chmod g+s diretorio</code></li>
+    <li><strong>Sticky bit (t):</strong> em diretórios compartilhados (como <code>/tmp</code>), impede usuários de apagar arquivos de outros.
+        <br><code>chmod +t /diretorio</code></li>
+</ul>
+
+<h2>7. Verificando Permissões</h2>
+<ul>
+    <li><code>ls -l</code>: lista permissões. Exemplo:
+        <br><code>-rwxr-xr-- 1 user grupo 1234 data arquivo</code></li>
+    <li><code>stat arquivo</code>: mostra detalhes como UID e GID.</li>
+</ul>
+
+<h2>8. Dicas e Pegadinhas da CESPE</h2>
+<ul>
+    <li>Questões sobre <strong>diferença entre permissões em arquivos e diretórios</strong> são comuns.</li>
+    <li><strong>Permissão de execução em diretórios</strong> permite acessar arquivos, mas não listá-los.</li>
+    <li><strong>Sticky bit</strong> aparece com frequência disfarçado em questões sobre segurança.</li>
+    <li><strong>Permissão 777</strong> = inseguro → muito cobrado em segurança da informação.</li>
+</ul>
+
+<div class="destaque">
+    <strong>✔️ Memorização Estratégica:</strong><br>
+    <code>chmod 755 arquivo</code> = uso comum para scripts e programas.<br>
+    <code>chmod 700 ~/.ssh</code> = diretório seguro de chaves.<br>
+    <code>chmod g+s /projetos</code> = colaboração com herança de grupo.<br>
+    <code>chmod +t /tmp</code> = proteção contra remoções indevidas.
+</div>
+
+</body>
+</html>

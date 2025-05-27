@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Redes de Computadores - TCP/IP e NAT | PF</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f5f8fa;
+      color: #212121;
+      margin: 40px;
+    }
+    h1, h2, h3 {
+      color: #0d47a1;
+    }
+    h1 {
+      border-bottom: 3px solid #1976d2;
+      padding-bottom: 10px;
+    }
+    .container {
+      background-color: #ffffff;
+      padding: 20px 30px;
+      border-left: 6px solid #1976d2;
+      box-shadow: 0 3px 10px rgba(25, 118, 210, 0.15);
+      margin-bottom: 25px;
+    }
+    .term {
+      font-weight: bold;
+      color: #1976d2;
+    }
+    .highlight {
+      color: #c62828;
+      font-weight: bold;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #90caf9;
+      padding: 10px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #bbdefb;
+    }
+    .tip {
+      background-color: #e3f2fd;
+      border-left: 5px solid #42a5f5;
+      padding: 12px;
+      margin-top: 15px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Redes de Computadores</h1>
+<h2>🌐 Arquitetura TCP/IP e NAT — Resumo para Perito Digital PF</h2>
+
+<div class="container">
+  <h3>📦 O que é a Arquitetura TCP/IP?</h3>
+  <p>A arquitetura TCP/IP é o <span class="highlight">conjunto de protocolos utilizados na internet</span>. Define como os dados são transmitidos entre dispositivos em redes.</p>
+  <p>Tem origem no modelo OSI, mas possui sua própria estrutura em 4 camadas.</p>
+</div>
+
+<div class="container">
+  <h3>📚 Camadas do Modelo TCP/IP</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Camada</th>
+        <th>Função</th>
+        <th>Protocolos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="term">1. Acesso à Rede (ou Interface)</td>
+        <td>Comunicação com o hardware de rede. Enlace + física.</td>
+        <td>Ethernet, Wi-Fi, PPP</td>
+      </tr>
+      <tr>
+        <td class="term">2. Internet</td>
+        <td>Endereçamento e roteamento de pacotes.</td>
+        <td><span class="highlight">IP, ICMP, ARP</span></td>
+      </tr>
+      <tr>
+        <td class="term">3. Transporte</td>
+        <td>Entrega fim a fim, controle de erro, confiabilidade.</td>
+        <td><span class="highlight">TCP, UDP</span></td>
+      </tr>
+      <tr>
+        <td class="term">4. Aplicação</td>
+        <td>Interface com o usuário e softwares.</td>
+        <td><span class="highlight">HTTP, FTP, SMTP, DNS</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container">
+  <h3>🔁 Protocolos Mais Cobrados</h3>
+  <ul>
+    <li><span class="term">IP (Internet Protocol):</span> roteamento de pacotes (endereçamento lógico).</li>
+    <li><span class="term">TCP:</span> confiável, orientado à conexão (ex: navegação web, e-mail).</li>
+    <li><span class="term">UDP:</span> não confiável, sem conexão (ex: streaming, VoIP).</li>
+    <li><span class="term">ICMP:</span> mensagens de erro e controle (ex: usado pelo <strong>ping</strong>).</li>
+    <li><span class="term">DNS:</span> resolve nomes de domínio em IPs.</li>
+  </ul>
+</div>
+
+<div class="container">
+  <h3>🌍 O que é NAT (Network Address Translation)?</h3>
+  <p>É um processo que permite que <strong>vários dispositivos usem um único IP público</strong> para se comunicar com a Internet.</p>
+  <ul>
+    <li>Traduz IPs privados (rede interna) para IP público (externo).</li>
+    <li>Auxilia na <span class="highlight">economia de endereços IPv4</span>.</li>
+    <li>Garante um certo nível de segurança (oculta IPs internos).</li>
+  </ul>
+</div>
+
+<div class="container">
+  <h3>🔧 Tipos de NAT</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Tipo</th>
+        <th>Descrição</th>
+        <th>Exemplo de Uso</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="term">Static NAT</td>
+        <td>Associa um IP interno fixo a um IP externo fixo.</td>
+        <td>Servidor interno acessado de fora.</td>
+      </tr>
+      <tr>
+        <td class="term">Dynamic NAT</td>
+        <td>Associa IP interno a um IP público disponível.</td>
+        <td>Conexões que variam de IP público.</td>
+      </tr>
+      <tr>
+        <td class="term">PAT (Port Address Translation)</td>
+        <td>Multiplica endereços usando portas. Também chamado de NAT Overload.</td>
+        <td>Roteadores domésticos conectando vários dispositivos.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container tip">
+  💡 <strong>CEBRASPE ama:</strong> cobrar:
+  <ul>
+    <li>Diferenças entre TCP e UDP.</li>
+    <li>Funções de cada camada do modelo TCP/IP.</li>
+    <li>Vantagens e limitações do NAT.</li>
+    <li>Reconhecimento de protocolos como HTTP, DNS, ICMP e suas camadas.</li>
+  </ul>
+</div>
+
+<div class="container">
+  <h3>🧠 Resumo Rápido para Revisão</h3>
+  <ul>
+    <li><strong>TCP/IP:</strong> modelo com 4 camadas — base da internet.</li>
+    <li><strong>IP:</strong> identifica e roteia pacotes.</li>
+    <li><strong>TCP:</strong> confiável, com verificação.</li>
+    <li><strong>UDP:</strong> rápido, sem verificação.</li>
+    <li><strong>NAT:</strong> converte IPs privados em públicos (com ou sem tradução de portas).</li>
+  </ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Resumo - Segurança em Android e iOS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #f4f9ff;
+      color: #333;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    h1 {
+      border-bottom: 2px solid #003366;
+      padding-bottom: 5px;
+    }
+    ul {
+      margin-top: 0;
+    }
+    .destaque {
+      background-color: #e0f0ff;
+      padding: 10px;
+      border-left: 5px solid #005c99;
+      margin-bottom: 20px;
+    }
+    code {
+      background-color: #eaeaea;
+      padding: 2px 5px;
+      border-radius: 3px;
+      font-family: "Courier New", monospace;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Android & iOS – Segurança: Permissões, Sandboxing, Criptografia</h1>
+
+<div class="destaque">
+  <strong>🔍 CESPE/CEBRASPE Foco:</strong> Cobra diferenças entre Android e iOS, aspectos de controle de apps, segurança por design, criptografia automática, sandboxing e comportamento padrão de permissões.
+</div>
+
+<h2>1. Modelo de Permissão</h2>
+
+<h3>Android:</h3>
+<ul>
+  <li><strong>Modelo baseado em declarações no manifesto:</strong> apps pedem permissões em tempo de execução (desde Android 6.0).</li>
+  <li><strong>Permissões perigosas:</strong> exigem consentimento explícito do usuário (ex: câmera, microfone, localização).</li>
+  <li><strong>Permissões normais:</strong> são automaticamente concedidas (ex: acesso à internet).</li>
+  <li>Permissões são <strong>revogáveis</strong> a qualquer momento nas configurações.</li>
+</ul>
+
+<h3>iOS:</h3>
+<ul>
+  <li><strong>Modelo centrado na privacidade do usuário:</strong> permissões concedidas em tempo de uso.</li>
+  <li>Apps precisam pedir autorização explícita para acessar dados sensíveis.</li>
+  <li><strong>Permissões mais restritivas que no Android:</strong> não há acesso direto ao sistema de arquivos, por exemplo.</li>
+</ul>
+
+<div class="destaque">
+  <strong>⚠️ Pegadinha clássica:</strong> iOS não permite acesso irrestrito a arquivos de outros apps, nem mesmo com permissão explícita.
+</div>
+
+<h2>2. Sandboxing</h2>
+<ul>
+  <li>Presente em <strong>ambos os sistemas</strong>.</li>
+  <li>Cada app executa em um <strong>ambiente isolado</strong> (sandbox), sem acesso direto a dados de outros apps.</li>
+  <li>Restringe leitura, escrita e execução fora do ambiente do app.</li>
+  <li><strong>Android:</strong> sandbox baseado no UID (User ID Linux).</li>
+  <li><strong>iOS:</strong> sandbox baseado em entitlements + código assinado.</li>
+</ul>
+
+<div class="destaque">
+  <strong>📌 Fato-chave:</strong> Jailbreak (iOS) ou Root (Android) quebram o isolamento do sandbox, comprometendo a segurança do sistema.
+</div>
+
+<h2>3. Criptografia de Dados</h2>
+
+<h3>Android:</h3>
+<ul>
+  <li>Criptografia <strong>de armazenamento ativada por padrão</strong> desde Android 10.</li>
+  <li>Criptografia baseada em <strong>file-based encryption (FBE)</strong> – permite múltiplos perfis com chaves distintas.</li>
+  <li><strong>Keystore:</strong> armazena chaves criptográficas em área protegida do hardware (se disponível).</li>
+</ul>
+
+<h3>iOS:</h3>
+<ul>
+  <li>Criptografia de dados <strong>ativada por padrão</strong> desde os primeiros modelos com Touch ID.</li>
+  <li>Criptografia baseada em <strong>hardware e software integrados</strong>.</li>
+  <li><strong>Data Protection API:</strong> protege arquivos com diferentes níveis de segurança baseados no estado do dispositivo (desbloqueado ou não).</li>
+</ul>
+
+<h2>4. Recursos de Segurança Complementares</h2>
+<ul>
+  <li><strong>Android:</strong> Google Play Protect, verificação de apps, selinux enforcing.</li>
+  <li><strong>iOS:</strong> Secure Enclave, Touch ID / Face ID, App Store com curadoria estrita.</li>
+  <li>Ambos implementam <strong>atualizações de segurança mensais (Android)</strong> ou integradas ao sistema (iOS).</li>
+</ul>
+
+<h2>5. Comparativo Direto – O que pode cair em prova</h2>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; margin-top: 10px;">
+  <tr style="background-color:#cce5ff;">
+    <th>Recurso</th>
+    <th>Android</th>
+    <th>iOS</th>
+  </tr>
+  <tr>
+    <td>Permissões concedidas</td>
+    <td>Durante uso ou instalação</td>
+    <td>Durante uso, foco em privacidade</td>
+  </tr>
+  <tr>
+    <td>Sandboxing</td>
+    <td>UID (Linux)</td>
+    <td>Entitlements + assinatura digital</td>
+  </tr>
+  <tr>
+    <td>Criptografia</td>
+    <td>FBE + Keystore</td>
+    <td>Data Protection + Secure Enclave</td>
+  </tr>
+  <tr>
+    <td>Controle de loja de apps</td>
+    <td>Mais aberto</td>
+    <td>Extremamente restrito</td>
+  </tr>
+</table>
+
+<div class="destaque">
+  <strong>✔️ Decore com lógica:</strong><br>
+  iOS = segurança mais rígida, criptografia integrada, loja fechada.<br>
+  Android = permissões flexíveis, mais abertura, sandbox no Linux.
+</div>
+
+</body>
+</html>

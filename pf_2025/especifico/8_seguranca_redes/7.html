@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Segurança de Redes - Ameaças Persistentes Avançadas (APTs) | Resumo Perito Digital PF</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    color: #222;
+    padding: 30px 40px;
+    border-left: 8px solid #1565c0;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(21, 101, 192, 0.25);
+  }
+  h1, h2 {
+    color: #1565c0;
+    margin-bottom: 15px;
+  }
+  h3 {
+    color: #0d47a1;
+  }
+  ul {
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+  li {
+    margin-bottom: 12px;
+  }
+  .highlight {
+    background-color: #bbdefb;
+    border-left: 6px solid #1565c0;
+    padding: 15px 20px;
+    margin: 25px 0;
+    font-style: italic;
+    color: #0d47a1;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid #90caf9;
+    padding: 10px 15px;
+    text-align: left;
+  }
+  th {
+    background-color: #1565c0;
+    color: white;
+  }
+</style>
+</head>
+<body>
+
+<h1>Ameaças Persistentes Avançadas (APTs)</h1>
+
+<p><strong>Resumo para Prova - Segurança de Redes - Perito Digital PF (CEBRASPE/CESPE)</strong></p>
+
+<section>
+  <h2>1. Conceito de APT</h2>
+  <ul>
+    <li><strong>APT (Advanced Persistent Threat):</strong> ameaça sofisticada, direcionada, e persistente contra um alvo específico, geralmente para roubo de informações confidenciais ou sabotagem.</li>
+    <li><strong>Persistente:</strong> o atacante mantém presença por longos períodos, evitando detecção.</li>
+    <li><strong>Avançada:</strong> uso de técnicas, ferramentas e vulnerabilidades sofisticadas e customizadas.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>2. Características Principais</h2>
+  <ul>
+    <li><strong>Direcionamento específico:</strong> foco em organizações, governos ou setores estratégicos.</li>
+    <li><strong>Multifase:</strong> envolve reconhecimento, invasão inicial, escalonamento de privilégios, movimentação lateral e exfiltração de dados.</li>
+    <li><strong>Sigilo:</strong> utiliza técnicas para evitar detecção, como criptografia, rootkits, trojans customizados.</li>
+    <li><strong>Tempo prolongado:</strong> pode durar meses ou anos dentro da rede.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>3. Técnicas e Métodos Usados</h2>
+  <ul>
+    <li><strong>Phishing direcionado (Spear phishing):</strong> envio de e-mails altamente personalizados para infiltração inicial.</li>
+    <li><strong>Exploração de vulnerabilidades zero-day:</strong> uso de falhas desconhecidas para acesso.</li>
+    <li><strong>Malwares customizados:</strong> trojans, backdoors e rootkits feitos sob medida.</li>
+    <li><strong>Movimentação lateral:</strong> exploração de credenciais e sistemas internos para ampliar o acesso.</li>
+    <li><strong>Comando e controle (C&C):</strong> comunicação oculta com servidores externos para controle remoto.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>4. Objetivos Comuns das APTs</h2>
+  <ul>
+    <li>Espionagem corporativa e governamental.</li>
+    <li>Roubo de propriedade intelectual, dados sensíveis e informações estratégicas.</li>
+    <li>Sabotagem de infraestrutura crítica.</li>
+    <li>Influência política e desestabilização.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>5. Exemplos Conhecidos</h2>
+  <ul>
+    <li><strong>APT28 (Fancy Bear):</strong> grupo ligado à Rússia, famoso por ataques a governos e instituições.</li>
+    <li><strong>APT29 (Cozy Bear):</strong> também associado à Rússia, especializado em espionagem.</li>
+    <li><strong>Stuxnet:</strong> malware sofisticado visando sabotagem industrial (centrífugas nucleares no Irã).</li>
+  </ul>
+</section>
+
+<section>
+  <h2>6. Detecção e Mitigação</h2>
+  <ul>
+    <li><strong>Monitoramento contínuo:</strong> análise de logs, tráfego e comportamento anômalo.</li>
+    <li><strong>Segmentação de rede:</strong> restringir movimentação lateral.</li>
+    <li><strong>Políticas rigorosas de acesso e autenticação:</strong> uso de MFA (autenticação multifator).</li>
+    <li><strong>Atualização constante:</strong> aplicar patches e corrigir vulnerabilidades rapidamente.</li>
+    <li><strong>Treinamento de usuários:</strong> evitar ataques de phishing e engenharia social.</li>
+    <li><strong>Resposta a incidentes:</strong> plano rápido para isolamento e erradicação.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>7. Relação com Outros Conceitos de Segurança</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Conceito</th>
+        <th>Relação com APT</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Phishing/Spear Phishing</td>
+        <td>Método comum para o acesso inicial em APTs.</td>
+      </tr>
+      <tr>
+        <td>Zero-Day Exploit</td>
+        <td>Ferramenta de ataque para infiltração sem ser detectado.</td>
+      </tr>
+      <tr>
+        <td>Malware Customizado</td>
+        <td>Ferramenta para manter o acesso e furtar dados.</td>
+      </tr>
+      <tr>
+        <td>Movimentação Lateral</td>
+        <td>Permite explorar múltiplos sistemas dentro da rede.</td>
+      </tr>
+      <tr>
+        <td>Defesa em Profundidade</td>
+        <td>Estratégia crucial para detectar e mitigar APTs.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<div class="highlight">
+  <strong>Dica para a prova:</strong>  
+  Foque em entender <em>o que é uma APT</em>, suas <em>características de persistência e sofisticação</em>, as fases do ataque, e as principais técnicas usadas para infiltração e manutenção do acesso. Também estude exemplos famosos e estratégias de defesa.
+</div>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Linux - Resumo Estratégico | Concurso PF - Perito Digital</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #2e3b4e;
+    }
+    .box {
+      background: #fff;
+      border-left: 6px solid #1e88e5;
+      margin: 20px 0;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .alerta {
+      background: #fff3cd;
+      border-left: 6px solid #ffc107;
+    }
+    .cmd {
+      background-color: #e0e0e0;
+      font-family: monospace;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Linux — Serviços e Logs | Resumo para PF - Perito Digital</h1>
+  <p><strong>Disciplina:</strong> Sistemas Operacionais - Linux<br>
+     <strong>Assunto:</strong> Configuração, administração e logs de sistema e serviços<br>
+     <strong>Cargo:</strong> Perito Criminal Federal - Área: Informática<br>
+     <strong>Banca:</strong> CEBRASPE (CESPE)</p>
+
+  <div class="box">
+    <h2>1. Logs no Linux (Base para todos os serviços)</h2>
+    <ul>
+      <li>Gerenciados pelo <strong>rsyslog</strong> ou <strong>systemd-journald</strong></li>
+      <li>Logs principais em: <code>/var/log</code></li>
+      <li>Comandos úteis:
+        <ul>
+          <li><code>journalctl</code> — visualiza logs do systemd</li>
+          <li><code>tail -f /var/log/syslog</code> ou <code>/var/log/messages</code></li>
+        </ul>
+      </li>
+      <li>Logs importantes:
+        <ul>
+          <li><code>/var/log/auth.log</code> — autenticação</li>
+          <li><code>/var/log/syslog</code> ou <code>/var/log/messages</code> — geral do sistema</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>2. Servidor Proxy (Squid)</h2>
+    <ul>
+      <li>Arquivo de configuração: <code>/etc/squid/squid.conf</code></li>
+      <li>Porta padrão: <code>3128</code></li>
+      <li>Logs:
+        <ul>
+          <li><code>/var/log/squid/access.log</code> — acessos realizados</li>
+          <li><code>/var/log/squid/cache.log</code> — erros e alertas do serviço</li>
+        </ul>
+      </li>
+      <li>Comandos:
+        <ul>
+          <li><code>systemctl restart squid</code></li>
+          <li><code>squid -k reconfigure</code> — recarrega config</li>
+        </ul>
+      </li>
+      <li>Permissões e ACLs são configuradas no squid.conf com <code>http_access allow/deny</code>.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>3. Servidor de Correio Eletrônico (Postfix + Dovecot)</h2>
+    <ul>
+      <li>SMTP: <code>Postfix</code> — envio de emails</li>
+      <li>IMAP/POP3: <code>Dovecot</code> — leitura de emails</li>
+      <li>Arquivos principais:
+        <ul>
+          <li><code>/etc/postfix/main.cf</code></li>
+          <li><code>/etc/dovecot/dovecot.conf</code></li>
+        </ul>
+      </li>
+      <li>Portas:
+        <ul>
+          <li>SMTP: <code>25</code> (envio), <code>587</code> (autenticado)</li>
+          <li>IMAP: <code>143</code>, <code>993</code> (SSL)</li>
+        </ul>
+      </li>
+      <li>Logs:
+        <ul>
+          <li><code>/var/log/mail.log</code></li>
+          <li><code>/var/log/maillog</code></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>4. Servidor Web (Apache/Nginx)</h2>
+    <ul>
+      <li>Apache:
+        <ul>
+          <li>Configuração: <code>/etc/apache2/apache2.conf</code></li>
+          <li>Logs: <code>/var/log/apache2/access.log</code>, <code>error.log</code></li>
+        </ul>
+      </li>
+      <li>Nginx:
+        <ul>
+          <li>Configuração: <code>/etc/nginx/nginx.conf</code></li>
+          <li>Logs: <code>/var/log/nginx/access.log</code>, <code>error.log</code></li>
+        </ul>
+      </li>
+      <li>Comando para restart:
+        <code>systemctl restart apache2</code> ou <code>systemctl restart nginx</code></li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>5. Servidor de Arquivos (Samba e NFS)</h2>
+    <h3>Samba</h3>
+    <ul>
+      <li>Compartilhamento para Windows</li>
+      <li>Configuração: <code>/etc/samba/smb.conf</code></li>
+      <li>Comando útil: <code>testparm</code> (verifica erros)</li>
+      <li>Logs: <code>/var/log/samba/log.smbd</code></li>
+    </ul>
+    <h3>NFS</h3>
+    <ul>
+      <li>Compartilhamento nativo entre Linux</li>
+      <li>Configuração: <code>/etc/exports</code></li>
+      <li>Comando: <code>exportfs -a</code></li>
+      <li>Logs: <code>/var/log/syslog</code> ou <code>/var/log/messages</code></li>
+    </ul>
+  </div>
+
+  <div class="box alerta">
+    <h3>🎯 Pontos Quentes para a Prova (CEBRASPE)</h3>
+    <ul>
+      <li>Localização de arquivos de configuração e logs</li>
+      <li>Portas padrão dos serviços (Squid, SMTP, IMAP, HTTP)</li>
+      <li>Comandos de administração (restart, testparm, journalctl)</li>
+      <li>Identificar logs de autenticação e erro</li>
+      <li>Diferença entre NFS e Samba</li>
+      <li>Entendimento de permissões em compartilhamentos</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>6. Comandos que Você Precisa Lembrar</h2>
+    <ul>
+      <li><code>systemctl status [serviço]</code> — verifica status</li>
+      <li><code>journalctl -xe</code> — eventos recentes com erros</li>
+      <li><code>tail -f /var/log/[log]</code> — acompanhar logs em tempo real</li>
+      <li><code>grep "palavra" arquivo</code> — localizar info em logs</li>
+    </ul>
+  </div>
+
+  <footer style="margin-top: 40px; font-size: 0.9em; color: #555;">
+    <p>🔐 Resumo gerado por ChatGPT com foco em concursos da PF | Atualizado: Maio/2025</p>
+  </footer>
+
+</body>
+</html>

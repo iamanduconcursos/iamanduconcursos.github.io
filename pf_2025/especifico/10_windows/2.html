@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Resumo: Windows - Gerenciamento de Usuários e Permissões</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #004080;
+        }
+        h1 {
+            border-bottom: 2px solid #004080;
+        }
+        ul {
+            margin-top: 0;
+        }
+        .destaque {
+            background-color: #e6f2ff;
+            padding: 10px;
+            border-left: 5px solid #004080;
+            margin-bottom: 20px;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 4px;
+            font-size: 90%;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Sistema Operacional Windows – Gerenciamento de Usuários e Permissões de Acesso</h1>
+
+<div class="destaque">
+    <strong>⚠️ Foco CESPE/CEBRASPE:</strong> A banca valoriza questões conceituais, muitas vezes com pegadinhas em termos técnicos. Atenção a conceitos de permissões efetivas, herança e grupos.
+</div>
+
+<h2>1. Tipos de Conta de Usuário</h2>
+<ul>
+    <li><strong>Conta Administrador:</strong> acesso completo ao sistema, inclusive alterar configurações de segurança e instalar programas.</li>
+    <li><strong>Conta Padrão (Usuário comum):</strong> uso limitado, sem privilégios administrativos.</li>
+    <li><strong>Conta Convidado:</strong> acesso temporário e extremamente limitado (normalmente desativada por padrão).</li>
+</ul>
+
+<h2>2. Ferramentas para Gerenciamento</h2>
+<ul>
+    <li><strong>Gerenciamento de Computador</strong> (<code>compmgmt.msc</code>): inclui Gerenciamento de Usuários Locais e Grupos.</li>
+    <li><strong>Prompt de Comando:</strong>
+        <ul>
+            <li><code>net user</code>: listar usuários.</li>
+            <li><code>net user nome /add</code>: criar usuário.</li>
+            <li><code>net localgroup</code>: manipular grupos locais.</li>
+        </ul>
+    </li>
+    <li><strong>Configurações do Windows</strong>: painel moderno para usuários domésticos.</li>
+</ul>
+
+<h2>3. Grupos de Usuários</h2>
+<ul>
+    <li><strong>Administradores</strong>: controle total.</li>
+    <li><strong>Usuários</strong>: acesso padrão.</li>
+    <li><strong>Convidados</strong>: acesso muito limitado.</li>
+    <li><strong>Power Users (em versões antigas):</strong> mais permissões que usuários, mas menos que admins.</li>
+</ul>
+
+<h2>4. Permissões NTFS (Sistema de Arquivos)</h2>
+<ul>
+    <li><strong>Permissões Básicas:</strong> Leitura, Gravação, Modificação, Controle Total.</li>
+    <li><strong>Permissões Avançadas:</strong> Controle detalhado como “Excluir subpastas e arquivos”, “Ler atributos estendidos”.</li>
+    <li><strong>Permissões Efetivas:</strong> Resultado final da combinação de permissões atribuídas ao usuário e aos grupos aos quais ele pertence.</li>
+    <li><strong>Permissões Negadas (Deny):</strong> prevalecem sobre permissões concedidas.</li>
+</ul>
+
+<h2>5. Compartilhamento vs NTFS</h2>
+<ul>
+    <li><strong>Compartilhamento:</strong> válido para acesso remoto em rede.</li>
+    <li><strong>NTFS:</strong> válido para acesso local e remoto.</li>
+    <li><strong>Permissão Efetiva:</strong> é a mais restritiva entre NTFS e Compartilhamento.</li>
+</ul>
+
+<h2>6. Herança de Permissões</h2>
+<ul>
+    <li>Pastas “filhas” herdam permissões da “pasta pai”.</li>
+    <li>É possível <strong>quebrar herança</strong> e definir permissões específicas para arquivos/pastas.</li>
+</ul>
+
+<h2>7. UAC – Controle de Conta de Usuário</h2>
+<ul>
+    <li>Evita que softwares façam alterações sem permissão.</li>
+    <li>Mesmo contas de administrador operam com permissões reduzidas até conceder elevação.</li>
+    <li>É uma camada de segurança importante e cobrada em concursos.</li>
+</ul>
+
+<h2>8. Dicas da Banca CESPE/CEBRASPE</h2>
+<ul>
+    <li>Cuidado com o termo "acesso total": pode ser negado por herança ou permissão mais restritiva.</li>
+    <li>Verifique sempre o contexto de acesso (local vs remoto).</li>
+    <li>Questões são frequentemente <strong>certo/errado</strong> com pegadinhas em herança, negação e permissões efetivas.</li>
+</ul>
+
+<div class="destaque">
+    <strong>✔️ Lembre-se:</strong><br>
+    Permissões podem vir do grupo <em>e</em> do usuário individual – a menor permissão prevalece.<br>
+    <code>Deny</code> anula qualquer outra permissão, mesmo se houver <code>Allow</code> em outro grupo.
+</div>
+
+</body>
+</html>

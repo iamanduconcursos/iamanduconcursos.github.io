@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Diagramas Lógicos – Raciocínio Lógico | PF - CESPE</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f7fa;
+      color: #212121;
+      line-height: 1.6;
+      padding: 40px;
+    }
+    h1, h2, h3 {
+      color: #0d47a1;
+    }
+    .box {
+      background-color: #ffffff;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    }
+    code {
+      background: #e0f2f1;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .exemplo {
+      background-color: #e3f2fd;
+      border-left: 4px solid #2196f3;
+      padding: 10px;
+      margin: 15px 0;
+    }
+    .dica {
+      background-color: #fffde7;
+      border-left: 5px solid #f9a825;
+      padding: 12px;
+      margin-top: 20px;
+    }
+    .armadilha {
+      background-color: #ffebee;
+      border-left: 5px solid #c62828;
+      padding: 12px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h1>Diagramas Lógicos – Lógica Proposicional</h1>
+    <p><strong>Disciplina:</strong> Raciocínio Lógico<br>
+       <strong>Assunto:</strong> Diagramas Lógicos (Lógica Sentencial)<br>
+       <strong>Concurso:</strong> Perito Digital – Polícia Federal<br>
+       <strong>Banca:</strong> CEBRASPE/CESPE</p>
+  </div>
+
+  <div class="box">
+    <h2>1. O que são Diagramas Lógicos?</h2>
+    <p>São representações visuais, geralmente usando círculos (ou conjuntos), que ajudam a compreender relações de inclusão, interseção e exclusão entre grupos ou proposições.</p>
+    <p>Úteis para verificar:</p>
+    <ul>
+      <li>Conclusões válidas a partir de premissas</li>
+      <li>Implicações entre conjuntos</li>
+      <li>Casos possíveis, impossíveis ou obrigatórios</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>2. Elementos Essenciais</h2>
+    <ul>
+      <li><strong>Universal positivo:</strong> "Todo A é B"</li>
+      <li><strong>Universal negativo:</strong> "Nenhum A é B"</li>
+      <li><strong>Particular afirmativo:</strong> "Algum A é B"</li>
+      <li><strong>Particular negativo:</strong> "Algum A não é B"</li>
+    </ul>
+
+    <div class="exemplo">
+      <strong>Frase:</strong> "Todo policial é servidor público"<br>
+      <strong>Diagrama:</strong> círculo de “policiais” inteiramente dentro do círculo de “servidores públicos”.
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>3. Interpretação Correta de Conjuntos</h2>
+    <ul>
+      <li><code>Todo A é B</code> → Todos os elementos de A estão em B</li>
+      <li><code>Nenhum A é B</code> → A e B não compartilham elementos</li>
+      <li><code>Algum A é B</code> → Há pelo menos 1 elemento em comum</li>
+      <li><code>Algum A não é B</code> → Existe pelo menos 1 A fora de B</li>
+    </ul>
+
+    <div class="dica">
+      ✅ Desenhe os diagramas. Mesmo mentalmente, ajuda muito a evitar erros de interpretação, especialmente com negações!
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>4. Armadilhas Clássicas da CESPE</h2>
+    <div class="armadilha">
+      ⚠️ <strong>Erro:</strong> Inferir que “Todo A é B” implica “Todo B é A”<br>
+      ❌ Exemplo: “Todo hacker ético é perito digital” NÃO significa que “Todo perito digital é hacker ético”.
+    </div>
+
+    <div class="armadilha">
+      ⚠️ <strong>Erro:</strong> Achar que “Algum A é B” implica “Algum B é A”<br>
+      ❌ A direção pode ser importante na lógica formal.
+    </div>
+
+    <div class="dica">
+      ✅ <strong>Frases com negação e exceção (“exceto”, “apenas”, “somente”) são as que mais confundem.</strong> Esquematize sempre!
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>5. Como Resolver Questões com Diagramas Lógicos</h2>
+    <p><strong>Passo a passo:</strong></p>
+    <ul>
+      <li>1️⃣ Identifique todas as premissas e seus tipos (universal, particular)</li>
+      <li>2️⃣ Transforme em diagramas ou símbolos</li>
+      <li>3️⃣ Analise a relação entre conjuntos</li>
+      <li>4️⃣ Verifique se a conclusão está <strong>obrigatoriamente</strong> correta</li>
+    </ul>
+
+    <div class="exemplo">
+      <strong>Exemplo:</strong><br>
+      Premissas: <br>
+      - Todo hacker é analista<br>
+      - Nenhum analista é estelionatário<br>
+      Conclusão: Nenhum hacker é estelionatário<br>
+      <strong>Resposta:</strong> Correta ✅ – pela transposição dos conjuntos.
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>6. Dicas para a Prova da PF</h2>
+    <ul>
+      <li>⚡ Treine com esquemas de Venn (3 conjuntos ou mais)</li>
+      <li>⚡ Concentre-se em <strong>possibilidades versus certezas</strong></li>
+      <li>⚡ A CESPE adora testar se você confunde “possível” com “necessário”</li>
+    </ul>
+
+    <div class="dica">
+      🎯 Tática rápida: se a banca pergunta “a conclusão é necessariamente verdadeira?”, busque contraexemplos. Se achar 1, já elimina a conclusão.
+    </div>
+  </div>
+
+</body>
+</html>

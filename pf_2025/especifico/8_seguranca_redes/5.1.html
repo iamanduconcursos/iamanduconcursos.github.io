@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Segurança de Redes - Ataques a Redes | Resumo Perito Digital PF</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #fefefe;
+    color: #222;
+    padding: 30px 40px;
+    border-left: 8px solid #c62828;
+    border-radius: 8px;
+    box-shadow: 0 0 18px rgba(198, 40, 40, 0.2);
+  }
+  h1, h2 {
+    color: #c62828;
+    margin-bottom: 15px;
+  }
+  ul {
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+  li {
+    margin-bottom: 12px;
+  }
+  .highlight {
+    background-color: #ffcdd2;
+    border-left: 6px solid #c62828;
+    padding: 15px 20px;
+    margin: 25px 0;
+    font-style: italic;
+    color: #b71c1c;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  th, td {
+    border: 1px solid #ef9a9a;
+    padding: 10px 15px;
+    text-align: left;
+  }
+  th {
+    background-color: #c62828;
+    color: white;
+  }
+  code {
+    background-color: #fce4ec;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: monospace;
+  }
+</style>
+</head>
+<body>
+
+<h1>Ataques a Redes de Computadores</h1>
+
+<p><strong>Resumo para Prova - Segurança de Redes - CEBRASPE/CESPE - Perito Digital PF</strong></p>
+
+<section>
+  <h2>1. Ataques DoS e DDoS</h2>
+  <ul>
+    <li><strong>DoS (Denial of Service):</strong> Ataque que visa indisponibilizar um serviço ou recurso, sobrecarregando-o com requisições.</li>
+    <li><strong>DDoS (Distributed DoS):</strong> Ataque DoS distribuído, realizado por múltiplos dispositivos infectados (botnets), aumentando o volume e dificuldade de defesa.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>2. Botnets</h2>
+  <ul>
+    <li>Redes de computadores/zumbis infectados controlados por um atacante para realizar ataques coordenados, como DDoS, envio de spam, roubo de dados, etc.</li>
+    <li>Usam canais de comando e controle (C&C) para comunicação e controle remoto.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>3. Phishing</h2>
+  <ul>
+    <li>Técnica de engenharia social para obter dados sensíveis, como senhas e informações financeiras, por meio de mensagens falsas (e-mails, sites, etc.).</li>
+    <li>Explora confiança e induz usuário a entregar informações.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>4. Zero-Day Exploits</h2>
+  <ul>
+    <li>Exploração de vulnerabilidades desconhecidas pelo fabricante e para as quais ainda não há patch ou solução.</li>
+    <li>Extremamente perigosos por serem inesperados e não detectados por antivírus tradicionais.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>5. Ataques por Flood</h2>
+  <ul>
+    <li><strong>Ping da Morte:</strong> Envio de pacotes ICMP malformados ou oversized que causam falha no sistema alvo.</li>
+    <li><strong>UDP Flood:</strong> Envio massivo de pacotes UDP para sobrecarregar rede ou sistema, consumindo recursos.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>6. Ataques em Camada de Rede e Enlace</h2>
+  <ul>
+    <li><strong>MAC Flooding:</strong> Envio de frames com múltiplos endereços MAC falsos para esgotar a tabela de switches e causar broadcast de tráfego.</li>
+    <li><strong>IP Spoofing:</strong> Falsificação do endereço IP de origem para mascarar a origem do ataque ou burlar sistemas de segurança.</li>
+    <li><strong>ARP Spoofing (ou ARP Poisoning):</strong> Envio de mensagens ARP falsas para associar o endereço MAC do atacante ao IP de outro dispositivo, permitindo interceptação de tráfego (Man-in-the-Middle).</li>
+  </ul>
+</section>
+
+<section>
+  <h2>7. Exploração de Vulnerabilidades e Injeções</h2>
+  <ul>
+    <li><strong>Buffer Overflow:</strong> Exploração de falha em programas que não controlam corretamente o tamanho de dados, permitindo execução de código malicioso.</li>
+    <li><strong>SQL Injection:</strong> Inserção de comandos SQL maliciosos em entradas de dados para manipular ou acessar banco de dados indevidamente.</li>
+    <li><strong>Cross-Site Scripting (XSS):</strong> Injeção de scripts maliciosos em páginas web para roubo de cookies, sessões e ataques ao usuário final.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>8. DNS Poisoning (Envenenamento de Cache DNS)</h2>
+  <ul>
+    <li>Manipulação maliciosa do cache DNS para associar nomes de domínios a endereços IP falsos.</li>
+    <li>Usado para redirecionar usuários a sites fraudulentos (phishing) ou interceptar tráfego.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>9. Tabela Resumo dos Ataques</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Ataque</th>
+        <th>Descrição</th>
+        <th>Impacto/Objetivo</th>
+        <th>Cobrança CEBRASPE/CESPE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>DoS</td>
+        <td>Sobrecarregar serviço com requisições</td>
+        <td>Indisponibilidade</td>
+        <td>Conceito, diferenciação DoS/DDoS</td>
+      </tr>
+      <tr>
+        <td>DDoS</td>
+        <td>DoS distribuído via botnets</td>
+        <td>Maior escala de indisponibilidade</td>
+        <td>Características, botnets e mitigação</td>
+      </tr>
+      <tr>
+        <td>Botnet</td>
+        <td>Rede de dispositivos zumbis</td>
+        <td>Amplificação de ataques</td>
+        <td>Definição, comando e controle</td>
+      </tr>
+      <tr>
+        <td>Phishing</td>
+        <td>Engenharia social para roubo de dados</td>
+        <td>Roubo de informações</td>
+        <td>Identificação e prevenção</td>
+      </tr>
+      <tr>
+        <td>Zero-Day</td>
+        <td>Exploração de falha desconhecida</td>
+        <td>Alta vulnerabilidade</td>
+        <td>Conceito e risco</td>
+      </tr>
+      <tr>
+        <td>Ping da Morte</td>
+        <td>Pacote ICMP malformado para crash</td>
+        <td>Queda do sistema</td>
+        <td>Funcionamento básico</td>
+      </tr>
+      <tr>
+        <td>UDP Flood</td>
+        <td>Excesso de pacotes UDP</td>
+        <td>Sobrecarregar recursos</td>
+        <td>Características e impacto</td>
+      </tr>
+      <tr>
+        <td>MAC Flooding</td>
+        <td>Enchimento da tabela MAC do switch</td>
+        <td>Interceptação por broadcast</td>
+        <td>Modo de ataque</td>
+      </tr>
+      <tr>
+        <td>IP Spoofing</td>
+        <td>Falsificação de endereço IP</td>
+        <td>Mascarar origem do ataque</td>
+        <td>Reconhecimento e prevenção</td>
+      </tr>
+      <tr>
+        <td>ARP Spoofing</td>
+        <td>Falsificação de mensagens ARP</td>
+        <td>Man-in-the-Middle</td>
+        <td>Funcionamento e mitigação</td>
+      </tr>
+      <tr>
+        <td>Buffer Overflow</td>
+        <td>Excesso de dados no buffer</td>
+        <td>Execução de código malicioso</td>
+        <td>Identificação de cenário</td>
+      </tr>
+      <tr>
+        <td>SQL Injection</td>
+        <td>Injeção de comandos SQL</td>
+        <td>Manipulação de BD</td>
+        <td>Conceito e prevenção</td>
+      </tr>
+      <tr>
+        <td>XSS</td>
+        <td>Injeção de scripts em páginas web</td>
+        <td>Roubo de sessão e dados</td>
+        <td>Conceito e tipos (refletido, armazenado)</td>
+      </tr>
+      <tr>
+        <td>DNS Poisoning</td>
+        <td>Manipulação de cache DNS</td>
+        <td>Redirecionamento fraudulento</td>
+        <td>Conceito e exemplos</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<div class="highlight">
+  <strong>Dica para a prova:</strong>  
+  Entenda o conceito básico, mecanismo de ataque, objetivo e formas de prevenção ou mitigação. Bancas como CEBRASPE valorizam a aplicação prática e o reconhecimento de ataques no contexto real de segurança em redes.
+</div>
+
+</body>
+</html>

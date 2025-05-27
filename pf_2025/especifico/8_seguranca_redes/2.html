@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Segurança de Redes - Protocolos IPSEC, DNSSEC, DMARC, DKIM, SPF | Resumo PF</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #f8fafc;
+    color: #1b1b1b;
+    padding: 30px 40px;
+    border-left: 8px solid #0066cc;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,102,204,0.2);
+  }
+  h1, h2 {
+    color: #0066cc;
+    margin-bottom: 15px;
+  }
+  ul {
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+  li {
+    margin-bottom: 12px;
+  }
+  .highlight {
+    background-color: #d9e9ff;
+    border-left: 6px solid #0066cc;
+    padding: 15px 20px;
+    margin: 25px 0;
+    font-style: italic;
+    color: #004080;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  th, td {
+    border: 1px solid #c0d6ff;
+    padding: 10px 15px;
+    text-align: left;
+  }
+  th {
+    background-color: #0066cc;
+    color: white;
+  }
+  code {
+    background-color: #eef6ff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: monospace;
+  }
+</style>
+</head>
+<body>
+
+<h1>Segurança de Redes - Protocolos Essenciais</h1>
+
+<p><strong>Objetivo:</strong> Entender os protocolos <code>IPSEC, DNSSEC, DMARC, DKIM</code> e <code>SPF</code>, seus papéis e características, com foco no que é mais cobrado por bancas como <strong>CEBRASPE/CESPE</strong> para o cargo de Perito Digital da Polícia Federal.</p>
+
+<section>
+  <h2>1. IPSEC (Internet Protocol Security)</h2>
+  <ul>
+    <li><strong>Função:</strong> Protocolo para comunicação segura em redes IP, garantindo <em>confidencialidade, integridade, autenticidade e proteção contra replay</em>.</li>
+    <li><strong>Modos de Operação:</strong>
+      <ul>
+        <li><code>Transport Mode:</code> protege apenas o payload do pacote IP.</li>
+        <li><code>Tunnel Mode:</code> encapsula o pacote IP completo, usado em VPNs.</li>
+      </ul>
+    </li>
+    <li><strong>Protocolos principais:</strong>
+      <ul>
+        <li><code>AH (Authentication Header):</code> oferece integridade e autenticação, mas não criptografia.</li>
+        <li><code>ESP (Encapsulating Security Payload):</code> oferece criptografia, autenticação e integridade.</li>
+      </ul>
+    </li>
+    <li><strong>Importância:</strong> Muito cobrado para segurança em redes corporativas e VPNs.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>2. DNSSEC (Domain Name System Security Extensions)</h2>
+  <ul>
+    <li><strong>Função:</strong> Extensão do DNS para garantir a autenticidade e integridade das respostas DNS, prevenindo ataques como <em>DNS spoofing</em> e <em>cache poisoning</em>.</li>
+    <li><strong>Como funciona:</strong>
+      <ul>
+        <li>Assina digitalmente os dados DNS usando chaves criptográficas.</li>
+        <li>Permite que o cliente verifique se a resposta DNS não foi alterada.</li>
+      </ul>
+    </li>
+    <li><strong>Elemento chave:</strong> <code>RRSIG</code> (registro de assinatura) e <code>DNSKEY</code> para validar respostas.</li>
+    <li><strong>Foco da banca:</strong> Entendimento da função do DNSSEC na proteção da infraestrutura DNS e diferença do DNS tradicional.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>3. DMARC (Domain-based Message Authentication, Reporting & Conformance)</h2>
+  <ul>
+    <li><strong>Objetivo:</strong> Política de autenticação de e-mails para combater <em>phishing</em> e <em>spoofing</em>.</li>
+    <li><strong>Como funciona:</strong> Permite ao dono do domínio definir como tratar e-mails que falham nas verificações de SPF e DKIM.</li>
+    <li><strong>Componentes:</strong>
+      <ul>
+        <li><code>p=none/quarantine/reject</code> — define ação para mensagens que falharem na autenticação.</li>
+        <li>Relatórios diários enviados para o administrador do domínio.</li>
+      </ul>
+    </li>
+    <li><strong>Aspecto cobrado:</strong> Conhecer o propósito do DMARC e a relação com SPF e DKIM.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>4. DKIM (DomainKeys Identified Mail)</h2>
+  <ul>
+    <li><strong>Função:</strong> Autenticar a origem do e-mail e garantir que a mensagem não foi alterada durante o transporte.</li>
+    <li><strong>Como funciona:</strong> O servidor remetente assina o cabeçalho do e-mail com uma chave privada; o destinatário valida a assinatura com a chave pública publicada no DNS.</li>
+    <li><strong>Vantagens:</strong> Proteção contra falsificação e alteração do conteúdo da mensagem.</li>
+    <li><strong>Assuntos para prova:</strong> Processo de assinatura e validação, relação com SPF e DMARC.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>5. SPF (Sender Policy Framework)</h2>
+  <ul>
+    <li><strong>Objetivo:</strong> Evitar o envio de e-mails falsificados declarando quais servidores podem enviar mensagens em nome de um domínio.</li>
+    <li><strong>Como funciona:</strong> O domínio publica um registro SPF no DNS com lista de IPs autorizados a enviar e-mails.</li>
+    <li><strong>Validação:</strong> O servidor destinatário verifica o IP do remetente contra o registro SPF do domínio.</li>
+    <li><strong>Pontos importantes para o concurso:</strong> Propósito básico, registro TXT no DNS e diferença para DKIM e DMARC.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>6. Tabela Resumo dos Protocolos</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Protocolo</th>
+        <th>Função Principal</th>
+        <th>Camada</th>
+        <th>Características-Chave</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>IPSEC</td>
+        <td>Segurança de pacotes IP (confidencialidade, integridade)</td>
+        <td>Camada de Rede (IP)</td>
+        <td>AH (autenticação), ESP (criptografia + autenticação), modo túnel e transporte</td>
+      </tr>
+      <tr>
+        <td>DNSSEC</td>
+        <td>Garantia da autenticidade e integridade do DNS</td>
+        <td>Aplicação (DNS)</td>
+        <td>Assinatura digital de registros DNS, proteção contra spoofing</td>
+      </tr>
+      <tr>
+        <td>DMARC</td>
+        <td>Política para autenticação e tratamento de e-mails (SPF + DKIM)</td>
+        <td>Aplicação (e-mail)</td>
+        <td>Define ações para e-mails não autorizados, relatórios para administradores</td>
+      </tr>
+      <tr>
+        <td>DKIM</td>
+        <td>Assinatura digital de e-mails para garantir autenticidade</td>
+        <td>Aplicação (e-mail)</td>
+        <td>Chave pública no DNS, assinatura com chave privada do remetente</td>
+      </tr>
+      <tr>
+        <td>SPF</td>
+        <td>Define servidores autorizados a enviar e-mails por um domínio</td>
+        <td>Aplicação (e-mail)</td>
+        <td>Registro TXT no DNS, validação por IP remetente</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>7. Dicas e Foco para Prova CEBRASPE/CESPE</h2>
+  <ul>
+    <li><strong>IPSEC:</strong> saiba diferenciar AH e ESP, modos de operação, e quando usar.</li>
+    <li><strong>DNSSEC:</strong> entenda o problema que resolve (spoofing), assinatura digital no DNS e os tipos de registros envolvidos.</li>
+    <li><strong>SPF/DKIM/DMARC:</strong> esteja claro sobre as funções individuais, interação entre eles e finalidade no combate a e-mails fraudulentos.</li>
+    <li>Foque em definições claras, finalidade prática e relacionamentos entre protocolos.</li>
+    <li>Exercícios e questões de provas anteriores CEBRASPE/CESPE tendem a cobrar detalhes conceituais, além de aplicação prática e identificação de vantagens e limitações.</li>
+  </ul>
+</section>
+
+<div class="highlight">
+  <strong>Resumo final:</strong> Estes protocolos formam a base para proteger tanto a comunicação segura em redes IP (IPSEC, DNSSEC) quanto a autenticação e integridade das mensagens de e-mail (SPF, DKIM, DMARC), áreas cruciais para o cargo de Perito Digital.
+</div>
+
+</body>
+</html>

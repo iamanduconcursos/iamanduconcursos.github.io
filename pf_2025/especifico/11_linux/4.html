@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resumo: Shell e Comandos Linux | PF - Perito Digital</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background-color: #f2f4f8;
+      color: #1e1e1e;
+      max-width: 960px;
+      margin: auto;
+      padding: 30px;
+    }
+    h1, h2 {
+      color: #0a3970;
+    }
+    h3 {
+      margin-top: 20px;
+      color: #333;
+    }
+    .section {
+      background: #ffffff;
+      border-left: 6px solid #0a3970;
+      margin-bottom: 25px;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+    }
+    ul {
+      margin-left: 20px;
+    }
+    code {
+      background-color: #eaf0f8;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.95em;
+    }
+    .highlight {
+      background-color: #e6f2ff;
+      padding: 12px;
+      border-left: 5px solid #007bff;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .danger {
+      background-color: #fff3f3;
+      padding: 12px;
+      border-left: 5px solid #ff4444;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resumo Estratégico: Shell e Comandos no Linux</h1>
+  <p><em>Para o concurso de Perito Digital da Polícia Federal – foco em CEBRASPE/CESPE</em></p>
+
+  <div class="section">
+    <h2>1. O que é o Shell no Linux?</h2>
+    <ul>
+      <li>É o interpretador de comandos entre o usuário e o sistema operacional.</li>
+      <li>Shell padrão: <strong>Bash</strong> (<code>/bin/bash</code>).</li>
+      <li>Outros: <code>sh</code>, <code>zsh</code>, <code>dash</code>.</li>
+    </ul>
+    <div class="highlight">
+      CEBRASPE costuma cobrar o entendimento do fluxo <strong>usuário → shell → kernel</strong>.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>2. Tipos de Comandos</h2>
+    <ul>
+      <li><strong>Internos (built-ins):</strong> parte do shell (<code>cd</code>, <code>echo</code>, <code>export</code>).</li>
+      <li><strong>Externos:</strong> localizados em diretórios como <code>/bin</code>, <code>/usr/bin</code> (<code>ls</code>, <code>grep</code>, <code>ps</code>).</li>
+    </ul>
+    <div class="highlight">
+      Use <code>type comando</code> para saber se é interno ou externo.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>3. Comandos Básicos (Altamente Cobrados)</h2>
+    <ul>
+      <li><code>pwd</code> – mostra o diretório atual.</li>
+      <li><code>ls</code> – lista arquivos e diretórios.</li>
+      <li><code>cd</code> – muda o diretório.</li>
+      <li><code>mkdir</code>, <code>rmdir</code> – cria e remove diretórios.</li>
+      <li><code>touch</code>, <code>rm</code>, <code>cp</code>, <code>mv</code> – manipulação de arquivos.</li>
+      <li><code>man comando</code> – acessa o manual.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>4. Comandos de Busca e Filtros</h2>
+    <ul>
+      <li><code>find</code> – busca por arquivos/diretórios.</li>
+      <li><code>grep</code> – busca por padrões em arquivos.</li>
+      <li><code>locate</code> – busca rápida com base em banco de dados.</li>
+      <li><code>which</code> – exibe o caminho do comando executável.</li>
+    </ul>
+    <div class="highlight">
+      Muito comum em prova: uso do <code>grep</code> com pipes (<code>|</code>).
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>5. Permissões e Gestão de Arquivos</h2>
+    <ul>
+      <li><code>chmod</code> – altera permissões.</li>
+      <li><code>chown</code> – altera dono do arquivo.</li>
+      <li><code>stat</code> – exibe metadados de arquivos.</li>
+      <li><code>umask</code> – define máscara de criação de permissões.</li>
+    </ul>
+    <div class="highlight">
+      Lembre: permissões = user (u), group (g), others (o).
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>6. Gerenciamento de Processos</h2>
+    <ul>
+      <li><code>ps</code> – lista processos ativos.</li>
+      <li><code>top</code> ou <code>htop</code> – monitor em tempo real.</li>
+      <li><code>kill</code>, <code>killall</code>, <code>nice</code>, <code>renice</code>.</li>
+      <li><code>jobs</code>, <code>bg</code>, <code>fg</code>, <code>nohup</code>.</li>
+    </ul>
+    <div class="highlight">
+      A CEBRASPE gosta de comandos para gerenciar processos em background.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>7. Redirecionamento e Pipes</h2>
+    <ul>
+      <li><code>></code> – redireciona saída (sobrescreve).</li>
+      <li><code>>></code> – redireciona e adiciona (append).</li>
+      <li><code><</code> – redireciona entrada.</li>
+      <li><code>|</code> – pipe: conecta saída de um comando à entrada de outro.</li>
+      <li><code>2></code>, <code>&> </code> – redirecionamento de erro.</li>
+    </ul>
+    <div class="highlight">
+      Exemplo: <code>cat arquivo.txt | grep "palavra"</code>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>8. Variáveis de Ambiente</h2>
+    <ul>
+      <li><code>echo $HOME</code>, <code>$PATH</code>, <code>$USER</code></li>
+      <li><code>export VARIAVEL=valor</code></li>
+    </ul>
+  </div>
+
+  <div class="danger">
+    ⚠️ <strong>Atenção:</strong> A CEBRASPE costuma criar pegadinhas misturando comandos de diferentes shells, permissões incorretas e redirecionamentos mal interpretados.
+  </div>
+
+  <div class="section">
+    <h2>9. Dicas Finais para a Prova</h2>
+    <ul>
+      <li>Domine comandos básicos e de manipulação de processos.</li>
+      <li>Saiba identificar comandos por sua função e saída esperada.</li>
+      <li>Conheça os tipos de erros e mensagens comuns.</li>
+      <li>Entenda como usar scripts simples (<code>.sh</code>) e variáveis.</li>
+    </ul>
+    <div class="highlight">
+      Pratique com terminais reais ou simuladores como o <strong>OverTheWire</strong> ou <strong>Linux Survival</strong>.
+    </div>
+  </div>
+
+</body>
+</html>
