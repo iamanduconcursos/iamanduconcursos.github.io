@@ -1,0 +1,55 @@
+Cadeia de Custódia da Prova
+
+Vamos falar sobre um tema fundamental para o concurso de Perito Digital da Polícia Federal: a cadeia de custódia da prova, que está detalhada no Código de Processo Penal, especialmente após o Pacote Anticrime, na Lei nº 13.964 de 2019.
+
+Primeiramente, o que é cadeia de custódia? Ela está definida no artigo 158-A do CPP e consiste no conjunto de procedimentos utilizados para manter e documentar a história cronológica do vestígio desde sua coleta até o descarte final. O objetivo principal da cadeia de custódia é assegurar a autenticidade e integridade da prova, garantindo que o vestígio coletado na cena do crime seja exatamente o mesmo apresentado no processo judicial.
+
+É muito importante que você memorize o conceito de vestígio: trata-se de um elemento relacionado à infração penal, encontrado ou recolhido durante a investigação. A aplicação da cadeia de custódia é obrigatória em crimes que deixam vestígios. Caso haja quebra na cadeia de custódia — ou seja, falhas no registro ou no manejo do vestígio — a prova pode ser anulada, desde que fique comprovado prejuízo à defesa, respeitando os princípios do contraditório e da ampla defesa.
+
+A cadeia de custódia compreende várias etapas essenciais, previstas nos artigos 158-B a 158-F do Código de Processo Penal. São elas:
+
+Reconhecimento: a identificação do vestígio no local do crime.
+
+Isolamento: a delimitação da área para preservar o vestígio, evitando contaminação.
+
+Fixação: a documentação por meio de fotos, vídeos, croquis ou registros escritos.
+
+Coleta: o recolhimento cuidadoso do vestígio, realizado por perito oficial.
+
+Acondicionamento: a embalagem em recipiente apropriado, sempre rotulado com dados obrigatórios.
+
+Transporte: o deslocamento seguro até o local de análise técnica.
+
+Recebimento: o registro formal da entrada do vestígio no laboratório ou setor pericial.
+
+Processamento: a análise técnica e elaboração do laudo pericial.
+
+Armazenamento: a guarda temporária do vestígio, enquanto ainda pode ser útil para o processo.
+
+Descarte: a eliminação do vestígio, respeitando critérios legais e normativos.
+
+No campo da jurisprudência, o Superior Tribunal de Justiça entende que a quebra da cadeia de custódia não invalida automaticamente a prova. A nulidade é relativa e só ocorre se ficar comprovado o prejuízo para uma das partes. Já o Supremo Tribunal Federal reconhece a validade da interceptação telefônica quando há preservação da cadeia de custódia digital.
+
+Em situações onde os vestígios são perdidos, pode-se utilizar a perícia indireta, prevista no artigo 158, parágrafo único do CPP, desde que haja justificativa adequada e documentação que comprove essa situação.
+
+Quem deve observar a cadeia de custódia? Todos os agentes que manipulam vestígios: policiais, peritos, transportadores, laboratoristas, entre outros. É fundamental que cada transferência de posse seja registrada com detalhes — data, hora, nome e função do responsável naquele momento. A responsabilidade pelo vestígio está sempre com quem o detém, e tudo deve ser devidamente documentado para evitar questionamentos futuros.
+
+Algumas palavras-chave importantes para gravar na memória são: vestígio, coleta, isolamento, acondicionamento, perito oficial e documentação formal. A ausência de registro formal pode acarretar nulidade da prova.
+
+Vale destacar uma pegadinha clássica da banca CEBRASPE: afirmar que a cadeia de custódia se aplica apenas às provas periciais, excluindo provas testemunhais ou documentais. Isso é falso! A cadeia de custódia se aplica a todo vestígio material, sendo especialmente crucial em provas técnicas e científicas.
+
+No contexto da perícia digital, como na análise forense de HDs, celulares e computadores, a cadeia de custódia exige cuidados específicos. As imagens forenses devem ser coletadas utilizando softwares validadores, como o cálculo de hash SHA-256, para garantir a integridade dos dados. Qualquer acesso não autorizado ou clonagem do disco sem documentação formal pode invalidar a prova digital. Por isso, o perito digital deve seguir rigorosamente todos os passos da cadeia de custódia e registrar cada movimentação do item periciado.
+
+Para finalizar, vamos revisar os pontos principais:
+
+A cadeia de custódia é o histórico cronológico e documentado do vestígio.
+
+Tem base legal nos artigos 158-A a 158-F do Código de Processo Penal, atualizados pelo Pacote Anticrime.
+
+Todos que tocam ou manipulam vestígios são responsáveis por manter essa cadeia.
+
+A quebra da cadeia pode levar à nulidade da prova, se houver prejuízo comprovado.
+
+A banca CEBRASPE exige literalidade e aplicação prática, além de gostar de explorar pegadinhas sobre termos técnicos.
+
+Com esse entendimento, você terá uma boa base para responder questões sobre cadeia de custódia no concurso de Perito Digital da Polícia Federal. Foque na literalidade dos artigos, nos conceitos e nas etapas, e pratique bastante para fixar.

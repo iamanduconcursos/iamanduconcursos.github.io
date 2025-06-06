@@ -1,0 +1,47 @@
+Licitação — Procedimento Administrativo no Direito Público
+
+Vamos estudar o procedimento licitatório, um tema fundamental no Direito Administrativo e bastante cobrado nos concursos públicos, especialmente para Perito Digital da Polícia Federal.
+
+Licitação é um procedimento administrativo formal, utilizado pela Administração Pública para selecionar a proposta mais vantajosa para a celebração de contratos. Ela tem como base os princípios da legalidade, da isonomia, da moralidade e da impessoalidade, previstos no artigo 37, inciso XXI, da Constituição Federal de 1988, e regulamentados principalmente pela Nova Lei de Licitações, a Lei nº 14.133, de 2021.
+
+Esse procedimento está dividido em fases bem definidas, que organizam e disciplinam toda a contratação pública. Conhecer cada uma dessas fases é essencial para compreender o funcionamento da licitação e para responder às questões da banca CEBRASPE, que costuma cobrar detalhes importantes.
+
+As fases do procedimento licitatório segundo a Nova Lei são:
+
+Fase preparatória ou interna — momento em que a Administração realiza todos os estudos necessários para a contratação. Isso inclui o estudo técnico preliminar, a elaboração do termo de referência ou projeto básico, o planejamento anual de contratações e a definição da modalidade e do critério de julgamento que serão adotados.
+
+Divulgação do edital — a Administração deve publicar o edital em meios eletrônicos oficiais, garantindo publicidade e transparência para que todos os interessados possam participar.
+
+Apresentação de propostas e lances — os licitantes enviam suas propostas ou participam de disputas de lances, conforme a modalidade da licitação.
+
+Julgamento — importante mudança da nova lei: o julgamento das propostas ocorre antes da habilitação, ou seja, primeiro analisa-se qual a melhor proposta e só depois se verifica se o licitante está habilitado. Essa inversão é uma novidade relevante, que deve ser bem decorada para a prova.
+
+Habilitação — verificação da regularidade jurídica, fiscal, técnica e econômica do licitante que apresentou a melhor proposta.
+
+Recursos administrativos — os participantes podem apresentar recursos contra decisões que considerem injustas, cabendo contrarrazões.
+
+Homologação e adjudicação — a homologação é a validação final do procedimento licitatório pela autoridade competente, confirmando que tudo foi feito conforme a lei. A adjudicação é o ato de atribuir o objeto da licitação ao vencedor, formalizando a decisão.
+
+É importante destacar que, antes da nova lei, a habilitação ocorria antes do julgamento, mas a Lei 14.133 trouxe essa mudança para dar mais eficiência ao processo.
+
+Quanto às modalidades de licitação previstas na Lei nº 14.133/2021, temos:
+
+Concorrência: modalidade mais formal e ampla, com participação livre, indicada para contratos de grande vulto e complexidade.
+
+Pregão: modalidade mais célere, voltada para aquisição de bens e serviços comuns, onde o julgamento se dá pelo menor preço.
+
+Concurso: usado para premiação por melhor trabalho técnico, artístico ou científico, aplicável a trabalhos intelectuais e técnicos.
+
+Leilão: destinado à venda pública de bens inservíveis ou apreendidos, para desfazimento de patrimônio público.
+
+Diálogo Competitivo: uma modalidade inovadora, voltada para contratações complexas que exigem soluções inovadoras, permitindo fase de diálogo prévio entre Administração e licitantes para o desenvolvimento da melhor proposta.
+
+Para ter sucesso na prova, atente-se especialmente a três pontos:
+
+A nova lei é a principal base cobrada — saiba bem suas fases e modalidades.
+
+A inversão da ordem tradicional das fases — julgamento antes da habilitação — é tema frequente.
+
+As diferenças entre homologação e adjudicação são alvo de pegadinhas comuns.
+
+Com esse entendimento, você estará preparado para gabaritar as questões sobre licitação no concurso de Perito Digital da Polícia Federal.

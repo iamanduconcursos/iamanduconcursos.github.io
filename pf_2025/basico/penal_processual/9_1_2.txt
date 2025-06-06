@@ -1,0 +1,29 @@
+Resumo narrativo para áudio – Exame do Corpo de Delito, Perícias e Prova no Processo Penal
+
+Este áudio aborda os principais pontos sobre o exame do corpo de delito, perícias em geral e aspectos processuais importantes para o concurso de Perito Digital da Polícia Federal, com base no Código de Processo Penal.
+
+Vamos começar entendendo o que é corpo de delito. Trata-se do conjunto de elementos materiais, ou vestígios, que comprovam a existência do crime. Segundo o artigo 158 do Código de Processo Penal, nos crimes que deixam vestígios, o exame de corpo de delito é indispensável. Esse exame pode ser direto ou indireto e, importante destacar, não pode ser substituído por confissão do acusado. Isso significa que mesmo que o réu admita a autoria, o exame deve ser realizado para comprovar a materialidade do delito.
+
+O exame direto ocorre quando os peritos analisam diretamente o corpo da vítima, o objeto ou o local do crime. Já o exame indireto é feito com base em documentos, testemunhas, vídeos ou laudos anteriores, quando os vestígios não estão mais disponíveis para análise direta.
+
+Vale lembrar que a ausência do exame de corpo de delito, em crimes que deixam vestígios, sem uma justificativa legal, acarreta nulidade absoluta do processo, conforme o artigo 564, inciso III, alínea “b”, do Código de Processo Penal. Por isso, é um ponto que cai com muita frequência nas provas e merece total atenção.
+
+Agora, sobre as regras da perícia criminal. A perícia está regulada nos artigos 159 a 184 do Código de Processo Penal e deve ser realizada preferencialmente por peritos oficiais. Na falta desses, o exame pode ser feito por duas pessoas idôneas, com nível superior e diploma reconhecido na área pertinente.
+
+O laudo pericial elaborado deve conter uma descrição detalhada do exame, a metodologia aplicada, os resultados obtidos e a conclusão dos peritos. Quando surgem dúvidas, insuficiências ou contradições no laudo, pode ser determinada uma perícia complementar para esclarecer os pontos obscuros.
+
+A requisição da perícia pode ser feita por autoridade policial, juiz ou Ministério Público. O laudo deve ser concluído no prazo de até dez dias, podendo esse prazo ser prorrogado. Além disso, o perito pode ser questionado em audiência, sendo obrigado a esclarecer eventuais omissões ou dúvidas.
+
+Um conceito fundamental recente é o da cadeia de custódia, introduzido pela Lei nº 13.964 de 2019, o chamado “Pacote Anticrime”. A cadeia de custódia é uma sequência rigorosa de procedimentos para garantir a integridade e autenticidade dos vestígios coletados. Ela inclui desde o reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento até o descarte dos vestígios.
+
+A jurisprudência do Superior Tribunal de Justiça estabelece que a ausência da cadeia de custódia pode gerar nulidade da prova, caso haja prejuízo comprovado. Também é importante destacar que a confissão do acusado não substitui o exame de corpo de delito, conforme Súmula 361 do Supremo Tribunal Federal.
+
+No que se refere à diferença entre prova testemunhal e prova pericial, a testemunhal pode suprir a falta do exame de corpo de delito apenas quando os vestígios materiais tiverem desaparecido. Se os vestígios ainda estiverem disponíveis, a perícia é obrigatória e não pode ser substituída por depoimentos ou outros meios. O exame indireto, por sua vez, deve ser devidamente justificado e fundamentado nos autos para ser aceito.
+
+Quanto à aplicação do direito penal, a perícia é essencial para comprovar a materialidade do crime, como em casos de lesão corporal, homicídio ou falsidade documental. Além disso, a perícia ajuda a qualificar a conduta criminosa, por exemplo, quando se verifica crueldade ou o uso de meio insidioso. Também pode ser decisiva para identificar causas que excluem a ilicitude ou a culpabilidade, como nos exames de sanidade mental.
+
+Um ponto importante para a banca Cebraspe é a literalidade dos dispositivos legais e a análise minuciosa dos enunciados das questões, que frequentemente alteram uma ou duas palavras-chave para confundir. Por exemplo, uma frase falsa comum nas provas é: “Nos crimes que deixam vestígios, a confissão do acusado pode suprir a falta de exame de corpo de delito.” Essa afirmativa é falsa, pois a perícia é obrigatória independentemente da confissão.
+
+Por fim, para se destacar no concurso, é fundamental memorizar os artigos 158 a 184 do Código de Processo Penal, que regulam o exame do corpo de delito e a perícia criminal. Saber quem pode requisitar a perícia, entender o papel do laudo e a importância da cadeia de custódia são diferenciais para o candidato.
+
+Estude esses conceitos, revise as jurisprudências e pratique bastante para internalizar o conteúdo. A perícia e o exame de corpo de delito são temas que aparecem de forma direta e literal nas provas da Polícia Federal.

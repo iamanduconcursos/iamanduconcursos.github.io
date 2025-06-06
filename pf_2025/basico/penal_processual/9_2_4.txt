@@ -1,0 +1,45 @@
+Cadeia de Custódia da Prova – Atores Envolvidos
+
+Vamos conversar sobre os atores envolvidos na cadeia de custódia da prova, um tema fundamental para quem vai prestar o concurso de Perito Digital da Polícia Federal, na disciplina de Direito Penal e Processual Penal, com banca CEBRASPE.
+
+A cadeia de custódia é o conjunto de procedimentos que garantem a integridade e a autenticidade dos vestígios, ou seja, das provas materiais, desde a sua coleta até a análise e o descarte. Essa previsão está no Código de Processo Penal, entre os artigos 158-A e 158-F, incluídos pela Lei 13.964, de 2019, conhecida como Pacote Anticrime.
+
+É importante entender que a cadeia de custódia envolve uma série de agentes, públicos e privados, que em algum momento têm contato ou responsabilidade sobre esses vestígios. Cada etapa desse processo deve ser rigorosamente documentada para evitar que as provas sejam consideradas nulas em um processo judicial.
+
+Vamos conhecer quem são esses atores e quais são suas funções.
+
+O primeiro e principal ator é o Perito Criminal Oficial. Ele é o profissional técnico responsável pela coleta das provas, pela sua análise detalhada e pela elaboração do laudo pericial. O perito é o agente técnico por excelência, que conduz o exame científico do vestígio.
+
+Em segundo lugar, temos o Policial Judiciário ou Investigador. Esse profissional tem como responsabilidade o reconhecimento do local do crime, o isolamento e a proteção da cena e dos vestígios, garantindo que não haja contaminação até a chegada do perito.
+
+O Delegado de Polícia é a autoridade requisitante da perícia. Ele deve garantir que todo o procedimento da cadeia de custódia seja respeitado, acompanhando o cumprimento das etapas para evitar que haja qualquer quebra nessa cadeia.
+
+Também estão envolvidos os Agentes de Custódia ou Transporte, que são os responsáveis por transportar os vestígios do local da coleta até os laboratórios ou locais de armazenamento, mantendo a integridade dos materiais e documentando todo o trajeto realizado.
+
+No laboratório, os Laboratoristas e Técnicos Forenses analisam e processam as provas, observando as normas técnicas e respeitando sempre a cadeia de custódia para que não haja questionamento da autenticidade da prova.
+
+Por fim, o Servidor Público responsável pelo armazenamento guarda os vestígios até seu descarte ou uso em juízo. Ele também controla o acesso e registra todas as movimentações do material enquanto ele estiver sob sua custódia.
+
+É essencial saber que qualquer falha na documentação da transferência do vestígio entre esses atores pode comprometer a prova, causando possível nulidade do processo. A jurisprudência do Superior Tribunal de Justiça reforça que a ausência de registro detalhado pode levar à exclusão da prova, especialmente quando há prejuízo à defesa, como destaca o Habeas Corpus 499.214 do estado de São Paulo.
+
+Vamos revisar as responsabilidades chaves de cada ator para fixar bem o conteúdo:
+
+O Perito deve cumprir rigorosamente as técnicas de coleta, acondicionamento e análise da prova, além de registrar toda movimentação do vestígio.
+
+O Policial precisa preservar o local do crime, evitar contatos indevidos e garantir o isolamento da área.
+
+O Delegado deve requisitar formalmente a perícia, acompanhar seu cumprimento e assegurar que não haja quebra na cadeia.
+
+Os agentes de Transporte devem garantir que o material não seja adulterado, extraviado ou contaminado durante o trajeto.
+
+No Laboratório, é necessário controlar rigorosamente o acesso e a análise, emitindo um laudo claro e fundamentado.
+
+O responsável pelo Arquivo ou Guarda deve guardar e controlar o acesso às provas até a decisão final judicial.
+
+Algumas palavras e conceitos-chave para você focar são: vestígio — que é a prova material coletada no local do crime; documentação — que é o registro formal de cada transferência; isolamento e proteção do local, tarefas típicas da polícia; perito oficial, que é responsável pela perícia técnica e pelo laudo; transporte e armazenamento, que devem garantir a integridade física e documental dos vestígios; e o registro de custódia, que pode ser um livro, sistema ou termo que documenta todo o trajeto da prova.
+
+Uma pegadinha comum em provas da banca CEBRASPE é afirmar que “somente o perito é responsável pela cadeia de custódia”. Essa afirmação é falsa. Todos que manipulam o vestígio têm responsabilidade e devem registrar todas as movimentações.
+
+Por isso, na hora da prova, lembre-se de nomear corretamente cada ator e suas funções, destacando que a cadeia de custódia é uma responsabilidade compartilhada e documentada entre todos os envolvidos.
+
+Estudando com atenção esses conceitos, você estará preparado para garantir a validade das provas materiais e digitais e para ser um perito que respeita rigorosamente todos os trâmites legais.

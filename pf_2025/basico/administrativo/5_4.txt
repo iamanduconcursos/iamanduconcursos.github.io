@@ -1,0 +1,47 @@
+Noções de Direito Administrativo — Licitação: Tipos Principais
+
+Vamos falar agora sobre licitação, um tema essencial em Direito Administrativo e bastante cobrado no concurso de Perito Digital da Polícia Federal.
+
+A licitação é o procedimento que a Administração Pública deve seguir para contratar obras, serviços, compras ou alienações. Ela está prevista principalmente em duas leis: a antiga Lei nº 8.666 de 1993, e a nova Lei nº 14.133, sancionada em 2021. Ambas tratam das regras para garantir transparência, legalidade e eficiência nas contratações públicas.
+
+É fundamental conhecer bem as características e diferenças entre os tipos de licitação, especialmente para responder às questões da banca CEBRASPE, que costuma cobrar o reconhecimento correto da modalidade adequada conforme a situação.
+
+Começando pelos tipos clássicos previstos na Lei 8.666, temos:
+
+Concorrência: é uma modalidade ampla e aberta a qualquer interessado que cumpra os requisitos do edital. Ela é usada para contratos mais complexos e de maior vulto, como grandes obras e serviços.
+
+Tomada de Preços: essa modalidade é restrita a interessados que estejam previamente cadastrados ou que comprovem capacidade jurídica, técnica e financeira. É adequada para contratações de valores médios, entre o pequeno e o grande porte.
+
+Convite: procedimento simplificado para contratos de menor valor. Aqui, pelo menos três interessados são convidados para apresentar suas propostas, o que torna o processo mais rápido e menos formal.
+
+Concurso: destinado à escolha de trabalhos técnicos, científicos ou artísticos, mediante julgamento por comissão especializada.
+
+Leilão: voltado para a venda de bens móveis inservíveis ou produtos legalmente apreendidos.
+
+Agora, com a nova Lei 14.133, surgiram algumas novidades e ajustes importantes:
+
+O pregão se tornou modalidade preferencial para aquisição de bens e serviços comuns, aqueles com especificações usuais no mercado. Ele ocorre em sessão pública, que pode ser presencial ou eletrônica, e envolve disputa por lances, o que torna o processo mais ágil.
+
+A concorrência, o concurso e o leilão foram mantidos com suas características tradicionais.
+
+Uma modalidade nova chamada diálogo competitivo foi criada para contratações complexas, nas quais a Administração dialoga com os licitantes para desenvolver soluções inovadoras, antes da apresentação das propostas finais.
+
+Para entender melhor como aplicar essas modalidades na prática, veja as características principais de cada tipo:
+
+A concorrência é a modalidade mais aberta e formal, com ampla publicidade e transparência, indicada para contratos grandes e complexos.
+
+A tomada de preços é mais célere que a concorrência, destinada a contratos de médio valor, com participação restrita a cadastrados ou qualificados.
+
+O convite é simples e rápido, para contratos de menor valor, com pelo menos três convidados.
+
+O pregão é usado para aquisição de bens e serviços comuns, e se destaca pela disputa por lances, proporcionando maior agilidade ao processo.
+
+O concurso seleciona trabalhos técnicos ou artísticos, julgados por comissão especializada.
+
+O leilão destina-se à venda pública de bens móveis e imóveis inservíveis ou apreendidos.
+
+O diálogo competitivo é uma modalidade inovadora, indicada para contratações complexas e inovadoras, onde os licitantes participam ativamente da elaboração da solução.
+
+Para gabaritar nas provas do concurso de Perito Digital, especialmente na banca CEBRASPE, é essencial sempre associar o tipo de licitação ao valor, ao objeto da contratação e à sua complexidade. Atenção especial às modalidades da nova lei, que podem ser cobradas em conjunto com as regras tradicionais.
+
+Em resumo, dominar os tipos de licitação e suas características vai te ajudar a resolver com confiança qualquer questão de Direito Administrativo nesse tema.

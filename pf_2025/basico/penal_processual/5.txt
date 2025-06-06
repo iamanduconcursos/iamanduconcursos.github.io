@@ -1,0 +1,71 @@
+Crimes contra o Patrimônio e Processo Penal – Perito Digital PF
+
+Vamos revisar agora um conteúdo essencial para o concurso de Perito da Polícia Federal: os crimes contra o patrimônio, além de alguns pontos-chave do processo penal. Este é um dos blocos que a banca CEBRASPE costuma cobrar com bastante profundidade, especialmente com foco em interpretação literal dos tipos penais, e distinção clara entre crimes com características semelhantes.
+
+Comecemos pelo conceito geral.
+
+Os crimes contra o patrimônio estão previstos no Título II do Código Penal, abrangendo os artigos 155 a 183. Eles protegem, como o nome indica, o bem jurídico patrimônio.
+
+Em regra, são crimes comuns — ou seja, podem ser praticados por qualquer pessoa — e materiais, o que significa que exigem resultado. Não basta a tentativa: é preciso que a ação cause efetiva subtração, dano ou prejuízo ao patrimônio.
+
+Agora, vamos nos aprofundar nos principais crimes contra o patrimônio, especialmente aqueles que a CEBRASPE mais gosta de cobrar.
+
+Primeiro, o furto, previsto no artigo 155 do Código Penal. O furto ocorre quando alguém subtrai, para si ou para outrem, coisa alheia móvel. Não há uso de violência ou ameaça — apenas a retirada do bem.
+
+O furto qualificado ocorre quando há rompimento de obstáculo, abuso de confiança, concurso de pessoas, entre outros agravantes. Já o furto privilegiado se aplica ao réu primário, em caso de coisa de pequeno valor — e pode ter a pena reduzida ou substituída.
+
+Agora o roubo, artigo 157. O roubo também é subtração de coisa alheia móvel, mas aqui há um diferencial importantíssimo: ele é cometido mediante violência ou grave ameaça à pessoa. O uso da força é o que transforma um furto em roubo.
+
+Existe ainda o roubo impróprio, quando o agente já realizou a subtração, mas usa de violência ou ameaça para assegurar a impunidade do crime ou manter a posse do objeto.
+
+Além disso, o artigo 157 prevê formas equiparadas de roubo, como o uso de arma de fogo, o concurso de pessoas, a restrição da liberdade da vítima, lesão grave e até a morte — nesse último caso, temos o latrocínio.
+
+Extorsão, artigo 158, é outro crime muito cobrado. Aqui, o agente constrange a vítima mediante violência ou grave ameaça, com o objetivo de obter vantagem econômica indevida. É um crime que envolve a participação ativa da vítima no ato de entrega do bem, diferentemente do roubo.
+
+Dentro da extorsão, destaca-se a extorsão mediante sequestro, prevista no artigo 159 — trata-se de um crime hediondo, com penas severas e tratamento mais rígido em diversas fases do processo.
+
+O estelionato, previsto no artigo 171, é a obtenção de vantagem ilícita mediante fraude. O agente induz alguém a erro, usando artifício, ardil ou qualquer meio fraudulento. E atenção: o pacote anticrime alterou a natureza da ação penal neste tipo. Agora, em regra, é necessária a representação da vítima para que o Ministério Público possa atuar.
+
+O crime de dano, artigo 163, é a destruição, inutilização ou deterioração de coisa alheia. A versão qualificada do dano ocorre, por exemplo, quando o crime é cometido com substância inflamável, por motivo egoístico ou contra patrimônio público.
+
+Fique atento a esta dica crucial para provas da CEBRASPE: saiba diferenciar furto de roubo, e extorsão de estelionato. O uso da violência é o marco divisor entre furto e roubo. A participação da vítima na entrega do bem diferencia roubo de extorsão. E no estelionato, a vítima age voluntariamente, mas enganada por fraude.
+
+Vamos agora a pontos importantes de Direito Processual Penal.
+
+A regra geral é que os crimes são processados por ação penal pública incondicionada. Isso significa que o Estado pode agir independentemente da vontade da vítima.
+
+Mas há exceções, como o estelionato, que agora exige representação da vítima, e os crimes contra a honra, que, em regra, dependem de ação penal privada.
+
+Sobre o inquérito policial: é um procedimento investigativo, de natureza inquisitiva, sigilosa e escrita, presidido pela autoridade policial. O prazo do inquérito é de 10 dias se o investigado estiver preso, ou 30 dias se estiver solto, podendo ser prorrogado.
+
+As prisões cautelares também são frequentemente abordadas. A prisão em flagrante ocorre logo após o cometimento do crime, com ou sem perseguição.
+
+Já a prisão preventiva é usada como medida cautelar, quando houver necessidade de garantir a ordem pública, a instrução processual, ou assegurar a aplicação da lei penal. Ela exige os requisitos do artigo 312 do Código de Processo Penal.
+
+A prisão temporária, por sua vez, é uma prisão com prazo determinado, aplicada em casos de crimes graves como extorsão ou roubo, conforme a Lei 7.960 de 1989.
+
+Sobre provas, destacam-se: busca e apreensão, interceptações telefônicas — reguladas pela Lei 9.296 de 1996 — depoimentos e perícias. A prova ilicitamente obtida é inadmissível, salvo se houver possibilidade de sua purificação, ou se for derivada de uma fonte lícita.
+
+Quanto aos procedimentos penais, é importante lembrar:
+
+– O procedimento ordinário é usado quando a pena máxima ultrapassa 4 anos.
+– O sumário se aplica quando a pena máxima é entre 2 e 4 anos.
+– E o rito especial vale para situações específicas: como o tribunal do júri, crimes hediondos, ou tráfico de drogas.
+
+E agora, um alerta sobre pegadinhas comuns em prova:
+
+– Muitos candidatos confundem prisão preventiva com temporária — cuidado!
+– Esquecem os prazos do inquérito policial: 10 dias para preso, 30 para solto.
+– Ignoram que a extorsão mediante sequestro é crime hediondo, conforme a Lei 8.072 de 1990.
+
+E para finalizar, vamos com uma estratégia de revisão final.
+
+Decore os tipos penais mais cobrados, com foco nas diferenças conceituais e elementos subjetivos de cada um.
+
+Resolva questões anteriores da Polícia Federal e da CEBRASPE — especialmente as que misturam Direito Penal com Processo Penal.
+
+E mantenha-se atualizado com jurisprudências recentes do STF e do STJ — com atenção especial aos informativos mais relevantes.
+
+Lembre-se: conhecimento técnico, estratégia e repetição são o tripé da aprovação.
+
+Você está cada vez mais próximo da sua vaga como Perito Digital da Polícia Federal. Foque, revise, pratique — e avance com confiança.

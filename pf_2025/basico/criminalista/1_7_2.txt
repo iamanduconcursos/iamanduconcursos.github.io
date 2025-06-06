@@ -1,0 +1,31 @@
+Vamos conversar sobre um dos temas fundamentais no estudo da Criminalística para o concurso de Perito Digital da Polícia Federal: a fotografia pericial.
+
+A fotografia pericial é muito mais do que simplesmente tirar fotos de um local de crime. Ela é, essencialmente, o registro técnico, fiel e documentado do ambiente, dos corpos, dos vestígios e dos objetos relacionados à cena do crime. Ela serve como uma forma de prova. Uma prova visual e técnica, indispensável para a reconstrução dos fatos no processo penal.
+
+Pense na fotografia pericial como os olhos da perícia dentro de um tribunal. Ela registra aquilo que o perito viu, com precisão e sem espaço para distorções. Esse tipo de fotografia é utilizado desde o momento da preservação da cena, passando pelo exame minucioso, até a elaboração final do laudo pericial.
+
+E como ela deve ser feita?
+
+A fotografia pericial segue princípios rígidos. O primeiro deles é a fidelidade. A imagem deve ser uma representação objetiva da realidade, sem qualquer tipo de manipulação digital. O segundo princípio é a sequência lógica: a documentação deve contar a história da cena do crime em etapas visuais, indo do plano geral, passando pelo plano médio, até chegar aos detalhes. É o famoso “do todo ao particular”.
+
+Outro ponto é a exatidão técnica. Isso significa usar corretamente o foco, a nitidez, a iluminação e, sempre que necessário, escalas métricas para demonstrar o tamanho real dos objetos. E por fim, temos a documentação perene — ou seja, o registro deve ser permanente, sem possibilidade de alteração posterior.
+
+Aqui vai uma dica importante para provas da banca CEBRASPE: cuidado com pegadinhas sobre edição ou retoque de imagens. Jamais deve haver qualquer alteração digital nas fotos periciais. A integridade da imagem é sagrada nesse contexto.
+
+Agora vamos às técnicas utilizadas.
+
+Começamos com a fotografia panorâmica, ou geral. Ela oferece uma visão ampla da cena, permitindo visualizar o local como um todo. Depois, a fotografia média, que foca em áreas específicas, revelando a disposição de corpos, objetos e outros elementos. Em seguida, vem a fotografia de detalhe, concentrando-se em vestígios específicos. Esse tipo de fotografia deve, obrigatoriamente, incluir uma escala métrica para validação de medidas.
+
+Existe também a fotografia com luz forense, que utiliza fontes de luz como ultravioleta ou infravermelho. Esse tipo de técnica revela vestígios invisíveis a olho nu, como manchas de sangue ou fluidos biológicos. E não podemos esquecer da fotografia comparativa, fundamental para análise de marcas, impressões digitais ou balística.
+
+Quanto aos equipamentos, o uso ideal é de câmeras DSLR, que permitem controle total sobre ISO, abertura e tempo de exposição. Em locais escuros, o uso de tripé é indispensável para evitar borrões. Escalas fotográficas também são obrigatórias — de preferência milimetradas e com bom contraste.
+
+E atenção: toda imagem deve ser devidamente identificada com número da foto, data, hora, local e nome do perito responsável. Essa identificação garante a rastreabilidade e ajuda na cadeia de custódia, mantendo a validade da prova.
+
+E o que costuma cair em prova?
+
+Fique atento aos seguintes pontos: a função da fotografia como prova técnica; a sequência correta das fotos, sempre do geral ao detalhe; os requisitos para que a fotografia tenha validade jurídica, como clareza, nitidez, presença de escala e ausência de edição. A diferença entre fotografia criminal e forense também pode aparecer. Além disso, é comum a cobrança de conceitos de iluminação, ângulo, foco e profundidade de campo.
+
+E por fim, lembre-se: a fotografia pericial integra o laudo oficial, tem valor jurídico e pode ser confrontada em tribunal. Portanto, ela deve ser feita com rigor técnico e absoluto compromisso com a verdade.
+
+Esse foi o conteúdo essencial sobre Fotografia Pericial na Criminalística, direcionado ao concurso de Perito Digital da Polícia Federal. Continue ouvindo, revisando e reforçando esse conhecimento!

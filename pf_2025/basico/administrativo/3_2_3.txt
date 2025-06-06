@@ -1,0 +1,53 @@
+Vamos revisar agora um dos pontos mais cobrados pela banca CEBRASPE em provas de concursos públicos: a diferença entre cargo público, emprego público e função pública. Esse é um tema que costuma aparecer de forma bastante sutil, por isso, é fundamental entender bem cada conceito.
+
+Começamos com a contextualização geral. No Direito Administrativo, esses três institutos – o cargo, o emprego e a função – são formas distintas de vínculo ou atuação na Administração Pública. Embora às vezes usados como sinônimos na linguagem comum, eles têm significados jurídicos próprios.
+
+Vamos ao primeiro deles: o cargo público.
+
+Cargo público é uma posição formal e permanente dentro da estrutura da Administração. Ele é ocupado por servidor estatutário, ou seja, alguém que se vincula ao Estado por meio de um regime jurídico próprio — por exemplo, a Lei 8.112 de 1990, que rege os servidores públicos federais. Quem ocupa cargo público geralmente ingressa por concurso e, após o estágio probatório, adquire estabilidade, uma proteção contra demissão arbitrária.
+
+O cargo traz consigo um conjunto de atribuições e responsabilidades previstas em lei, e é sempre vinculado a uma estrutura organizacional fixa. Por exemplo, o cargo de Analista de Polícia Federal ou de Técnico Administrativo.
+
+Agora falemos do emprego público.
+
+Diferente do cargo, o emprego público é regido pela CLT, a Consolidação das Leis do Trabalho. A pessoa que ocupa um emprego público é chamada de empregado público, e não servidor estatutário. Esse vínculo é de natureza contratual e tem regras semelhantes às da iniciativa privada, embora existam peculiaridades por se tratar de trabalho para a Administração Pública.
+
+O ingresso geralmente ocorre por concurso ou processo seletivo, e o trabalhador também presta serviço ao Estado — mas, atenção: ele não adquire estabilidade, porque essa é uma característica exclusiva do cargo estatutário. Exemplos clássicos de emprego público são os trabalhadores da Caixa Econômica Federal, da Petrobras e dos Correios, que são empresas públicas ou sociedades de economia mista.
+
+E por fim, temos a função pública.
+
+A função é um conceito mais amplo e flexível. Trata-se do exercício de uma determinada atividade ou atribuição, que pode ser permanente ou temporária, mas que não necessariamente gera um vínculo formal com o Estado. A função pode ser exercida por alguém que já ocupa um cargo ou emprego, mas também por pessoas nomeadas ou designadas para atuar em situações específicas.
+
+Por exemplo, quando um servidor é designado para exercer uma função de chefia, ele passa a desempenhar uma função de confiança. Também temos funções delegadas a particulares, como no caso de delegatários de serviços notariais e de registro. Nesses casos, a pessoa exerce uma função pública, mas não é servidor nem empregado público.
+
+Ou seja, a função pública pode ser exercida por alguém que tem vínculo — mas também pode ser exercida por quem não tem. Por isso, dizemos que função pública não gera vínculo, mas representa o exercício de atribuições do Estado.
+
+Vamos revisar agora os principais pontos de comparação entre os três:
+
+- Natureza jurídica: o cargo público tem natureza permanente e estável; o emprego público é uma relação celetista; já a função pública representa o exercício de uma atividade, com ou sem vínculo formal.
+
+- Regime jurídico: no cargo, o regime é estatutário; no emprego, celetista; e na função, depende do vínculo da pessoa que a exerce.
+
+- Forma de ingresso: para ocupar um cargo, é preciso passar por concurso público; para o emprego, concurso ou processo seletivo, conforme a legislação; e para a função, pode haver nomeação, designação ou até delegação.
+
+- Vínculo com a Administração: tanto o cargo quanto o emprego geram vínculo formal. Já a função pode ser exercida por alguém com ou sem vínculo.
+
+- Estabilidade: somente os ocupantes de cargos públicos podem adquirir estabilidade, e isso ocorre após o estágio probatório. Empregados públicos e os que exercem apenas funções não têm esse direito.
+
+Agora uma dica de ouro para a sua prova:
+
+A banca CEBRASPE adora confundir esses conceitos em alternativas aparentemente corretas. Por exemplo, ela pode afirmar que o empregado público tem estabilidade — o que está errado. Ou ainda que o particular que exerce função pública tem vínculo com o Estado — o que também pode ser falso, dependendo do caso.
+
+Também caem muitas questões sobre o regime aplicável: lembre-se de que servidor público estatutário está ligado ao cargo, empregado público à CLT, e função pública pode ser exercida sob qualquer um desses regimes, ou até sem vínculo permanente.
+
+Vamos recapitular para fixar:
+
+- Cargo público: é permanente, estatutário, exige concurso e permite estabilidade.
+- Emprego público: é contratual, celetista, também exige seleção, mas não gera estabilidade.
+- Função pública: é o exercício da atividade, podendo ser desempenhada por qualquer pessoa autorizada pela Administração, com ou sem vínculo formal.
+
+Dominar essas diferenças é essencial para evitar erros nas provas objetivas, principalmente nas armadilhas conceituais criadas pela banca.
+
+Continue praticando com questões anteriores da CEBRASPE e fique atento às palavras-chave: vínculo, estabilidade, regime jurídico e forma de ingresso.
+
+Com isso, você estará mais preparado para gabaritar esse tema.

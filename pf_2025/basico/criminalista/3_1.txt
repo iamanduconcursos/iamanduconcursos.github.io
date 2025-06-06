@@ -1,0 +1,51 @@
+Vamos iniciar nossa revisão falando sobre o conceito de local de crime, um tema fundamental para o concurso de Perito Criminal Federal, área Digital, sob a banca CEBRASPE.
+
+O local de crime é definido como todo ambiente onde ocorreu a prática de um fato delituoso ou que tenha relação direta com ele. Ou seja, é o espaço que pode conter vestígios materiais, importantes e relevantes para a investigação. Esses vestígios são as provas que ajudarão a esclarecer o que aconteceu.
+
+É importante entender que o local de crime pode ser classificado de várias formas. Pode ser um local fixo, como uma casa ou um quarto, ou móvel, como um veículo em movimento. Pode ser um espaço fechado, como uma sala, ou aberto, como um terreno. Também pode ser natural, como uma floresta, ou artificial, construído pelo homem, desde que contenha vestígios que tenham relação com o crime.
+
+Agora, vamos às classificações mais utilizadas:
+
+Primeiro, o Local Imediato é o lugar onde o crime ocorreu diretamente. Por exemplo, no caso de um homicídio, seria o quarto onde o fato aconteceu.
+
+Segundo, o Local Mediato são locais ligados ao crime, mas que não foram palco direto da ação. Um exemplo é o local onde o corpo foi ocultado depois do crime.
+
+Por fim, o Local Relacionado é qualquer outro espaço que possa ajudar a esclarecer os fatos. Pode ser a casa do suspeito, um veículo utilizado na ação ou até um local onde objetos foram descartados.
+
+Compreender essas classificações é essencial para organizar e direcionar a perícia, garantindo que todas as possíveis fontes de vestígios sejam devidamente investigadas.
+
+Falando em perícia, o local de crime possui funções muito claras e importantes:
+
+Primeiro, ele deve preservar os vestígios materiais, que são as evidências físicas deixadas no local.
+
+Segundo, o local permite a reconstrução da dinâmica do crime, ou seja, entender como os fatos se desenrolaram.
+
+E terceiro, o local orienta toda a atuação da perícia e da investigação, servindo como base para o trabalho dos profissionais envolvidos.
+
+Vale destacar um ponto crucial: o local de crime é considerado um "testemunho mudo" dos fatos. Por isso, deve ser preservado cuidadosamente até a realização do exame pericial. Isso significa que qualquer alteração no local pode comprometer as provas e prejudicar a investigação.
+
+Do ponto de vista legal, o artigo 6º do Código de Processo Penal determina que a autoridade policial deve preservar o local do crime, evitando qualquer alteração do estado original e a conservação das coisas encontradas.
+
+Além disso, existem normas técnicas que regulamentam os procedimentos de preservação e análise do local, como a Resolução nº 13 de 2017 do Ministério da Justiça, que estabelece padrões para perícia oficial criminal, e a Norma ABNT NBR ISO/IEC 27037, que trata especificamente dos locais com evidências digitais, fundamental para a área digital.
+
+Mas atenção, no local de crime não se deve alterar objetos de lugar sem justificativa técnica, não se deve permitir o acesso de pessoas não autorizadas e muito menos contaminar ou descartar vestígios sem a devida documentação.
+
+Esses cuidados são essenciais para garantir a integridade da prova e a validade do laudo pericial.
+
+Para fixar, aqui vai um resumo direto para a prova: O local de crime é o espaço que contém vestígios relacionados ao delito e deve ser preservado conforme o artigo 6º do Código de Processo Penal. Pode ser classificado como imediato, mediato ou relacionado. O zelo pelo local é fundamental para manter a integridade da prova e garantir que o trabalho do perito seja eficaz.
+
+Um detalhe importante para o perfil da banca CEBRASPE: eles costumam usar afirmações que ressaltam que qualquer local que contenha vestígios, mesmo que o crime não tenha ocorrido ali, pode ser considerado local de crime. Essa afirmativa está correta.
+
+Finalmente, os tópicos que mais caem na prova sobre esse tema são:
+
+A definição e as classificações do local de crime.
+
+A importância da preservação do local.
+
+As funções e limitações da perícia no local.
+
+As consequências da contaminação dos vestígios.
+
+E a diferença entre local de crime e locais relacionados.
+
+Esse conteúdo é fundamental para sua preparação, pois cobre o essencial dos editais e das questões da banca.

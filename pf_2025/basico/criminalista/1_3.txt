@@ -1,0 +1,79 @@
+Neste capítulo, vamos tratar de três conceitos fundamentais da Criminalística: vestígio, evidência e indício. Esses termos aparecem com frequência em provas da banca CEBRASPE e são essenciais para a atuação do perito criminal. Entender a diferença entre eles é decisivo para acertar questões e, mais ainda, para aplicar corretamente os procedimentos técnicos no exercício do cargo.
+
+Comecemos pelo conceito de vestígio.
+
+Vestígio é todo e qualquer sinal, marca ou alteração perceptível deixada por uma ação ou por um fenômeno.
+Pode ser algo físico — como um fio de cabelo, uma impressão digital, uma mancha de sangue — ou pode ser algo imaterial, como um dado digital encontrado em um computador ou em um servidor.
+
+Em resumo: vestígio é tudo aquilo que pode indicar que um fato ocorreu.
+Ele é o ponto de partida da perícia. É o objeto direto do trabalho pericial.
+
+Mas atenção: vestígio não é sinônimo de evidência. Essa confusão é comum e é um tipo de pegadinha típica da banca. Vamos entender por quê.
+
+Quando um vestígio é corretamente identificado, documentado, coletado, armazenado, transportado e analisado, ele se transforma em uma evidência.
+
+Ou seja: evidência é o vestígio que foi tratado com base em protocolos técnico-científicos.
+Só quando o vestígio é submetido a esse processo, ele ganha valor probatório real, podendo ser usado como prova no processo penal.
+
+Importante reforçar: todo vestígio tem potencial de se tornar uma evidência, mas apenas se ele for manipulado corretamente — seguindo os procedimentos da cadeia de custódia.
+
+A cadeia de custódia é definida no Código de Processo Penal, mais especificamente no artigo 158-A, que foi inserido com o Pacote Anticrime.
+Ela corresponde ao conjunto de procedimentos que garante a integridade da evidência — desde o momento em que o vestígio é encontrado até sua eventual apresentação em juízo ou descarte.
+
+Esses procedimentos envolvem várias etapas:
+reconhecimento,
+isolamento,
+fixação,
+coleta,
+acondicionamento,
+transporte,
+recebimento,
+processamento,
+armazenamento
+e, por fim, descarte.
+
+Se qualquer etapa dessa cadeia for comprometida, a evidência pode ser considerada inválida.
+E isso pode prejudicar todo o processo.
+
+Agora, sigamos para o terceiro conceito: o indício.
+
+Indício é um sinal indireto. Ele não prova nada por si só, mas aponta para a possibilidade de um fato ter ocorrido.
+
+É, portanto, uma inferência.
+O perito, a partir da análise lógica ou técnica de uma ou mais evidências, chega a uma conclusão plausível.
+Essa conclusão é o indício.
+
+Um exemplo simples: imagine que há um rastro de pneus que sai do local de um assalto e termina na garagem da casa de um suspeito.
+Esse rastro, isoladamente, não comprova que o suspeito cometeu o crime.
+Mas ele é um indício, uma informação que, junto a outras, pode formar a convicção do juiz ou do investigador.
+
+Para recapitular a relação entre os três conceitos:
+
+Primeiro temos o vestígio, que é a marca deixada no local — ainda bruta, não processada.
+
+Depois, se esse vestígio for adequadamente trabalhado, ele se transforma em evidência — que é válida como prova judicial.
+
+Por fim, quando analisamos essas evidências e extraímos conclusões, temos os indícios, que são peças interpretativas na investigação.
+
+Essa sequência pode ser descrita da seguinte forma:
+
+Vestígio → tratado tecnicamente → Evidência → analisada e interpretada → Indício.
+
+É fundamental memorizar essa lógica para responder com segurança às questões do concurso.
+
+Agora, um resumo comparativo para reforçar a memorização:
+
+Vestígio é qualquer alteração perceptível deixada pelo crime.
+Exemplos: sangue, pegadas, fios de cabelo, fragmento de tecido, dados digitais.
+
+Evidência é o vestígio que passou por análise pericial dentro da cadeia de custódia.
+Exemplo: um DNA extraído corretamente de uma amostra de sangue.
+
+Indício é a conclusão inferida a partir da análise da evidência.
+Exemplo: deduzir que uma pessoa esteve na cena do crime com base no padrão da sola do sapato encontrado.
+
+Lembre-se: o vestígio vem primeiro, a evidência é o vestígio processado, e o indício é a interpretação da evidência.
+
+A CEBRASPE costuma explorar esse encadeamento, especialmente com perguntas de múltipla escolha que confundem os termos ou exigem o entendimento da cadeia de custódia.
+
+Portanto, memorize essa relação com clareza.

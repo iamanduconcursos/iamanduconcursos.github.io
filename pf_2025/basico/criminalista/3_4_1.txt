@@ -1,0 +1,27 @@
+Vamos falar agora sobre a busca de vestígios, uma etapa fundamental do exame pericial que está sempre presente no trabalho do Perito Criminal Federal, especialmente na área digital, e que a banca CEBRASPE valoriza bastante.
+
+A busca de vestígios consiste em uma varredura sistemática realizada no local de crime com o objetivo de localizar, identificar e preservar vestígios físicos relacionados ao fato investigado. Ou seja, é o momento em que o perito examina cuidadosamente o ambiente para encontrar elementos que possam esclarecer o que aconteceu.
+
+Os objetivos principais dessa busca são três: primeiro, encontrar elementos materiais que possam ser analisados tecnicamente; segundo, estabelecer conexões entre autores, vítimas e os instrumentos usados no crime; e terceiro, reconstruir a dinâmica dos fatos, ou seja, entender como o crime se desenvolveu.
+
+Para garantir que a busca seja eficiente e que as provas sejam preservadas corretamente, alguns princípios fundamentais devem ser seguidos. O primeiro deles é o Princípio de Locard, que diz que “todo contato deixa uma marca”. Isso significa que, sempre que alguém entra em contato com algo, há uma troca de vestígios, e essa troca pode ser usada como prova.
+
+O segundo princípio é o da observação metódica, que exige que o perito realize o exame de forma organizada, cuidadosa e sistemática, evitando a perda ou contaminação dos vestígios.
+
+O terceiro é o princípio da sequência lógica, que orienta o perito a iniciar a busca pela área mais ampla do local e avançar progressivamente para as áreas mais específicas e detalhadas. Essa ordem ajuda a garantir que nada seja deixado para trás.
+
+Existem diversas técnicas e métodos para realizar a busca de vestígios. Entre as mais usadas estão a busca em espiral, que começa do ponto central do local e avança em círculos para as bordas; a busca em quadrantes, que divide o local em setores para um exame detalhado; a busca em linha ou faixa, onde os peritos se deslocam paralelamente cobrindo toda a área; e a busca em grade, que consiste no cruzamento dessas faixas para uma análise ainda mais precisa.
+
+A escolha da técnica adequada depende do tipo de crime investigado, do local — se é fechado ou aberto — da quantidade de vestígios que se espera encontrar, e da equipe disponível para realizar a busca.
+
+Quanto aos tipos de vestígios que podem ser encontrados, eles são variados. Podemos ter vestígios biológicos, como sangue, sêmen, saliva e pelos; vestígios digitais, que envolvem dispositivos eletrônicos, mídias removíveis e registros de logs; vestígios morfológicos, como impressões digitais, pegadas e marcas de ferramentas; vestígios químicos, que incluem resíduos de pólvora e drogas; e vestígios documentais, como anotações, mensagens e contratos.
+
+Um ponto crucial durante toda a busca é a preservação da cadeia de custódia. Isso significa que cada vestígio encontrado deve ser documentado, fotografado, rotulado e coletado seguindo protocolos rigorosos. Todo manuseio precisa ser registrado, garantindo rastreabilidade desde a coleta até o laudo final, para que a prova tenha validade jurídica.
+
+Um alerta importante para quem vai prestar concurso: a busca de vestígios é uma atividade exclusiva do perito criminal, que deve atuar de acordo com os protocolos estabelecidos, como a Resolução 13 de 2017 e o artigo 6º do Código de Processo Penal. Qualquer violação do local sem o devido cuidado e autorização pode invalidar as provas.
+
+Para fixar o conteúdo, lembre-se que a busca de vestígios é uma etapa essencial no processamento do local de crime. Deve ser conduzida de forma metódica, respeitando a cadeia de custódia e priorizando a integridade dos vestígios. As técnicas como espiral, quadrantes e faixas garantem que a coleta seja eficaz e completa.
+
+Na preparação para o concurso, os temas que mais caem sobre busca de vestígios envolvem a definição e etapas desse processo, as técnicas de varredura, a aplicação do princípio da troca de Locard, a importância da preservação do local e da cadeia de custódia, e a diferenciação entre os tipos de vestígios.
+
+Dominar esses conceitos vai colocá-lo à frente da concorrência, pois além de atender às exigências da banca, demonstra capacidade técnica fundamental para a atuação como perito.

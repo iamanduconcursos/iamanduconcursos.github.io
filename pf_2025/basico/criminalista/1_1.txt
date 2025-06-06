@@ -1,0 +1,60 @@
+Vamos revisar agora os conceitos básicos da Criminalística, tema essencial para quem se prepara para o concurso de Perito Criminal Federal, especialmente na área de Perícia Digital.
+
+Começamos pelas Ciências Forenses.
+As Ciências Forenses são um campo multidisciplinar que une a ciência e a tecnologia ao Direito.
+Esse campo é vasto: envolve disciplinas como Biologia, Química, Física, Engenharia, Computação Forense, Psicologia, Medicina Legal, entre outras.
+Seu foco está na análise técnica e científica de evidências e vestígios, com o objetivo de esclarecer infrações penais ou cíveis.
+Em resumo: quando você ouvir o termo “Ciências Forenses”, pense em um conjunto de áreas do conhecimento voltadas para servir à Justiça.
+
+Dentro desse guarda-chuva das Ciências Forenses, temos a Criminalística.
+Ela é um dos ramos das Ciências Forenses.
+A Criminalística se dedica ao estudo dos vestígios materiais — tudo aquilo que possa ter ficado após a prática de uma infração penal.
+Seu papel é gerar conhecimento técnico e científico que ajude a alcançar a chamada verdade real nos processos penais.
+Ou seja, é uma ciência a serviço da Justiça, que transforma vestígios em provas através de análise minuciosa.
+
+Essa área se baseia em três princípios fundamentais:
+
+O Princípio da Troca de Locard, também chamado de princípio da transferência. Segundo ele, “todo contato deixa uma marca”.
+Ou seja, toda interação entre pessoas, objetos ou ambientes deixa vestígios — ainda que imperceptíveis a olho nu.
+
+O Princípio da Individualidade. Esse afirma que nenhum objeto ou elemento é absolutamente igual a outro.
+Mesmo coisas produzidas em série possuem pequenas diferenças.
+Esse princípio permite, por exemplo, identificar uma arma específica, entre várias do mesmo modelo, com base em marcas únicas deixadas nos projéteis.
+
+E por fim, o Princípio da Cadeia de Custódia.
+Ele garante que todo vestígio recolhido seja devidamente registrado, rastreado e preservado desde o momento da coleta até sua apresentação em juízo.
+Esse controle é essencial para que a prova não seja contestada ou invalidada por contaminação ou manipulação indevida.
+
+E agora vamos entender a Perícia Criminal.
+A perícia é a aplicação prática da Criminalística.
+É o conjunto de atividades técnicas e científicas realizadas por peritos oficiais, devidamente habilitados.
+Esses profissionais atuam na análise de vestígios e na elaboração de laudos periciais, que servem como base para a atuação da polícia, do Ministério Público e do Judiciário.
+Exemplos de atuação incluem:
+a análise de uma cena de crime,
+a investigação de arquivos digitais,
+ou uma perícia balística.
+
+Aqui vale um alerta importante:
+a banca CEBRASPE (ou CESPE) gosta de confundir os candidatos.
+Uma pergunta recorrente é: “A Criminalística é sinônimo de Ciências Forenses?”
+E a resposta correta é: NÃO.
+A Criminalística é apenas um dos ramos das Ciências Forenses.
+
+Agora vamos fazer um resumo integrando esses três conceitos:
+As Ciências Forenses são o campo mais amplo, que reúne várias disciplinas aplicadas à Justiça.
+A Criminalística é uma dessas disciplinas — ela se foca na análise dos vestígios de crimes.
+E a Perícia Criminal é o ato técnico, realizado por peritos, que aplica os conhecimentos da Criminalística ao caso concreto.
+
+Cada um desses termos tem papel e função distintos, embora todos estejam conectados.
+
+Finalizamos este conteúdo com os princípios fundamentais da Criminalística — que você deve guardar com atenção:
+
+Troca de Locard: todo contato deixa vestígios;
+
+Individualidade: nada é exatamente igual a outra coisa;
+
+Cadeia de Custódia: controle total sobre o vestígio, da coleta à sua apresentação.
+
+Esses princípios são pilares conceituais para a atuação da Perícia e da Criminalística dentro da Polícia Federal.
+
+Fique atento a essas definições, pois elas são a base para questões de prova e também para o entendimento mais avançado dos temas da Perícia Digital.

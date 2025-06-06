@@ -1,0 +1,25 @@
+Busca e Apreensão – Noções de Direito Penal e Processo Penal para Perito Criminal Federal
+
+Neste momento, vamos aprofundar o estudo sobre um tema essencial para o concurso de Perito Criminal Federal: busca e apreensão.
+
+Para começar, a base legal desse procedimento está prevista nos artigos 240 a 250 do Código de Processo Penal. Essa legislação regula como deve ser realizada a busca domiciliar, a busca pessoal e a apreensão de objetos relacionados a crimes. Além disso, esse tema está reforçado por dispositivos constitucionais, especialmente no artigo 5º, incisos XI e XII, da Constituição Federal de 1988, que protegem a inviolabilidade do domicílio e da correspondência, garantindo direitos fundamentais durante essas ações.
+
+Existem diferentes tipos de busca que merecem atenção.
+
+Primeiramente, a busca domiciliar, regulada no artigo 240, parágrafo primeiro, inciso “a”, exige, em regra, um mandado judicial específico. Esse mandado deve conter a finalidade da busca, a autoridade requisitante e os objetos que serão procurados. Contudo, existem exceções em que o mandado não é necessário, como em flagrante delito, em casos de desastre, para prestar socorro ou para evitar a destruição de provas.
+
+Já a busca pessoal, prevista no artigo 240, parágrafo segundo, pode ser realizada sem mandado, desde que exista fundada suspeita de que a pessoa esteja portando algo ilícito. Essa peculiaridade é muito importante para a prova, pois evidencia que a busca pessoal tem um tratamento jurídico diferenciado em relação à busca domiciliar.
+
+No que tange à apreensão, o artigo 240, inciso II e seguintes, orienta que o objetivo é colher provas materiais ou apreender objetos ilícitos relacionados à infração penal. Toda apreensão deve respeitar as garantias constitucionais do indivíduo e ser formalizada por meio de um auto circunstanciado, documento que registra detalhadamente a diligência. Além disso, a presença de duas testemunhas durante a apreensão é obrigatória, salvo quando houver recusa devidamente documentada. O auto deve ser assinado tanto pelo agente responsável quanto pelas testemunhas.
+
+Um ponto crucial para o perito digital é a apreensão de dispositivos eletrônicos, como celulares, computadores e HDs. Segundo entendimento dos tribunais superiores, o Supremo Tribunal Federal e o Superior Tribunal de Justiça, é necessária autorização judicial específica para que se possa acessar o conteúdo armazenado nesses aparelhos. A simples apreensão física do dispositivo não autoriza o acesso irrestrito ao seu conteúdo digital, o que é um aspecto frequentemente cobrado em provas da banca CEBRASPE, que exige o conhecimento claro da diferença entre apreensão física e acesso ao conteúdo digital.
+
+Falando sobre a finalidade das buscas e apreensões, elas podem ser feitas para prender criminosos, apreender objetos ou instrumentos relacionados ao crime, recolher provas que esclareçam os fatos e proteger bens e direitos ameaçados.
+
+Para quem está se preparando para a Polícia Federal, é importante conhecer também as pegadinhas clássicas da banca CEBRASPE. Por exemplo, o mandado de busca e apreensão não pode ser genérico; ele precisa ter fundamentação e finalidade claras. Outro ponto: o mandado, que normalmente é cumprido durante o dia, pode ser executado à noite se houver consentimento do morador. Além disso, a apreensão de objetos ilícitos encontrados durante a busca pode ocorrer mesmo que esses objetos não estejam mencionados no mandado. Um caso especial é a busca em escritórios de advocacia, que exige o acompanhamento da Ordem dos Advogados do Brasil e o mandado judicial, conforme a Lei nº 8.906 de 1994.
+
+Para sintetizar, o procedimento para busca e apreensão segue etapas específicas: primeiramente, a representação ou requerimento ao juiz; em seguida, a expedição do mandado contendo finalidade específica; o cumprimento do mandado com a presença de testemunhas, preferencialmente residentes no local; a lavratura do auto circunstanciado; e, por fim, o encaminhamento dos objetos apreendidos à autoridade policial ou judicial competente.
+
+Esse conhecimento não apenas é indispensável para o concurso, mas também essencial para o exercício da função de Perito Criminal Federal, garantindo a correta condução das investigações e o respeito aos direitos e garantias dos investigados.
+
+Recomendo que, além de estudar o conteúdo teórico, pratique com questões da banca para fixar os conceitos e evitar erros comuns.

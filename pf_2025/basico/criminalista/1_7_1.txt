@@ -1,0 +1,73 @@
+Neste áudio, vamos explorar um tema essencial para o perito criminal, especialmente para aqueles que pretendem atuar na área digital: a fotografia pericial.
+
+Vamos começar com o conceito. A fotografia pericial é o registro visual técnico e objetivo dos vestígios encontrados em uma cena de crime. Esses registros podem envolver o local, o corpo da vítima, objetos, documentos, ou qualquer evidência relevante. O objetivo? Preservar a memória da cena, garantir a produção da prova técnica e permitir que, mesmo após a liberação do local, seja possível revisitar, estudar e apresentar o conteúdo em juízo com total fidelidade.
+
+Mas qual é a função prática da fotografia pericial?
+
+Ela vai muito além de simplesmente “tirar fotos”. A fotografia pericial:
+
+Documenta o estado exato e a posição original dos vestígios no momento da perícia;
+
+Complementa o laudo pericial, oferecendo ao juiz e às partes uma visualização clara do cenário;
+
+Serve como base para reconstruções de fatos e análises posteriores;
+
+Preserva elementos perecíveis, que podem desaparecer com o tempo;
+
+E tem valor como prova documental.
+
+E é importante lembrar: na criminalística, tudo precisa ser feito com método e base legal. Por isso, temos dispositivos normativos que regulam a fotografia pericial.
+
+Primeiro, o Código de Processo Penal. No artigo 159, parágrafo primeiro, ele determina que os exames periciais devem ser documentados com fotografias e, sempre que possível, com o uso de outros recursos tecnológicos.
+
+A Lei 13.964, o chamado Pacote Anticrime, reforça a importância da cadeia de custódia e destaca que os registros fotográficos devem fazer parte desse cuidado, garantindo autenticidade e rastreabilidade de cada elemento registrado.
+
+Além disso, temos a Resolução número 13, de 2017, do Ministério da Justiça e Segurança Pública, que traz orientações práticas para a produção da prova pericial. Essa resolução estabelece que os registros fotográficos:
+
+Devem conter identificação completa, incluindo data, local e número do procedimento;
+
+Devem apresentar escala de referência, garantindo noção de proporção;
+
+E devem preservar a autenticidade e a integridade da imagem, o que nos remete diretamente ao uso de metadados, proteção contra edição e certificação digital.
+
+Agora, vamos aos tipos de fotografia utilizados na perícia:
+
+A fotografia panorâmica, que oferece uma visão geral do ambiente;
+
+A de média distância, que mostra a relação entre objetos e elementos da cena;
+
+A fotografia de detalhe, também chamada de close-up, usada para registrar vestígios específicos, geralmente com escala métrica;
+
+E a sequencial, que é usada para mostrar trajetória, movimento ou progressão de ações.
+
+Em todas essas modalidades, o princípio da fidelidade documental deve estar presente. E isso vale, inclusive — e especialmente — para a atuação do perito digital.
+
+Nos crimes cibernéticos, por exemplo, é comum que se realizem prints de tela, registros de sistemas ou capturas de logs. No entanto, prints não autenticados não têm valor jurídico. Para que a imagem tenha valor como prova, ela deve seguir os mesmos princípios da fotografia pericial tradicional: fidelidade, autenticidade, cadeia de custódia e vinculação ao item periciado.
+
+E aqui cabe um alerta muito importante: as fotos utilizadas na perícia devem ser protegidas contra edição. Isso significa preservar os metadados da imagem, evitar qualquer modificação posterior, e inserir os registros fotográficos diretamente no laudo, com assinatura digital do perito responsável.
+
+Vamos agora a um resumo estratégico, ideal para revisão antes da prova:
+
+A fotografia pericial é um meio de prova documental, com valor técnico-científico;
+
+Deve ser objetiva, técnica e complementar ao laudo pericial;
+
+Está prevista no Código de Processo Penal e na Resolução 13 de 2017 do Ministério da Justiça;
+
+Deve respeitar os princípios da cadeia de custódia, autenticidade e integridade da prova;
+
+Na atuação digital, a regra é a mesma: toda imagem usada como prova precisa ser registrada com método e certificação adequada.
+
+E, para fechar, aqui vão os tópicos mais cobrados pela banca CEBRASPE:
+
+Finalidade da fotografia pericial e sua importância na cena do crime;
+
+Tipos de enquadramento utilizados;
+
+Relação entre fotografia e laudo pericial;
+
+Legislação aplicável, incluindo o Código de Processo Penal e a Resolução 13;
+
+E os cuidados com a autenticidade, integridade e cadeia de custódia dos registros.
+
+Com o domínio desse conteúdo, você cobre praticamente todas as questões esperadas sobre o tema em prova. Fique atento, revise com frequência e, se possível, simule registros fotográficos, inclusive de telas e ambientes digitais — isso vai te colocar um passo à frente na sua preparação como futuro Perito Criminal Federal.

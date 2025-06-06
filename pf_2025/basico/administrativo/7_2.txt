@@ -1,0 +1,53 @@
+Responsabilidade Civil do Estado – Requisitos
+
+Vamos abordar agora os requisitos da responsabilidade civil do Estado, tema essencial para sua preparação no concurso de Perito Digital da Polícia Federal, especialmente com foco na banca CEBRASPE.
+
+Primeiro, entenda que a responsabilidade civil do Estado é a obrigação que ele tem de indenizar terceiros pelos danos causados, seja por ação ou por omissão de seus agentes públicos ou serviços delegados. Essa obrigação está fundamentada no artigo 37, parágrafo 6º da Constituição Federal de 1988, que é o pilar desse tema.
+
+A teoria que rege a responsabilidade do Estado é, em geral, a teoria do risco administrativo. Segundo essa teoria, o Estado responde objetivamente pelos danos que seus agentes causarem, ou seja, não é necessário provar culpa para que haja a obrigação de indenizar. Porém, existem nuances que vamos esclarecer.
+
+Historicamente, existia a teoria da culpa administrativa, que exige comprovação de culpa ou dolo do agente público, mas essa teoria está ultrapassada desde a Constituição de 1988. Atualmente, a regra geral é a responsabilidade objetiva, mas com algumas exceções importantes.
+
+Além da teoria do risco administrativo, existe a teoria do risco integral. Essa é uma responsabilidade objetiva sem excludentes, ou seja, o Estado responde mesmo se não houver culpa ou caso fortuito, aplicada apenas em situações excepcionais. Exemplos típicos são atividades nucleares e atentados terroristas a bordo de aeronaves, onde o risco é tão grande que a proteção jurídica é máxima.
+
+Agora, quais são os requisitos para configurar a responsabilidade objetiva do Estado? São três:
+
+Conduta administrativa — pode ser uma ação ou uma omissão, desde que praticada por um agente público no exercício de suas funções.
+
+Dano — que pode ser material ou moral, mas deve ser individualizado, ou seja, deve afetar alguém específico.
+
+Nexo causal — uma relação direta entre a conduta do agente público e o dano sofrido pela vítima.
+
+É importante destacar que, nessa responsabilidade objetiva, não se exige a comprovação de culpa ou dolo do agente público, basta que o dano decorra da ação ou omissão estatal.
+
+Porém, existem situações que excluem a responsabilidade do Estado, chamadas de excludentes. São elas:
+
+Caso fortuito ou força maior, que são eventos imprevisíveis e inevitáveis.
+
+Culpa exclusiva da vítima, quando o próprio prejudicado deu causa única ao dano.
+
+Fato de terceiro, que rompe o nexo causal entre a conduta estatal e o dano.
+
+Se houver culpa concorrente, ou seja, a vítima também teve alguma parcela de culpa, isso pode atenuar o valor da indenização, mas não exclui completamente a responsabilidade do Estado.
+
+Para sua preparação na banca CEBRASPE, fique atento a algumas dicas essenciais:
+
+O Estado responde objetivamente pelos danos causados por seus agentes no exercício da função pública, ou em algumas situações por omissão.
+
+A responsabilidade do agente público é subjetiva, o que significa que ele só responde se houver dolo ou culpa comprovada.
+
+A responsabilidade estatal é excluída quando o dano decorre exclusivamente da culpa da vítima ou de caso fortuito.
+
+O Supremo Tribunal Federal já reconheceu a responsabilidade objetiva por omissão em casos excepcionais, como em rebeliões em presídios, que geram graves danos a terceiros.
+
+Além disso, existem alguns casos especiais:
+
+Os delegatários, como concessionárias e permissionárias de serviços públicos, também respondem objetivamente pelos danos causados no exercício dessas funções.
+
+Atos jurisdicionais, em regra, não geram responsabilidade para o Estado, salvo em casos de erro judiciário comprovado.
+
+A responsabilidade por omissão normalmente exige comprovação de culpa, mas pode ser objetiva em hipóteses específicas, como falhas graves na segurança pública.
+
+Para concluir, dominar esses conceitos, suas nuances e exceções é fundamental para você garantir pontos importantes na prova do concurso de Perito Digital da Polícia Federal, especialmente quando a banca CEBRASPE for a organizadora.
+
+Reforce sempre a distinção entre responsabilidade objetiva e subjetiva, e saiba relacionar os requisitos: conduta administrativa, dano e nexo causal, além das excludentes que podem impedir a responsabilidade.

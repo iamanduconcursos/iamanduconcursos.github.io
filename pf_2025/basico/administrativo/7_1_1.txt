@@ -1,0 +1,27 @@
+Responsabilidade Civil do Estado por Ato Comissivo
+
+Vamos falar agora sobre um tema muito importante para a sua preparação para o concurso de Perito Digital da Polícia Federal: a responsabilidade civil do Estado por ato comissivo.
+
+Esse conceito está diretamente ligado à situação em que um agente público, no exercício de suas funções, causa um dano a um terceiro. Esse dano pode ocorrer por uma ação direta, voluntária, ou até mesmo por negligência do agente.
+
+O fundamento legal principal está no artigo 37, parágrafo 6º, da Constituição Federal, que determina que tanto as pessoas jurídicas de direito público, quanto as de direito privado que prestam serviços públicos, são responsáveis pelos danos causados por seus agentes a terceiros, quando esses agentes atuam na qualidade de representantes do Estado.
+
+A teoria aplicada majoritariamente pelo Supremo Tribunal Federal e pelo Superior Tribunal de Justiça é a chamada teoria do risco administrativo. Isso significa que a responsabilidade do Estado é objetiva, ou seja, para que o Estado seja obrigado a indenizar a vítima, basta que estejam presentes três elementos fundamentais: o dano efetivo, o nexo causal entre a conduta do agente público e esse dano, e a própria conduta comissiva, ou seja, a ação ou omissão do agente público.
+
+Importante: diferentemente da responsabilidade subjetiva, aqui não é necessário provar culpa ou dolo do agente público. Basta demonstrar que houve o dano, e que ele decorreu da ação do agente no exercício da função pública.
+
+Por outro lado, existem situações que excluem essa responsabilidade objetiva do Estado. São as chamadas excludentes, como a culpa exclusiva da vítima, o caso fortuito ou força maior e o fato de terceiro. Por exemplo, se alguém se machuca por sua própria culpa, ou por um evento imprevisível e inevitável, o Estado não será responsabilizado.
+
+Além disso, vale destacar que o Estado pode exercer o direito de regresso contra o agente público, mas isso só acontece se for comprovado dolo ou culpa do agente na prática do ato. Nesse caso, a responsabilidade do agente é subjetiva, ou seja, ele só responde se houver comprovação de intenção ou negligência grave.
+
+Outro ponto que gera dúvidas em provas é que o Estado não responde por atos lícitos que não causem dano, como, por exemplo, desapropriações que não geram prejuízo específico. Também é fundamental não confundir a responsabilidade objetiva do Estado com a responsabilidade subjetiva do agente público.
+
+Sobre a responsabilidade por omissão, tema correlato, é importante lembrar que esta não é objetiva, e sim subjetiva, o que será estudado em outra ocasião.
+
+Vale mencionar ainda que empresas públicas e sociedades de economia mista que prestam serviços públicos também respondem objetivamente pelos danos causados por seus agentes, assim como o próprio Estado.
+
+No que diz respeito a entendimentos consolidados, destacam-se algumas súmulas importantes. A Súmula 341 do STF, por exemplo, presume a culpa do patrão ou comitente pelo ato culposo do empregado ou preposto. Já a Súmula 645 do STF afirma que é competente o município para responder pelos danos causados por seus agentes.
+
+Por fim, uma dica valiosa para a prova da banca CEBRASPE ou CESPE: se a questão afirmar que o Estado responde objetivamente pelos atos comissivos de seus agentes, marque como correta. Se disser que para responsabilizar o Estado é preciso provar dolo ou culpa do agente, marque como incorreta.
+
+Assim, você estará aplicando corretamente o princípio da responsabilidade objetiva do Estado, um ponto-chave para essa disciplina.

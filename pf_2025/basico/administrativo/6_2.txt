@@ -1,0 +1,35 @@
+Controle da Administração Pública – Controle Judicial
+
+Hoje vamos aprofundar o tema Controle Judicial da Administração Pública, uma parte fundamental para o concurso de Perito Digital da Polícia Federal, especialmente diante da frequência com que a banca CEBRASPE cobra o assunto.
+
+O controle judicial é a fiscalização exercida pelo Poder Judiciário sobre os atos administrativos. Seu principal objetivo é garantir que a atuação estatal esteja dentro da legalidade e proteger os direitos fundamentais dos cidadãos contra abusos do poder público.
+
+O fundamento constitucional para esse controle está no artigo 5º, inciso 35 da Constituição Federal, que assegura que "a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito." Isso significa que qualquer ato administrativo que viole direitos pode e deve ser levado ao Judiciário para análise.
+
+No entanto, o controle judicial tem características específicas: ele é jurisdicional, ou seja, atua mediante provocação das partes interessadas — o Judiciário não age por iniciativa própria, obedecendo ao princípio da inércia da jurisdição. Isso quer dizer que o Judiciário só analisa questões quando alguém propõe uma ação.
+
+Falando em limites, o controle judicial se restringe à verificação da legalidade dos atos administrativos. O Judiciário pode anular atos ilegais, mas não pode substituir a Administração na tomada de decisões discricionárias, salvo quando houver abuso de poder ou desvio de finalidade. Ou seja, a análise do mérito administrativo, que envolve conveniência e oportunidade, fica a cargo da própria Administração Pública e não do Judiciário.
+
+Então, o que o Judiciário pode controlar? Ele verifica se o ato está conforme a lei, se respeita os princípios constitucionais como moralidade, publicidade e eficiência, e se houve excesso de poder, abuso de autoridade ou omissão por parte da Administração.
+
+Por outro lado, o Judiciário não pode revisar o mérito do ato discricionário, não pode substituir a Administração na sua função gerencial, nem escolher políticas públicas, salvo em casos de omissão inconstitucional, quando a inação do poder público prejudica direitos fundamentais.
+
+Para facilitar, vamos comparar o controle judicial com a discricionariedade administrativa:
+
+O controle judicial pode examinar a finalidade do ato e anular se for ilegal;
+
+Já a discricionariedade administrativa permite à Administração escolher o motivo e o objeto do ato dentro do interesse público, respeitando a lei.
+
+Quanto às ações judiciais comuns usadas para o controle judicial, destacam-se:
+
+A ação popular, que qualquer cidadão pode propor para anular atos que prejudiquem o patrimônio público;
+
+A ação civil pública, promovida pelo Ministério Público ou entidades para proteger interesses coletivos;
+
+O mandado de segurança, para proteger contra ilegalidades ou abusos de poder;
+
+E a ação de improbidade administrativa, usada para punir agentes públicos que violem os princípios da Administração ou causem danos ao erário.
+
+Por fim, é fundamental lembrar: o Judiciário controla a legalidade dos atos administrativos, mas não substitui o administrador público na avaliação de conveniência e oportunidade.
+
+Esse entendimento é essencial para responder questões com precisão e evitar as pegadinhas da banca, que costuma explorar os limites entre controle judicial e discricionariedade administrativa.

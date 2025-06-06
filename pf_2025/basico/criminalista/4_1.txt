@@ -1,0 +1,21 @@
+Resumo narrativo - Balística Forense: Conceito de Arma de Fogo
+
+Neste resumo, vamos explorar o conceito fundamental de arma de fogo, tema importante para o concurso de Perito Digital da Polícia Federal, com foco na banca CEBRASPE, que valoriza a interpretação e a aplicação prática do conhecimento.
+
+Começando pela definição legal, entende-se por arma de fogo qualquer dispositivo que utiliza a ação de um gás ou uma reação química, geralmente a pólvora, para lançar projéteis de forma controlada e com capacidade lesiva. Essa definição está regulamentada pelo Estatuto do Desarmamento, a Lei número 10.826, de 2003. É importante destacar que, para fins legais, também são consideradas armas de fogo aquelas de pressão que tenham força suficiente para causar danos letais. Por outro lado, armas simulacros ou de brinquedo não são classificadas como armas de fogo, mesmo que tenham aparência semelhante.
+
+No que diz respeito à classificação das armas, elas podem ser categorizadas segundo sua forma de funcionamento. Primeiramente, temos as armas de repetição, que exigem o acionamento manual para cada disparo, como o rifle de ferrolho. Depois, as armas semiautomáticas, que disparam um tiro para cada acionamento do gatilho, precisando que ele seja pressionado a cada disparo. Por fim, existem as armas automáticas, capazes de disparar vários tiros com apenas um único acionamento do gatilho, como as metralhadoras.
+
+Outra forma de classificação importante é quanto ao tipo de cano. O cano pode ser raiado ou liso. O cano raiado possui estrias internas que servem para estabilizar o projétil durante o disparo, garantindo maior precisão, alcance e estabilidade. Exemplos típicos são pistolas e fuzis. Já o cano liso não possui estriamento e é encontrado em armas como espingardas, utilizadas para disparar múltiplos projéteis pequenos ou projéteis únicos sem giro.
+
+Para a prova da banca CEBRASPE, alguns pontos merecem atenção especial. O que caracteriza uma arma de fogo não é apenas sua aparência, mas sua capacidade efetiva de disparar projéteis com energia letal. Portanto, armas que apenas parecem ser armas não se enquadram na definição. Além disso, armas de fogo artesanais, ou seja, aquelas fabricadas de forma caseira, também são consideradas armas de fogo desde que funcionais.
+
+No caso das armas de pressão acionadas por gás comprimido, somente são consideradas armas de fogo se apresentarem alta potência, capazes de causar danos sérios. As questões sobre simulacros e réplicas são comuns na prova e costumam ser armadilhas, pois essas não são consideradas armas de fogo no conceito legal.
+
+Outro ponto para atenção é a distinção entre conceito técnico e conceito legal. A banca pode cobrar ambos de maneira misturada, portanto, o candidato deve estar preparado para identificar a qual conceito a questão se refere.
+
+Para ajudar na memorização, associe sempre arma de fogo à ideia de força explosiva, seja ela proveniente da pólvora ou de gás. Lembre que armas automáticas disparam vários tiros com um único acionamento, enquanto armas semiautomáticas exigem o acionamento do gatilho para cada disparo. O raiamento do cano é o que proporciona maior precisão, alcance e estabilidade ao projétil disparado.
+
+Por fim, é fundamental lembrar que, para fins periciais e judiciais, o que realmente importa é se o objeto tem a capacidade de efetuar disparos com potencial letal. Mesmo que uma arma esteja desativada, ela continua sendo considerada arma de fogo até que seja inutilizada de forma definitiva e devidamente periciada. Quando estiver em dúvida, pense como um perito: o dispositivo funciona? Tem capacidade lesiva? Utiliza pólvora? O cano apresenta estrias? Essas perguntas ajudam a esclarecer a natureza do objeto.
+
+Este resumo foi pensado para facilitar a compreensão e fixação dos conceitos básicos da balística forense relacionados ao conceito de arma de fogo, que é uma base essencial para a atuação do perito criminal federal.

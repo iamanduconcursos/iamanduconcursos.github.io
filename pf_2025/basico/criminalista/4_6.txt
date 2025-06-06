@@ -1,0 +1,27 @@
+Balística Forense: Efeitos do Tiro e Distância do Disparo
+
+Neste estudo, vamos abordar os efeitos causados pelo tiro e como identificar a distância do disparo a partir dos vestígios deixados, tema muito frequente nas provas da banca CEBRASPE, especialmente com uma abordagem prática e técnica.
+
+Primeiro, precisamos entender a classificação quanto à distância do disparo. O tiro pode ser encostado, quando a arma está diretamente apoiada sobre o alvo. Existe também o tiro a curta distância, que ocorre até cerca de 30 centímetros, embora esse limite possa variar conforme o tipo de arma e munição. O tiro a média distância compreende disparos entre 30 centímetros e um metro. Acima de um metro, temos o tiro a longa distância, caracterizado pela ausência de vestígios de pólvora na vítima ou no local. Outro conceito importante é o tiro a queima-roupa, disparo feito contra a roupa muito próxima ao corpo, onde é comum encontrar marcas de tecido queimado devido à proximidade extrema.
+
+Na análise forense, a banca valoriza muito a interpretação dos vestígios para estimar a distância do disparo, mais do que simplesmente decorar as classificações teóricas. Por isso, vamos detalhar os vestígios típicos observados em cada distância.
+
+No tiro encostado, por exemplo, não encontramos zona de tatuagem, pois a pólvora não tem espaço para se espalhar. No entanto, há uma zona intensa de esfumaçamento, causada pela fumaça queima e gases quentes que entram no corpo, produzindo feridas com bordas revertidas, ou seja, as bordas da ferida se voltam para fora. Além disso, observa-se uma ferida irregular e queimadura interna, devido ao efeito dos gases.
+
+Já no tiro a curta distância, podemos observar a presença da zona de esfumaçamento e tatuagem, que é causada pela pólvora incombusta que impregna na pele. Nesse caso, as bordas da ferida não são revertidas e não há efeito de gases penetrando nos tecidos.
+
+No disparo a média distância, aparece apenas a tatuagem, sem esfumaçamento. A ferida tende a ser limpa, com bordas regulares, porque os gases não chegam à pele.
+
+Por fim, no tiro a longa distância, não há tatuagem nem esfumaçamento, apenas a lesão causada pelo projétil que atravessa o tecido. As bordas são regulares e, muitas vezes, torna-se difícil estimar com precisão a distância.
+
+Quanto aos efeitos do tiro no corpo, devemos lembrar de alguns conceitos importantes. A perfuração é o orifício de entrada do projétil, geralmente com bordas regulares e limpas. A reversão de bordas é típica de disparos encostados e consiste nas bordas da ferida voltadas para fora do corpo. A zona de esfumaçamento é o depósito da fumaça ao redor da ferida, visível principalmente em disparos próximos. A tatuagem é a presença de pontos de pólvora incombusta impregnados na pele, que não saem com a lavagem. E a zona de queimadura, comum em disparos muito próximos ou encostados, representa a queima da pele causada pelo calor dos gases e partículas.
+
+Na prova, as palavras tatuagem, reversão de bordas e zona de esfumaçamento são indicadores-chave para estimar a distância do tiro. Memorize bem esses termos.
+
+Diversos fatores influenciam os efeitos observados, como o tipo e calibre da arma, o tipo de munição utilizada, a distância entre arma e alvo, o ângulo do disparo e a presença de barreiras intermediárias, como roupas, vidros ou objetos, que podem modificar ou impedir a deposição dos vestígios.
+
+Na interpretação forense, a avaliação desses vestígios permite estimar a distância do disparo, identificar o tipo de arma utilizada e a posição do atirador. Muitas vezes, realiza-se a comparação com disparos de teste em condições similares para melhor análise. Técnicas como a microscopia auxiliam na avaliação dos resíduos de pólvora e outros vestígios.
+
+Para facilitar a memorização, segue um resumo rápido: no tiro encostado, observa-se borda revertida, gás penetrando nos tecidos e enegrecimento interno. No tiro a curta distância, encontramos tatuagem e esfumaçamento. No tiro a média distância, só há tatuagem. E no tiro a longa distância, não há resíduos, apenas a lesão causada pelo projétil.
+
+Este conteúdo é fundamental para responder questões técnicas da banca CEBRASPE. Estude com foco, inteligência e estratégia para garantir o sucesso na prova de Perito Digital da Polícia Federal.

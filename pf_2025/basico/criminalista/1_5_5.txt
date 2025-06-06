@@ -1,0 +1,78 @@
+Hoje vamos falar sobre um dos temas mais importantes dentro da classificação dos vestígios segundo a sua natureza: os microvestígios. Um conteúdo recorrente nas provas da banca CEBRASPE e extremamente relevante para quem se prepara para o concurso de Perito Criminal Federal na área digital.
+
+Vamos começar entendendo o que, afinal, são microvestígios.
+
+Microvestígios são vestígios de pequenas proporções. Muitas vezes, eles são invisíveis a olho nu. São resíduos minúsculos, mas que têm um alto valor técnico e probatório. Por quê? Porque estão frequentemente presentes em crimes de contato, como agressões físicas, invasões, ou manuseio de objetos no local do crime.
+
+Há um ditado na criminalística que resume bem sua importância:
+"Na criminalística, os menores vestígios dizem as maiores verdades."
+E essa é uma frase que vale a pena memorizar.
+
+Mas o que caracteriza um microvestígio não é apenas o seu tamanho. A principal característica é a dificuldade de percepção direta e a necessidade de utilizar instrumentos ópticos ou técnicas laboratoriais para detectá-los, analisá-los e interpretá-los.
+
+Vamos agora aos exemplos clássicos de microvestígios. Memorize essa lista com atenção:
+
+Fibras têxteis, como fios de roupa ou do estofado de um carro;
+
+Fragmentos de vidro, que podem indicar uma quebra ou entrada forçada;
+
+Resíduos de solo ou poeira, úteis para relacionar um suspeito ao local do crime;
+
+Grãos de pólvora e resíduos de disparo de arma de fogo, os chamados GSRs;
+
+Cabelos e pelos, que podem ser analisados geneticamente;
+
+Fragmentos de tinta, por exemplo, em colisões de veículos;
+
+Partículas metálicas ou plásticas;
+
+E até microrganismos, que podem ser úteis em contextos biológicos ou ambientais.
+
+Para que esses vestígios tenham valor pericial, é fundamental que sejam corretamente detectados e coletados. E aqui entra um ponto de extrema importância: a fixação do microvestígio no local, antes da coleta.
+
+Essa etapa é essencial para garantir a validade da prova. O vestígio deve ser documentado por meio de fotografias detalhadas, vídeos ou croquis, antes de qualquer manipulação. Só depois disso é que se parte para a coleta.
+
+A coleta, por sua vez, envolve o uso de ferramentas especializadas. Entre elas:
+
+Lupas e microscópios, para visualização aumentada;
+
+Fontes de luz forense, como ultravioleta e infravermelho;
+
+Vácuos portáteis, fitas adesivas, pinças finas, lâminas e tubos estéreis;
+
+E claro, todo cuidado com o armazenamento: deve-se utilizar envelopes de papel apropriados, tubos de ensaio ou porta-objetos, sempre respeitando o tipo de material coletado.
+
+Agora, falando em cuidado, não podemos deixar de destacar o papel da cadeia de custódia, especialmente no caso dos microvestígios.
+
+Esses são, sem dúvida, os vestígios que mais exigem controle rigoroso contra contaminações e adulterações. Toda movimentação do vestígio, desde a coleta até a apresentação em juízo, deve ser registrada. Isso inclui a identificação precisa do material, da origem, do responsável e do destino final.
+
+A cadeia de custódia dos microvestígios segue exatamente os preceitos da Lei 13.964 de 2019, o chamado Pacote Anticrime, e é um dos pontos que a banca CEBRASPE gosta de cobrar com pegadinhas.
+
+E por falar em cobrança, vamos reforçar o que a CEBRASPE normalmente destaca nas provas:
+
+A diferença entre microvestígios e vestígios comuns.
+Lembre-se: microvestígios são difíceis de perceber, exigem análise instrumental. Vestígios comuns são visíveis a olho nu.
+
+As ferramentas utilizadas para detectar e coletar microvestígios.
+A banca pode citar exemplos como o uso de fita adesiva, lupa, luz ultravioleta, entre outros.
+
+A relação com crimes específicos, como a presença de GSR — resíduos de disparo — em crimes com arma de fogo.
+
+E o conceito de vestígio latente versus microvestígio.
+Aqui mora uma das pegadinhas clássicas da prova:
+Vestígio latente é aquele que não se enxerga a olho nu, mas pode ser grande, como uma impressão digital invisível.
+Já o microvestígio é fisicamente pequeno e requer técnicas para ser percebido.
+
+Por fim, é importante comparar os microvestígios com os vestígios físicos visíveis.
+
+Os microvestígios são pequenos, difíceis de visualizar, e exigem equipamento para serem percebidos.
+Exemplos: fios de cabelo, partículas de pólvora, fragmentos de vidro.
+
+Já os vestígios visíveis são maiores e perceptíveis a olho nu, como armas, manchas de sangue, pegadas e cápsulas de munição.
+
+A distinção entre esses dois tipos é essencial não apenas para acertar questões objetivas, mas para entender a lógica da atuação pericial e da preservação de evidências.
+
+Encerramos aqui este bloco sobre microvestígios.
+Se você quiser revisar esse conteúdo mais tarde, sugiro criar um mapa mental ou fazer questões comentadas do estilo CEBRASPE, focando especialmente na parte técnica da coleta, no conceito de cadeia de custódia e na distinção entre tipos de vestígios.
+
+Este é o tipo de conteúdo que diferencia candidatos que passam — daqueles que quase passam.

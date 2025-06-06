@@ -1,0 +1,76 @@
+Vamos agora estudar um tema essencial para o concurso de Perito Digital da Polícia Federal: os vestígios físicos.
+
+Mas afinal, o que são vestígios físicos?
+
+Vestígios físicos são materiais tangíveis, ou seja, podem ser tocados ou percebidos com os sentidos — como a visão, o olfato, o tato — ou mesmo por meio de instrumentos e tecnologia.
+Eles têm existência objetiva, e estão diretamente relacionados ao local do crime, à vítima ou ao autor do fato. Em termos práticos, são os tipos de vestígios mais comuns e frequentemente analisados pela perícia criminal.
+
+Em outras palavras, tudo aquilo que pode ser coletado, medido, comparado ou armazenado como prova física, entra nessa classificação.
+
+Agora, como a criminalística classifica esses vestígios?
+
+Os vestígios físicos podem ser divididos em cinco categorias principais, de acordo com sua forma e natureza:
+
+Primeiro: vestígios sólidos.
+Aqui entram objetos como cápsulas, projéteis, ferramentas, fragmentos metálicos, pedras e outros materiais duros ou semi-densos.
+É importante lembrar que esses sólidos muitas vezes carregam microvestígios, como impressões digitais ou traços de DNA, tornando-se provas valiosas.
+
+Segundo: vestígios líquidos.
+Esses incluem sangue, saliva, urina, fluidos corporais.
+Por serem líquidos, exigem cuidados especiais no armazenamento — como refrigeração e acondicionamento em recipientes apropriados, sempre com lacre, para preservar a amostra.
+
+Terceiro: vestígios gasosos.
+Sim, até o que está no ar pode ser um vestígio. Vapores, fumaças, odores característicos — como o cheiro de gasolina indicando o uso de acelerantes — são considerados vestígios gasosos.
+A análise desses elementos geralmente exige instrumentação especializada, como cromatografia e espectrometria.
+
+Quarto grupo: vestígios particulados.
+São pequenas partículas dispersas que podem indicar contato ou transferência. Exemplo: pó de disparo, fibras têxteis, poeira, fragmentos de tinta, resíduos de solo.
+Esses vestígios são especialmente importantes na análise da dinâmica do crime — ajudam a estabelecer onde houve contato entre autor e vítima ou entre dois objetos.
+
+E por fim, os vestígios latentes.
+São vestígios físicos que não são visíveis a olho nu.
+Exemplos incluem impressões digitais invisíveis, marcas de pés descalços, manchas muito diluídas. Para revelá-los, são necessários reagentes químicos, uso de luz forense ou técnicas de pós-luminescência.
+
+Agora, algumas características fundamentais dos vestígios físicos:
+
+Eles são perecíveis, ou seja, podem se degradar com o tempo. Por isso, a coleta precisa ser feita com rapidez.
+
+Estão sujeitos a contaminação, então o uso de equipamentos de proteção individual — como luvas, máscaras e aventais — é indispensável.
+
+Antes de serem coletados, os vestígios devem ser documentados com fotos, vídeos ou croquis.
+
+E claro, devem ser preservados conforme as regras da cadeia de custódia, que garante a autenticidade e validade legal da prova.
+
+E o que a banca CEBRASPE gosta de cobrar?
+
+Aqui vão dois pontos de atenção:
+
+Confusão entre categorias.
+Por exemplo, classificar vestígios líquidos como gasosos, ou vice-versa.
+
+Vestígios latentes não são inexistentes.
+Eles existem, mas estão ocultos — e isso exige técnicas para torná-los visíveis.
+
+Vamos agora entender como a cadeia de custódia se aplica aos vestígios físicos.
+
+Essa cadeia está prevista no artigo 158-A do Código de Processo Penal e determina o conjunto de procedimentos que asseguram a origem e integridade dos vestígios.
+
+As etapas da cadeia de custódia são:
+Reconhecimento → Isolamento → Fixação → Coleta → Acondicionamento → Transporte → Recebimento → Processamento → Armazenamento → Descarte.
+
+Todas essas fases devem ser seguidas com rigor, pois a validade jurídica do vestígio depende da rastreabilidade completa de sua trajetória.
+
+E para finalizar, vamos revisar os pontos mais cobrados pela banca CEBRASPE:
+
+Vestígios físicos são materiais tangíveis, perceptíveis direta ou indiretamente.
+
+Eles são a base da evidência material no processo penal.
+
+Devem ser coletados com técnica e sempre dentro da cadeia de custódia.
+
+Vestígios latentes são físicos, mas não são visíveis a olho nu — exigem revelação.
+
+É importante conhecer os métodos de revelação: reagentes químicos, luz ultravioleta e técnicas forenses específicas.
+
+Guarde bem: o conhecimento sobre vestígios físicos não é apenas teórico.
+É o alicerce da atuação pericial e uma ferramenta decisiva na resolução de crimes.

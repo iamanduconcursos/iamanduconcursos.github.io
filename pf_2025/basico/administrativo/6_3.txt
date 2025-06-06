@@ -1,0 +1,31 @@
+Controle Legislativo da Administração Pública
+
+Vamos estudar agora o Controle Legislativo da Administração Pública, um tema fundamental para o concurso de Perito Digital da Polícia Federal, especialmente cobrado pela banca CEBRASPE.
+
+O Controle Legislativo é a forma pela qual o Poder Legislativo fiscaliza os atos da Administração Pública. Seu objetivo é supervisionar, avaliar e garantir a legalidade, legitimidade e economicidade da atuação do Poder Executivo e da administração indireta.
+
+Esse controle está previsto na Constituição Federal, entre os artigos 70 e 75, e é caracterizado como um controle externo, político e que abrange tanto aspectos de legalidade quanto de mérito. Ele é exercido com o auxílio do Tribunal de Contas da União, o famoso TCU.
+
+Entre os principais instrumentos do controle legislativo, destacam-se alguns poderosos mecanismos: a requisição de informações a Ministros ou outras autoridades, prevista no artigo 50 da Constituição; o chamamento de Ministros de Estado para prestar esclarecimentos; as Comissões Parlamentares de Inquérito, as conhecidas CPIs, que têm amplos poderes de investigação, quase comparáveis ao Judiciário, porém respeitando os limites constitucionais; o controle orçamentário, feito em parceria com o TCU; e ainda o julgamento das contas do Presidente da República.
+
+Falando especificamente do controle externo, que é exercido pelo Congresso Nacional com o auxílio técnico do Tribunal de Contas, esse controle abrange a apreciação das contas do Presidente da República, a fiscalização dos atos de gestão financeira e orçamentária, o julgamento das contas dos administradores públicos e a fiscalização de renúncias de receitas, despesas irregulares, fraudes licitatórias e outros ilícitos relacionados ao dinheiro público.
+
+É importante destacar que o parecer prévio do Tribunal de Contas sobre as contas do Presidente não vincula o Congresso, ou seja, o Legislativo pode decidir mesmo contra o parecer, mas esse parecer é requisito formal para o julgamento das contas.
+
+Sobre o Tribunal de Contas da União, o TCU é um órgão técnico, independente, que auxilia o Poder Legislativo no controle da Administração Pública. Ele realiza auditorias, inspeções e determina correções quando necessário. Além disso, o TCU pode aplicar sanções, como multas e declaração de inidoneidade, mas não exerce função jurisdicional. Mesmo assim, seus julgamentos possuem força de título executivo.
+
+Em provas da CEBRASPE, atenção especial deve ser dada a alguns pontos: o TCU não é subordinado ao Legislativo, atuando como um órgão técnico auxiliar; o parecer do TCU sobre as contas do Presidente é obrigatório, mas não vinculante; o controle legislativo pode ser político, como no impeachment, técnico, por meio do TCU, ou funcional, no que se refere ao orçamento; e as CPIs possuem poderes de investigação amplos, similares aos do Judiciário, mas com limites.
+
+Para consolidar, podemos comparar os tipos de controle:
+
+O controle interno é exercido por órgãos da própria Administração sobre seus próprios atos, como corregedorias e o controle contábil interno.
+
+O controle externo é realizado pelo Poder Legislativo, com o apoio do TCU, e recai sobre órgãos do Executivo e entidades da administração indireta, focando principalmente na fiscalização das contas públicas.
+
+Já o controle popular pode ser exercido por qualquer cidadão, por meio de instrumentos como a ação popular e denúncias ao Ministério Público ou ao TCU.
+
+Essa diferenciação é fundamental para entender quem faz o quê e como cada controle atua para garantir a correta gestão pública.
+
+Concluindo, dominar esses conceitos e instrumentos é essencial para a sua preparação para a Polícia Federal, especialmente para a área de Perito Digital, pois a banca valoriza candidatos que compreendem a estrutura e o funcionamento do controle na Administração Pública.
+
+Revisar e entender essas nuances fará toda a diferença na sua prova. Boa sorte nos estudos!

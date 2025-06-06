@@ -1,0 +1,76 @@
+Redes de computadores são como avenidas digitais que ligam computadores e dispositivos, permitindo a troca de dados, arquivos e mensagens, seja dentro de uma casa, de uma empresa, ou entre países do outro lado do mundo. Elas são a base de tudo que se comunica digitalmente.
+
+Tipos de Redes
+Vamos começar pelas classificações mais comuns:
+
+LAN, a Local Area Network, é aquela rede pequena, geralmente usada em casas ou escritórios. Ela é rápida, local, eficiente.
+
+WAN, ou Wide Area Network, conecta redes LAN por distâncias longas. O maior exemplo de WAN? A própria Internet.
+
+MAN, Metropolitan Area Network, está entre as duas anteriores, cobrindo áreas urbanas como universidades ou filiais espalhadas por uma cidade.
+
+WLAN é a versão sem fio da LAN. Pense no seu Wi-Fi doméstico. É uma LAN, só que wireless.
+
+E temos a VPN, uma rede privada criada sobre uma pública. Ela funciona como um túnel seguro onde só você tem a chave.
+
+Tecnologias de Comunicação
+No mundo das redes, as tecnologias são os trilhos onde tudo acontece:
+
+Ethernet é o protocolo tradicional, com cabo de rede, muito usado em LANs. É confiável e rápido.
+
+Wi-Fi, sem fio, usa ondas de rádio para conectar dispositivos.
+
+Bluetooth é o irmão de curto alcance — serve para conectar periféricos como fones de ouvido ou teclados.
+
+Fibra óptica é o carro de corrida das conexões. Usa fios de vidro e transmite dados com velocidade e precisão, ideal para longas distâncias.
+
+5G, a nova geração de redes móveis, promete altíssima velocidade e baixa latência — ou seja, quase nenhum atraso na comunicação.
+
+Topologias de Redes
+Agora vamos à estrutura dessas redes — as chamadas topologias.
+
+A topologia em barramento conecta todos os dispositivos num único cabo. É simples, mas quase não se usa mais.
+
+A estrela é a queridinha das redes locais. Todos os dispositivos se conectam a um ponto central, como um switch. Se um cabo falha, só aquele dispositivo é afetado.
+
+A anel conecta os dispositivos em círculo. Era comum em redes antigas como a Token Ring.
+
+Na malha, tudo está conectado com tudo. É robusta e confiável, perfeita para redes que não podem parar.
+
+E temos a árvore, que organiza dispositivos em hierarquias — como uma mistura de estrela com ramificações.
+
+Comparando LAN, WAN e MAN
+Vamos comparar:
+
+Distância: LAN cobre poucos metros; WAN, continentes inteiros; MAN, geralmente uma cidade.
+
+Velocidade: LAN é a mais rápida. WAN depende da infraestrutura. MAN está no meio-termo.
+
+Exemplo? LAN é sua casa, WAN é a internet, e MAN é a rede da prefeitura ou de uma universidade com vários campi.
+
+Perguntas clássicas de prova (estilo CEBRASPE)
+A topologia em estrela é mesmo a mais comum em redes locais? Sim, verdadeiro.
+
+WAN conecta dispositivos diretamente entre si? Falso — ela conecta redes, não dispositivos individuais.
+
+Fibra óptica é boa para longas distâncias? Sim, verdadeiro.
+
+Wi-Fi usa cabos? Falso! Ele é a definição de rede sem fio.
+
+Dicas finais para a prova:
+Decore a diferença entre LAN, WAN e MAN.
+
+Saiba quando e por que usar cada topologia.
+
+Lembre-se: Ethernet = cabeado; Wi-Fi = sem fio.
+
+Malha = redundância. Estrela = praticidade. Barramento = desuso.
+
+Glossário essencial:
+Switch: dispositivo inteligente que conecta vários computadores em uma rede LAN.
+
+Hub: versão mais simples do switch, mas já obsoleta.
+
+Roteador (Router): conecta sua rede à Internet, direcionando pacotes.
+
+IP (Internet Protocol): o “endereço” que identifica cada dispositivo em uma rede.

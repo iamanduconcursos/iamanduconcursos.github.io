@@ -1,0 +1,51 @@
+Vamos agora mergulhar em um dos temas mais cobrados em Direito Administrativo nos concursos públicos: as noções de organização administrativa.
+
+A organização administrativa nada mais é do que a forma como o Estado estrutura seus órgãos e entidades para colocar em prática as funções administrativas. Ela pode ocorrer de duas formas: de maneira direta ou indireta.
+
+Começamos com a Administração Direta. Esta é composta pelos próprios entes políticos da federação: a União, os Estados, o Distrito Federal e os Municípios. Esses entes atuam diretamente por meio de seus órgãos internos, como ministérios, secretarias estaduais ou municipais, departamentos e diretorias.
+
+Esses órgãos não têm personalidade jurídica própria. Isso significa que fazem parte da mesma pessoa jurídica do ente a que pertencem. Eles não têm autonomia administrativa ou financeira, e suas decisões são atribuídas diretamente ao ente político correspondente.
+
+Agora vamos à Administração Indireta. Ela é composta por entidades que possuem personalidade jurídica própria. São criadas por lei com o objetivo de descentralizar a execução de atividades públicas. Em outras palavras, o Estado cria entidades específicas para executar determinadas funções com mais autonomia.
+
+Essas entidades são: as autarquias, as fundações públicas, as empresas públicas e as sociedades de economia mista.
+
+Vamos falar de cada uma delas, começando pelas Autarquias.
+
+As autarquias são criadas por lei específica, possuem personalidade jurídica de direito público e atuam em atividades típicas do Estado. Isso inclui áreas como previdência, regulação e fiscalização. Um exemplo muito conhecido é o INSS, responsável pela seguridade social, ou a ANAC, que regula o setor de aviação civil. Elas têm autonomia administrativa e financeira, mas continuam sujeitas a controle estatal rigoroso.
+
+Seguimos com as Fundações Públicas.
+
+Essas fundações podem ter personalidade jurídica de direito público ou de direito privado. São voltadas para atividades sociais, científicas, culturais, educacionais ou de pesquisa. São exemplos a Fundação Oswaldo Cruz, conhecida como Fiocruz, e a Fundação Biblioteca Nacional. Elas também são criadas por lei, mas seu regime jurídico pode variar conforme sua natureza pública ou privada.
+
+Agora vamos às Empresas Públicas.
+
+Essas entidades têm personalidade jurídica de direito privado e capital totalmente público. Ou seja, o Estado detém 100% do capital. Atuam em atividades econômicas, frequentemente em concorrência com o setor privado. Embora sejam regidas majoritariamente pelo direito privado, ainda estão sujeitas a algumas normas de direito público, principalmente no que diz respeito à licitação e à responsabilidade civil. Dois exemplos marcantes: a Caixa Econômica Federal e os Correios.
+
+E por fim, as Sociedades de Economia Mista.
+
+Elas também têm personalidade jurídica de direito privado, mas seu capital é misto — formado por capital público e privado. O Estado, no entanto, deve manter o controle acionário, com pelo menos 50% mais uma ação. Elas também atuam em atividades econômicas, e seus exemplos mais conhecidos são a Petrobras e o Banco do Brasil.
+
+Essas entidades da Administração Indireta foram criadas para dar mais eficiência e especialização à execução de políticas públicas, mas o Estado continua exercendo sobre elas o chamado controle finalístico, ou supervisão ministerial — um tipo de fiscalização que garante que os objetivos legais da entidade estejam sendo cumpridos.
+
+E atenção: a banca CEBRASPE, muito tradicional em concursos como o da Polícia Federal, adora cobrar as distinções entre essas entidades, principalmente no que diz respeito ao regime jurídico e à forma de criação.
+
+Vamos reforçar esse ponto com um quadro comparativo:
+
+- As autarquias têm personalidade de direito público, são criadas por lei específica e atuam em funções típicas do Estado.
+- As fundações públicas podem ter regime jurídico público ou privado, e atuam em atividades sociais, culturais, científicas e educacionais.
+- As empresas públicas têm regime predominantemente privado, capital 100% público, e operam no setor econômico.
+- Já as sociedades de economia mista também têm regime privado, mas o capital é misto, sendo o controle acionário público.
+
+Fique atento: essas características — personalidade jurídica, regime jurídico, composição do capital e tipo de atividade exercida — são verdadeiros gatilhos para questões de prova.
+
+Para finalizar, lembre-se:
+
+- Administração Direta é formada por órgãos da estrutura dos entes federativos, sem personalidade jurídica própria.
+- Administração Indireta é composta por entidades com personalidade jurídica própria, criadas para descentralizar a atuação estatal com mais autonomia e especialização.
+- As quatro principais entidades da Indireta são: Autarquias, Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista.
+- E o ponto central: descentralizar é transferir a execução para uma nova pessoa jurídica. Desconcentrar, por outro lado, é apenas distribuir internamente as funções dentro da mesma estrutura jurídica.
+
+Concentre-se nesses pilares, entenda as diferenças, associe os exemplos e fixe as palavras-chave. Isso fará toda a diferença na sua prova.
+
+Estude com inteligência, revise com estratégia, e siga confiante rumo à aprovação no concurso de Perito Digital da Polícia Federal.

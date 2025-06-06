@@ -1,0 +1,62 @@
+Fato Típico: Crime Consumado e Tentado
+
+Neste áudio, vamos estudar um dos fundamentos do Direito Penal: o fato típico, além das noções de crime consumado, tentado e também os casos em que não se admite tentativa.
+
+Para começar, precisamos entender o que significa fato típico.
+
+O fato típico é a conduta humana que se encaixa perfeitamente na descrição feita pela norma penal. Em outras palavras, é quando alguém faz exatamente aquilo que a lei penal proíbe, sendo este o primeiro dos elementos que compõem o conceito analítico do crime.
+
+Para que algo seja considerado um fato típico, é necessário que estejam presentes quatro elementos principais:
+
+Conduta, que é uma ação ou omissão voluntária praticada por um ser humano. Não há crime sem conduta humana.
+
+Resultado, que é a alteração concreta no mundo exterior provocada pela conduta, sendo exigido nos chamados crimes materiais.
+
+Nexo causal, ou seja, a ligação entre a conduta e o resultado. A pergunta é: o que o agente fez causou de fato o resultado?
+
+E por fim, a tipicidade, que é a adequação da conduta à descrição feita na lei penal.
+
+Vamos agora entender a diferença entre crime consumado e crime tentado.
+
+Começando com o crime consumado, previsto no artigo 14, inciso I, do Código Penal. Um crime está consumado quando todos os elementos do tipo penal estão presentes. Ou seja, o resultado desejado ou descrito pela norma foi alcançado com sucesso pela conduta do agente.
+
+Um exemplo clássico é o homicídio: se a conduta do agente resulta na morte da vítima, temos o crime consumado. Nesses casos, aplica-se a pena integral prevista no Código Penal, sem qualquer redução.
+
+Agora falemos do crime tentado, previsto no artigo 14, inciso II.
+
+A tentativa ocorre quando o agente dá início à execução de um crime, mas não consegue consumá-lo por circunstâncias alheias à sua vontade. Ou seja, ele queria cometer o crime, começou a agir com esse objetivo, mas algo externo o impediu de concluir a ação.
+
+Para que se configure tentativa, é necessário que a execução tenha sido iniciada — isso é importante — e que a interrupção tenha ocorrido sem que o agente quisesse. Como exemplo, imagine alguém disparando contra uma vítima, mas não a atinge porque a polícia intervém. A conduta começou, mas o resultado não foi alcançado por causa externa.
+
+Nesses casos, o Código Penal prevê a redução da pena de um terço a dois terços, conforme a maior ou menor proximidade da consumação. Quanto mais perto o agente chegou de concluir o crime, menor será a redução. Cabe ao juiz avaliar essa distância e aplicar a pena com base nisso.
+
+Importante também saber que nem todo crime admite tentativa. Existem algumas exceções.
+
+Por exemplo, crimes culposos não admitem tentativa, porque eles não são cometidos com dolo, ou seja, não têm intenção. Como não há vontade de praticar o crime, não há como se falar em tentativa.
+
+Outro caso são os crimes unissubsistentes, que são aqueles que se consumam com um único ato, como uma injúria verbal — basta uma única palavra para que o crime esteja completo.
+
+Também não se admite tentativa nos crimes preterdolosos, em que há dolo na ação inicial, mas o resultado ocorre por culpa. Por exemplo, numa lesão corporal que acaba em morte sem que o agente tenha essa intenção.
+
+E por fim, via de regra, as contravenções penais não admitem tentativa.
+
+Agora vamos abordar as espécies de tentativa, um ponto frequentemente explorado nas provas.
+
+Existem três variações principais:
+
+A tentativa perfeita, também chamada de acabada, ocorre quando o agente realiza todos os atos executórios, mas o resultado não se consuma por algum fator externo.
+
+A tentativa imperfeita, ou inacabada, acontece quando o agente não chega a concluir todos os atos, pois é impedido de continuar, seja pela vítima, por terceiros ou por outro motivo alheio à sua vontade.
+
+Por fim, temos o crime impossível, que está no artigo 17 do Código Penal. Esse tipo de situação ocorre quando, desde o início, é impossível consumar o crime, seja pela absoluta ineficácia do meio empregado ou pela impropriedade do objeto. Por exemplo, tentar matar alguém com um veneno vencido que já perdeu completamente o efeito, ou tentar furtar uma carteira que na verdade está vazia. Nestes casos, a tentativa não é punida.
+
+Relembrando, a banca CEBRASPE costuma insistir em alguns pontos específicos. Ela gosta de cobrar a diferença entre tentativa e crime impossível, de explorar os casos em que não se admite tentativa e de aprofundar nos elementos do fato típico, especialmente no nexo causal e na conduta. Outro ponto frequente de cobrança é a redução da pena na tentativa, variando de um terço a dois terços conforme o caso.
+
+Vamos fechar com um resumo prático:
+
+– Crime consumado: quando todos os elementos do tipo penal se realizam.
+– Crime tentado: quando o agente inicia a execução, mas não alcança o resultado por causas externas.
+– Na tentativa, a pena é reduzida de um terço a dois terços.
+– Crime impossível: não se pune, pois a consumação é inviável desde o início.
+
+Revisar esses conceitos com frequência e fazer questões práticas sobre o tema é fundamental para se destacar na prova.

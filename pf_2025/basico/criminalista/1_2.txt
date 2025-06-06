@@ -1,0 +1,71 @@
+Vamos revisar, de forma clara e objetiva, os conceitos essenciais de Criminalística e Perícia, com foco direto na sua preparação para o concurso de Perito Criminal Federal, na área digital.
+
+Começamos pela Criminalística.
+Ela é uma ciência aplicada, que se utiliza de conhecimentos técnicos e científicos para analisar vestígios deixados por atividades criminosas.
+Mas a Criminalística não serve apenas para estudar esses vestígios de forma isolada. Seu objetivo maior é reconstruir o fato, identificar os envolvidos — principalmente a autoria — e fornecer subsídios concretos para a investigação criminal e para o processo judicial.
+
+Ou seja, ela transforma indícios em elementos de prova, por meio da ciência.
+
+Agora vamos à Perícia Criminal, que é a manifestação prática da Criminalística.
+Trata-se de uma atividade técnico-científica, totalmente voltada à investigação de infrações penais.
+Ela é realizada por peritos oficiais, que são servidores públicos concursados, com fé pública, e que atuam dentro dos órgãos de polícia científica, como é o caso da Polícia Federal.
+
+A Perícia Criminal é regida por lei, principalmente pelos artigos 158 e seguintes do Código de Processo Penal.
+E sua função é produzir provas periciais — ou seja, documentos técnicos, como laudos e pareceres, que serão utilizados para esclarecer os fatos dentro de um processo penal.
+Entre os exemplos mais comuns de atuação da perícia estão:
+a análise de locais de crime,
+a perícia em balística,
+e, no nosso foco, a informática forense — que investiga arquivos, sistemas, redes e dispositivos digitais.
+
+Mas há também outro tipo de perícia: a Perícia Civil.
+Ela ocorre fora do contexto penal, dentro de processos cíveis.
+Por exemplo: perícias em disputas contratuais, perícias contábeis ou avaliações patrimoniais.
+Nesse caso, a perícia não é feita por um perito oficial, mas por um perito judicial nomeado pelo juiz, que pode ser um profissional liberal, especializado naquela área técnica.
+Além disso, as partes do processo podem indicar assistentes técnicos para acompanhar e emitir pareceres.
+
+A Perícia Civil é regida pelo Código de Processo Civil, a partir do artigo 464.
+
+E aqui é importante prestar atenção nas diferenças principais entre a perícia criminal e a perícia civil, algo que costuma cair em prova.
+
+Primeiro, quanto à natureza:
+A Perícia Criminal tem natureza penal e investigativa.
+Já a Perícia Civil é patrimonial e jurídica, voltada para disputas entre partes.
+
+Segundo, quem executa:
+A Criminal é feita por peritos oficiais, que são servidores concursados.
+Já a Civil é feita por peritos nomeados pelo juiz, normalmente profissionais autônomos.
+
+Terceiro, a finalidade:
+A Perícia Criminal visa esclarecer um crime.
+A Perícia Civil busca resolver conflitos técnicos entre pessoas ou empresas.
+
+E por fim, o valor jurídico:
+Ambas têm valor probatório, mas a perícia criminal tem peso maior, pois é pública, imparcial e realizada por órgão oficial do Estado.
+
+Agora, vamos falar diretamente sobre o papel do Perito Criminal Federal.
+
+Esse profissional é responsável por produzir laudos técnico-científicos com base em evidências reais, coletadas em locais de crime ou ambientes digitais.
+É ele quem preserva e documenta toda a cadeia de custódia das evidências, garantindo que os vestígios possam ser usados como prova sem contaminação.
+O Perito atua não só em locais de crime, mas também em laboratórios forenses, no campo da análise digital, no tratamento de sistemas eletrônicos, e no suporte técnico às investigações da Polícia Federal e às demandas do Poder Judiciário.
+
+É importante memorizar: Perito Criminal Federal é concursado, imparcial, e atua diretamente na apuração de crimes de competência federal, como crimes cibernéticos, financeiros, ambientais e muitos outros.
+
+E aqui vai uma dica direta, baseada no padrão da banca CEBRASPE:
+Eles gostam de cobrar questões que exploram a diferença entre perícia criminal e perícia civil.
+Lembre-se:
+A perícia criminal é oficial, penal e tem fé pública,
+enquanto a perícia civil é técnica, nomeada judicialmente e voltada ao processo civil.
+
+Para fechar este resumo com chave de ouro, aqui estão os pontos-chave para você memorizar:
+
+Criminalística é a ciência aplicada à investigação forense, que estuda vestígios.
+
+Perícia criminal está no campo penal, é realizada por perito oficial e tem fé pública.
+
+Perícia civil ocorre no processo civil, é técnica, e feita por nomeação judicial.
+
+Perito criminal federal é concursado, atua em crimes federais e tem função científica e investigativa.
+
+E o mais importante: a finalidade da perícia é sempre buscar a verdade dos fatos, com base em critérios científicos e imparciais.
+
+Com esse conteúdo bem compreendido, você já deu um passo importante na sua preparação.

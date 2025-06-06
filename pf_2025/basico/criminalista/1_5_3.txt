@@ -1,0 +1,68 @@
+Agora vamos aprofundar o tema dos vestígios químicos, um dos pilares da criminalística moderna e assunto certo nas provas da Polícia Federal.
+
+Para começar: o que são exatamente vestígios químicos?
+
+Vestígios químicos são resíduos, partículas ou traços de substâncias químicas que estão, de alguma forma, associados a uma infração penal.
+Eles podem estar presentes no local do crime, em objetos, nas vítimas ou mesmo nos suspeitos. O que os caracteriza é a necessidade de uma análise laboratorial especializada, geralmente conduzida pela área da química forense.
+
+Esses vestígios, embora invisíveis a olho nu em muitos casos, possuem um poder imenso de esclarecer o que ocorreu em uma cena de crime.
+
+Vamos conhecer agora alguns exemplos clássicos de vestígios químicos que podem aparecer em uma investigação:
+
+Resíduos de drogas ilícitas, como cocaína, crack, maconha, LSD, MDMA — também conhecido como ecstasy.
+
+Restos de pólvora e explosivos, como nitrato, TNT e ANFO — substâncias comuns em atentados e explosões.
+
+Acelerantes de incêndio, como gasolina e querosene, que podem indicar incêndios criminosos.
+
+Venenos e pesticidas, usados em casos de envenenamento ou intoxicação.
+
+E até mesmo produtos químicos usados em falsificações, como reagentes de alteração documental ou tintas adulteradas.
+
+E como os peritos analisam esses vestígios?
+
+A química forense dispõe de uma série de técnicas sofisticadas, e é fundamental que o candidato saiba reconhecê-las:
+
+Primeira técnica: a cromatografia, nas variantes GC — cromatografia gasosa — e HPLC — cromatografia líquida de alta eficiência. Essa técnica permite separar e identificar substâncias em misturas complexas.
+
+Segunda: a espectrometria de massas, uma das mais precisas ferramentas da química forense. Ela permite identificar a estrutura molecular de substâncias desconhecidas, mesmo em quantidades muito pequenas.
+
+Terceira: a colorimetria, usada em testes rápidos. Aqui, os peritos utilizam reagentes que mudam de cor ao entrarem em contato com certas substâncias químicas, permitindo uma triagem inicial no local.
+
+Quarta: a absorção atômica, empregada principalmente para detectar metais pesados ou elementos traço, que podem estar presentes em casos de envenenamento.
+
+E ainda temos a microscopia e a espectroscopia, que são técnicas avançadas de observação e análise de partículas, cristais, tintas e outros resíduos.
+
+E o que a banca CEBRASPE geralmente cobra sobre esse tema?
+
+Primeiro, a classificação correta dos vestígios: químicos, biológicos, físicos, digitais.
+Segundo, a relação entre os vestígios e os crimes investigados.
+Terceiro, as técnicas de análise associadas a cada tipo de vestígio.
+
+Agora vamos às finalidades periciais dos vestígios químicos:
+
+Confirmar o uso ou a posse de drogas ilícitas.
+
+Identificar a causa da morte, principalmente em casos suspeitos de envenenamento — nesse caso, entra a toxicologia forense.
+
+Relacionar o autor ao local do crime, com base na presença de resíduos químicos.
+
+E detectar o modus operandi em casos de incêndios criminosos, explosões e adulterações.
+
+É essencial que o Perito Digital, mesmo não sendo químico, compreenda a importância estratégica dos vestígios químicos, já que muitas vezes arquivos digitais, metadados ou fotos periciais se relacionam a esses elementos.
+
+Vamos agora consolidar tudo isso num resumo estratégico para memorização:
+
+Vestígios químicos são evidências com composição química relevante à investigação.
+Eles são analisados por peritos químicos ou laboratoriais, com técnicas como cromatografia, espectrometria e colorimetria.
+São fundamentais em crimes como tráfico de drogas, explosões, envenenamentos, incêndios criminosos e falsificações documentais.
+
+Na prática forense, devem ser coletados, acondicionados com cuidado, lacrados e registrados, mantendo-se sempre a cadeia de custódia, conforme determina o Código de Processo Penal.
+
+Para concluir, lembre-se:
+
+Vestígios químicos exigem análise técnica.
+
+A banca pode cobrar tanto o conceito quanto os exemplos e as técnicas.
+
+E o candidato deve dominar os fundamentos da química forense, mesmo que atue na área digital, pois a perícia moderna é multidisciplinar e integrada.

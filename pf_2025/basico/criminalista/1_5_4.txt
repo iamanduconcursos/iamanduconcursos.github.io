@@ -1,0 +1,76 @@
+Neste episódio, vamos aprofundar o tema dos vestígios morfológicos, parte essencial da classificação dos vestígios segundo a sua natureza, dentro da disciplina de Noções de Criminalística. Esse é um conteúdo bastante cobrado pela banca CEBRASPE no concurso da Polícia Federal, inclusive para o cargo de Perito Digital.
+
+Começamos com uma pergunta fundamental: o que são vestígios morfológicos?
+
+Vestígios morfológicos são aqueles que podem ser percebidos pela forma, pelo aspecto ou pela configuração que deixam no local do crime.
+São marcas visíveis, alterações físicas deixadas pela ação criminosa, e que fornecem ao perito elementos importantes para compreender como o crime ocorreu.
+
+Pense em uma pegada no barro, ou na marca de um pneu que derrapa. Esses são exemplos clássicos de vestígios morfológicos.
+
+Mas não para por aí. Vamos listar alguns exemplos típicos que você precisa memorizar:
+
+Marcas de pés ou pegadas;
+
+Marcas de pneus;
+
+Arranhões em superfícies, ou escoriações em paredes e móveis;
+
+Deformações em portas arrombadas;
+
+Marcas deixadas por instrumentos como pé de cabra, chave de fenda ou faca;
+
+A posição do cadáver ou de objetos no ambiente;
+
+E também marcas de frenagem deixadas em acidentes de trânsito.
+
+Agora, qual a real função desses vestígios?
+
+Vestígios morfológicos ajudam na reconstrução da dinâmica do crime.
+A partir deles, é possível identificar posições e movimentos de vítimas e agressores, além de confirmar a materialidade do crime, ou seja, que ele realmente aconteceu.
+
+Esses vestígios também têm o papel de direcionar outras análises periciais. Por exemplo: se há uma marca de pé em uma área de sangue, ela pode ser encaminhada para exames genéticos ou confrontos com impressões plantares.
+
+Mas para que esses vestígios cumpram seu papel, a coleta e a preservação devem seguir critérios rigorosos.
+
+Primeiro, é essencial uma documentação fotográfica minuciosa, com vários ângulos.
+Devem-se usar escalas, instrumentos de medição e esquemas do local para representar o cenário com exatidão.
+Além disso, qualquer risco de alteração física ou contaminação deve ser evitado.
+E claro, tudo precisa seguir a cadeia de custódia, conforme prevê a Lei 13.964 de 2019, conhecida como o Pacote Anticrime.
+
+E o que isso tudo tem a ver com a atuação do Perito Digital?
+
+Muita coisa.
+
+Embora o perito digital trabalhe com tecnologia, sistemas e arquivos, é comum que os crimes cibernéticos envolvam elementos físicos.
+Um exemplo? Arrombamento de um dispositivo de armazenamento, invasões físicas a data centers ou a quebra de lacres em equipamentos.
+Nesses casos, marcas deixadas nos objetos podem ser classificadas como vestígios morfológicos e devem ser corretamente interpretadas.
+
+O conhecimento dessas evidências pode revelar o modo de execução do crime digital com suporte físico, e isso é algo que a banca valoriza.
+
+E quanto à base legal, o tema dos vestígios morfológicos está amparado por três pilares principais:
+
+Primeiro, a doutrina da criminalística, que traz os conceitos técnicos e classificações;
+
+Segundo, o Código de Processo Penal, especialmente os artigos 6º, 158 e 159, que tratam da preservação do local do crime e da atuação do perito oficial;
+
+Terceiro, a Resolução 13 de 2017 do Ministério da Justiça, que define diretrizes para a perícia oficial de natureza criminal.
+
+Para ajudar na sua revisão, aqui vai um resumo direto e prático:
+
+Vestígios morfológicos são visíveis, ligados à forma e posição de elementos no local do crime.
+São valiosos na reconstrução dos fatos, devem ser documentados com rigor técnico e têm valor jurídico.
+A documentação adequada, antes de qualquer intervenção, é o que garante sua validade como prova.
+
+E atenção, porque a banca CEBRASPE adora explorar as seguintes pegadinhas:
+
+A diferença entre vestígios morfológicos e vestígios biológicos;
+
+A função dos vestígios na reconstituição da cena do crime;
+
+A importância da documentação correta, como fotos, croquis e medições;
+
+E os riscos da manipulação indevida, que pode comprometer toda a cadeia de custódia e invalidar a prova.
+
+Por isso, estude com atenção, treine com questões comentadas e esteja preparado para identificar, classificar e interpretar vestígios morfológicos mesmo quando o crime for de natureza digital.
+
+Essa integração entre o físico e o digital é uma marca da perícia contemporânea — e certamente um diferencial para você conquistar a sua vaga como Perito da Polícia Federal.

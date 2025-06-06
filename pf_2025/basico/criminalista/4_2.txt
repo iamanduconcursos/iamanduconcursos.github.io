@@ -1,0 +1,19 @@
+Resumo Narrativo – Balística Forense: Calibre Real e Nominal
+
+A balística forense é uma área fundamental da criminalística que estuda os projéteis, as armas de fogo e os efeitos que os disparos produzem. Esse conhecimento é essencial para investigações criminais e, consequentemente, para o trabalho do perito digital na Polícia Federal.
+
+Para começar, é importante entender os principais ramos da balística. Primeiro, temos a balística interna, que analisa o comportamento do projétil enquanto ele ainda está dentro do cano da arma, desde o momento da ignição da pólvora até a saída do projétil. Em seguida, a balística externa estuda o trajeto do projétil após sair da arma, ou seja, como ele se move no espaço até atingir o alvo. Finalmente, a balística terminal observa os efeitos do projétil ao impactar o alvo, incluindo danos e perfurações. A balística forense aplica todos esses conhecimentos ao contexto das investigações criminais.
+
+Um conceito fundamental para a perícia balística é a diferença entre calibre nominal e calibre real. O calibre nominal é a medida convencional e comercial utilizada para identificar munições e armas. Por exemplo, munições .38 e 9 milímetros são calibres nominais muito conhecidos. Já o calibre real é a medida exata do diâmetro interno do cano da arma, que pode variar em relação ao calibre nominal. Essa diferença é importante para garantir a compatibilidade entre munições e armas.
+
+Falando em medidas, o calibre pode ser expresso em polegadas, comum no padrão norte-americano — por exemplo, o calibre .45 ou .22 — ou em milímetros, que é o padrão europeu, como 9mm ou 7,62mm. Além disso, espingardas utilizam uma medida diferente chamada gauge, que representa o número de esferas de chumbo do diâmetro do cano que, juntas, pesam uma libra. Assim, temos calibres 12, 20, 28, entre outros, para espingardas.
+
+Um ponto essencial para o concurso da banca CEBRASPE é compreender que armas com mesmo calibre nominal podem não ser compatíveis em termos de munição. Isso porque o calibre real, que leva em conta o diâmetro entre as raias do cano em armas raiadas, pode variar. O sistema de raiamento, ou estriamento, do cano é decisivo para a identificação balística, pois projéteis disparados em armas raiadas carregam marcas únicas das estrias, permitindo confrontos microcomparativos para vincular a arma ao projétil.
+
+É importante também diferenciar armas de alma raiada das de alma lisa. As armas de alma raiada, como pistolas e fuzis, deixam marcas no projétil, o que facilita a perícia. Já as armas de alma lisa, como as espingardas, não deixam essas marcas detalhadas, dificultando a identificação balística precisa.
+
+Para memorizar esses conceitos, lembre-se de que o calibre nominal é apenas o nome comercial, enquanto o calibre real é a medida técnica precisa. Além disso, associe arma raiada com projétil estriado e análise balística detalhada. Espingardas, por serem de alma lisa, são a exceção que não deixa marcas suficientes para identificar o projétil com precisão.
+
+Na prova, questões comuns envolvem a falsa ideia de que o calibre nominal representa exatamente a medida interna do cano, ou que armas com mesmo calibre nominal são sempre compatíveis entre si. Essas afirmações são incorretas e devem ser destacadas.
+
+Revisar esse conteúdo é essencial para garantir pontos importantes, pois balística forense é uma disciplina de alto peso para o cargo de Perito Digital na Polícia Federal.

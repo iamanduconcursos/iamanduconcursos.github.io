@@ -1,0 +1,70 @@
+Neste estudo, vamos nos aprofundar nos vestígios biológicos, tema fundamental dentro da disciplina de Criminalística, especialmente voltado para o concurso de Perito Criminal Federal na área digital, com banca CEBRASPE.
+
+Vamos começar com a seguinte pergunta:
+O que são vestígios biológicos?
+
+Vestígios biológicos são todos os materiais de origem humana ou animal encontrados em uma cena de crime ou relacionados a ela. Esses vestígios estão diretamente ligados ao corpo — seja da vítima, do autor ou de terceiros — e são cruciais na identificação de pessoas e na reconstrução dos acontecimentos.
+
+Entre os principais exemplos de vestígios biológicos, temos:
+
+Sangue,
+
+Saliva,
+
+Sêmen,
+
+Suor,
+
+Fragmentos de pele ou tecido epitelial,
+
+Unhas, cabelos e pelos,
+
+Partes dentárias,
+
+E, em contextos específicos, urina e fezes.
+
+Agora, por que esses vestígios são tão importantes?
+
+Primeiramente, por causa da identificação genética. O DNA é um marcador altamente confiável na identificação de um indivíduo.
+Mas os vestígios biológicos também permitem determinar se houve contato físico, como em casos de luta corporal ou violência sexual, e possibilitam estabelecer a presença de uma pessoa no local.
+
+Além disso, esses vestígios são peças-chave na reconstrução da dinâmica do crime. A posição em que o sangue foi encontrado, por exemplo, pode indicar se houve movimentação da vítima ou qual foi o tipo de agressão.
+
+Mas para que essas informações tenham validade, é preciso coletar os vestígios de forma correta. E aqui entra a importância da técnica e do rigor na coleta e preservação.
+
+Vestígios biológicos são extremamente sensíveis. Eles podem ser degradados pelo tempo, pela temperatura ou por contaminação cruzada.
+Por isso, o perito deve usar luvas e máscaras, e materiais apropriados como envelopes de papel — e não plástico — para armazenar vestígios úmidos, pois o plástico pode favorecer a decomposição.
+Além disso, deve haver um registro minucioso sobre onde, como e em que condições o vestígio foi encontrado e coletado.
+
+É fundamental lembrar que todo esse cuidado tem um objetivo jurídico: preservar a cadeia de custódia.
+
+A cadeia de custódia, conforme prevista na Lei 13.964 de 2019 — o Pacote Anticrime — e regulamentada nos artigos 158-A a 158-F do Código de Processo Penal, é o conjunto de procedimentos que garante a integridade e autenticidade da prova.
+Se essa cadeia for quebrada, a evidência pode perder seu valor legal.
+
+Agora, mesmo sendo um Perito Digital, você precisa entender por que isso importa.
+Embora o perito da área digital não atue diretamente com vestígios biológicos, ele deve compreender sua relevância, pois os exames digitais muitas vezes interagem com dados de laudos biológicos. Por exemplo, metadados de arquivos que contêm registros de exames, fotos periciais ou arquivos que indicam o local e o horário em que vestígios foram encontrados. Tudo isso pode compor uma análise integrada.
+
+Juridicamente, o exame de vestígios biológicos deve ser feito por um perito oficial, conforme os artigos 158 e 159 do Código de Processo Penal.
+Essas provas são frequentemente utilizadas em laudos periciais de lesão corporal, homicídios, crimes sexuais e exames de DNA para fins judiciais.
+
+Para sua prova, memorize os seguintes pontos:
+
+Vestígios biológicos são compostos por materiais de origem humana ou animal.
+
+Podem incluir sangue, saliva, sêmen, pele, cabelo, suor, fragmentos dentários e outros.
+
+Sua principal função é permitir a identificação de pessoas e reconstruir os eventos.
+
+A coleta deve ser feita com técnica e preservação da cadeia de custódia.
+
+Nunca use plástico para acondicionar materiais úmidos — use papel.
+
+Mesmo um Perito Digital deve conhecer esses elementos, pois podem estar presentes em arquivos digitais ou cruzamentos de dados.
+
+A legislação pertinente é o Código de Processo Penal, especialmente os artigos 158, 159 e 158-A a 158-F.
+
+Em resumo, os vestígios biológicos são instrumentos essenciais na investigação criminal, capazes de vincular autor, vítima e local com base em provas científicas concretas.
+O conhecimento sobre eles, ainda que você atue na área digital, será cobrado — e pode fazer a diferença na sua pontuação final.
+
+Reflita: o sangue no chão, o fio de cabelo preso à roupa, ou o fragmento de pele debaixo das unhas da vítima… todos contam uma história.
+Cabe à perícia dar voz a esses vestígios.

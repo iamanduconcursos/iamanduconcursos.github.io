@@ -1,0 +1,93 @@
+Crimes contra a Pessoa e Processo Penal
+
+Vamos juntos revisar um dos pontos mais cobrados pela banca CEBRASPE: os crimes contra a pessoa, previstos no Código Penal Brasileiro, e alguns tópicos essenciais do Direito Processual Penal. Este conteúdo é fundamental para quem vai enfrentar o concurso para Perito Criminal Federal, especialmente na área de Perícia Digital.
+
+Atenção, porque a banca CEBRASPE gosta de pegar o candidato nas sutilezas: exige interpretação literal do tipo penal, identificação precisa do elemento subjetivo de cada crime, e uma atenção especial para formas qualificadas versus simples. Além disso, cobra com frequência jurisprudência do STF e do STJ.
+
+Começamos pela estrutura geral dos crimes contra a pessoa. Eles estão divididos em capítulos no Código Penal, do artigo 121 ao 154.
+
+No Capítulo I, temos os crimes contra a vida, como o homicídio, o infanticídio e o aborto.
+
+No Capítulo II, estão as lesões corporais.
+
+O Capítulo III trata da periclitação da vida e da saúde — ou seja, da exposição da vítima ao perigo.
+
+O Capítulo IV trata dos crimes contra a honra — como calúnia, difamação e injúria.
+
+E o Capítulo V trata da liberdade individual — incluindo ameaça, cárcere privado e constrangimento ilegal.
+
+Vamos agora com mais calma por cada grupo de crimes, começando pelos crimes contra a vida.
+
+O mais emblemático é o homicídio, previsto no artigo 121. Ele pode ser simples, qualificado ou privilegiado.
+
+O homicídio simples é definido apenas como “matar alguém”. A pena vai de 6 a 20 anos.
+
+O homicídio qualificado tem circunstâncias agravantes, como motivo torpe, motivo fútil, uso de meio cruel, ou emboscada. Aqui a pena sobe: de 12 a 30 anos.
+
+Já o homicídio privilegiado ocorre quando há relevante valor moral ou social, ou quando o agente age sob domínio de violenta emoção logo após injusta provocação. Neste caso, a pena é reduzida.
+
+Destacamos também o feminicídio, que é o homicídio praticado contra mulher em razão de sua condição de sexo feminino. Ele é uma forma qualificada do homicídio, introduzida pela Lei 13.104 de 2015.
+
+Um ponto cobrado com frequência: saiba diferenciar homicídio doloso, culposo e preterdoloso. Além disso, a banca gosta de perguntar se as circunstâncias qualificadoras são objetivas ou subjetivas.
+
+Outro crime contra a vida relevante é o de induzimento, instigação ou auxílio ao suicídio, previsto no artigo 122. Ele se configura quando alguém convence ou ajuda outra pessoa a cometer suicídio. A pena aumenta se o suicídio se consuma. E atenção: o Código foi atualizado para incluir situações de violência virtual e cyberbullying.
+
+Temos ainda o infanticídio, previsto no artigo 123. É um crime próprio, só podendo ser praticado pela mãe, e sob a influência do estado puerperal — ou seja, o momento de perturbação mental causado pelo parto.
+
+E no tema do aborto, os artigos 124 a 128 trazem diferentes formas: consentido, provocado por terceiro, ou sem consentimento. Existem duas situações em que o aborto não é punido: quando é necessário para salvar a vida da gestante, ou quando resulta de estupro.
+
+Fique atento: o STF julgou a ADPF 442, que discute a descriminalização do aborto até a 12ª semana, mas ainda não houve pacificação sobre esse ponto.
+
+Seguimos agora com as lesões corporais, previstas no artigo 129.
+
+A lesão simples é aquela que apenas ofende a integridade física ou a saúde da vítima.
+
+A lesão gravíssima causa consequências sérias, como incapacidade permanente, aborto ou deformidade.
+
+Existe ainda a lesão qualificada pela violência doméstica, nos termos da Lei Maria da Penha.
+
+Outro ponto é a lesão preterdolosa, em que há dolo na conduta inicial e culpa no resultado. Por exemplo: o agente quer agredir, mas a vítima morre. É lesão com resultado morte.
+
+Importante: a lesão culposa só é punível se houver previsão legal.
+
+Passamos agora aos crimes de periclitação da vida e da saúde, ou seja, aqueles que colocam a vítima em risco, mesmo que não causem dano direto.
+
+Entre eles temos:
+
+– O perigo de contágio venéreo, artigo 130;
+– O perigo de moléstia grave, artigo 131;
+– A exposição da vida a perigo, artigo 132 — atenção: este é um tipo subsidiário;
+– E a omissão de socorro, artigo 135, que exige que a omissão seja dolosa e que o agente pudesse agir sem risco pessoal.
+
+Nos crimes contra a honra, três tipos clássicos:
+
+– A calúnia, artigo 138, que é atribuir falsamente um crime a alguém. Admite exceção da verdade.
+– A difamação, artigo 139, que é ofender a reputação da vítima.
+– E a injúria, artigo 140, que ofende a dignidade ou o decoro.
+
+Esses crimes podem ser majorados quando praticados contra funcionário público, nas redes sociais ou com motivação de racismo.
+
+No campo da liberdade individual, destacamos:
+
+– O constrangimento ilegal, artigo 146.
+– A ameaça, artigo 147 — crime de ação penal pública, mas condicionada à representação da vítima.
+– O sequestro e cárcere privado, artigo 148.
+– A violação de domicílio e a violação de correspondência, artigos 150 a 152.
+
+No campo processual penal, destacamos os seguintes pontos:
+
+– As espécies de ação penal: pública incondicionada, pública condicionada e privada.
+– O inquérito policial, com suas características principais: é escrito, sigiloso, não contraditório e conduzido pela autoridade policial.
+– A prova penal: o foco está na legalidade, contraditório, e na cadeia de custódia.
+– As espécies de prisão cautelar: flagrante, temporária e preventiva. E lembre: a preventiva exige os requisitos do artigo 312 do Código de Processo Penal.
+– O tribunal do júri tem competência exclusiva para julgar crimes dolosos contra a vida. O procedimento é bifásico: primeiro há a fase de pronúncia, depois o julgamento em plenário.
+
+E um alerta de ouro: a banca CEBRASPE adora misturar elementos de Direito Penal com Direito Processual Penal em um mesmo enunciado. Por exemplo: "Fulano foi preso em flagrante por tentativa de homicídio..." A pergunta pode exigir conhecimento sobre o rito do júri, a legalidade da prisão, ou a natureza da ação penal.
+
+Finalizando, vejamos algumas jurisprudências muito cobradas:
+
+– O STF entende que homicídio culposo não admite prisão preventiva, porque não há previsão legal.
+– O STJ fixou que lesão corporal leve no âmbito doméstico é de ação penal pública incondicionada.
+– E atenção: em casos de violência doméstica, o processo segue mesmo contra a vontade da vítima.
+
+Para concluir, memorize: entenda as palavras exatas do tipo penal, saiba distinguir dolo, culpa e preterdolo, e acompanhe as jurisprudências atualizadas. A banca valoriza conhecimento técnico, mas acima de tudo, clareza na aplicação da norma penal ao caso concreto.

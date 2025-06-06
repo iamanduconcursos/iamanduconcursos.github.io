@@ -1,0 +1,25 @@
+Banco de Perfis Balísticos — Noções de Criminalística para Perito Digital da Polícia Federal
+
+Vamos falar sobre o Banco de Perfis Balísticos, um tema fundamental para a criminalística moderna e para quem vai prestar concurso de Perito Digital na Polícia Federal. Esse banco é um sistema informatizado que armazena registros digitais de projéteis e estojos coletados em locais de crime ou apreendidos em operações. O objetivo é realizar um confronto automatizado, ou seja, uma comparação eletrônica entre essas peças balísticas, buscando correspondências com armas usadas em crimes anteriores ou com outros casos registrados no sistema.
+
+A principal finalidade do banco é identificar as armas utilizadas em crimes, permitindo também conectar ocorrências criminais que, à primeira vista, podem parecer desconectadas. Com isso, o banco ajuda a detectar padrões de atuação de criminosos ou de organizações criminosas, o que é fundamental para elucidação de crimes em série. Além disso, fornece provas técnicas confiáveis para investigações e processos penais.
+
+Entre os principais sistemas utilizados no Brasil e no mundo para esse fim, destacam-se quatro: o IBIS, que significa Integrated Ballistics Identification System, o EVOFINDER, que é um sistema europeu, o NIBIN, dos Estados Unidos, e aqui no Brasil, o SINAB — Sistema Nacional de Análise Balística.
+
+É importante lembrar que o IBIS é a tecnologia padrão adotada no Brasil. Ele é operado por peritos da Polícia Federal e dos institutos de criminalística estaduais, todos integrados ao SINAB, que funciona como uma rede nacional unificada. Essa integração permite um intercâmbio eficiente de informações entre os estados, ampliando o alcance e a eficácia das investigações.
+
+O funcionamento do IBIS é bastante sofisticado. Primeiro, são digitalizadas imagens tridimensionais dos projéteis e dos estojos recolhidos. O sistema analisa detalhes minuciosos, como marcas de percussão, estrias e impressões laterais — aquelas características únicas deixadas na superfície pela arma de fogo. A partir daí, o sistema realiza um confronto automatizado dessas imagens com o banco de dados, procurando possíveis correspondências.
+
+Quando o sistema indica um possível match, essa indicação é revista por peritos humanos, que fazem a confirmação visual. Essa etapa é fundamental para garantir a precisão e a validade dos resultados apresentados.
+
+As vantagens operacionais desse sistema são enormes. Ele reduz significativamente o tempo de investigação, relaciona crimes que foram cometidos com a mesma arma, rastreia armas de fogo desviadas ou que circulam ilegalmente, e identifica armas "frias" — aquelas reutilizadas em diversos crimes sucessivos, dificultando a ação da polícia se não houvesse essa tecnologia.
+
+O futuro do banco balístico também é promissor. A expectativa é de que haja uma integração nacional ainda maior, unindo todos os estados pelo SINAB, além do intercâmbio internacional de perfis balísticos com outros países, o que ampliaria a cooperação global no combate ao crime.
+
+Também está previsto o uso crescente de inteligência artificial e machine learning para aumentar a precisão das análises, acelerando ainda mais as investigações. Outra inovação será a criação de portais de acesso remoto para que delegados e promotores possam acompanhar em tempo real as conexões entre armas e crimes.
+
+Para quem vai prestar prova, principalmente na banca CEBRASPE, alguns pontos são recorrentes e devem ser memorizados: a função do IBIS e como ele opera; a diferença entre a análise automatizada feita pelo sistema e a análise pericial feita pelo profissional; a importância do banco balístico para elucidação de crimes em série; e a integração do banco ao SINAB, que é a política nacional para unificar essa análise balística no Brasil.
+
+De forma rápida, lembre que: IBIS é o sistema automatizado para comparar projéteis e estojos; SINAB é a rede nacional que integra os IBIS estaduais e federais; o perito é quem revisa e valida os matches indicados pelo sistema; e que o banco balístico é diferente do banco de DNA — são aplicações distintas, embora ambos sejam bancos forenses.
+
+Este tema, por ser altamente técnico e inovador, costuma aparecer em questões que envolvem contexto e aplicação prática, características da banca CEBRASPE. Portanto, conhecer bem esses conceitos te coloca à frente na prova.

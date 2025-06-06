@@ -1,0 +1,27 @@
+Este áudio apresenta os principais pontos do tema Noções de Criminalística, estruturado para ajudar na memorização e compreensão, com foco na banca CEBRASPE, que valoriza a interpretação, aplicação prática e raciocínio lógico. Atenção especial às armadilhas da banca, principalmente em questões de certo ou errado, que costumam explorar termos absolutos como "sempre" ou "nunca".
+
+Vamos começar pelo estudo dos locais de crime, que podem ser classificados em três tipos: locais internos, que são aqueles dentro de recintos fechados; locais externos, em ambientes abertos como ruas ou florestas; e locais mistos, que são áreas de transição entre interno e externo, como a entrada de uma residência.
+
+O primeiro policial a chegar no local de crime tem um papel fundamental, sendo responsável por isolar e preservar a cena. Isso evita que vestígios sejam alterados, contaminados ou destruídos. Para isso, são usadas barreiras físicas e visuais, como fitas zebradas, cones e viaturas, para manter o perímetro seguro.
+
+É essencial entender o conceito de vestígio, que é qualquer objeto ou sinal deixado pelo fenômeno criminoso, e a diferença para o indício, que é a interpretação desse vestígio dentro da investigação. Entre os assuntos mais cobrados pela banca estão a cadeia de custódia, o perímetro primário e secundário, e as fases do atendimento pericial, temas que merecem atenção especial.
+
+No caso dos locais de crime contra a vida, existem características específicas que exigem cuidado redobrado na preservação da cena. Entre elas, a posição do cadáver deve ser mantida, considerando o decúbito, a rigidez cadavérica e os livores, que são as manchas que se formam devido ao acúmulo de sangue após a morte. A análise das manchas de sangue é fundamental, observando padrões, direção e volume, para ajudar a reconstruir a dinâmica do crime. O registro fotográfico e a planimetria da cena são ferramentas indispensáveis para documentar todos esses detalhes.
+
+A relação entre vestígios encontrados e a dinâmica do crime deve ser feita com base em elementos como vestígios balísticos, manchas de sangue, presença de armas, cápsulas, pegadas, entre outros. A banca CEBRASPE costuma cobrar especificamente a ligação entre a posição do corpo e a trajetória do agente lesivo, além da correta interpretação das manchas de sangue.
+
+Seguindo, temos a Tanatologia Forense, que é o estudo da morte, um campo fundamental para a perícia criminal. É importante distinguir a morte real, que é irreversível, da morte aparente, que pode ser revertida com os procedimentos corretos. Os sinais clássicos para confirmação da morte incluem parada cardíaca, ausência de reflexos e midríase fixa, que é a dilatação permanente da pupila.
+
+Os fenômenos cadavéricos são divididos em abióticos e transformativos. Os abióticos podem ser imediatos, como a palidez e a perda de consciência, ou consecutivos, como o rigor mortis, os livores e a putrefação. Já os fenômenos transformativos envolvem processos destrutivos, como autólise e putrefação, e processos conservadores, como mumificação e saponificação.
+
+A estimativa do tempo de morte, tema bastante cobrado, é feita com base na análise da temperatura corporal, rigidez, livores e estágio de putrefação. A associação entre o tipo de transformação cadavérica e o ambiente onde o corpo foi encontrado é fundamental para a precisão dessa estimativa, assim como a ordem cronológica em que esses fenômenos ocorrem.
+
+Em seguida, abordamos a Traumatologia Forense aplicada a locais de crime, que trata da identificação e interpretação das lesões corporais. As lesões contusas incluem hematomas, escoriações e lacerações, causadas por objetos contundentes. Lesões cortantes apresentam bordas regulares e sangramento intenso, enquanto as perfurocortantes, como as causadas por faca ou estilete, têm bordas regulares e profundas. As perfurocontusas, típicas de armas de fogo, apresentam orifício de entrada menor que o de saída.
+
+Na interpretação dessas lesões, é fundamental analisar a trajetória da bala, seu ângulo, distância e direção, bem como o padrão das fraturas e sua correspondência com o objeto causador da lesão. A prova costuma cobrar a combinação do tipo de lesão, instrumento causador e vestígios encontrados no local para interpretar corretamente a dinâmica do crime.
+
+Por fim, os agentes causadores das lesões são classificados em mecânicos, físicos e físico-químicos. Agentes mecânicos envolvem objetos contundentes, cortantes e perfurantes, enquanto agentes físicos incluem calor, frio e eletricidade. Queimaduras são classificadas do primeiro ao terceiro grau, e sinais de vitalidade, como a presença de fuligem nas vias aéreas, indicam se a pessoa estava viva durante a exposição ao fogo. O frio pode causar congelamento e necrose, e a eletricidade deixa marcas específicas, como as de Jellinek, que são queimaduras nos pontos de entrada e saída.
+
+Os agentes físico-químicos incluem substâncias corrosivas, como ácidos e bases, e venenos, que causam lesões químicas externas ou sistêmicas. Entre os temas preferidos da banca estão as lesões elétricas, as queimaduras com indicação do grau e sinais de vitalidade, além dos agentes químicos mais comuns, como soda cáustica e ácido sulfúrico.
+
+Esta estrutura foi pensada para facilitar revisões rápidas e reforçar os pontos mais recorrentes nas provas da CEBRASPE. Use este resumo como um mapa mental para organizar seus estudos, montar fichas ou flashcards, e garantir uma preparação sólida para o concurso.

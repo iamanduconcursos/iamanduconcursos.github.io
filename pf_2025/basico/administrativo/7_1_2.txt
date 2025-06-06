@@ -1,0 +1,35 @@
+Responsabilidade Civil do Estado por Omissão
+
+Vamos entender um tema fundamental para a sua preparação no concurso de Perito Digital da Polícia Federal: a responsabilidade civil do Estado por omissão.
+
+Primeiro, é importante lembrar que a responsabilidade civil do Estado está prevista no artigo 37, parágrafo 6º da Constituição Federal, que impõe ao Estado o dever de indenizar danos causados por seus agentes a terceiros. Essa responsabilidade pode ocorrer de duas formas: por ação, quando o Estado pratica um ato que causa dano, ou por omissão, quando o Estado deixa de agir e essa inação causa um prejuízo.
+
+Um ponto essencial para a prova da banca CEBRASPE é saber distinguir claramente esses dois tipos de responsabilidade. A responsabilidade por ação é, em regra, objetiva, fundamentada na teoria do risco administrativo. Isso significa que basta comprovar o dano, o nexo causal e a conduta do agente para que o Estado responda, independentemente de culpa.
+
+Já a responsabilidade por omissão segue regra diferente: é, em geral, subjetiva. Ou seja, para que o Estado seja responsabilizado por omissão, é necessário comprovar a culpa do Estado, ou seja, que houve negligência, imprudência ou imperícia, além do dano e do nexo causal.
+
+Mas quando o Estado pode ser responsabilizado por omissão? Isso ocorre quando ele tinha o dever legal de agir para proteger um direito ou evitar um dano, e não cumpriu esse dever. Além disso, a omissão precisa ter sido relevante para a ocorrência do dano, ou seja, deve existir um nexo causal entre a inércia do Estado e o prejuízo sofrido pela vítima.
+
+Um exemplo clássico em provas é a fuga de um preso que causa dano a terceiros. Se for comprovado que houve negligência na vigilância, ou superlotação carcerária que gerou condições inadequadas, o Estado pode ser responsabilizado por omissão.
+
+Para facilitar, veja um resumo comparativo:
+
+Na ação comissiva, a responsabilidade do Estado é objetiva, não sendo necessário provar culpa, baseada na teoria do risco administrativo.
+
+Na omissão, a responsabilidade é subjetiva, exigindo a comprovação de culpa e nexo causal.
+
+Existem alguns casos frequentes em que a responsabilidade do Estado por omissão é muito cobrada, como:
+
+Violência em presídios, quando o Estado não garante a segurança dos detentos;
+
+Desabamentos em escolas públicas, por manutenção negligente;
+
+Falhas policiais que impedem linchamentos, demonstrando inércia no cumprimento do dever de proteção.
+
+Os tribunais superiores, o Supremo Tribunal Federal e o Superior Tribunal de Justiça, já consolidaram esse entendimento de que a responsabilidade por omissão é subjetiva. Para que o Estado responda, é preciso provar que houve dano, omissão e culpa administrativa.
+
+Porém, em situações específicas, o STF admite uma aproximação com a responsabilidade objetiva mitigada, quando a culpa é presumida, mas ainda assim, de forma limitada.
+
+Um alerta importante para você que vai prestar a prova: a banca CEBRASPE costuma trabalhar com questões que confundem responsabilidade objetiva e subjetiva para testar seu conhecimento, então fique atento e revise sempre essa distinção.
+
+Em resumo, saber diferenciar responsabilidade civil por ação, que é objetiva, e por omissão, que é subjetiva, é essencial para garantir um bom desempenho na prova.

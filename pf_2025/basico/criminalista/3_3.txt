@@ -1,0 +1,35 @@
+Hoje vamos abordar um tema fundamental para o concurso de Perito Digital da Polícia Federal, especialmente para a banca CEBRASPE: o isolamento e a preservação do local de crime.
+
+Começando pelo conceito básico: o local de crime é o espaço físico onde ocorreu o fato criminoso ou que tenha relação direta com ele. Esse local pode ser classificado de várias formas, podendo ser interno, externo, misto, móvel — como veículos — ou até virtual, no caso de ambientes digitais. É nesse local que se concentram os vestígios essenciais para a investigação.
+
+O primeiro passo ao chegar no local de crime é o isolamento. Essa é a primeira providência no atendimento à ocorrência, e tem um papel fundamental: evitar a contaminação, alteração ou destruição dos vestígios que podem ser cruciais para a elucidação do crime.
+
+A responsabilidade pelo isolamento inicial costuma recair sobre a primeira autoridade policial que chega ao local, que pode ser o patrulheiro, o delegado ou outro agente. O isolamento é feito com o uso de barreiras físicas, faixas, viaturas, cones e controle rigoroso da entrada e saída de pessoas.
+
+Após o isolamento, o foco passa para a preservação do local. Preservar o local significa manter exatamente as mesmas condições em que ele foi encontrado. Isso inclui evitar qualquer movimentação de corpos, objetos, documentos, armas ou vestígios digitais e biológicos que estejam presentes.
+
+Além disso, é fundamental registrar detalhadamente quem entrou no local, em que horário e qual foi a justificativa para isso. Essa documentação é crucial para garantir a cadeia de custódia das provas e evitar qualquer questionamento posterior.
+
+O local deve permanecer preservado até a chegada da equipe pericial, que dará continuidade ao trabalho técnico.
+
+Por que isso é tão importante? Porque o local é o ponto de partida para a reconstrução dos fatos. Se os vestígios forem mal preservados, eles podem se tornar provas nulas ou inválidas, comprometendo toda a investigação.
+
+A preservação correta é a garantia da cadeia de custódia, que assegura a integridade das provas desde o momento em que são encontradas até o exame pericial, conferindo validade jurídica aos resultados.
+
+A banca CEBRASPE costuma cobrar muito sobre a ordem correta das ações no local, as responsabilidades dos agentes e os efeitos jurídicos da má preservação.
+
+Para resumir de forma prática para sua prova:
+
+Isolamento é a ação imediata para restringir o acesso ao local, protegendo-o contra interferências.
+
+Preservação é o cuidado de manter o local intacto até a chegada da perícia.
+
+A finalidade dessas medidas é proteger os vestígios, garantindo a integridade da prova.
+
+O responsável inicial pelo isolamento e preservação é a autoridade policial que chega primeiro.
+
+Qualquer erro nessa etapa pode comprometer a cadeia de custódia, acarretando risco de nulidade das provas e fragilização do processo investigativo.
+
+Lembre-se sempre: o vestígio fala, cabe ao perito escutá-lo. E para isso, o local de crime deve estar preservado e isolado com rigor desde o primeiro momento.
+
+Esse entendimento será fundamental para o seu sucesso no concurso, pois demonstra domínio dos princípios básicos da criminalística aplicados à perícia digital e à investigação criminal.

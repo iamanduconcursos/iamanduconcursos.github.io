@@ -1,0 +1,57 @@
+Licitação — Modalidades
+
+Hoje vamos falar sobre licitação, um tema fundamental em Direito Administrativo e muito cobrado no concurso de Perito Digital da Polícia Federal.
+
+Licitação é o procedimento administrativo obrigatório que a Administração Pública deve seguir para contratar obras, serviços, compras e alienações. Seu objetivo principal é garantir a isonomia, ou seja, o tratamento igualitário entre os participantes; assegurar a seleção da proposta mais vantajosa para o interesse público; e ainda promover o desenvolvimento nacional sustentável.
+
+Com a nova Lei nº 14.133, de 2021, o regime de licitações passou por atualizações importantes. Apesar disso, para concursos, especialmente os organizados pelo Cebraspe, ainda é necessário conhecer tanto a nova lei quanto a antiga, a Lei nº 8.666 de 1993.
+
+Vamos listar as modalidades previstas na nova lei, começando pela concorrência. Essa modalidade é utilizada para contratos de maior valor ou complexidade e permite ampla participação dos interessados. É uma das modalidades mais formais.
+
+Temos também o pregão, que se destina à aquisição de bens e serviços comuns, ou seja, aqueles com especificações usuais no mercado. O pregão pode ocorrer na forma presencial ou eletrônica, sendo uma modalidade bastante dinâmica e ágil.
+
+O concurso, outra modalidade, serve para selecionar trabalhos técnicos, científicos ou artísticos, mediante premiação ou contratação, e é ideal para propostas que exigem criatividade ou inovação.
+
+O leilão é destinado à venda de bens móveis inservíveis ou produtos legalmente apreendidos.
+
+Destaque para uma modalidade nova, o diálogo competitivo, que é usada em contratações complexas. Nessa modalidade, a Administração Pública dialoga com os licitantes para definir a melhor solução antes da apresentação das propostas.
+
+Por fim, temos a consulta, indicada para contratações de baixo valor e que demandam menor formalidade.
+
+Além dessas modalidades da nova lei, conheça as modalidades tradicionais da antiga Lei 8.666, que são bastante cobradas em provas.
+
+A concorrência, como já dissemos, é a modalidade mais ampla e formal, usada para contratos de alto valor, por exemplo, obras acima de 3,3 milhões de reais.
+
+A tomada de preços destina-se a contratações de médio valor, em que os interessados precisam estar previamente cadastrados na Administração.
+
+O convite é utilizado para contratos de pequeno valor e exige que pelo menos três fornecedores sejam convidados a participar.
+
+Também temos o concurso e o leilão, com características semelhantes às previstas na nova lei.
+
+Importante lembrar que o pregão, embora não esteja previsto na Lei 8.666, é regulamentado pela Lei 10.520 de 2002 e é amplamente cobrado em concursos.
+
+Para escolher a modalidade adequada, a Lei 8.666 estabelece alguns critérios importantes.
+
+Primeiro, o valor estimado da contratação: cada modalidade possui limites próprios para contratação direta.
+
+Segundo, a natureza e a complexidade do objeto a ser contratado — obras, serviços comuns ou especializados.
+
+E terceiro, o grau de formalidade e amplitude da disputa, pois quanto maior o valor e a complexidade, maior deve ser a formalidade do processo, como na concorrência.
+
+Por exemplo, o convite é utilizado para contratações até 176 mil reais para obras, e até 88 mil para serviços, com participação restrita a três convidados.
+
+Já a tomada de preços abrange valores até 1,43 milhão de reais, com interessados previamente cadastrados.
+
+A concorrência é para valores acima desses limites e é aberta para ampla participação.
+
+O leilão e o concurso não têm limites de valor definidos, pois são modalidades específicas para venda de bens e seleção de trabalhos, respectivamente.
+
+O Cebraspe costuma cobrar bastante a diferença entre modalidade e critério de julgamento. Saber os limites de valores de cada modalidade é essencial para evitar erros nas provas.
+
+Pregão, especialmente nas formas eletrônica e presencial, é muito cobrado, então vale a pena dominar esse tema.
+
+Cuidado para não confundir as modalidades da Lei 8.666 com as da nova Lei 14.133, pois isso pode ser uma armadilha nas questões.
+
+Para finalizar, lembre-se que a escolha da modalidade depende do valor da contratação, do tipo de objeto e do grau de formalidade exigido.
+
+Estude bem para diferenciar cada modalidade e seus limites, e mantenha-se atualizado sobre as mudanças na legislação.

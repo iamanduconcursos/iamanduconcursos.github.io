@@ -1,0 +1,33 @@
+Vamos abordar o tema Cadeia de Custódia da Prova, essencial para a preparação ao concurso de Perito Digital da Polícia Federal, especialmente na disciplina de Direito Penal e Processual Penal, com banca CEBRASPE.
+
+A cadeia de custódia é o conjunto de procedimentos que garantem a manutenção e documentação da integridade de um vestígio, desde o momento em que ele é coletado até seu descarte ou apresentação final. Essa garantia é fundamental para assegurar que a prova não seja contaminada, perdida ou adulterada durante o processo criminal.
+
+Importante destacar que a cadeia de custódia está prevista nos artigos 158-A a 158-F do Código de Processo Penal, inseridos pela Lei nº 13.964 de 2019, o chamado Pacote Anticrime. Essa norma se aplica a qualquer tipo de prova, seja física ou digital.
+
+Para compreender melhor, vamos definir alguns conceitos fundamentais. O vestígio é qualquer objeto ou material que possa servir como elemento de prova em uma investigação. A cadeia de custódia é a documentação cronológica e sistemática desse vestígio, desde o seu reconhecimento e coleta até seu descarte ou guarda final. Todos os responsáveis pelo manuseio do vestígio — sejam policiais, peritos ou autoridades — têm a obrigação de registrar rigorosamente cada etapa.
+
+O CEBRASPE costuma destacar que a cadeia de custódia é a garantia da autenticidade e confiabilidade da prova, e que cada etapa precisa ser devidamente documentada para evitar questionamentos futuros.
+
+Agora, é fundamental conhecer as dez etapas da cadeia de custódia, previstas no artigo 158-B do CPP, que devem ser seguidas com rigor. São elas:
+
+Primeiro, o reconhecimento, que consiste na identificação do objeto como possível vestígio. Em seguida, o isolamento da área para evitar qualquer contaminação do material. Depois, vem a fixação, que é o registro do vestígio por meio de fotos, vídeos, croquis e outras formas de documentação.
+
+A coleta é a retirada técnica do vestígio, que deve ser feita por um profissional capacitado. Após isso, o acondicionamento, que envolve a embalagem e a selagem do material com uma etiqueta única, garantindo sua integridade.
+
+O transporte consiste na remessa do vestígio para o local de custódia ou perícia, onde será recebido e registrado formalmente, conferindo a integridade do material na chegada.
+
+O processamento pericial é a análise técnica do vestígio, sempre preservando a cadeia de custódia. O armazenamento garante a guarda segura do vestígio até o fim do processo. Finalmente, o descarte corresponde à eliminação ou devolução da prova, conforme decisão judicial.
+
+É fundamental memorizar essas dez etapas, pois todas elas devem ser rigorosamente registradas para que a prova tenha validade no processo penal.
+
+Quanto às responsabilidades, o perito criminal é o principal responsável pela coleta, acondicionamento e processamento técnico dos vestígios. Policiais civis, federais ou militares podem atuar no reconhecimento, isolamento e transporte. Já o custodiante é o responsável pelo recebimento e armazenamento.
+
+Todos os envolvidos devem documentar a cadeia de custódia, pois a ausência desse registro compromete a validade da prova e pode acarretar sua nulidade.
+
+Sobre o registro e a rastreabilidade, cada vestígio deve receber um número de identificação único. Além disso, o manuseio em cada etapa deve ser assinado com data, hora e a identificação clara do responsável. Esses registros devem estar formalizados em sistema informatizado ou livro oficial, garantindo total transparência.
+
+Caso ocorra quebra na cadeia de custódia, ou seja, alguma etapa deixe de ser registrada ou seja realizada incorretamente, a prova pode ser considerada ilícita ou contaminada, o que compromete todo o processo.
+
+Para fixar os pontos mais importantes para a prova, lembre-se: o artigo 158-B determina as dez etapas da cadeia; o artigo 158-C impõe a obrigatoriedade da identificação individual do vestígio; o artigo 158-E exige que cada pessoa que manuseia registre sua atuação. A quebra na cadeia pode levar à nulidade da prova, tornando esse tema muito cobrado em concursos.
+
+Estude com atenção e pratique com questões para fixar esse conteúdo fundamental. Assim, você estará preparado para garantir a validade das provas que analisar como Perito Digital na Polícia Federal.

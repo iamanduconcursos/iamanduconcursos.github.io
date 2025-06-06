@@ -1,0 +1,17 @@
+Banco de Perfis Genéticos nas Ciências Forenses
+
+Hoje vamos falar sobre um tema fundamental para a criminalística moderna e muito cobrado no concurso de Perito Digital da Polícia Federal: o Banco de Perfis Genéticos. Esse banco é um sistema informatizado que armazena perfis genéticos obtidos por exames de DNA, com o objetivo de comparar amostras biológicas coletadas em locais de crime com perfis previamente cadastrados. Isso permite identificar suspeitos, vítimas e conectar diferentes casos criminais.
+
+No Brasil, o funcionamento do banco de perfis genéticos está respaldado pela Lei número 12.654 de 2012, que alterou a Lei de Execução Penal para autorizar a coleta de material genético de condenados por crimes hediondos e dolosos com violência. Essa coleta pode ser realizada mesmo sem o consentimento do condenado, uma questão que costuma ser bastante cobrada em provas. A finalidade principal é alimentar bancos nacionais para permitir a comparação rápida com vestígios encontrados em locais de crime.
+
+É importante destacar que a lei estabelece que apenas marcadores genéticos não codificantes podem ser usados no banco. Isso significa que as informações armazenadas não revelam características físicas, nem predisposições a doenças, garantindo a privacidade e a dignidade dos indivíduos.
+
+A estrutura do sistema nacional é composta pela Rede Integrada de Bancos de Perfis Genéticos, conhecida como RIBPG. O Banco Nacional de Perfis Genéticos, mantido pela Polícia Federal, integra-se aos bancos estaduais, formando uma rede unificada. O sistema utiliza o CODIS, ou Combined DNA Index System, desenvolvido pelo FBI, que possibilita a interoperabilidade, ou seja, a comparação rápida e eficiente entre perfis genéticos cadastrados em diferentes estados e instituições.
+
+Os tipos de perfis genéticos armazenados no banco são variados. Entre eles estão vestígios biológicos coletados em locais de crime, como sangue, sêmen, pele e saliva. Também são armazenados perfis de condenados por crimes específicos, além de perfis de pessoas desaparecidas e seus familiares, e de vítimas não identificadas. Isso torna o banco uma ferramenta essencial tanto para a resolução de crimes quanto para identificação de pessoas em situações diversas, como desastres.
+
+Quanto às finalidades forenses, o banco é usado para identificar a autoria criminal por meio do confronto direto de amostras, identificar pessoas desaparecidas ou vítimas de desastres, e para vincular crimes com modus operandi semelhante, auxiliando no combate a séries criminosas.
+
+Para se preparar para as provas do Cebraspe, fique atento a alguns pontos importantes. A lei exige que haja condenação para a inclusão do perfil genético no banco; não basta apenas o inquérito policial. Os marcadores genéticos utilizados não revelam traços físicos, respeitando a privacidade dos indivíduos. Caso a pessoa recuse fornecer o material genético, essa recusa pode ser suprimida por autorização judicial. Também é vedado o uso do DNA para fins discriminatórios. Por fim, o banco permite a exclusão de perfis quando há erro ou absolvição do indivíduo, garantindo o respeito aos direitos civis.
+
+Em resumo, o Banco de Perfis Genéticos é uma ferramenta poderosa, amparada por legislação específica, que integra tecnologia e direito para fortalecer a investigação criminal e garantir justiça. Conhecer bem sua estrutura, funcionamento e aspectos legais é fundamental para o profissional que deseja atuar como perito na Polícia Federal.

@@ -1,0 +1,64 @@
+Controle da Administração Pública — Controle Interno
+
+Vamos falar sobre o controle exercido pela própria Administração Pública, também chamado de controle interno. Esse tema é muito importante para o concurso de Perito Digital da Polícia Federal, principalmente para quem estuda Direito Administrativo.
+
+O que é controle da Administração Pública?
+Controle é o poder-dever que a Administração tem de fiscalizar seus próprios atos, ou os atos de seus órgãos subordinados. O objetivo é garantir que tudo aconteça dentro dos princípios da legalidade, legitimidade, eficiência e moralidade, que regem o uso correto da máquina pública.
+
+Existem várias formas de classificar o controle público, e entender essas classificações ajuda muito a organizar o conhecimento.
+
+Primeiro, quanto à origem, temos dois tipos:
+
+O controle interno, que é exercido pela própria Administração sobre si mesma. Por exemplo, um ministério fiscaliza as secretarias que estão sob sua responsabilidade.
+
+O controle externo, que é feito pelo Poder Legislativo, com o apoio dos Tribunais de Contas. Esse controle é posterior e fiscaliza o resultado da gestão pública.
+
+Segundo, quanto ao momento em que o controle é feito, ele pode ser:
+
+Prévio, quando ocorre antes da prática do ato, como no caso das licitações.
+
+Concomitante, quando acontece durante a execução do ato.
+
+Posterior, feito depois que o ato foi praticado, como em auditorias e inspeções.
+
+Terceiro, quanto ao aspecto analisado, o controle pode verificar:
+
+A legalidade, ou seja, se o ato está conforme a lei.
+
+O mérito, que envolve avaliação de conveniência e oportunidade, aplicado apenas quando o poder público tem discricionariedade para decidir.
+
+Focando agora no controle interno, alguns pontos são fundamentais:
+Ele ocorre dentro da própria estrutura administrativa, como ministérios, secretarias e órgãos vinculados.
+É exercido por órgãos específicos, chamados órgãos de controle interno, como a Controladoria-Geral da União, a CGU, que tem papel crucial na fiscalização.
+O controle interno é um instrumento de autotutela administrativa, previsto no artigo 53 da Lei nº 9.784 de 1999, que permite à Administração anular atos ilegais e revogar aqueles inconvenientes ou inoportunos, sem a necessidade de recorrer ao Judiciário.
+Além disso, esse controle é obrigatório em todas as esferas: federal, estadual e municipal.
+
+Do ponto de vista constitucional, o controle interno está previsto no artigo 74 da Constituição Federal de 1988. Esse artigo determina que os Poderes da União, dos Estados, do Distrito Federal e dos Municípios mantenham sistemas de controle interno, com objetivos claros:
+
+Avaliar se as metas e objetivos do plano de governo estão sendo cumpridos;
+
+Comprovar a legalidade dos atos e avaliar os resultados da gestão pública;
+
+Controlar a execução orçamentária e financeira;
+
+Fiscalizar a aplicação dos recursos públicos, especialmente os transferidos a outros entes federativos.
+
+Um aspecto essencial do controle interno é que ele deve atuar em cooperação com o controle externo, prestando informações importantes ao Tribunal de Contas da União, o TCU, conforme o parágrafo 1º do artigo 74.
+
+É importante também diferenciar dois tipos específicos de controle interno:
+
+O controle hierárquico, que decorre da relação de subordinação entre órgãos da administração direta. Por exemplo, um ministério que controla suas secretarias subordinadas.
+
+O controle finalístico, que ocorre sobre as entidades da administração indireta, como autarquias e fundações, onde o ministério exerce uma supervisão sobre a atuação dessas entidades.
+
+Para quem vai fazer a prova, a banca CEBRASPE costuma cobrar com atenção:
+
+A distinção clara entre controle interno e controle externo;
+
+A compreensão dos conceitos de autotutela, especialmente a diferença entre anulação e revogação de atos administrativos;
+
+O entendimento de que o controle posterior corresponde à fiscalização, feita depois do ato;
+
+E cuidado com pegadinhas que envolvem o papel do Legislativo versus o controle interno da Administração.
+
+Por fim, uma dica valiosa: o controle interno é fundamental porque atua na prevenção de irregularidades e na responsabilização dos agentes públicos ainda dentro da Administração, antes que os problemas cheguem à esfera do controle externo. Isso torna o sistema mais eficiente e transparente.

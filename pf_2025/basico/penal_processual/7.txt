@@ -1,0 +1,65 @@
+Crimes contra a Administração Pública – Resumo para Perito Criminal Federal
+
+Neste áudio, vamos abordar os principais pontos sobre os Crimes contra a Administração Pública, um tema fundamental para o concurso de Perito Criminal Federal da Polícia Federal, especialmente com foco na banca CEBRASPE, que exige muita atenção à literalidade dos tipos penais e ao nexo funcional do agente com a Administração.
+
+Primeiramente, é importante entender a classificação dos crimes contra a Administração Pública. Eles estão divididos em quatro grandes capítulos no Código Penal:
+
+O primeiro capítulo trata dos crimes cometidos por funcionário público contra a Administração, que vão do artigo 312 ao 327;
+
+O segundo capítulo reúne os crimes praticados por particulares contra a Administração, abrangendo os artigos 328 a 337;
+
+O terceiro capítulo refere-se aos crimes contra a Administração da Justiça, como falso testemunho e denunciação caluniosa;
+
+E, finalmente, o quarto capítulo trata dos crimes contra as Finanças Públicas, previstos em leis específicas, como a Lei 10.028 de 2000.
+
+Vamos começar pelos crimes praticados por funcionários públicos contra a Administração Pública.
+
+O primeiro e mais emblemático crime é o peculato, previsto no artigo 312. O peculato pode se manifestar de diversas formas:
+
+Na modalidade de peculato apropriação, o servidor público se apropria de um bem móvel em razão do cargo que ocupa;
+
+No peculato desvio, ele desvia o bem para fins pessoais;
+
+Existe ainda o peculato furto, em que o agente subtrai o bem sem posse legítima e com a participação de um terceiro;
+
+Por fim, há o peculato culposo, que ocorre por negligência do servidor. Aqui, o dano deve ser reparado antes que a sentença transite em julgado, pois isso pode extinguir a punibilidade.
+
+Outro crime relevante é a concussão, prevista no artigo 316. Trata-se da exigência, seja direta ou indireta, de vantagem indevida, ainda que fora da função pública. Para caracterizar a concussão, é necessário o dolo, ou seja, a consciência e a vontade do abuso de função.
+
+Já a corrupção passiva está prevista no artigo 317 e consiste em solicitar ou receber vantagem indevida. Um ponto importante para lembrar é que não apenas a efetiva recepção da vantagem configura o crime, mas também o simples ato de aceitar a promessa dela. Além disso, existe uma forma qualificada, quando o agente retarda ou deixa de praticar um ato de ofício, ou o pratica infringindo dever funcional.
+
+O crime de prevaricação está descrito no artigo 319 e envolve o servidor público que retarda ou deixa de praticar um ato de ofício por interesse pessoal, seja por sentimento ou motivação particular. Essa conduta é personalíssima, ou seja, depende da vontade e do interesse do agente.
+
+Há ainda a advocacia administrativa, prevista no artigo 321, que ocorre quando o servidor patrocina, perante a Administração Pública, interesse privado, especialmente se há interesse ilegítimo.
+
+Outros crimes comuns são o abandono de função (artigo 323), o exercício funcional irregular (artigo 324) e a resistência (artigo 329), esta última configurada pela oposição, com violência ou ameaça, à execução de ato legal.
+
+Importante destacar a jurisprudência do Supremo Tribunal Federal, que entende que a corrupção passiva independe da prática efetiva do ato de ofício; basta a solicitação ou aceitação da vantagem indevida para configurar o crime.
+
+Passando aos crimes praticados por particulares contra a Administração Pública, temos a corrupção ativa prevista no artigo 333. Nesse caso, o particular oferece ou promete vantagem indevida a um funcionário público. A consumação ocorre já no momento da oferta, mesmo que a proposta seja recusada.
+
+Outro crime dessa categoria é a usurpação de função pública (artigo 328), que ocorre quando alguém exerce função pública sem autorização legal. Se essa atuação gera vantagem, há uma forma qualificada do crime.
+
+Ainda dentro deste grupo estão crimes como a desobediência, resistência e desacato (artigos 329 a 331). O desacato, previsto no artigo 331, consiste em ofender funcionário público no exercício da função. Contudo, esse tema é objeto de debate atual, com questionamentos sobre sua constitucionalidade em razão da liberdade de expressão.
+
+No que diz respeito aos crimes contra a Administração da Justiça, destacamos:
+
+O falso testemunho (artigo 342), que consiste em prestar declaração falsa em juízo ou em processo administrativo;
+
+A denunciação caluniosa (artigo 339), quando alguém acusa falsamente outra pessoa de um crime;
+
+E a fraude processual (artigo 347), que envolve manipular a cena do crime ou provas com o intuito de enganar a Justiça.
+
+Para o concurso, é fundamental entender as diferenças entre corrupção ativa e passiva, bem como distinguir quando o crime é formal, ou seja, consuma-se com a conduta, ou material, que depende de um resultado específico.
+
+No âmbito do Direito Processual Penal, lembre-se que, em regra, a competência para julgar esses crimes é da Justiça Comum, salvo quando há prejuízo à União, caso em que a Justiça Federal é competente. O inquérito policial pode ser instaurado de ofício ou por requisição, e a cadeia de custódia das provas, bem como a legalidade das interceptações telefônicas, são elementos essenciais para garantir a validade das provas, conforme o artigo 157 do Código de Processo Penal, que veda provas ilícitas.
+
+As prisões cautelares, especialmente as preventivas, são aplicadas em casos de corrupção e peculato, conforme os artigos 312 e 313 do Código Penal.
+
+O Supremo Tribunal de Justiça e o Supremo Tribunal Federal têm consolidado entendimento de que a prática reiterada de crimes contra a Administração Pública pode justificar a prisão preventiva para garantia da ordem pública, conforme o Habeas Corpus 91.733.
+
+Como dicas finais para a preparação, recomendo decorar bem as diferenças entre peculato, concussão e corrupção, estar atento às formas qualificadas desses crimes, e estudar as principais decisões do STF e STJ relacionadas à corrupção, peculato e prevaricação. É fundamental também compreender e memorizar os verbos nucleares presentes nos tipos penais, pois a banca CEBRASPE valoriza muito a literalidade dos textos legais.
+
+Para fixar o conteúdo, uma boa estratégia é estudar por meio de quadros comparativos e resolver muitas questões da banca que apresentem cenários funcionais, como situações em que o agente público exige vantagem, ou o particular oferece dinheiro, treinando assim a interpretação prática exigida nas provas.
+
+Esse foi o resumo estratégico sobre Crimes contra a Administração Pública, essencial para sua aprovação no concurso de Perito Criminal Federal. Bons estudos!

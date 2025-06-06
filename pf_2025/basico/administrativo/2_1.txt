@@ -1,0 +1,82 @@
+Vamos agora estudar um tema clássico e recorrente nas provas da Polícia Federal: o Ato Administrativo.
+
+O ato administrativo é a manifestação unilateral da vontade da Administração Pública, com a finalidade de produzir efeitos jurídicos, ou seja, é a ação prática da função administrativa. É através do ato administrativo que o Estado cria, modifica ou extingue direitos no âmbito do direito público.
+
+Em resumo, quando a administração pública decide, por exemplo, conceder uma licença, aplicar uma multa, abrir concurso ou exonerar um servidor, ela está praticando atos administrativos. São esses atos que materializam a vontade do Estado na execução das políticas públicas e da gestão pública.
+
+Mas para que um ato administrativo seja válido, ele precisa atender a cinco requisitos fundamentais. Esses requisitos são:
+
+1. Competência: o ato precisa ser praticado por uma autoridade com atribuição legal. Ou seja, só pode fazer aquilo quem a lei autoriza.
+
+2. Finalidade: a finalidade sempre deve ser o interesse público, jamais interesses pessoais ou privados. A finalidade é o motivo maior que justifica a própria existência da Administração Pública.
+
+3. Forma: a forma deve respeitar aquilo que a lei estabelece. Na prática, isso significa que a maioria dos atos deve ser escrita, publicada ou documentada, garantindo transparência e controle.
+
+4. Motivo: refere-se à situação de fato e de direito que justifica o ato. É o porquê da decisão, o contexto que a embasa.
+
+5. Objeto: é o conteúdo do ato, ou seja, aquilo que ele produz no mundo jurídico — a concessão, a autorização, a sanção ou qualquer outro efeito.
+
+Atenção: um erro muito comum em provas da CEBRASPE é confundir motivo com finalidade. Motivo é o fato concreto. Finalidade é o objetivo maior — sempre vinculado ao interesse público.
+
+Agora, vamos aos atributos dos atos administrativos. Os atributos são as características especiais que esses atos possuem por serem praticados pelo Estado.
+
+O primeiro atributo é a presunção de legitimidade: presume-se que o ato foi praticado conforme a lei, até que se prove o contrário.
+
+O segundo é a imperatividade: o ato impõe obrigações aos particulares, independentemente da concordância deles. O Estado ordena, e o cidadão deve cumprir.
+
+O terceiro é a autoexecutoriedade: o Estado pode executar diretamente certas medidas, sem precisar recorrer ao Judiciário. Mas atenção: nem todos os atos possuem esse atributo. Ele depende de previsão legal ou de urgência.
+
+O quarto e último atributo é a tipicidade: os atos administrativos devem corresponder aos tipos previstos em lei. Isso decorre do princípio da legalidade — o administrador só pode fazer o que a lei permite.
+
+Vamos agora às classificações mais cobradas dos atos administrativos.
+
+Quanto aos seus efeitos, eles podem ser:
+
+- Constitutivos: quando criam novas situações jurídicas, como a nomeação de um servidor.
+
+- Declaratórios: quando apenas reconhecem uma situação já existente, como o reconhecimento de um tempo de serviço.
+
+- Extintivos: quando extinguem situações jurídicas, como a revogação de uma licença.
+
+Quanto aos destinatários, os atos podem ser:
+
+- Gerais: aplicáveis a todos ou a uma coletividade, como regulamentos e portarias normativas.
+
+- Específicos: dirigidos a uma pessoa ou grupo determinado, como a aplicação de uma multa.
+
+Quanto à formação, os atos podem ser:
+
+- Simples: quando resultam da manifestação de um único órgão ou autoridade.
+
+- Complexos: quando exigem a manifestação conjunta de mais de um órgão.
+
+- Coletivos: quando decorrem da deliberação de um colegiado, como conselhos ou comissões.
+
+Agora vamos às espécies mais comuns de atos administrativos, aquelas que frequentemente aparecem nas provas.
+
+Primeiro, temos a Licença. É um ato vinculado, ou seja, se o cidadão cumpre os requisitos legais, a administração deve conceder. Por exemplo, a licença para dirigir ou construir.
+
+Depois, temos a Permissão. Ela é discricionária e precária. A Administração pode conceder ou não, e pode revogar a qualquer momento. Um exemplo é a permissão para explorar um serviço público.
+
+Temos também o Alvará, que é uma autorização para funcionamento, geralmente no âmbito municipal, como alvará sanitário ou comercial.
+
+Outro exemplo é a Portaria, um ato interno, utilizado para organizar o funcionamento da Administração. Portarias definem procedimentos, horários, designações internas.
+
+O Despacho é uma manifestação simples, que decide uma questão dentro de um processo administrativo. É muito comum na rotina burocrática.
+
+Temos ainda a Revogação, que extingue um ato válido por razões de conveniência e oportunidade. Ou seja, mesmo estando legalmente correto, o ato pode ser revogado por mudança de interesse público.
+
+E a Anulação, que ocorre quando o ato tem algum vício de legalidade. A Administração tem o dever de anular o ato ilegal, inclusive de ofício, ou seja, sem necessidade de provocação.
+
+E atenção: não confunda esses dois conceitos. A revogação é feita por motivo de mérito, já a anulação é feita por motivo de ilegalidade.
+
+Na hora da prova, a banca CEBRASPE adora colocar pegadinhas com essas duas figuras — revogação e anulação —, bem como explorar os atributos da autoexecutoriedade e da imperatividade.
+
+Revisando: o ato administrativo é a forma como a Administração exerce sua função executiva, com base em cinco requisitos — competência, finalidade, forma, motivo e objeto. Ele possui atributos que garantem sua eficácia e pode ser classificado de várias formas, dependendo do critério adotado.
+
+Entender os fundamentos dos atos administrativos é essencial não só para a sua prova, mas para compreender como o Estado funciona na prática.
+
+Mantenha o foco, siga firme, e não subestime a importância da teoria — porque ela é a chave para dominar os enunciados mais complexos.
+
+Estude com método, pratique com propósito, e caminhe com confiança rumo à sua aprovação no concurso de Perito Digital da Polícia Federal.
+

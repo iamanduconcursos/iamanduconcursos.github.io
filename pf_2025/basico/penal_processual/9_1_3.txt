@@ -1,0 +1,25 @@
+Resumo narrativo para áudio – Prova, Corpo de Delito e Perícias no Processo Penal
+
+Neste áudio, vamos aprofundar os conceitos essenciais sobre prova, exame de corpo de delito e perícias, temas fundamentais para o concurso de Perito Digital da Polícia Federal, com base no Código de Processo Penal e na banca CEBRASPE.
+
+Começando pelo conceito de prova: a prova é todo meio legalmente admitido destinado a demonstrar a verdade dos fatos em um processo penal. Sua finalidade principal é formar a convicção do juiz sobre a existência ou não do fato criminoso. É fundamental que toda prova seja obtida de forma lícita, respeitando os direitos fundamentais e garantias previstas na Constituição.
+
+Agora, falando do exame de corpo de delito. Ele é obrigatório sempre que houver uma infração que deixe vestígios materiais, ou seja, marcas físicas que comprovem a ocorrência do crime. Esse exame deve ser realizado preferencialmente por perito oficial. Caso não haja perito disponível, pode ser feito por duas pessoas idôneas, que possuam qualificação técnica para tal.
+
+O exame pode ser dispensado apenas se os vestígios desapareceram e houver prova testemunhal idônea que comprove a materialidade do delito. Porém, atenção: quando a infração deixa vestígios, o exame de corpo de delito é indispensável, mesmo que haja confissão do acusado. A confissão nunca substitui o exame técnico.
+
+Existem diferentes tipos de perícia. A perícia direta é aquela feita sobre o objeto material, que pode ser a arma do crime, o corpo da vítima ou o local onde o crime ocorreu. Já a perícia indireta é realizada com base em registros, como fotos, vídeos ou documentos, quando não é possível o exame direto dos vestígios. Há também a perícia complementar, que serve para esclarecer dúvidas, responder a contradições ou complementar o laudo inicial.
+
+Falando no laudo pericial, ele deve ser elaborado dentro do prazo de 10 dias, que pode ser prorrogado se autorizado pela autoridade competente. O laudo deve ser assinado por dois peritos oficiais, mas, excepcionalmente, pode ser assinado por apenas um, se tecnicamente possível. No documento, devem constar a descrição detalhada do objeto examinado, os procedimentos realizados, as respostas aos quesitos formulados pelas partes ou pelo juiz, e a conclusão técnica que fundamenta o parecer do perito.
+
+Quanto às obrigações do perito, é imprescindível que ele atue com imparcialidade e fidelidade à verdade técnica, sem emitir juízo de valor jurídico, pois seu papel é exclusivamente técnico. O perito deve responder a todos os quesitos apresentados pelas partes e pelo juiz, comparecer às audiências quando intimado, e realizar diligências necessárias mediante autorização judicial.
+
+É importante entender a relação entre prova pericial e outras provas. A prova testemunhal é subsidiária em casos de crimes com vestígios, podendo ser aceita apenas quando não for possível realizar o exame pericial por desaparecimento dos vestígios. A confissão do acusado, por sua vez, não supre a ausência do exame de corpo de delito. Além disso, prova ilícita é inadmissível no processo penal, conforme o artigo 157 do Código de Processo Penal.
+
+As partes envolvidas no processo podem apresentar quesitos, ou seja, perguntas técnicas para o perito, até o início da perícia. Além disso, o juiz ou o Ministério Público podem solicitar esclarecimentos complementares ao perito quando o laudo apresentar omissões ou dúvidas. Se necessário, uma nova perícia pode ser determinada para sanar essas questões.
+
+Um ponto clássico das provas do CEBRASPE é saber que a perícia pode ser realizada por apenas um perito oficial quando não houver outro disponível, conforme o artigo 159, parágrafo primeiro, do Código de Processo Penal.
+
+Para facilitar sua revisão, lembre-se sempre: quando houver vestígios, a perícia é obrigatória. Normalmente, são dois peritos oficiais que assinam o laudo, salvo exceções. Os quesitos são as perguntas técnicas feitas ao perito, e o laudo deve ser entregue em até 10 dias, com possibilidade de prorrogação. Por fim, jamais confie que a confissão pode substituir o exame pericial — isso não ocorre.
+
+Com esses fundamentos, você estará bem preparado para compreender um dos temas mais técnicos e recorrentes para o cargo de Perito da Polícia Federal. Organize seus estudos focando nesses pontos e pratique bastante com questões da banca CEBRASPE para fixar o conteúdo.

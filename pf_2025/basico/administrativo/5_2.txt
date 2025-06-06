@@ -1,0 +1,49 @@
+Licitação – Contratação Direta: Dispensa e Inexigibilidade
+
+Neste conteúdo, vamos aprofundar os conceitos de contratação direta na Administração Pública, especificamente sobre dispensa e inexigibilidade de licitação, tema essencial para o concurso de Perito Digital da Polícia Federal.
+
+A regra geral para a contratação pública é a realização de licitação. No entanto, a legislação prevê exceções, chamadas de contratação direta. Essas exceções se dividem em duas categorias principais: a dispensa de licitação e a inexigibilidade de licitação.
+
+Vamos começar pela dispensa de licitação. Trata-se da situação em que, embora a licitação seja teoricamente possível, a lei autoriza que ela seja dispensada. Ou seja, a Administração pode contratar diretamente sem realizar o procedimento licitatório, desde que estejam presentes as hipóteses legais previstas.
+
+Entre os principais casos de dispensa previstos no artigo 24 da Lei nº 8.666 de 1993, destacam-se:
+
+Aquisições e contratações cujo valor não ultrapasse determinados limites, como por exemplo, até R$ 17.600,00 para obras e serviços, e até R$ 8.800,00 para compras e outros serviços — valores que podem ser atualizados conforme legislação vigente.
+
+Situações de emergência ou calamidade pública, em que há necessidade urgente de contratação para proteger a sociedade ou bens públicos.
+
+Compra de materiais, equipamentos ou bens destinados à pesquisa científica e tecnológica, quando os preços estiverem fixados em tabelas oficiais.
+
+Contratação de profissional do setor artístico, seja diretamente ou por meio de empresário exclusivo, para eventos culturais e artísticos.
+
+Compra de bens ou serviços de fornecedor exclusivo, desde que comprovada a exclusividade.
+
+Pequenas compras diretas de materiais ou serviços, conforme limites estabelecidos.
+
+A dispensa de licitação exige sempre uma justificativa formal clara, documentando os motivos que amparam a contratação direta. Embora simplificada, a contratação deve seguir um procedimento formal, possibilitando fiscalização e controle posteriores.
+
+Agora, vamos à inexigibilidade de licitação. Esta ocorre quando a licitação é inviável porque não existe possibilidade real de competição, seja pela natureza do objeto ou pela exclusividade do fornecedor.
+
+Conforme o artigo 25 da Lei 8.666/1993, as hipóteses típicas de inexigibilidade incluem:
+
+Quando o fornecedor é exclusivo e essa exclusividade pode ser comprovada, por exemplo, pela existência de patente ou porque é o único fornecedor no mercado.
+
+Contratação de profissional de notória especialização para serviços técnicos ou artísticos, como consultorias específicas, pareceres técnicos ou artistas renomados, cuja capacidade não pode ser substituída.
+
+Compra de materiais, equipamentos ou gêneros que só possam ser fornecidos por produtor, empresa ou representante comercial exclusivo.
+
+É fundamental destacar que a inexigibilidade pressupõe a ausência total de competição, tornando impossível realizar uma licitação. Para que seja válida, a contratação deve ter comprovação rigorosa da exclusividade do fornecedor ou da notória especialização do profissional contratado.
+
+Para fixar esses conceitos, vale comparar os dois tipos de contratação direta:
+
+Na dispensa de licitação, a licitação poderia ser realizada, mas é dispensada por previsão legal, normalmente em situações de baixo valor, emergência ou fornecimento exclusivo já previsto.
+
+Na inexigibilidade de licitação, a licitação é inviável, pois não há possibilidade de competição real, seja por fornecedor exclusivo ou pela especialização do profissional.
+
+Ambas exigem formalização e justificativa adequada, mas a inexigibilidade demanda comprovação mais rigorosa da situação excepcional.
+
+Lembre-se: a banca CEBRASPE costuma cobrar questões que exploram a diferença conceitual entre dispensa e inexigibilidade, os limites de valores para dispensa, as hipóteses mais comuns de inexigibilidade e a importância da justificativa formal nas contratações diretas.
+
+Dominar esses temas é essencial para garantir segurança jurídica, transparência e eficiência nas contratações públicas, além de ser fundamental para o sucesso na prova de Direito Administrativo do concurso de Perito Digital da Polícia Federal.
+
+Estude com atenção, revise os conceitos e boa sorte na sua preparação!

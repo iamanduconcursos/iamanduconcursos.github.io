@@ -1,0 +1,55 @@
+Hoje vamos falar sobre um dos pilares da Criminalística: a Teoria dos Vestígios, também conhecida como o Princípio de Locard.
+
+Esse princípio, apesar de parecer simples à primeira vista, é um dos fundamentos mais importantes na investigação forense moderna.
+E para compreendê-lo, é essencial saber quem foi Edmond Locard.
+
+Locard foi um criminologista francês, considerado o pai da Criminalística moderna.
+Ele foi pioneiro na criação de um dos primeiros laboratórios de polícia científica do mundo, em Lyon, na França.
+Seu trabalho ajudou a estabelecer a base científica da perícia criminal, e sua principal contribuição ficou conhecida como o Princípio da Troca, ou, como chamamos hoje, Princípio de Locard.
+
+A ideia central do princípio é a seguinte:
+
+Toda ação deixa um vestígio.
+
+Quando duas superfícies entram em contato — seja um criminoso tocando uma porta, ou alguém se movimentando dentro de um ambiente — há troca de materiais entre elas.
+Isso significa que nenhum crime acontece sem deixar marcas.
+Algum rastro será deixado pelo autor, e algo do local ou da vítima também será levado, ainda que de forma imperceptível.
+
+Esse é o fundamento de toda a coleta de vestígios em uma cena de crime.
+
+E é por isso que Locard é tão relevante até hoje: sua teoria fornece a base lógica e científica para o trabalho da perícia.
+A função do perito, nesse contexto, é justamente detectar, identificar, documentar, coletar e preservar esses vestígios.
+
+Vamos explorar mais a fundo como isso se aplica na prática.
+
+Sempre que ocorre um crime, há interação entre o autor e o ambiente.
+Essa interação pode deixar vestígios visíveis, como manchas de sangue, impressões digitais, armas deixadas para trás, ou até mesmo móveis fora do lugar.
+
+Mas também há os vestígios latentes, que não são perceptíveis a olho nu: fragmentos de cabelo, partículas microscópicas, resíduos de pólvora, ou até traços de DNA.
+Estes exigem análise técnica e instrumentos apropriados para serem detectados.
+
+O trabalho do perito, então, é procurar esses sinais, mesmo os mais sutis, que confirmem a presença de alguém ou expliquem como os fatos se desenvolveram.
+E aqui entra um conceito que não pode ser ignorado: a cadeia de custódia.
+
+A cadeia de custódia é o caminho legal e técnico que garante a integridade de cada vestígio desde o momento em que ele é encontrado até seu uso como prova em um tribunal.
+Isso inclui o registro de onde, quando e por quem o vestígio foi encontrado, como foi coletado, embalado, transportado, analisado, armazenado e, se necessário, descartado.
+
+O princípio de Locard só pode cumprir seu papel se os vestígios forem tratados com esse rigor processual.
+Se qualquer etapa for negligenciada, a evidência pode ser invalidada — e isso compromete toda a investigação.
+
+A banca CEBRASPE gosta de cobrar esse conteúdo em provas, muitas vezes testando o conhecimento literal do princípio, sua aplicação prática e sua relação com a cadeia de custódia.
+
+Vamos reforçar com um resumo objetivo para facilitar a memorização:
+
+O Princípio de Locard nos diz que toda ação deixa vestígios.
+
+Ele é a base da atuação da perícia criminal: buscar aquilo que foi trocado, aquilo que ficou.
+
+O princípio se aplica à análise de locais de crime, objetos, vítimas e suspeitos.
+
+E está diretamente relacionado com a cadeia de custódia, pois sem ela os vestígios perdem valor probatório.
+
+Se você fixar bem essa lógica — ação, troca, vestígio, coleta e preservação — já estará à frente na hora da prova.
+
+Edmond Locard nos ensinou que o criminoso sempre deixa algo para trás, e leva algo consigo.
+A missão da perícia é encontrar esses rastros e transformá-los em evidências científicas.

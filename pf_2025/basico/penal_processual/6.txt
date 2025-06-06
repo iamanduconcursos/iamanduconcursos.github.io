@@ -1,0 +1,65 @@
+Direito Penal e Processual Penal para Perito Criminal Federal
+
+Este é um resumo estratégico com foco nos principais tópicos cobrados pela banca Cebraspe, para o concurso de Perito Criminal Federal da Polícia Federal. Vamos organizar o conteúdo de forma clara para facilitar sua memorização.
+
+Direito Penal - Noções Básicas
+
+Vamos iniciar pelos princípios fundamentais do Direito Penal, que são a base para entender qualquer aplicação da lei penal.
+
+Primeiramente, o princípio da legalidade, que estabelece que não existe crime sem uma lei anterior que o defina. Isso significa que nenhuma pessoa pode ser punida por um ato que, no momento em que foi praticado, não era considerado crime pela lei.
+
+Relacionando-se com isso, temos o princípio da anterioridade, que determina que a lei penal deve ser anterior ao fato criminoso. Nenhuma lei penal pode retroagir para prejudicar alguém, respeitando o princípio da segurança jurídica.
+
+Falando de interpretação, a lei penal deve ser interpretada restritivamente e de forma favorável ao réu, conforme o princípio “in dubio pro reo”. A analogia, por exemplo, só é permitida para beneficiar o acusado — não pode ser usada para criar ou aumentar penas.
+
+Em relação à aplicação da lei penal, o tempo do crime segue a teoria da atividade, ou seja, o crime se considera consumado no momento da ação ou omissão do agente, independentemente do resultado demorar a ocorrer. Já no espaço do crime, vigora a territorialidade temperada, que considera o crime como cometido no território nacional, salvo exceções previstas em tratados e imunidades diplomáticas.
+
+No âmbito da teoria do crime, destacam-se quatro elementos essenciais: a conduta, que é a ação ou omissão humana; o resultado, que pode ser material ou jurídico; o nexo causal, que liga a conduta ao resultado; e a tipicidade, que é a adequação do fato à descrição legal do crime.
+
+Também é fundamental compreender o ilícito penal e a culpabilidade, que consiste na imputabilidade, na potencial consciência da ilicitude e na exigibilidade de conduta diversa. Atenção especial às causas excludentes de ilicitude, como legítima defesa e estado de necessidade, pois elas afastam a responsabilidade criminal.
+
+Quanto ao dolo e culpa, o dolo pode ser direto — quando o agente quer o resultado — ou eventual, quando aceita o risco de produzi-lo. A culpa ocorre quando o agente não deseja o resultado, mas age com imprudência, negligência ou imperícia. Ambos são muito cobrados nas provas.
+
+Outro tema relevante é o concurso de pessoas, onde podemos distinguir autores, que dominam a ação, e participantes, que contribuem sem controlar o crime. Importante saber que circunstâncias subjetivas, como uma causa de aumento de pena, não se comunicam automaticamente entre os envolvidos.
+
+Por fim, na parte de extinção da punibilidade, destaque para a prescrição, que é a perda do direito de punir com o passar do tempo; anistia, graça e indulto, que são formas de perdão legal; e também a renúncia ao direito de queixa e o perdão do ofendido, que são relevantes para crimes de ação penal privada.
+
+Crimes Contra a Fé Pública
+
+Este grupo de crimes está previsto entre os artigos 289 a 311 do Código Penal e são muito cobrados pela banca.
+
+Começamos pela moeda falsa, que consiste em falsificar ou fabricar moeda nacional ou estrangeira. Atenção para a equiparação de moeda falsa que está em circulação, mesmo que não seja verdadeira. A banca gosta de elaborar pegadinhas envolvendo moedas com aparência de curso legal, portanto, estude bem essa diferença.
+
+A falsidade documental é outro tema fundamental e se divide em três tipos principais: a falsificação de documento público, como certidões e carteiras de identidade, prevista no artigo 297; a falsificação de documento particular, como contratos falsos, do artigo 298; e a falsidade ideológica, que consiste em inserir declaração falsa em documento verdadeiro, prevista no artigo 299. É crucial compreender a diferença entre falsidade material, que é a falsificação física do documento, e falsidade ideológica, que refere-se ao conteúdo falso inserido.
+
+O uso de documento falso, previsto no artigo 304, tem a mesma pena do crime de falsificação, desde que seja feito com dolo, ou seja, com intenção. Este é um crime material, que exige prova concreta do uso do documento falso.
+
+Outras falsidades relevantes incluem a falsidade de sinal público, como brasões, carimbos e selos oficiais, e a falsidade relacionada a cartões de crédito e débito, que são equiparados a documentos particulares, conforme a Súmula 73 do Superior Tribunal de Justiça.
+
+Um conselho importante para as provas da Cebraspe é ler atentamente o verbo do tipo penal para não confundir quem falsifica, quem usa o documento falso e quem o recebe de boa-fé, pois a banca costuma explorar essas diferenças em suas questões.
+
+Direito Processual Penal - Noções Essenciais
+
+No campo processual, começamos pelo inquérito policial, que é o instrumento de investigação conduzido pela autoridade policial. Ele é escrito, sigiloso e inquisitivo, ou seja, sem contraditório imediato, e pode ser dispensável em alguns casos.
+
+Os princípios básicos do processo penal envolvem o contraditório, a ampla defesa, a presunção de inocência e o devido processo legal, que asseguram um julgamento justo e equilibrado.
+
+A ação penal pode ser pública incondicionada, quando o Ministério Público atua independentemente da vontade da vítima; pública condicionada, que depende de representação; ou privada, como ocorre nos crimes contra a honra. É importante lembrar os prazos para oferecimento da denúncia: cinco dias se o acusado estiver preso e quinze dias se estiver solto.
+
+Quanto às provas, é fundamental saber que a prova ilícita é inadmissível no processo, salvo se houver uma prova derivada independente que possa ser considerada legítima. Também é importante conhecer a prova emprestada, que é aquela produzida em outro processo, mas admitida com respeito ao contraditório. Para o Perito Criminal, a prova pericial tem destaque, sendo necessária a participação de dois peritos oficiais para garantir a imparcialidade e a confiabilidade.
+
+As prisões são três: prisão em flagrante, que ocorre logo após a prática do crime; prisão preventiva, que tem caráter cautelar para garantir a ordem pública, evitar fuga ou impedir a interferência na investigação; e prisão temporária, com prazo determinado, geralmente aplicada em crimes graves como extorsão e roubo.
+
+Finalmente, no que se refere à jurisdição e competência, devemos considerar os critérios ratione loci, ou seja, o lugar do crime, e ratione materiae, que é a natureza da matéria. Também são relevantes os institutos da prevenção, conexão e continência, que organizam a distribuição dos processos para evitar decisões conflitantes.
+
+Vale lembrar que a banca Cebraspe costuma trabalhar pegadinhas relacionadas a prazos processuais e à natureza jurídica dos atos do inquérito, portanto, mantenha atenção especial a esses detalhes.
+
+Estratégia Final para sua Preparação
+
+Para finalizar, a melhor estratégia é decorar os tipos penais principais e suas diferenças, pois isso evita confusões na hora da prova.
+
+Resolva muitas questões anteriores da Polícia Federal e da banca Cebraspe para se familiarizar com o estilo das perguntas e identificar os temas mais cobrados.
+
+Não deixe de revisar a jurisprudência essencial dos tribunais superiores, como os informativos do STF e do STJ, que podem conter entendimentos consolidados sobre pontos controversos.
+
+Lembre-se: você está a um passo de se tornar Perito Digital da Polícia Federal. Foque nos estudos, revise sempre, pratique com disciplina e mantenha a confiança. Boa sorte!

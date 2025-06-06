@@ -1,0 +1,48 @@
+Vamos começar a fixar um dos pilares do Direito Administrativo: a Administração Pública, com foco especial na distinção entre Administração Direta e Administração Indireta.
+
+A Administração Pública é o conjunto de órgãos, entidades e agentes que exercem a função administrativa do Estado. Essa função tem como base os princípios constitucionais previstos no artigo 37 da Constituição Federal de 1988 — legalidade, impessoalidade, moralidade, publicidade e eficiência.
+
+Agora, atenção: a Administração Pública divide-se em duas grandes estruturas — a Administração Direta e a Administração Indireta.
+
+A Administração Direta é composta pelos entes políticos da federação: a União, os Estados, o Distrito Federal e os Municípios. São esses entes que atuam diretamente por meio de seus órgãos internos. Podemos pensar aqui nos ministérios, nas secretarias estaduais e municipais, nos departamentos e delegacias. Todos fazem parte de uma mesma pessoa jurídica, ou seja, eles não têm personalidade jurídica própria. Estão integrados diretamente à estrutura da entidade política da qual fazem parte.
+
+Por exemplo, o Ministério da Justiça, a Polícia Federal e a Secretaria de Saúde do Estado de São Paulo fazem parte da Administração Direta. Eles não são autônomos em relação ao ente político a que pertencem — estão dentro dele, atuando como braços da sua atuação administrativa.
+
+Agora, passamos à Administração Indireta. Aqui temos um novo cenário. A Administração Indireta é composta por entidades criadas por lei, com personalidade jurídica própria, patrimônio próprio e autonomia administrativa. São elas que recebem do Estado a responsabilidade por executar, de maneira especializada, determinadas atividades públicas.
+
+Essas entidades se dividem em quatro tipos principais:
+
+Primeiro, as autarquias — são criadas por lei específica e desempenham atividades típicas do Estado. Um bom exemplo é o INSS, ou a Anatel.
+
+Segundo, temos as fundações públicas, também criadas ou autorizadas por lei, sem fins lucrativos, voltadas para atividades sociais, culturais, educacionais ou científicas. IBGE e FUNAI são bons exemplos.
+
+O terceiro tipo são as empresas públicas. Elas têm capital 100% público e, geralmente, atuam no mercado. Um exemplo bastante conhecido é os Correios ou a Caixa Econômica Federal.
+
+Por fim, temos as sociedades de economia mista. Nelas, o capital é misto — parte é público, parte é privado. A Petrobras e o Banco do Brasil são exemplos clássicos.
+
+Uma dica importante para memorizar: se a atividade tem natureza tipicamente pública e não possui fins lucrativos, provavelmente estamos falando de uma autarquia ou fundação. Mas se há atuação no mercado, com objetivo empresarial, entramos no campo das empresas públicas e sociedades de economia mista.
+
+Agora vamos a dois conceitos que costumam gerar confusão — descentralização e desconcentração.
+
+Descentralização é quando o Estado transfere a execução de determinado serviço ou função para outra pessoa jurídica, que pode ser integrante da Administração Indireta, como uma autarquia, ou até mesmo para uma entidade privada, por meio de delegação.
+
+Um exemplo claro de descentralização: a União cria a ANVISA, uma autarquia com autonomia administrativa, para cuidar da vigilância sanitária.
+
+Por outro lado, a desconcentração acontece dentro de uma mesma pessoa jurídica. É a distribuição interna de competências, ou seja, uma reorganização de funções dentro da própria estrutura estatal. Um ministério, por exemplo, pode se dividir em secretarias, diretorias ou departamentos. A pessoa jurídica continua a mesma, mas há divisão funcional entre órgãos subordinados.
+
+Então, lembre-se: descentralização cria ou envolve outra pessoa jurídica. Já a desconcentração apenas distribui internamente as funções administrativas, sem alterar a estrutura jurídica.
+
+E aqui vão alguns pontos-chave que a banca CEBRASPE adora explorar nas provas:
+
+Administração Direta é composta por órgãos da União, dos Estados, do Distrito Federal e dos Municípios.  
+Já a Administração Indireta é formada por entes com personalidade jurídica própria, criados por lei.
+
+As autarquias são criadas diretamente por lei. Já as empresas públicas e sociedades de economia mista são autorizadas por lei — o que significa que, após a autorização legislativa, ainda precisam ser efetivamente constituídas, normalmente por meio de registro.
+
+Outro ponto importante: as empresas públicas e as sociedades de economia mista possuem natureza empresarial. Atuam no mercado, muitas vezes em regime de concorrência, e são regidas, em geral, pelas normas de direito privado.
+
+E por fim, o controle da Administração Indireta é exercido por meio da chamada supervisão ministerial — ou controle finalístico. Isso significa que, mesmo com autonomia, essas entidades continuam sob vigilância do Estado, especialmente quanto ao cumprimento das finalidades para as quais foram criadas.
+
+Portanto, ao revisar esse conteúdo, foque nas distinções conceituais, nos exemplos práticos e, acima de tudo, na lógica por trás da organização administrativa. Essa clareza será o seu diferencial na prova.
+
+Concentre-se no essencial. Domine os conceitos. E vá com confiança para o concurso de Perito Digital da Polícia Federal.
