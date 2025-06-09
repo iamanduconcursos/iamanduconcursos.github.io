@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Segurança de Redes - Firewall e Ferramentas Associadas</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; background-color: #f4f7fa; color: #333; }
+    h1, h2, h3 { color: #003366; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #e1efff; }
+    .destaque { background-color: #fffbe6; border-left: 6px solid #ffcc00; padding: 15px; margin: 20px 0; }
+    .caixa { background-color: #e6f2ff; border-left: 6px solid #3399ff; padding: 15px; margin: 20px 0; }
+    ul { margin-top: 0; }
+  </style>
+</head>
+<body>
+
+  <h1>Segurança de Redes de Computadores</h1>
+  <h2>Firewall, IPS, IDS, Antivírus, EDR, XDR, SOAR, SIEM, NAT, Proxy e VPN</h2>
+
+  <div class="caixa">
+    <h3>1. Firewall</h3>
+    <p><strong>Definição:</strong> É um dispositivo físico ou software que atua como uma barreira entre redes, controlando o tráfego de dados com base em regras de segurança. Seu objetivo é permitir ou bloquear pacotes com base em critérios como IP de origem/destino, porta e protocolo.</p>
+    <h4>Tipos de Firewall:</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>Tipo</th>
+          <th>Descrição</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Packet Filtering</td>
+          <td>Filtra pacotes com base em IP, portas e protocolos. Rápido, mas com análise superficial.</td>
+        </tr>
+        <tr>
+          <td>Stateful Inspection</td>
+          <td>Analisa o estado da conexão. Verifica se os pacotes fazem parte de uma sessão válida.</td>
+        </tr>
+        <tr>
+          <td>Proxy Firewall</td>
+          <td>Atua como intermediário entre o cliente e o servidor, filtrando o tráfego em nível de aplicação.</td>
+        </tr>
+        <tr>
+          <td>Next-Generation Firewall (NGFW)</td>
+          <td>Combina inspeção profunda de pacotes, controle de aplicações e prevenção contra ameaças modernas.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><strong>Função principal:</strong> Proteger a rede interna contra acessos não autorizados e ataques externos.</p>
+  </div>
+
+  <div class="destaque">
+    <strong>Dica CEBRASPE:</strong> Saiba distinguir os tipos de firewall pelas suas camadas de atuação (rede, transporte, aplicação) e profundidade de análise. NGFW é o mais completo.
+  </div>
+
+  <!-- O conteúdo adicional sobre IPS, IDS, Antivírus, etc., será expandido conforme solicitado. -->
+
+</body>
+</html>
